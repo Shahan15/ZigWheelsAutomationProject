@@ -1,16 +1,21 @@
 package org.example.tests;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
+import pages.HomePage;
+import utils.Base;
 
 public class TestCases {
-
-    public static final Logger logger = LogManager.getLogger(TestCases.class);
+    HomePage homePage = new HomePage();
 
     @Test
     public void quicktest () {
-        logger.info("test test");
+        HomePage.randomtest();
+    }
+
+    @AfterTest
+    public void tearDown() {
+        Base.quitDriver();
     }
 
 

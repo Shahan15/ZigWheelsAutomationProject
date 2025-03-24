@@ -278,7 +278,3 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [9bb890148692bcceafc4398db74a582d, findElement {using=css selector, value=img[alt='Home']}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52529/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 9bb890148692bcceafc4398db74a582d
-[2025-03-24 23:15:42] [INFO] Base - ConfigFile path: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\config.properties
-[2025-03-24 23:15:53] [INFO] Base - Chrome has been selected
-[2025-03-24 23:15:55] [INFO] Base - Opening https://www.zigwheels.com/
-[2025-03-24 23:15:56] [INFO] Base - ZigWheels logo display status: true
