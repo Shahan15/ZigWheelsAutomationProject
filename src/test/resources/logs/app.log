@@ -310,3 +310,61 @@ Session ID: 9bb890148692bcceafc4398db74a582d
 [2025-03-25 22:38:40] [INFO] Base - accepted cookies
 [2025-03-25 22:38:40] [INFO] Base - Waiting 5 seconds for banner image to load
 [2025-03-25 22:38:40] [INFO] Base - The Banner image is present, navigated to home page successfully
+[2025-03-25 22:47:49] [INFO] Base - Chrome has been selected
+[2025-03-25 22:47:51] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 22:47:51] [INFO] Base - PageFactory initialised
+[2025-03-25 22:47:54] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-25 22:47:54] [INFO] Base - accepted cookies
+[2025-03-25 22:47:54] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-25 22:47:54] [INFO] Base - The Banner image is present, navigated to home page successfully
+[2025-03-25 22:59:38] [INFO] Base - Chrome has been selected
+[2025-03-25 22:59:39] [ERROR] Base - There was an error opening the url invalid argument
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3f622786f32a68a33f16c792895a197b, get {url=TestingSite}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53194}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53194/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3f622786f32a68a33f16c792895a197b
+[2025-03-25 23:03:28] [INFO] Base - Chrome has been selected
+[2025-03-25 23:03:28] [ERROR] Base - There was an error opening the url invalid argument
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6fb6638ad74e16d1aa8362fc602f66b, get {url=TestingSite}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53537}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53537/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6fb6638ad74e16d1aa8362fc602f66b
+[2025-03-25 23:04:55] [INFO] Base - Chrome has been selected
+[2025-03-25 23:04:57] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 23:09:44] [INFO] Base - Chrome has been selected
+[2025-03-25 23:09:46] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 23:10:01] [INFO] Base - Chrome has been selected
+[2025-03-25 23:10:01] [INFO] Base - PageFactory initialised
+[2025-03-25 23:10:07] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
+[2025-03-25 23:10:12] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: img.banner.mobileimage' (tried for 5 second(s) with 500 milliseconds interval)
+[2025-03-25 23:14:53] [INFO] Base - Chrome has been selected
+[2025-03-25 23:14:55] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 23:15:20] [INFO] Base - Chrome has been selected
+[2025-03-25 23:15:20] [INFO] Base - PageFactory initialised
+[2025-03-25 23:15:26] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
+[2025-03-25 23:15:31] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: img.banner.mobileimage' (tried for 5 second(s) with 500 milliseconds interval)
+[2025-03-25 23:16:47] [INFO] Base - PageFactory initialised
+[2025-03-25 23:17:00] [INFO] Base - Chrome has been selected
+[2025-03-25 23:17:03] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 23:17:03] [ERROR] Base - Error occurred while trying to click accept cookies button: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+[2025-03-25 23:17:03] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+[2025-03-25 23:20:38] [INFO] Base - Chrome has been selected
+[2025-03-25 23:20:41] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 23:20:41] [INFO] Base - PageFactory initialised
+[2025-03-25 23:20:45] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-25 23:20:46] [INFO] Base - accepted cookies
+[2025-03-25 23:20:46] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-25 23:20:46] [INFO] Base - The Banner image is present, navigated to home page successfully
+[2025-03-25 23:21:32] [INFO] Base - Chrome has been selected
+[2025-03-25 23:21:35] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 23:21:35] [INFO] Base - PageFactory initialised
+[2025-03-25 23:21:37] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-25 23:21:38] [INFO] Base - accepted cookies
+[2025-03-25 23:21:38] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-25 23:21:38] [INFO] Base - The Banner image is present, navigated to home page successfully

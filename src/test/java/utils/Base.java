@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import static utils.NavigationUtils.getTestingSiteUrl;
 
 public class Base {
 
@@ -40,22 +41,11 @@ public class Base {
         driver.manage().window().maximize();
 
         //Calls method to get url we want to test
-        getTestingSiteUrl();
-
         return driver;
     }
 
 
-    public static void getTestingSiteUrl() {
-        try {
-            String url = FileHandler.getProperty("TestingSite");
-            driver.get(url);
-            logger.info("Opening {}",url);
-        }catch (Exception ex){
-            logger.error("There was an error opening the url {}", ex.getMessage());
 
-        }
-    }
 
     public static void quitDriver() {
         if (driver !=null){

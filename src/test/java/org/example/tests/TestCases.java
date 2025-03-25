@@ -5,12 +5,15 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import utils.Base;
+import utils.NavigationUtils;
 
 public class TestCases {
-    HomePage homePage;
+    private HomePage homePage;
 
     @BeforeTest
     public void setup() {
+        Base.getDriver();
+        NavigationUtils.getTestingSiteUrl("TestingSite");
         homePage = new HomePage();
     }
 

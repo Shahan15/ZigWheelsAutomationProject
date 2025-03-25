@@ -7,27 +7,27 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Base;
+
 import java.time.Duration;
 
 
 public class HomePage extends Base {
-    @FindBy(css = "img.banner.mobileimage") static WebElement bannerImg;
-    @FindBy(css = "p.fc-button-label") static WebElement cookieConsentBtn;
+    @FindBy(css = "img.banner.mobileimage")  WebElement bannerImg;
+    @FindBy(css = "p.fc-button-label")  WebElement cookieConsentBtn;
 
 
-    public HomePage () {
-        driver = getDriver();
-        PageFactory.initElements(driver,this);
+    public HomePage() {
+        PageFactory.initElements(driver, this);
         logger.info("PageFactory initialised");
     }
 
-    public void ClickingCookieConsentBtn () {
+    public void ClickingCookieConsentBtn() {
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
             wait.until(ExpectedConditions.visibilityOf(cookieConsentBtn));
             logger.info("Waiting 5 seconds for accept cookies button to display");
 
-            if(cookieConsentBtn.isDisplayed()){
+            if (cookieConsentBtn.isDisplayed()) {
                 cookieConsentBtn.click();
                 logger.info("accepted cookies");
             }
@@ -38,7 +38,7 @@ public class HomePage extends Base {
     }
 
 
-    public  boolean VerifyOnHomePage() {
+    public boolean VerifyOnHomePage() {
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
             wait.until(ExpectedConditions.visibilityOf(bannerImg));
@@ -47,8 +47,8 @@ public class HomePage extends Base {
             logger.info("The Banner image is present, navigated to home page successfully");
             return bannerImg.isDisplayed();
 
-        } catch (Exception ex){
-            logger.error("Banner image did not load, navigation to homepage unsuccessful: {}",ex.getMessage());
+        } catch (Exception ex) {
+            logger.error("Banner image did not load, navigation to homepage unsuccessful: {}", ex.getMessage());
             return false;
         }
 
