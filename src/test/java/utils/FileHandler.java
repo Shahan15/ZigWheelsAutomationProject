@@ -26,7 +26,6 @@ public class FileHandler {
             FileInputStream fis = new FileInputStream(ConfigFile);
             properties.load(fis); //loads properties from file
             result = properties.getProperty(key);
-            Base.logger.info("ConfigFile path: {}", ConfigFile);
         }catch (Exception ex) {
             Base.logger.error("Error reading property from config file {}", ex.getMessage());
 
@@ -34,8 +33,8 @@ public class FileHandler {
         return result;
     }
 
-    public static String getProperty(String strkey) throws FileNotFoundException {
-      String results = properties.getProperty(strkey);
+    public static String getProperty(String propKey) throws FileNotFoundException {
+      String results = properties.getProperty(propKey);
       return results;
     }
 

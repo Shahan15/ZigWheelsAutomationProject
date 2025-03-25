@@ -282,3 +282,31 @@ Session ID: 9bb890148692bcceafc4398db74a582d
 [2025-03-24 23:15:53] [INFO] Base - Chrome has been selected
 [2025-03-24 23:15:55] [INFO] Base - Opening https://www.zigwheels.com/
 [2025-03-24 23:15:56] [INFO] Base - ZigWheels logo display status: true
+[2025-03-25 21:19:53] [INFO] Base - ConfigFile path: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\config.properties
+[2025-03-25 21:20:03] [INFO] Base - Chrome has been selected
+[2025-03-25 21:20:06] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 22:21:59] [INFO] Base - ConfigFile path: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\config.properties
+[2025-03-25 22:22:15] [INFO] Base - Chrome has been selected
+[2025-03-25 22:22:17] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 22:25:49] [INFO] Base - ConfigFile path: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\config.properties
+[2025-03-25 22:26:03] [INFO] Base - Chrome has been selected
+[2025-03-25 22:26:06] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 22:29:40] [INFO] Base - ConfigFile path: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\config.properties
+[2025-03-25 22:29:51] [INFO] Base - Chrome has been selected
+[2025-03-25 22:29:54] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 22:33:21] [INFO] Base - ConfigFile path: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\config.properties
+[2025-03-25 22:33:27] [INFO] Base - ConfigFile path: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\config.properties
+[2025-03-25 22:33:40] [INFO] Base - Chrome has been selected
+[2025-03-25 22:33:43] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 22:33:43] [INFO] Base - PageFactory initialised
+[2025-03-25 22:33:47] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-25 22:33:47] [INFO] Base - accepted cookies
+[2025-03-25 22:33:47] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-25 22:33:47] [INFO] Base - The Banner image is present, navigated to home page successfully
+[2025-03-25 22:38:34] [INFO] Base - Chrome has been selected
+[2025-03-25 22:38:37] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 22:38:37] [INFO] Base - PageFactory initialised
+[2025-03-25 22:38:40] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-25 22:38:40] [INFO] Base - accepted cookies
+[2025-03-25 22:38:40] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-25 22:38:40] [INFO] Base - The Banner image is present, navigated to home page successfully

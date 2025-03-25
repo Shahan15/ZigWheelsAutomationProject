@@ -1,28 +1,57 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.testng.Assert;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Base;
+import java.time.Duration;
+
 
 public class HomePage extends Base {
+    @FindBy(css = "img.banner.mobileimage") static WebElement bannerImg;
+    @FindBy(css = "p.fc-button-label") static WebElement cookieConsentBtn;
+
 
     public HomePage () {
-        this.driver = getDriver();
+        driver = getDriver();
+        PageFactory.initElements(driver,this);
+        logger.info("PageFactory initialised");
     }
 
-    public static void randomtest() {
+    public void ClickingCookieConsentBtn () {
         try {
-            // Locate the ZigWheels logo element using the `alt` attribute
-            By zigWheelsLogo = By.cssSelector("img[alt='Home']");
-            boolean isLogoDisplayed = Base.driver.findElement(zigWheelsLogo).isDisplayed();
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+            wait.until(ExpectedConditions.visibilityOf(cookieConsentBtn));
+            logger.info("Waiting 5 seconds for accept cookies button to display");
 
-            // Log the result and assert if the logo is displayed
-            Base.logger.info("ZigWheels logo display status: " + isLogoDisplayed);
-            Assert.assertTrue(isLogoDisplayed, "ZigWheels logo is not displayed on the page!");
+            if(cookieConsentBtn.isDisplayed()){
+                cookieConsentBtn.click();
+                logger.info("accepted cookies");
+            }
         } catch (Exception ex) {
-            Base.logger.error("Error while verifying ZigWheels logo: " + ex.getMessage());
-            Assert.fail("Test failed due to an exception.");
+            logger.error("Error occurred while trying to click accept cookies button: {}", ex.getMessage());
         }
+
+    }
+
+
+    public  boolean VerifyOnHomePage() {
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+            wait.until(ExpectedConditions.visibilityOf(bannerImg));
+            logger.info("Waiting 5 seconds for banner image to load");
+
+            logger.info("The Banner image is present, navigated to home page successfully");
+            return bannerImg.isDisplayed();
+
+        } catch (Exception ex){
+            logger.error("Banner image did not load, navigation to homepage unsuccessful: {}",ex.getMessage());
+            return false;
+        }
+
     }
 
 }

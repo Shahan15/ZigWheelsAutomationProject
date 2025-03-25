@@ -278,3 +278,28 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [9bb890148692bcceafc4398db74a582d, findElement {using=css selector, value=img[alt='Home']}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52529/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 9bb890148692bcceafc4398db74a582d
+[2025-03-24 23:15:42] [INFO] Base - ConfigFile path: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\config.properties
+[2025-03-24 23:15:53] [INFO] Base - Chrome has been selected
+[2025-03-24 23:15:55] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-24 23:15:56] [INFO] Base - ZigWheels logo display status: true
+[2025-03-25 21:19:53] [INFO] Base - ConfigFile path: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\config.properties
+[2025-03-25 21:20:03] [INFO] Base - Chrome has been selected
+[2025-03-25 21:20:06] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 22:21:59] [INFO] Base - ConfigFile path: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\config.properties
+[2025-03-25 22:22:15] [INFO] Base - Chrome has been selected
+[2025-03-25 22:22:17] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 22:25:49] [INFO] Base - ConfigFile path: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\config.properties
+[2025-03-25 22:26:03] [INFO] Base - Chrome has been selected
+[2025-03-25 22:26:06] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 22:29:40] [INFO] Base - ConfigFile path: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\config.properties
+[2025-03-25 22:29:51] [INFO] Base - Chrome has been selected
+[2025-03-25 22:29:54] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 22:33:21] [INFO] Base - ConfigFile path: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\config.properties
+[2025-03-25 22:33:27] [INFO] Base - ConfigFile path: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\config.properties
+[2025-03-25 22:33:40] [INFO] Base - Chrome has been selected
+[2025-03-25 22:33:43] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 22:33:43] [INFO] Base - PageFactory initialised
+[2025-03-25 22:33:47] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-25 22:33:47] [INFO] Base - accepted cookies
+[2025-03-25 22:33:47] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-25 22:33:47] [INFO] Base - The Banner image is present, navigated to home page successfully
