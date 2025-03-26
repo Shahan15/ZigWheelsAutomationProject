@@ -4,8 +4,12 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+
 import static utils.NavigationUtils.getTestingSiteUrl;
 
 public class Base {
@@ -18,34 +22,36 @@ public class Base {
             String browser = FileHandler.getConfigProperty("browser");
             switch (browser.toLowerCase()) {
                 case "chrome":
-                    driver = new ChromeDriver();
+                    ChromeOptions chromeOptions = new ChromeOptions();
+                    chromeOptions.addArguments("--disable-notifications");
+                    driver = new ChromeDriver(chromeOptions);
                     logger.info("Chrome has been selected");
                     break;
                 case "edge":
-                    driver = new EdgeDriver();
+                    EdgeOptions edgeOptions = new EdgeOptions();
+                    edgeOptions.addArguments("--disable-notifications");
+                    driver = new EdgeDriver(edgeOptions);
                     logger.info("Microsoft Edge has been selected");
                     break;
                 case "firefox":
-                    driver = new FirefoxDriver();
+                    FirefoxOptions firefoxOptions = new FirefoxOptions();
+                    firefoxOptions.addPreference("dom.webnotifications.enabled", false);
+                    driver = new FirefoxDriver(firefoxOptions);
                     logger.info("Firefox has been selected");
                     break;
                 default:
-                    driver = new ChromeDriver();
+                    ChromeOptions defaultOptions = new ChromeOptions();
+                    defaultOptions.addArguments("--disable-notifications");
+                    driver = new ChromeDriver(defaultOptions);
                     logger.info("Default browser has been selected - Chrome");
                     break;
             }
         } catch (Exception ex) {
-            logger.error("There was an error initializing {}", ex.getMessage());
+            logger.error("There was an error initializing {}", ex.getMessage(),ex);
         }
-
         driver.manage().window().maximize();
-
-        //Calls method to get url we want to test
         return driver;
     }
-
-
-
 
     public static void quitDriver() {
         if (driver !=null){

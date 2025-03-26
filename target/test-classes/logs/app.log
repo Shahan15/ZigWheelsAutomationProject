@@ -361,3 +361,131 @@ Session ID: c6fb6638ad74e16d1aa8362fc602f66b
 [2025-03-25 23:20:46] [INFO] Base - accepted cookies
 [2025-03-25 23:20:46] [INFO] Base - Waiting 5 seconds for banner image to load
 [2025-03-25 23:20:46] [INFO] Base - The Banner image is present, navigated to home page successfully
+[2025-03-25 23:21:32] [INFO] Base - Chrome has been selected
+[2025-03-25 23:21:35] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-25 23:21:35] [INFO] Base - PageFactory initialised
+[2025-03-25 23:21:37] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-25 23:21:38] [INFO] Base - accepted cookies
+[2025-03-25 23:21:38] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-25 23:21:38] [INFO] Base - The Banner image is present, navigated to home page successfully
+[2025-03-26 13:25:31] [INFO] Base - Chrome has been selected
+[2025-03-26 13:25:34] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-26 13:25:35] [INFO] Base - PageFactory initialised
+[2025-03-26 13:25:35] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-26 13:26:33] [INFO] Base - Chrome has been selected
+[2025-03-26 13:26:35] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-26 13:26:36] [INFO] Base - PageFactory initialised
+[2025-03-26 13:26:36] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-26 13:26:38] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-26 13:26:39] [INFO] Base - accepted cookies
+[2025-03-26 13:38:46] [INFO] Base - Chrome has been selected
+[2025-03-26 13:38:49] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-26 13:38:49] [INFO] Base - PageFactory initialised
+[2025-03-26 13:38:49] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-26 13:38:52] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-26 13:38:52] [INFO] Base - accepted cookies
+[2025-03-26 13:38:59] [INFO] Base - New bikes link pressed
+[2025-03-26 13:38:59] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-26 13:39:01] [ERROR] Base - Error navigating to Bikes page: element click intercepted: Element is not clickable at point (457, 685)
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [91b849cadc4f2e75c782fb3136a8f4bd, clickElement {id=f.6B2A1A68E884D6B251082996E799382C.d.B9997DC278C08BF80439C7A252DA09B9.e.427}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55882}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55882/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (91b849cadc4f2e75c782fb3136a8f4bd)] -> css selector: a[href="/upcoming-bikes"]]
+Session ID: 91b849cadc4f2e75c782fb3136a8f4bd
+[2025-03-26 13:42:27] [INFO] Base - Chrome has been selected
+[2025-03-26 13:42:31] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-26 13:42:31] [INFO] Base - PageFactory initialised
+[2025-03-26 13:42:31] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-26 13:42:33] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-26 13:42:34] [INFO] Base - accepted cookies
+[2025-03-26 13:42:37] [INFO] Base - New bikes link pressed
+[2025-03-26 13:42:38] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-26 13:42:38] [ERROR] Base - Error navigating to Bikes page: javascript error: missing ) after argument list
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62deed14184dccf7d1a4eba9aecfcb52, executeScript {args=[], script=window.scrollBy(0,100;}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56325}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56325/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62deed14184dccf7d1a4eba9aecfcb52
+[2025-03-26 13:43:44] [INFO] Base - Chrome has been selected
+[2025-03-26 13:43:48] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-26 13:43:48] [INFO] Base - PageFactory initialised
+[2025-03-26 13:43:48] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-26 13:43:51] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-26 13:43:52] [INFO] Base - accepted cookies
+[2025-03-26 13:43:55] [INFO] Base - New bikes link pressed
+[2025-03-26 13:43:58] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-26 13:44:00] [INFO] Base - All upcoming bikes link pressed
+[2025-03-26 13:44:00] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-26 13:56:09] [INFO] Base - Chrome has been selected
+[2025-03-26 13:56:12] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-26 13:56:12] [INFO] Base - PageFactory initialised
+[2025-03-26 13:56:12] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-26 13:56:15] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-26 13:56:16] [INFO] Base - accepted cookies
+[2025-03-26 13:56:19] [INFO] Base - New bikes link pressed
+[2025-03-26 13:56:19] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-26 13:56:19] [INFO] Base - scrolled down by 200 pixels
+[2025-03-26 13:56:21] [INFO] Base - All upcoming bikes link pressed
+[2025-03-26 13:56:21] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-26 14:10:48] [INFO] Base - Chrome has been selected
+[2025-03-26 14:10:51] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-26 14:10:51] [INFO] Base - PageFactory initialised
+[2025-03-26 14:10:51] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-26 14:10:54] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-26 14:10:55] [INFO] Base - accepted cookies
+[2025-03-26 14:10:58] [INFO] Base - New bikes link pressed
+[2025-03-26 14:10:58] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-26 14:10:58] [INFO] Base - scrolled down by 200 pixels
+[2025-03-26 14:11:01] [INFO] Base - All upcoming bikes link pressed
+[2025-03-26 14:11:01] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-26 14:11:03] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-26 14:19:16] [INFO] Base - Chrome has been selected
+[2025-03-26 14:19:20] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-26 14:19:20] [INFO] Base - PageFactory initialised
+[2025-03-26 14:19:20] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-26 14:19:23] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-26 14:19:23] [INFO] Base - accepted cookies
+[2025-03-26 14:19:31] [INFO] Base - New bikes link pressed
+[2025-03-26 14:19:31] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-26 14:19:31] [INFO] Base - scrolled down by 200 pixels
+[2025-03-26 14:19:33] [INFO] Base - All upcoming bikes link pressed
+[2025-03-26 14:19:33] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-26 14:19:37] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-26 14:20:13] [INFO] Base - Chrome has been selected
+[2025-03-26 14:20:16] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-26 14:20:16] [INFO] Base - PageFactory initialised
+[2025-03-26 14:20:16] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-26 14:20:19] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-26 14:20:19] [INFO] Base - accepted cookies
+[2025-03-26 14:20:24] [INFO] Base - New bikes link pressed
+[2025-03-26 14:20:25] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-26 14:20:25] [INFO] Base - scrolled down by 200 pixels
+[2025-03-26 14:27:46] [INFO] Base - Chrome has been selected
+[2025-03-26 14:27:49] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-26 14:27:49] [INFO] Base - PageFactory initialised
+[2025-03-26 14:27:49] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-26 14:27:52] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-26 14:27:53] [INFO] Base - accepted cookies
+[2025-03-26 14:27:53] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-26 14:27:53] [INFO] Base - The Banner image is present, navigated to home page successfully
+[2025-03-26 14:30:36] [INFO] Base - Chrome has been selected
+[2025-03-26 14:30:39] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-26 14:30:39] [INFO] Base - PageFactory initialised
+[2025-03-26 14:30:39] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-26 14:30:43] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-26 14:30:43] [INFO] Base - accepted cookies
+[2025-03-26 14:30:43] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-26 14:30:43] [INFO] Base - The Banner image is present, navigated to home page successfully
+[2025-03-26 14:46:36] [INFO] Base - Chrome has been selected
+[2025-03-26 14:46:39] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-26 14:46:39] [INFO] Base - PageFactory initialised
+[2025-03-26 14:46:39] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-26 14:46:42] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-26 14:46:42] [INFO] Base - accepted cookies
+[2025-03-26 14:46:42] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-26 14:46:42] [INFO] Base - The Banner image is present, navigated to home page successfully

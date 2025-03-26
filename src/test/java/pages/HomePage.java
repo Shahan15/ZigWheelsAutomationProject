@@ -2,6 +2,7 @@ package pages;
 
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -21,7 +22,7 @@ public class HomePage extends Base {
         logger.info("PageFactory initialised");
     }
 
-    public void ClickingCookieConsentBtn() {
+    public void clickingCookieConsentBtn() {
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
             wait.until(ExpectedConditions.visibilityOf(cookieConsentBtn));
@@ -31,6 +32,7 @@ public class HomePage extends Base {
                 cookieConsentBtn.click();
                 logger.info("accepted cookies");
             }
+
         } catch (Exception ex) {
             logger.error("Error occurred while trying to click accept cookies button: {}", ex.getMessage());
         }
@@ -38,7 +40,7 @@ public class HomePage extends Base {
     }
 
 
-    public boolean VerifyOnHomePage() {
+    public boolean verifyOnHomePage() {
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
             wait.until(ExpectedConditions.visibilityOf(bannerImg));
