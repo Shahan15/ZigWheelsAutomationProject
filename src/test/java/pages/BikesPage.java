@@ -18,8 +18,8 @@ public class BikesPage extends Base {
     @FindBy(id = "makeId") WebElement manufacturerDropdown;
 
 
-    public BikesPage () {
-        PageFactory.initElements(driver,this);
+    public BikesPage() {
+        PageFactory.initElements(driver, this);
         logger.info("Pagefactory for Navigating to bikes page initialised");
     }
 
@@ -62,6 +62,5 @@ public class BikesPage extends Base {
         waitPageLoad();
         filterBikes();
     }
-
 
 }

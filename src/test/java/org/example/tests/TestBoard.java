@@ -1,5 +1,6 @@
 package org.example.tests;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -23,7 +24,7 @@ public class TestBoard {
     @Test
     public void homepageTest () {
         homePage.clickingCookieConsentBtn();
-        homePage.verifyOnHomePage();
+        Assert.assertTrue(homePage.verifyOnHomePage());
     }
 
     @Test

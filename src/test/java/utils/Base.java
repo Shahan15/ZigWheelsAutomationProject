@@ -47,14 +47,14 @@ public class Base {
                     break;
             }
         } catch (Exception ex) {
-            logger.error("There was an error initializing {}", ex.getMessage(),ex);
+            logger.error("There was an error initializing {}", ex.getMessage(), ex);
         }
         driver.manage().window().maximize();
         return driver;
     }
 
     public static void quitDriver() {
-        if (driver !=null){
+        if (driver != null) {
             driver.quit();
             driver = null;
         }

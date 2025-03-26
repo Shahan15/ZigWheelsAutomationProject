@@ -3,6 +3,7 @@ package utils;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Properties;
+
 import static java.nio.file.FileSystems.getDefault;
 
 public class FileHandler {
@@ -17,16 +18,16 @@ public class FileHandler {
     public static String ResourcesPath = dir + Fs + "src" + Fs + "test" + Fs + "resources" + Fs;
     public static String ConfigFile = ResourcesPath + "config.properties";
 
-//    public static String reports = ResourcesPath + "Reports" + Fs;
-//    public static String screenshotPath = ResourcesPath + "ScreenshotsFolder" + Fs;
+    //    public static String reports = ResourcesPath + "Reports" + Fs;
+    //    public static String screenshotPath = ResourcesPath + "ScreenshotsFolder" + Fs;
 
-    public static String getConfigProperty(String key)  {
-        String result="";
+    public static String getConfigProperty(String key) {
+        String result = "";
         try {
             FileInputStream fis = new FileInputStream(ConfigFile);
             properties.load(fis); //loads properties from file
             result = properties.getProperty(key);
-        }catch (Exception ex) {
+        } catch (Exception ex) {
             Base.logger.error("Error reading property from config file {}", ex.getMessage());
 
         }
@@ -34,8 +35,8 @@ public class FileHandler {
     }
 
     public static String getProperty(String propKey) throws FileNotFoundException {
-      String results = properties.getProperty(propKey);
-      return results;
+        String results = properties.getProperty(propKey);
+        return results;
     }
 
 

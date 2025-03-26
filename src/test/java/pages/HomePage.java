@@ -7,14 +7,17 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import utils.Base;
 
 import java.time.Duration;
 
 
 public class HomePage extends Base {
-    @FindBy(css = "img.banner.mobileimage")  WebElement bannerImg;
-    @FindBy(css = "p.fc-button-label")  WebElement cookieConsentBtn;
+    @FindBy(css = "img.banner.mobileimage")
+    WebElement bannerImg;
+    @FindBy(css = "p.fc-button-label")
+    WebElement cookieConsentBtn;
 
 
     public HomePage() {
@@ -35,8 +38,8 @@ public class HomePage extends Base {
 
         } catch (Exception ex) {
             logger.error("Error occurred while trying to click accept cookies button: {}", ex.getMessage());
+            Assert.fail("Failed to click the cookie consent button due to: " + ex.getMessage());
         }
-
     }
 
 
