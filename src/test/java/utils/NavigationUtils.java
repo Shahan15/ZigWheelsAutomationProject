@@ -33,13 +33,13 @@ public class NavigationUtils {
         }
     }
 
-    public static void pause(int milliseconds) {
-        try{
-            Thread.sleep(milliseconds);
-        }catch (InterruptedException ex) {
-            Base.logger.error("Pause interrupted: {}", ex.getMessage());
-            Thread.currentThread().interrupt(); // Restore interrupted status
-        }
-    }
+//    public static void pause(int milliseconds) {
+//        try{
+//            Thread.sleep(milliseconds);
+//        }catch (InterruptedException ex) {
+//            Base.logger.error("Pause interrupted: {}", ex.getMessage());
+//            Thread.currentThread().interrupt(); // Restore interrupted status
+//        }
+//    }
 
 }

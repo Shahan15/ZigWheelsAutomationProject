@@ -3,7 +3,6 @@ package utils;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Properties;
-
 import static java.nio.file.FileSystems.getDefault;
 
 public class FileHandler {

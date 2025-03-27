@@ -1,17 +1,18 @@
 package org.example.tests;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.BikesPage;
 import pages.HomePage;
 import utils.Base;
 import utils.NavigationUtils;
 import utils.ReportUtils;
+import utils.TestListener;
 
+@Listeners(TestListener.class)
 public class TestBoard {
     private HomePage homePage;
     private BikesPage bikesPage;
@@ -46,7 +47,6 @@ public class TestBoard {
     @AfterTest
     public void tearDown() {
         Base.quitDriver();
-        ReportUtils.flushReport();
     }
 
 
