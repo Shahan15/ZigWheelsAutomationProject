@@ -846,3 +846,50 @@ Session ID: 62deed14184dccf7d1a4eba9aecfcb52
 [2025-03-27 13:52:12] [INFO] Base - Upcoming Bikes page has fully loaded.
 [2025-03-27 13:52:14] [INFO] Base - Filtered by Manufacturer: Honda
 [2025-03-27 13:52:18] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-27 13:55:32] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-27 13:55:43] [INFO] Base - Chrome has been selected
+[2025-03-27 13:55:43] [INFO] Base - PageFactory initialised
+[2025-03-27 13:55:44] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 13:55:44] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 13:55:48] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 13:55:49] [INFO] Base - accepted cookies
+[2025-03-27 13:55:50] [INFO] Base - New bikes link pressed
+[2025-03-27 13:55:50] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-27 13:55:50] [INFO] Base - scrolled down by 800 pixels
+[2025-03-27 13:55:52] [INFO] Base - All upcoming bikes link pressed
+[2025-03-27 13:55:52] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-27 13:55:53] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-27 13:55:53] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-03-27 13:56:01] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-27 14:23:37] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-27 14:23:49] [INFO] Base - Chrome has been selected
+[2025-03-27 14:23:49] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 14:23:49] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 14:23:49] [ERROR] Base - Test Failed: FAIL: NavigatingToBikesPageTest
+[2025-03-27 14:23:51] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-27 14:25:31] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-27 14:25:42] [INFO] Base - Chrome has been selected
+[2025-03-27 14:25:42] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 14:25:44] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 14:25:46] [INFO] Base - New bikes link pressed
+[2025-03-27 14:25:47] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-27 14:25:47] [INFO] Base - scrolled down by 800 pixels
+[2025-03-27 14:25:48] [INFO] Base - All upcoming bikes link pressed
+[2025-03-27 14:25:48] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-27 14:25:50] [ERROR] Base - Test Failed: FAIL: NavigatingToBikesPageTest
+[2025-03-27 14:25:54] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-27 14:27:53] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-27 14:28:04] [INFO] Base - Chrome has been selected
+[2025-03-27 14:28:04] [INFO] Base - PageFactory initialised
+[2025-03-27 14:28:06] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 14:28:07] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 14:28:10] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 14:28:11] [INFO] Base - accepted cookies
+[2025-03-27 14:28:14] [INFO] Base - New bikes link pressed
+[2025-03-27 14:28:14] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-27 14:28:14] [INFO] Base - scrolled down by 800 pixels
+[2025-03-27 14:28:16] [INFO] Base - All upcoming bikes link pressed
+[2025-03-27 14:28:16] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-27 14:28:17] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-27 14:28:17] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-03-27 14:28:22] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0

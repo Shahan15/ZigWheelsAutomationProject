@@ -20,13 +20,16 @@ public class BikesPage extends Base {
     @FindBy(id = "makeId") WebElement manufacturerDropdown;
 
     WebDriver driver = Base.driver;
+    HomePage homePage = new HomePage();
 
     public BikesPage() {
         PageFactory.initElements(driver, this);
         logger.info("Pagefactory for Navigating to bikes page initialised");
+        driver.get(NavigationUtils.getTestingSiteUrl("HomePage"));
     }
 
     public void navigateToNewBikes() {
+        homePage.clickingCookieConsentBtn();
         newBikesLink.click();
         logger.info("New bikes link pressed");
 //        NavigationUtils.pause(20);
