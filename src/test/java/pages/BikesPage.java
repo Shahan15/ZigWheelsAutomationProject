@@ -35,7 +35,7 @@ public class BikesPage extends Base {
 
     public void clickAllUpcomingBikesLink() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,200);");
+        js.executeScript("window.scrollBy(0,600);");
         logger.info("scrolled down by 200 pixels");
         allUpcomingBikesLink.click();
         logger.info("All upcoming bikes link pressed");

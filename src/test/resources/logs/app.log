@@ -501,3 +501,70 @@ Session ID: 62deed14184dccf7d1a4eba9aecfcb52
 [2025-03-26 14:52:14] [INFO] Base - All upcoming bikes link pressed
 [2025-03-26 14:52:14] [INFO] Base - Upcoming Bikes page has fully loaded.
 [2025-03-26 14:52:15] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-27 10:02:09] [INFO] Base - Chrome has been selected
+[2025-03-27 10:02:12] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-27 10:02:12] [INFO] Base - PageFactory initialised
+[2025-03-27 10:02:12] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 10:05:34] [INFO] Base - Chrome has been selected
+[2025-03-27 10:05:34] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-27 10:05:34] [INFO] Base - PageFactory initialised
+[2025-03-27 10:05:34] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 10:05:35] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 10:05:35] [INFO] Base - Started test: Homepage Test
+[2025-03-27 10:05:38] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 10:05:38] [INFO] Base - accepted cookies
+[2025-03-27 10:05:39] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-27 10:05:39] [INFO] Base - The Banner image is present, navigated to home page successfully
+[2025-03-27 10:05:44] [INFO] Base - Extent reports flushed
+[2025-03-27 10:10:16] [INFO] Base - Chrome has been selected
+[2025-03-27 10:10:19] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-27 10:10:19] [INFO] Base - PageFactory initialised
+[2025-03-27 10:10:19] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 10:10:19] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 10:10:19] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 10:10:21] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 10:10:21] [INFO] Base - accepted cookies
+[2025-03-27 10:10:22] [INFO] Base - New bikes link pressed
+[2025-03-27 10:10:22] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-27 10:10:22] [INFO] Base - scrolled down by 200 pixels
+[2025-03-27 10:10:24] [INFO] Base - Started test: Homepage Test
+[2025-03-27 10:10:29] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
+[2025-03-27 10:10:39] [INFO] Base - Extent reports flushed
+[2025-03-27 10:11:12] [INFO] Base - Chrome has been selected
+[2025-03-27 10:11:14] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-27 10:11:14] [INFO] Base - PageFactory initialised
+[2025-03-27 10:11:14] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 10:11:14] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 10:11:14] [INFO] Base - Started test: Homepage Test
+[2025-03-27 10:11:16] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 10:11:16] [INFO] Base - accepted cookies
+[2025-03-27 10:11:17] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-27 10:11:17] [INFO] Base - The Banner image is present, navigated to home page successfully
+[2025-03-27 10:11:19] [INFO] Base - Extent reports flushed
+[2025-03-27 10:11:37] [INFO] Base - Chrome has been selected
+[2025-03-27 10:11:38] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-27 10:11:38] [INFO] Base - PageFactory initialised
+[2025-03-27 10:11:38] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 10:11:38] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 10:11:38] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 10:11:43] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 10:11:43] [INFO] Base - accepted cookies
+[2025-03-27 10:11:46] [INFO] Base - New bikes link pressed
+[2025-03-27 10:11:47] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-27 10:11:47] [INFO] Base - scrolled down by 200 pixels
+[2025-03-27 10:11:53] [INFO] Base - Extent reports flushed
+[2025-03-27 10:12:57] [INFO] Base - Chrome has been selected
+[2025-03-27 10:12:58] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-27 10:12:58] [INFO] Base - PageFactory initialised
+[2025-03-27 10:12:58] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 10:12:59] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 10:12:59] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 10:13:02] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 10:13:03] [INFO] Base - accepted cookies
+[2025-03-27 10:13:05] [INFO] Base - New bikes link pressed
+[2025-03-27 10:13:05] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-27 10:13:06] [INFO] Base - scrolled down by 200 pixels
+[2025-03-27 10:13:07] [INFO] Base - All upcoming bikes link pressed
+[2025-03-27 10:13:07] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-27 10:13:09] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-27 10:13:14] [INFO] Base - Extent reports flushed

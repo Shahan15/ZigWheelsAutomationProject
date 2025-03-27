@@ -18,8 +18,8 @@ public class FileHandler {
     public static String ResourcesPath = dir + Fs + "src" + Fs + "test" + Fs + "resources" + Fs;
     public static String ConfigFile = ResourcesPath + "config.properties";
 
-    //    public static String reports = ResourcesPath + "Reports" + Fs;
-    //    public static String screenshotPath = ResourcesPath + "ScreenshotsFolder" + Fs;
+        public static String reports = ResourcesPath + "Reports" + Fs;
+        public static String screenshotPath = ResourcesPath + "ScreenshotsFolder" + Fs;
 
     public static String getConfigProperty(String key) {
         String result = "";
