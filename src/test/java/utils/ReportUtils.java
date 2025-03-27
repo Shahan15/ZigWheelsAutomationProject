@@ -10,8 +10,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class ReportUtils {
-    public static ExtentReports extent;
-    public static ExtentTest test;
+    private static ExtentReports extent;
+    private static ExtentTest test;
 
     public static String getTimeStamp(){
         return new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
@@ -27,7 +27,6 @@ public class ReportUtils {
 
             extent = new ExtentReports();
             extent.attachReporter(htmlReporter);
-            Base.logger.info("Setting up Extent Reports on: {} ",FileHandler.reports);
         }
         return extent;
     }
@@ -38,6 +37,10 @@ public class ReportUtils {
         }
         test = extent.createTest(testName);
         Base.logger.info("Started test: " + testName);
+        return test;
+    }
+
+    public static ExtentTest getTest() {
         return test;
     }
 

@@ -19,7 +19,6 @@ public class TestBoard {
     @BeforeTest
     public void setup() {
         Base.getDriver();
-        NavigationUtils.getTestingSiteUrl("HomePage");
         homePage = new HomePage();
         bikesPage = new BikesPage();
         ReportUtils.setUpExtentReport();
@@ -31,7 +30,7 @@ public class TestBoard {
 
         homePage.clickingCookieConsentBtn();
         Assert.assertTrue(homePage.verifyOnHomePage());
-        ReportUtils.test.pass("Verified Homepage navigation");
+        ReportUtils.getTest().pass("Verified Homepage navigation");
 
     }
 
@@ -40,7 +39,7 @@ public class TestBoard {
         ReportUtils.createTest("Navigating to Bikes page Test");
         homePage.clickingCookieConsentBtn();
         bikesPage.navigatingToBikesPage();
-        ReportUtils.test.pass("Navigated to Bikes page Successfully");
+        ReportUtils.getTest().pass("Navigated to Bikes page Successfully");
 
     }
 

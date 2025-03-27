@@ -9,20 +9,20 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import utils.Base;
+import utils.NavigationUtils;
 
 import java.time.Duration;
 
 
 public class HomePage extends Base {
-    @FindBy(css = "img.banner.mobileimage")
-    WebElement bannerImg;
-    @FindBy(css = "p.fc-button-label")
-    WebElement cookieConsentBtn;
+    @FindBy(css = "img.banner.mobileimage") WebElement bannerImg;
+    @FindBy(css = "p.fc-button-label") WebElement cookieConsentBtn;
 
 
     public HomePage() {
         PageFactory.initElements(driver, this);
         logger.info("PageFactory initialised");
+        driver.get(NavigationUtils.getTestingSiteUrl("HomePage"));
     }
 
     public void clickingCookieConsentBtn() {
@@ -45,8 +45,7 @@ public class HomePage extends Base {
 
     public boolean verifyOnHomePage() {
         try {
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-            wait.until(ExpectedConditions.visibilityOf(bannerImg));
+            NavigationUtils.webDriverWait(driver,5,bannerImg);
             logger.info("Waiting 5 seconds for banner image to load");
 
             logger.info("The Banner image is present, navigated to home page successfully");

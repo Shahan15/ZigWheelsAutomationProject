@@ -2,12 +2,14 @@ package pages;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Base;
+import utils.NavigationUtils;
 
 import java.time.Duration;
 
@@ -17,6 +19,7 @@ public class BikesPage extends Base {
     @FindBy(css = "a[href=\"/upcoming-bikes\"]") WebElement allUpcomingBikesLink;
     @FindBy(id = "makeId") WebElement manufacturerDropdown;
 
+    WebDriver driver = Base.driver;
 
     public BikesPage() {
         PageFactory.initElements(driver, this);
@@ -26,6 +29,9 @@ public class BikesPage extends Base {
     public void navigateToNewBikes() {
         newBikesLink.click();
         logger.info("New bikes link pressed");
+//        NavigationUtils.pause(20);
+//        logger.info("Waiting for 2 seconds for animations to load properly");
+
     }
 
     public void navigateToUpcomingSliderTab() {
@@ -35,9 +41,9 @@ public class BikesPage extends Base {
 
     public void clickAllUpcomingBikesLink() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,600);");
-        logger.info("scrolled down by 200 pixels");
-        allUpcomingBikesLink.click();
+        js.executeScript("window.scrollBy(0,300);");
+        logger.info("scrolled down by 800 pixels");
+        driver.navigate().to(NavigationUtils.getTestingSiteUrl("upcomingBikesPage"));
         logger.info("All upcoming bikes link pressed");
     }
 

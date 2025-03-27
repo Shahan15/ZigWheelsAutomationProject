@@ -553,3 +553,224 @@ Session ID: 62deed14184dccf7d1a4eba9aecfcb52
 [2025-03-27 10:11:47] [INFO] Base - Navigated to Upcoming bikes tab
 [2025-03-27 10:11:47] [INFO] Base - scrolled down by 200 pixels
 [2025-03-27 10:11:53] [INFO] Base - Extent reports flushed
+[2025-03-27 10:12:57] [INFO] Base - Chrome has been selected
+[2025-03-27 10:12:58] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-27 10:12:58] [INFO] Base - PageFactory initialised
+[2025-03-27 10:12:58] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 10:12:59] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 10:12:59] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 10:13:02] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 10:13:03] [INFO] Base - accepted cookies
+[2025-03-27 10:13:05] [INFO] Base - New bikes link pressed
+[2025-03-27 10:13:05] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-27 10:13:06] [INFO] Base - scrolled down by 200 pixels
+[2025-03-27 10:13:07] [INFO] Base - All upcoming bikes link pressed
+[2025-03-27 10:13:07] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-27 10:13:09] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-27 10:13:14] [INFO] Base - Extent reports flushed
+[2025-03-27 10:29:49] [INFO] Base - Chrome has been selected
+[2025-03-27 10:29:51] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-27 10:29:51] [INFO] Base - PageFactory initialised
+[2025-03-27 10:29:51] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 10:29:51] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 10:29:51] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 10:29:53] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 10:29:54] [INFO] Base - accepted cookies
+[2025-03-27 10:29:54] [INFO] Base - New bikes link pressed
+[2025-03-27 10:29:55] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-27 10:29:55] [INFO] Base - scrolled down by 200 pixels
+[2025-03-27 10:30:07] [INFO] Base - Extent reports flushed
+[2025-03-27 10:45:11] [INFO] Base - Chrome has been selected
+[2025-03-27 10:45:14] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-27 10:45:14] [INFO] Base - PageFactory initialised
+[2025-03-27 10:45:14] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 10:45:14] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 10:45:14] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 10:45:16] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 10:45:16] [INFO] Base - accepted cookies
+[2025-03-27 10:45:17] [INFO] Base - New bikes link pressed
+[2025-03-27 10:45:17] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-27 10:45:17] [INFO] Base - scrolled down by 200 pixels
+[2025-03-27 10:45:27] [INFO] Base - Extent reports flushed
+[2025-03-27 10:47:57] [INFO] Base - Chrome has been selected
+[2025-03-27 10:48:00] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-27 10:48:00] [INFO] Base - PageFactory initialised
+[2025-03-27 10:48:00] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 10:48:00] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 10:48:00] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 10:48:02] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 10:48:02] [INFO] Base - accepted cookies
+[2025-03-27 10:48:04] [INFO] Base - New bikes link pressed
+[2025-03-27 10:48:04] [INFO] Base - Waiting for 2 seconds for animations to load properly
+[2025-03-27 10:48:04] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-27 10:48:04] [INFO] Base - scrolled down by 200 pixels
+[2025-03-27 10:48:12] [INFO] Base - Extent reports flushed
+[2025-03-27 10:48:50] [INFO] Base - Chrome has been selected
+[2025-03-27 10:48:51] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-27 10:48:51] [INFO] Base - PageFactory initialised
+[2025-03-27 10:48:51] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 10:48:51] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 10:48:51] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 10:48:54] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 10:48:55] [INFO] Base - accepted cookies
+[2025-03-27 10:48:56] [INFO] Base - New bikes link pressed
+[2025-03-27 10:48:56] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-27 10:48:56] [INFO] Base - scrolled down by 200 pixels
+[2025-03-27 10:49:02] [INFO] Base - Extent reports flushed
+[2025-03-27 10:49:43] [INFO] Base - Chrome has been selected
+[2025-03-27 10:49:45] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-27 10:49:45] [INFO] Base - PageFactory initialised
+[2025-03-27 10:49:45] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 10:49:45] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 10:49:45] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 10:49:47] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 10:49:47] [INFO] Base - accepted cookies
+[2025-03-27 10:49:49] [INFO] Base - New bikes link pressed
+[2025-03-27 10:49:49] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-27 10:49:49] [INFO] Base - scrolled down by 200 pixels
+[2025-03-27 10:49:50] [INFO] Base - All upcoming bikes link pressed
+[2025-03-27 10:49:50] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-27 10:49:51] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-27 10:49:57] [INFO] Base - Extent reports flushed
+[2025-03-27 10:51:04] [INFO] Base - Chrome has been selected
+[2025-03-27 10:51:06] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-27 10:51:06] [INFO] Base - PageFactory initialised
+[2025-03-27 10:51:06] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 10:51:06] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 10:51:06] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 10:51:08] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 10:51:09] [INFO] Base - accepted cookies
+[2025-03-27 10:51:10] [INFO] Base - New bikes link pressed
+[2025-03-27 10:51:10] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-27 10:51:10] [INFO] Base - scrolled down by 200 pixels
+[2025-03-27 10:51:14] [INFO] Base - Extent reports flushed
+[2025-03-27 10:51:33] [INFO] Base - Chrome has been selected
+[2025-03-27 10:51:34] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-27 10:51:34] [INFO] Base - PageFactory initialised
+[2025-03-27 10:51:34] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 10:51:35] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 10:51:35] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 10:51:40] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 10:51:40] [INFO] Base - accepted cookies
+[2025-03-27 10:51:43] [INFO] Base - New bikes link pressed
+[2025-03-27 10:51:43] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-27 10:51:43] [INFO] Base - scrolled down by 200 pixels
+[2025-03-27 10:51:49] [INFO] Base - Extent reports flushed
+[2025-03-27 10:52:09] [INFO] Base - Chrome has been selected
+[2025-03-27 10:52:11] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-27 10:52:11] [INFO] Base - PageFactory initialised
+[2025-03-27 10:52:11] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 10:52:12] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 10:52:12] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 10:52:14] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 10:52:14] [INFO] Base - accepted cookies
+[2025-03-27 10:52:15] [INFO] Base - New bikes link pressed
+[2025-03-27 10:52:15] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-27 10:52:15] [INFO] Base - scrolled down by 200 pixels
+[2025-03-27 10:52:19] [INFO] Base - Extent reports flushed
+[2025-03-27 10:52:44] [INFO] Base - Chrome has been selected
+[2025-03-27 10:52:45] [INFO] Base - Opening https://www.zigwheels.com/
+[2025-03-27 10:52:45] [INFO] Base - PageFactory initialised
+[2025-03-27 10:52:45] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 10:52:45] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 10:52:45] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 10:52:49] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 10:52:49] [INFO] Base - accepted cookies
+[2025-03-27 10:52:50] [INFO] Base - New bikes link pressed
+[2025-03-27 10:52:50] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-27 10:52:50] [INFO] Base - scrolled down by 200 pixels
+[2025-03-27 11:10:32] [INFO] Base - Chrome has been selected
+[2025-03-27 11:10:32] [INFO] Base - PageFactory initialised
+[2025-03-27 11:10:32] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 11:10:32] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 11:10:32] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 11:10:38] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
+[2025-03-27 11:10:40] [INFO] Base - Extent reports flushed
+[2025-03-27 11:11:08] [INFO] Base - Chrome has been selected
+[2025-03-27 11:11:09] [INFO] Base - PageFactory initialised
+[2025-03-27 11:11:09] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 11:11:09] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 11:11:09] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 11:11:14] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
+[2025-03-27 11:11:16] [INFO] Base - Extent reports flushed
+[2025-03-27 11:11:36] [INFO] Base - Chrome has been selected
+[2025-03-27 11:11:36] [INFO] Base - PageFactory initialised
+[2025-03-27 11:11:36] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 11:11:36] [INFO] Base - Setting up Extent Reports on: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\Reports\ 
+[2025-03-27 11:11:36] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 11:11:42] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
+[2025-03-27 11:11:44] [INFO] Base - Extent reports flushed
+[2025-03-27 11:21:46] [INFO] Base - Chrome has been selected
+[2025-03-27 11:21:46] [INFO] Base - PageFactory initialised
+[2025-03-27 11:21:46] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 11:21:46] [INFO] Base - Started test: Homepage Test
+[2025-03-27 11:21:52] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
+[2025-03-27 11:21:54] [INFO] Base - Extent reports flushed
+[2025-03-27 11:22:19] [INFO] Base - Chrome has been selected
+[2025-03-27 11:22:19] [INFO] Base - PageFactory initialised
+[2025-03-27 11:22:19] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 11:22:20] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 11:22:24] [INFO] Base - Extent reports flushed
+[2025-03-27 11:23:08] [INFO] Base - Chrome has been selected
+[2025-03-27 11:23:08] [INFO] Base - PageFactory initialised
+[2025-03-27 11:23:08] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 11:23:08] [INFO] Base - Started test: Homepage Test
+[2025-03-27 11:23:13] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-03-27 11:23:13] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-03-27 11:23:17] [INFO] Base - Extent reports flushed
+[2025-03-27 11:23:50] [INFO] Base - Chrome has been selected
+[2025-03-27 11:23:50] [INFO] Base - PageFactory initialised
+[2025-03-27 11:23:50] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 11:23:50] [INFO] Base - Started test: Homepage Test
+[2025-03-27 11:23:55] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-03-27 11:23:55] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-03-27 11:23:57] [INFO] Base - Extent reports flushed
+[2025-03-27 11:24:37] [INFO] Base - Chrome has been selected
+[2025-03-27 11:24:37] [INFO] Base - PageFactory initialised
+[2025-03-27 11:24:37] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 11:24:37] [INFO] Base - Started test: Homepage Test
+[2025-03-27 13:15:22] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-03-27 13:15:22] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-03-27 13:20:52] [INFO] Base - Chrome has been selected
+[2025-03-27 13:20:52] [INFO] Base - PageFactory initialised
+[2025-03-27 13:20:52] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 13:20:53] [INFO] Base - Started test: Homepage Test
+[2025-03-27 13:20:58] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-03-27 13:20:58] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-03-27 13:21:02] [INFO] Base - Extent reports flushed
+[2025-03-27 13:25:46] [INFO] Base - Chrome has been selected
+[2025-03-27 13:25:46] [INFO] Base - PageFactory initialised
+[2025-03-27 13:25:46] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 13:25:47] [INFO] Base - Started test: Homepage Test
+[2025-03-27 13:25:52] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-03-27 13:25:52] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-03-27 13:25:56] [INFO] Base - Extent reports flushed
+[2025-03-27 13:29:35] [INFO] Base - Chrome has been selected
+[2025-03-27 13:29:35] [INFO] Base - PageFactory initialised
+[2025-03-27 13:29:37] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 13:29:38] [INFO] Base - Started test: Homepage Test
+[2025-03-27 13:29:39] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-27 13:29:39] [INFO] Base - The Banner image is present, navigated to home page successfully
+[2025-03-27 13:29:43] [INFO] Base - Extent reports flushed
+[2025-03-27 13:30:35] [INFO] Base - Chrome has been selected
+[2025-03-27 13:30:35] [INFO] Base - PageFactory initialised
+[2025-03-27 13:30:37] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 13:30:37] [INFO] Base - Started test: Homepage Test
+[2025-03-27 13:30:40] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 13:30:40] [INFO] Base - accepted cookies
+[2025-03-27 13:30:40] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-27 13:30:40] [INFO] Base - The Banner image is present, navigated to home page successfully
+[2025-03-27 13:30:44] [INFO] Base - Extent reports flushed
+[2025-03-27 13:31:03] [INFO] Base - Chrome has been selected
+[2025-03-27 13:31:03] [INFO] Base - PageFactory initialised
+[2025-03-27 13:31:05] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-27 13:31:05] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-27 13:31:08] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 13:31:08] [INFO] Base - accepted cookies
+[2025-03-27 13:31:11] [INFO] Base - New bikes link pressed
+[2025-03-27 13:31:12] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-27 13:31:12] [INFO] Base - scrolled down by 800 pixels
+[2025-03-27 13:31:14] [INFO] Base - All upcoming bikes link pressed
+[2025-03-27 13:31:14] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-27 13:31:16] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-27 13:31:20] [INFO] Base - Extent reports flushed
