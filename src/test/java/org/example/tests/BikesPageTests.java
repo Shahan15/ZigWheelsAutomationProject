@@ -17,6 +17,7 @@ public class BikesPageTests {
     public void setup() {
         Base.getDriver();
         bikesPage = new BikesPage();
+        bikesPage.init();
         ReportUtils.setUpExtentReport();
     }
 

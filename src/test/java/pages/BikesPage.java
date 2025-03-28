@@ -22,6 +22,9 @@ public class BikesPage extends Base {
 
     public BikesPage() {
         PageFactory.initElements(driver, this);
+    }
+
+    public void init(){
         logger.info("Pagefactory for Navigating to bikes page initialised");
         driver.get(NavigationUtils.getTestingSiteUrl("HomePage"));
     }
@@ -60,7 +63,7 @@ public class BikesPage extends Base {
         logger.info("Filtered by Manufacturer: Honda");
     }
 
-    private void clickViewMoreBikes(){
+    public void clickViewMoreBikes(){
         try {
             JavascriptExecutor js = (JavascriptExecutor) driver;
 

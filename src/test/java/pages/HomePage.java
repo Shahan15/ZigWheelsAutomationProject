@@ -20,6 +20,9 @@ public class HomePage extends Base {
 
     public HomePage() {
         PageFactory.initElements(driver, this);
+    }
+
+    public void init() {
         logger.info("PageFactory initialised");
         driver.get(NavigationUtils.getTestingSiteUrl("HomePage"));
     }

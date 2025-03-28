@@ -1319,3 +1319,77 @@ Session ID: 6fd97c9a08c43c3548e7aa677582f7af
 [2025-03-28 10:45:29] [INFO] Base - Clicked view more bikes
 [2025-03-28 10:45:29] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
 [2025-03-28 10:45:33] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-28 13:48:01] [INFO] Base - Chrome has been selected
+[2025-03-28 13:48:01] [INFO] Base - PageFactory initialised
+[2025-03-28 13:57:50] [INFO] Base - Chrome has been selected
+[2025-03-28 13:57:50] [INFO] Base - PageFactory initialised
+[2025-03-28 13:57:53] [INFO] Base - PageFactory initialised
+[2025-03-28 13:57:54] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-28 13:57:55] [INFO] Base - PageFactory initialised
+[2025-03-28 13:58:00] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 13:58:00] [INFO] Base - accepted cookies
+[2025-03-28 13:58:01] [INFO] Base - Clicked view more bikes
+[2025-03-28 14:06:36] [INFO] Base - Chrome has been selected
+[2025-03-28 14:06:41] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 14:06:41] [INFO] Base - accepted cookies
+[2025-03-28 14:06:42] [INFO] Base - Clicked view more bikes
+[2025-03-28 14:12:45] [INFO] Base - PageFactory initialised
+[2025-03-28 14:12:45] [ERROR] Base - URL is empty for property key: HomePage
+[2025-03-28 14:12:45] [ERROR] Base - There was an error retrieving the URL: URL is not set for property key: HomePage
+[2025-03-28 14:13:00] [INFO] Base - PageFactory initialised
+[2025-03-28 14:13:00] [ERROR] Base - URL is empty for property key: HomePage
+[2025-03-28 14:13:00] [ERROR] Base - There was an error retrieving the URL: URL is not set for property key: HomePage
+[2025-03-28 14:13:15] [INFO] Base - PageFactory initialised
+[2025-03-28 14:13:15] [ERROR] Base - URL is empty for property key: HomePage
+[2025-03-28 14:13:15] [ERROR] Base - There was an error retrieving the URL: URL is not set for property key: HomePage
+[2025-03-28 14:14:07] [INFO] Base - PageFactory initialised
+[2025-03-28 14:14:07] [ERROR] Base - URL is empty for property key: HomePage
+[2025-03-28 14:14:07] [ERROR] Base - There was an error retrieving the URL: URL is not set for property key: HomePage
+[2025-03-28 14:15:15] [INFO] Base - Chrome has been selected
+[2025-03-28 14:15:20] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 14:15:21] [INFO] Base - accepted cookies
+[2025-03-28 14:15:21] [INFO] Base - Clicked view more bikes
+[2025-03-28 14:16:44] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-28 14:16:53] [INFO] Base - Chrome has been selected
+[2025-03-28 14:16:53] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-28 14:16:54] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-28 14:16:58] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 14:16:59] [INFO] Base - accepted cookies
+[2025-03-28 14:17:00] [INFO] Base - New bikes link pressed
+[2025-03-28 14:17:00] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-28 14:17:00] [INFO] Base - scrolled down by 800 pixels
+[2025-03-28 14:17:01] [INFO] Base - All upcoming bikes link pressed
+[2025-03-28 14:17:01] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-28 14:17:02] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-28 14:17:02] [INFO] Base - Clicked view more bikes
+[2025-03-28 14:17:02] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-03-28 14:17:06] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-28 14:19:47] [INFO] Base - Chrome has been selected
+[2025-03-28 14:19:53] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 14:19:53] [INFO] Base - accepted cookies
+[2025-03-28 14:19:54] [INFO] Base - Clicked view more bikes
+[2025-03-28 14:20:08] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-28 14:20:17] [INFO] Base - Chrome has been selected
+[2025-03-28 14:20:17] [INFO] Base - PageFactory initialised
+[2025-03-28 14:20:20] [INFO] Base - Started test: Homepage Test
+[2025-03-28 14:20:23] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 14:20:24] [INFO] Base - accepted cookies
+[2025-03-28 14:20:24] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-28 14:20:24] [INFO] Base - The Banner image is present, navigated to home page successfully
+[2025-03-28 14:20:24] [INFO] Base - Test Passed: PASS: homepageTest
+[2025-03-28 14:20:27] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-28 14:20:47] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-28 14:20:55] [INFO] Base - Chrome has been selected
+[2025-03-28 14:20:56] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-28 14:20:59] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-28 14:21:02] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 14:21:02] [INFO] Base - accepted cookies
+[2025-03-28 14:21:03] [INFO] Base - New bikes link pressed
+[2025-03-28 14:21:03] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-28 14:21:03] [INFO] Base - scrolled down by 800 pixels
+[2025-03-28 14:21:04] [INFO] Base - All upcoming bikes link pressed
+[2025-03-28 14:21:04] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-28 14:21:06] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-28 14:21:06] [INFO] Base - Clicked view more bikes
+[2025-03-28 14:21:06] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-03-28 14:21:10] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
