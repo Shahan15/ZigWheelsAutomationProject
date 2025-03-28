@@ -893,3 +893,413 @@ Session ID: 62deed14184dccf7d1a4eba9aecfcb52
 [2025-03-27 14:28:17] [INFO] Base - Filtered by Manufacturer: Honda
 [2025-03-27 14:28:17] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
 [2025-03-27 14:28:22] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-27 14:28:48] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-27 14:29:01] [INFO] Base - Chrome has been selected
+[2025-03-27 14:29:01] [INFO] Base - PageFactory initialised
+[2025-03-27 14:29:03] [INFO] Base - Started test: Homepage Test
+[2025-03-27 14:29:06] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-27 14:29:06] [INFO] Base - accepted cookies
+[2025-03-27 14:29:06] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-27 14:29:06] [INFO] Base - The Banner image is present, navigated to home page successfully
+[2025-03-27 14:29:07] [INFO] Base - Test Passed: PASS: homepageTest
+[2025-03-27 14:29:10] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-28 10:14:14] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-28 10:14:31] [INFO] Base - Chrome has been selected
+[2025-03-28 10:14:31] [INFO] Base - PageFactory initialised
+[2025-03-28 10:14:34] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-28 10:14:34] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-28 10:14:38] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 10:14:38] [INFO] Base - accepted cookies
+[2025-03-28 10:14:39] [INFO] Base - New bikes link pressed
+[2025-03-28 10:14:40] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-28 10:14:40] [INFO] Base - scrolled down by 800 pixels
+[2025-03-28 10:14:41] [INFO] Base - All upcoming bikes link pressed
+[2025-03-28 10:14:41] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-28 10:14:43] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-28 10:14:44] [ERROR] Base - Test Failed: FAIL: NavigatingToBikesPageTest
+[2025-03-28 10:14:51] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-28 10:15:58] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-28 10:16:08] [INFO] Base - Chrome has been selected
+[2025-03-28 10:16:08] [INFO] Base - PageFactory initialised
+[2025-03-28 10:16:12] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-28 10:16:13] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-28 10:16:16] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 10:16:17] [INFO] Base - accepted cookies
+[2025-03-28 10:16:19] [INFO] Base - New bikes link pressed
+[2025-03-28 10:16:20] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-28 10:16:20] [INFO] Base - scrolled down by 800 pixels
+[2025-03-28 10:16:21] [INFO] Base - All upcoming bikes link pressed
+[2025-03-28 10:16:21] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-28 10:16:23] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-28 10:16:25] [ERROR] Base - Test Failed: FAIL: NavigatingToBikesPageTest
+[2025-03-28 10:16:31] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-28 10:17:16] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-28 10:17:50] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-28 10:18:01] [INFO] Base - Chrome has been selected
+[2025-03-28 10:18:01] [INFO] Base - PageFactory initialised
+[2025-03-28 10:18:04] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-28 10:18:05] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-28 10:18:08] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 10:18:08] [INFO] Base - accepted cookies
+[2025-03-28 10:18:11] [INFO] Base - New bikes link pressed
+[2025-03-28 10:18:11] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-28 10:18:11] [INFO] Base - scrolled down by 800 pixels
+[2025-03-28 10:18:13] [INFO] Base - All upcoming bikes link pressed
+[2025-03-28 10:18:13] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-28 10:18:14] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-28 10:18:16] [ERROR] Base - Test Failed: FAIL: NavigatingToBikesPageTest
+[2025-03-28 10:18:23] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-28 10:20:14] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-28 10:20:25] [INFO] Base - Chrome has been selected
+[2025-03-28 10:20:25] [INFO] Base - PageFactory initialised
+[2025-03-28 10:20:28] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-28 10:20:29] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-28 10:20:32] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 10:20:33] [INFO] Base - accepted cookies
+[2025-03-28 10:20:36] [INFO] Base - New bikes link pressed
+[2025-03-28 10:20:36] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-28 10:20:36] [INFO] Base - scrolled down by 800 pixels
+[2025-03-28 10:20:38] [INFO] Base - All upcoming bikes link pressed
+[2025-03-28 10:20:38] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-28 10:20:39] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-28 10:20:42] [WARN] Base - Standard click intercepted. Falling back to JavaScript click.
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (457, 1365)
+  (Session info: chrome=134.0.6998.36)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee364799da72bfe0daad524895b8d23f, clickElement {id=f.C0DA3B61913B78923F8C3AEAC6CC7D53.d.7042B768C131DF0DC4675DFA3E9F8E4D.e.554}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53809/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ee364799da72bfe0daad524895b8d23f)] -> css selector: span[data-track-label='view-more-models-button']]
+Session ID: ee364799da72bfe0daad524895b8d23f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.29.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.29.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source) ~[?:?]
+	at pages.BikesPage.clickViewMoreBikes(BikesPage.java:77) ~[test-classes/:?]
+	at pages.BikesPage.navigatingToBikesPage(BikesPage.java:91) ~[test-classes/:?]
+	at org.example.tests.BikesPageTests.NavigatingToBikesPageTest(BikesPageTests.java:23) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[2025-03-28 10:20:42] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-03-28 10:20:46] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-28 10:22:26] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-28 10:22:34] [INFO] Base - Chrome has been selected
+[2025-03-28 10:22:34] [INFO] Base - PageFactory initialised
+[2025-03-28 10:22:38] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-28 10:22:39] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-28 10:22:42] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 10:22:42] [INFO] Base - accepted cookies
+[2025-03-28 10:22:44] [INFO] Base - New bikes link pressed
+[2025-03-28 10:22:45] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-28 10:22:45] [INFO] Base - scrolled down by 800 pixels
+[2025-03-28 10:22:47] [INFO] Base - All upcoming bikes link pressed
+[2025-03-28 10:22:47] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-28 10:22:48] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-28 10:22:48] [ERROR] Base - Test Failed: FAIL: NavigatingToBikesPageTest
+[2025-03-28 10:22:53] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-28 10:29:36] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-28 10:29:47] [INFO] Base - Chrome has been selected
+[2025-03-28 10:29:47] [INFO] Base - PageFactory initialised
+[2025-03-28 10:29:49] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-28 10:29:51] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-28 10:29:54] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 10:29:54] [INFO] Base - accepted cookies
+[2025-03-28 10:29:58] [INFO] Base - New bikes link pressed
+[2025-03-28 10:29:58] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-28 10:29:58] [INFO] Base - scrolled down by 800 pixels
+[2025-03-28 10:30:00] [INFO] Base - All upcoming bikes link pressed
+[2025-03-28 10:30:00] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-28 10:30:02] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-28 10:30:02] [ERROR] Base - Test Failed: FAIL: NavigatingToBikesPageTest
+[2025-03-28 10:30:07] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-28 10:33:19] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-28 10:33:30] [INFO] Base - Chrome has been selected
+[2025-03-28 10:33:30] [INFO] Base - PageFactory initialised
+[2025-03-28 10:33:32] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-28 10:33:35] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-28 10:33:38] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 10:33:38] [INFO] Base - accepted cookies
+[2025-03-28 10:33:41] [INFO] Base - New bikes link pressed
+[2025-03-28 10:33:41] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-28 10:33:41] [INFO] Base - scrolled down by 800 pixels
+[2025-03-28 10:33:43] [INFO] Base - All upcoming bikes link pressed
+[2025-03-28 10:33:43] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-28 10:33:44] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-28 10:33:46] [WARN] Base - Standard click intercepted. Falling back to JavaScript click.
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (457, 662)
+  (Session info: chrome=134.0.6998.36)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9bbd77d64fdc5fd09f6e53677c717d11, clickElement {id=f.D9530321FC2BEC85B817E478EA28D719.d.F83C3622977609BDB8AFFD5364E52D0A.e.555}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56438}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56438/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9bbd77d64fdc5fd09f6e53677c717d11)] -> xpath: //*[@id="modelList"]/li[16]/span]
+Session ID: 9bbd77d64fdc5fd09f6e53677c717d11
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.29.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.29.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source) ~[?:?]
+	at pages.BikesPage.clickViewMoreBikes(BikesPage.java:73) ~[test-classes/:?]
+	at pages.BikesPage.navigatingToBikesPage(BikesPage.java:88) ~[test-classes/:?]
+	at org.example.tests.BikesPageTests.NavigatingToBikesPageTest(BikesPageTests.java:23) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[2025-03-28 10:33:46] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-03-28 10:34:02] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-28 10:35:30] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-28 10:35:42] [INFO] Base - Chrome has been selected
+[2025-03-28 10:35:42] [INFO] Base - PageFactory initialised
+[2025-03-28 10:35:45] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-28 10:35:47] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-28 10:35:50] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 10:35:51] [INFO] Base - accepted cookies
+[2025-03-28 10:35:53] [INFO] Base - New bikes link pressed
+[2025-03-28 10:35:54] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-28 10:35:54] [INFO] Base - scrolled down by 800 pixels
+[2025-03-28 10:35:55] [INFO] Base - All upcoming bikes link pressed
+[2025-03-28 10:35:55] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-28 10:35:57] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-28 10:35:57] [INFO] Base - Waiting for 2 seconds for animations to load properly
+[2025-03-28 10:35:59] [WARN] Base - Standard click intercepted. Falling back to JavaScript click.
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (457, 1524)
+  (Session info: chrome=134.0.6998.36)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d936570ef1c5676c998b3526fc815761, clickElement {id=f.B43650C90473E02C1C27D1CF1CAA2120.d.BF48BE21B06E9B78254240751AC45A1E.e.554}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56686}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56686/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d936570ef1c5676c998b3526fc815761)] -> xpath: //*[@id="modelList"]/li[16]/span]
+Session ID: d936570ef1c5676c998b3526fc815761
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.29.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.29.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source) ~[?:?]
+	at pages.BikesPage.clickViewMoreBikes(BikesPage.java:76) ~[test-classes/:?]
+	at pages.BikesPage.navigatingToBikesPage(BikesPage.java:91) ~[test-classes/:?]
+	at org.example.tests.BikesPageTests.NavigatingToBikesPageTest(BikesPageTests.java:23) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[2025-03-28 10:35:59] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-03-28 10:36:05] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-28 10:37:22] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-28 10:37:32] [INFO] Base - Chrome has been selected
+[2025-03-28 10:37:33] [INFO] Base - PageFactory initialised
+[2025-03-28 10:37:34] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-28 10:37:36] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-28 10:37:39] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 10:37:40] [INFO] Base - accepted cookies
+[2025-03-28 10:37:42] [INFO] Base - New bikes link pressed
+[2025-03-28 10:37:42] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-28 10:37:43] [INFO] Base - scrolled down by 800 pixels
+[2025-03-28 10:37:44] [INFO] Base - All upcoming bikes link pressed
+[2025-03-28 10:37:44] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-28 10:37:46] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-28 10:37:46] [INFO] Base - Waiting for 2 seconds for animations to load properly
+[2025-03-28 10:37:48] [WARN] Base - Standard click intercepted. Falling back to JavaScript click.
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (457, 855)
+  (Session info: chrome=134.0.6998.36)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6fd97c9a08c43c3548e7aa677582f7af, clickElement {id=f.27CB7DDEB558E05A8767A0D5406FB0CE.d.85C92DEB62D10FB639BBE67340E017E4.e.570}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56941}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56941/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6fd97c9a08c43c3548e7aa677582f7af)] -> xpath: //*[@id="modelList"]/li[16]/span]
+Session ID: 6fd97c9a08c43c3548e7aa677582f7af
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.29.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.29.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source) ~[?:?]
+	at pages.BikesPage.clickViewMoreBikes(BikesPage.java:77) ~[test-classes/:?]
+	at pages.BikesPage.navigatingToBikesPage(BikesPage.java:96) ~[test-classes/:?]
+	at org.example.tests.BikesPageTests.NavigatingToBikesPageTest(BikesPageTests.java:23) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[2025-03-28 10:37:48] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-03-28 10:37:52] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-28 10:39:57] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-28 10:40:06] [INFO] Base - Chrome has been selected
+[2025-03-28 10:40:06] [INFO] Base - PageFactory initialised
+[2025-03-28 10:40:10] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-28 10:40:12] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-28 10:40:14] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 10:40:15] [INFO] Base - accepted cookies
+[2025-03-28 10:40:16] [INFO] Base - New bikes link pressed
+[2025-03-28 10:40:18] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-28 10:40:18] [INFO] Base - scrolled down by 800 pixels
+[2025-03-28 10:40:19] [INFO] Base - All upcoming bikes link pressed
+[2025-03-28 10:40:19] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-28 10:40:21] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-28 10:40:21] [INFO] Base - Waiting for 2 seconds for animations to load properly
+[2025-03-28 10:40:22] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-03-28 10:40:27] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-28 10:43:12] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-28 10:43:22] [INFO] Base - Chrome has been selected
+[2025-03-28 10:43:22] [INFO] Base - PageFactory initialised
+[2025-03-28 10:43:23] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-28 10:43:26] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-28 10:43:29] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 10:43:29] [INFO] Base - accepted cookies
+[2025-03-28 10:43:32] [INFO] Base - New bikes link pressed
+[2025-03-28 10:43:32] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-28 10:43:32] [INFO] Base - scrolled down by 800 pixels
+[2025-03-28 10:43:33] [INFO] Base - All upcoming bikes link pressed
+[2025-03-28 10:43:33] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-28 10:43:36] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-28 10:43:37] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-03-28 10:43:43] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-28 10:43:59] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-28 10:44:08] [INFO] Base - Chrome has been selected
+[2025-03-28 10:44:08] [INFO] Base - PageFactory initialised
+[2025-03-28 10:44:11] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-28 10:44:12] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-28 10:44:15] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-28 10:44:15] [INFO] Base - accepted cookies
+[2025-03-28 10:44:17] [INFO] Base - New bikes link pressed
+[2025-03-28 10:44:18] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-28 10:44:18] [INFO] Base - scrolled down by 800 pixels
+[2025-03-28 10:44:20] [INFO] Base - All upcoming bikes link pressed
+[2025-03-28 10:44:20] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-28 10:44:22] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-28 10:44:22] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-03-28 10:44:29] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
