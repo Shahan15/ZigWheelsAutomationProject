@@ -88,3 +88,12 @@
 [2025-03-31 21:05:03] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
 [2025-03-31 21:05:03] [INFO] Base - Test Passed: PASS: WebScrapingBikes
 [2025-03-31 21:05:09] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 21:09:16] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 21:09:25] [INFO] Base - Chrome has been selected
+[2025-03-31 21:09:30] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 21:09:30] [INFO] Base - accepted cookies
+[2025-03-31 21:09:31] [INFO] Base - Clicked view more bikes
+[2025-03-31 21:09:31] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 21:09:34] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-03-31 21:09:34] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-03-31 21:09:40] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
