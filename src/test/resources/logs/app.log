@@ -55,3 +55,18 @@
 [2025-03-31 09:22:31] [INFO] Base - accepted cookies
 [2025-03-31 09:22:37] [INFO] Base - Clicked view more bikes
 [2025-03-31 09:22:37] [INFO] Base - Pulling Bike model names from site
+[2025-03-31 09:31:10] [INFO] Base - Chrome has been selected
+[2025-03-31 09:31:15] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 09:31:15] [INFO] Base - accepted cookies
+[2025-03-31 09:31:16] [INFO] Base - Clicked view more bikes
+[2025-03-31 09:31:17] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 09:32:20] [INFO] Base - Chrome has been selected
+[2025-03-31 09:32:25] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 09:32:25] [INFO] Base - accepted cookies
+[2025-03-31 09:32:26] [INFO] Base - Clicked view more bikes
+[2025-03-31 09:32:26] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 09:33:03] [INFO] Base - Chrome has been selected
+[2025-03-31 09:33:08] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 09:33:08] [INFO] Base - accepted cookies
+[2025-03-31 09:33:10] [INFO] Base - Clicked view more bikes
+[2025-03-31 09:33:10] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
