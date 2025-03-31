@@ -88,3 +88,71 @@
 [2025-03-31 10:12:32] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
 [2025-03-31 10:12:34] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
 [2025-03-31 10:12:35] [INFO] Base - Bike data successfully written to FilteredBikesData.xlsx
+[2025-03-31 10:40:32] [INFO] Base - Chrome has been selected
+[2025-03-31 10:40:38] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 10:40:38] [INFO] Base - accepted cookies
+[2025-03-31 10:40:39] [INFO] Base - Clicked view more bikes
+[2025-03-31 10:40:39] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 10:40:40] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 10:40:41] [INFO] Base - Bike data successfully written to FilteredBikesData.xlsx
+[2025-03-31 10:45:00] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 10:45:10] [INFO] Base - Chrome has been selected
+[2025-03-31 10:45:10] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-03-31 10:45:14] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-03-31 10:45:17] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 10:45:18] [INFO] Base - accepted cookies
+[2025-03-31 10:45:20] [INFO] Base - New bikes link pressed
+[2025-03-31 10:45:21] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-03-31 10:45:21] [INFO] Base - scrolled down by 800 pixels
+[2025-03-31 10:45:23] [INFO] Base - All upcoming bikes link pressed
+[2025-03-31 10:45:23] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-31 10:45:24] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-03-31 10:45:24] [INFO] Base - Clicked view more bikes
+[2025-03-31 10:45:24] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-03-31 10:45:25] [INFO] Base - success taking screenshot
+[2025-03-31 10:45:29] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 10:49:00] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 10:49:10] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 10:49:19] [INFO] Base - Chrome has been selected
+[2025-03-31 10:49:19] [INFO] Base - PageFactory initialised
+[2025-03-31 10:49:22] [INFO] Base - Started test: Homepage Test
+[2025-03-31 10:49:25] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 10:49:25] [INFO] Base - accepted cookies
+[2025-03-31 10:49:25] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-31 10:49:25] [INFO] Base - The Banner image is present, navigated to home page successfully
+[2025-03-31 10:49:25] [INFO] Base - Test Passed: PASS: homepageTest
+[2025-03-31 10:49:28] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 10:52:32] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 10:52:43] [INFO] Base - Chrome has been selected
+[2025-03-31 10:52:43] [INFO] Base - PageFactory initialised
+[2025-03-31 10:52:46] [INFO] Base - Started test: Homepage Test
+[2025-03-31 10:52:48] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 10:52:48] [INFO] Base - accepted cookies
+[2025-03-31 10:52:48] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-31 10:52:48] [INFO] Base - The Banner image is present, navigated to home page successfully
+[2025-03-31 10:52:48] [INFO] Base - Test Passed: PASS: homepageTest
+[2025-03-31 10:52:52] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 10:54:21] [INFO] Base - Chrome has been selected
+[2025-03-31 10:54:26] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 10:54:26] [INFO] Base - accepted cookies
+[2025-03-31 10:54:27] [INFO] Base - Clicked view more bikes
+[2025-03-31 10:54:27] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 10:54:29] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 10:54:29] [INFO] Base - Bike data successfully written to FilteredBikesData.xlsx
+[2025-03-31 10:55:58] [INFO] Base - Chrome has been selected
+[2025-03-31 10:56:04] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 10:56:04] [INFO] Base - accepted cookies
+[2025-03-31 10:56:04] [INFO] Base - Clicked view more bikes
+[2025-03-31 10:56:05] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 10:56:06] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 10:56:06] [INFO] Base - Bike data successfully written to FilteredBikesData.xlsx
+[2025-03-31 10:58:26] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 10:58:38] [INFO] Base - Chrome has been selected
+[2025-03-31 10:58:43] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 10:58:43] [INFO] Base - accepted cookies
+[2025-03-31 10:58:44] [INFO] Base - Clicked view more bikes
+[2025-03-31 10:58:44] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 10:58:45] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 10:58:46] [INFO] Base - Bike data successfully written to FilteredBikesData.xlsx
+[2025-03-31 10:58:46] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-03-31 10:58:50] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0

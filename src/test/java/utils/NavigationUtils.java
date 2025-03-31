@@ -32,14 +32,4 @@ public class NavigationUtils {
             throw new RuntimeException("Failed waiitng for element visibility");
         }
     }
-
-//    public static void pause(int milliseconds) {
-//        try{
-//            Thread.sleep(milliseconds);
-//        }catch (InterruptedException ex) {
-//            Base.logger.error("Pause interrupted: {}", ex.getMessage());
-//            Thread.currentThread().interrupt(); // Restore interrupted status
-//        }
-//    }
-
 }

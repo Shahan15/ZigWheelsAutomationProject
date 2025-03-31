@@ -12,10 +12,14 @@ import utils.NavigationUtils;
 import java.time.Duration;
 
 public class BikesPage extends Base {
-    @FindBy(css = "[data-track-label=\"nav-newbikes\"]") WebElement newBikesLink;
-    @FindBy(css = "[data-track-label=\"upcoming-tab\"]") WebElement upcomingSliderTab;
-    @FindBy(id = "makeId") WebElement manufacturerDropdown;
-    @FindBy(xpath = "//*[@id=\"modelList\"]/li[16]/span") WebElement moreBikesBtn;
+    @FindBy(css = "[data-track-label=\"nav-newbikes\"]")
+    WebElement newBikesLink;
+    @FindBy(css = "[data-track-label=\"upcoming-tab\"]")
+    WebElement upcomingSliderTab;
+    @FindBy(id = "makeId")
+    WebElement manufacturerDropdown;
+    @FindBy(xpath = "//*[@id=\"modelList\"]/li[16]/span")
+    WebElement moreBikesBtn;
 
     WebDriver driver = Base.driver;
     HomePage homePage = new HomePage();
@@ -24,7 +28,7 @@ public class BikesPage extends Base {
         PageFactory.initElements(driver, this);
     }
 
-    public void init(){
+    public void init() {
         logger.info("Pagefactory for Navigating to bikes page initialised");
         driver.get(NavigationUtils.getTestingSiteUrl("HomePage"));
     }
@@ -63,7 +67,7 @@ public class BikesPage extends Base {
         logger.info("Filtered by Manufacturer: Honda");
     }
 
-    public void clickViewMoreBikes(){
+    public void clickViewMoreBikes() {
         try {
             JavascriptExecutor js = (JavascriptExecutor) driver;
 

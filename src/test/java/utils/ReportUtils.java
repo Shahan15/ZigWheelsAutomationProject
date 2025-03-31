@@ -5,21 +5,28 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import lombok.Getter;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 
+import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import static utils.Base.driver;
 
 public class ReportUtils {
     private static ExtentReports extent;
     private static ExtentTest test;
 
-    public static String getTimeStamp(){
+
+    public static String getTimeStamp() {
         return new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
     }
 
-    public static ExtentReports setUpExtentReport () {
-        if (extent == null){
-            String temp = FileHandler.reports +"TestReport_"+getTimeStamp()+".html";
+    public static ExtentReports setUpExtentReport() {
+        if (extent == null) {
+            String temp = FileHandler.reports + "TestReport_" + getTimeStamp() + ".html";
             ExtentSparkReporter htmlReporter = new ExtentSparkReporter(temp);
             htmlReporter.config().setDocumentTitle("Automation Report");
             htmlReporter.config().setReportName("Selenium Test Results");
@@ -51,6 +58,16 @@ public class ReportUtils {
         }
     }
 
+    public static String takeScreenshot() {
+        File SS = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        String SFile = FileHandler.screenshotPath + "img"+ getTimeStamp() + ".png";
+        try {
+            FileUtils.copyFile(SS,new File(SFile));
+        } catch (Exception e) {
+            Base.logger.error("Error while taking a screenshot {}",e.getMessage());
+        }
+        return SFile;
+    }
 
 
 }

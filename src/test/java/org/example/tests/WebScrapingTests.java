@@ -2,15 +2,18 @@ package org.example.tests;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.BikesPage;
 import pages.HomePage;
 import utils.Base;
+import utils.TestListener;
 import utils.WebScrapingUtils;
 import utils.ReportUtils;
 
+@Listeners(TestListener.class)
 public class WebScrapingTests {
-    private WebScrapingUtils webScrapingUtils;
+    private WebScrapingUtils webscrapingUtils;
     private BikesPage bikesPage;
     private HomePage homePage;
 
@@ -19,7 +22,7 @@ public class WebScrapingTests {
         Base.getDriver();
         homePage = new HomePage();
         bikesPage = new BikesPage();
-        webScrapingUtils = new WebScrapingUtils();
+        webscrapingUtils = new WebScrapingUtils();
         ReportUtils.setUpExtentReport();
     }
 

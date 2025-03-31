@@ -40,14 +40,12 @@ public class TestListener implements ITestListener {
         test = extent.createTest(testName);
         test.log(Status.FAIL, "Results are NOT what was expected");
         logger.error("Test Failed: {}", testName);
-
-        // Screenshot method
-        // try {
-        //     String screenshotPath = Base.takeScreenshot(result.getName());
-        //     test.addScreenCaptureFromPath(screenshotPath);
-        // } catch (Exception e) {
-        //     logger.error("Error attaching screenshot: {}", e.getMessage());
-        // }
+         try {
+             String SSPath = ReportUtils.takeScreenshot();
+             test.addScreenCaptureFromPath(SSPath);
+         } catch (Exception e) {
+             logger.error("Error attaching screenshot: {}", e.getMessage());
+         }
     }
 
     @Override

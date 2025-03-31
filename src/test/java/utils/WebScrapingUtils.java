@@ -19,17 +19,17 @@ public class WebScrapingUtils {
     }
 
 
-    public static String  convertPrice(String priceClean) {
+    public static String convertPrice(String priceClean) {
         String cleaned = priceClean.replace("Rs.", "").trim();
 
-        if(cleaned.contains("Lakh")){
-            cleaned = cleaned.replace("Lakh","").trim();
+        if (cleaned.contains("Lakh")) {
+            cleaned = cleaned.replace("Lakh", "").trim();
             int converted = (int) (Double.parseDouble(cleaned) * 100000);//convert to rupees
             return String.valueOf(converted);
         } else if (cleaned.equalsIgnoreCase("Price to be announced")) {
             return "Price to be announced";
         } else {
-            cleaned = cleaned.replace(",","");
+            cleaned = cleaned.replace(",", "");
             int converted = Integer.parseInt(cleaned);
             return String.valueOf(converted);
         }
@@ -66,10 +66,9 @@ public class WebScrapingUtils {
 
         List<Bike> bikes = webScraper();
 
-
         // Populate rows in the sheet for bikes under 4 lakh
         int rowIndex = 1; // Start from row 1 (row 0 is the header)
-        for (Bike bike: bikes) {
+        for (Bike bike : bikes) {
 
             String convertedPrice = convertPrice(bike.getPrice());
 
