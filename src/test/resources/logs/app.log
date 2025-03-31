@@ -70,3 +70,21 @@
 [2025-03-31 09:33:08] [INFO] Base - accepted cookies
 [2025-03-31 09:33:10] [INFO] Base - Clicked view more bikes
 [2025-03-31 09:33:10] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 09:51:34] [INFO] Base - Chrome has been selected
+[2025-03-31 09:51:39] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 09:51:39] [INFO] Base - accepted cookies
+[2025-03-31 09:51:39] [INFO] Base - Clicked view more bikes
+[2025-03-31 09:51:39] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 09:57:16] [INFO] Base - Chrome has been selected
+[2025-03-31 09:57:21] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 09:57:22] [INFO] Base - accepted cookies
+[2025-03-31 09:57:23] [INFO] Base - Clicked view more bikes
+[2025-03-31 09:57:23] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 09:57:25] [INFO] Base - Bike data successfully written to BikesData.xlsx
+[2025-03-31 10:12:26] [INFO] Base - Chrome has been selected
+[2025-03-31 10:12:31] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 10:12:31] [INFO] Base - accepted cookies
+[2025-03-31 10:12:32] [INFO] Base - Clicked view more bikes
+[2025-03-31 10:12:32] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 10:12:34] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 10:12:35] [INFO] Base - Bike data successfully written to FilteredBikesData.xlsx

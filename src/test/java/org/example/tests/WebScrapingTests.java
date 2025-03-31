@@ -28,6 +28,7 @@ public class WebScrapingTests {
         homePage.clickingCookieConsentBtn();
         bikesPage.clickViewMoreBikes();
         WebScrapingUtils.webScraper();
+        WebScrapingUtils.writeToExcel();
 
     }
 
