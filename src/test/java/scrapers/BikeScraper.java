@@ -1,37 +1,23 @@
-package utils;
+package scrapers;
 
+import model.Bike;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import utils.Base;
+import utils.NavigationUtils;
 
 import java.util.ArrayList;
 import java.util.List;
+import static scrapers.ConvertPrice.convertPrice;
 
-public class WebScraper {
+public class BikeScraper {
 
     static WebDriver driver = Base.driver;
 
-    public WebScraper() {
+    public BikeScraper() {
         driver.get(NavigationUtils.getTestingSiteUrl("filteredBikes"));
     }
-
-
-    public static String convertPrice(String priceClean) {
-        String cleaned = priceClean.replace("Rs.", "").trim();
-
-        if (cleaned.contains("Lakh")) {
-            cleaned = cleaned.replace("Lakh", "").trim();
-            int converted = (int) (Double.parseDouble(cleaned) * 100000);//convert to rupees
-            return String.valueOf(converted);
-        } else if (cleaned.equalsIgnoreCase("Price to be announced")) {
-            return "Price to be announced";
-        } else {
-            cleaned = cleaned.replace(",", "");
-            int converted = Integer.parseInt(cleaned);
-            return String.valueOf(converted);
-        }
-    }
-
 
     public static List<Bike> webScrapeBikes() {
         List<WebElement> bikeNamesElement = driver.findElements(By.cssSelector("a[data-track-label='model-name'] strong"));
@@ -67,5 +53,6 @@ public class WebScraper {
         }
         return bikes;
     }
-}
 
+
+}

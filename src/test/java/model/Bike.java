@@ -1,4 +1,4 @@
-package utils;
+package model;
 
 public class Bike {
     private String name;

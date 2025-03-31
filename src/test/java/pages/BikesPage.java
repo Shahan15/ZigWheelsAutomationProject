@@ -12,14 +12,10 @@ import utils.NavigationUtils;
 import java.time.Duration;
 
 public class BikesPage extends Base {
-    @FindBy(css = "[data-track-label=\"nav-newbikes\"]")
-    WebElement newBikesLink;
-    @FindBy(css = "[data-track-label=\"upcoming-tab\"]")
-    WebElement upcomingSliderTab;
-    @FindBy(id = "makeId")
-    WebElement manufacturerDropdown;
-    @FindBy(xpath = "//*[@id=\"modelList\"]/li[16]/span")
-    WebElement moreBikesBtn;
+    @FindBy(css = "[data-track-label=\"nav-newbikes\"]") WebElement newBikesLink;
+    @FindBy(css = "[data-track-label=\"upcoming-tab\"]") WebElement upcomingSliderTab;
+    @FindBy(id = "makeId") WebElement manufacturerDropdown;
+    @FindBy(xpath = "//*[@id=\"modelList\"]/li[16]/span") WebElement moreBikesBtn;
 
     WebDriver driver = Base.driver;
     HomePage homePage = new HomePage();
