@@ -6,14 +6,14 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.BikesPage;
 import pages.HomePage;
-import utils.Base;
-import utils.TestListener;
-import utils.WebScrapingUtils;
-import utils.ReportUtils;
+import utils.*;
+
+import java.util.Arrays;
+import java.util.List;
 
 @Listeners(TestListener.class)
 public class WebScrapingTests {
-    private WebScrapingUtils webscrapingUtils;
+    private WebScraper webscrapingUtils;
     private BikesPage bikesPage;
     private HomePage homePage;
 
@@ -22,7 +22,7 @@ public class WebScrapingTests {
         Base.getDriver();
         homePage = new HomePage();
         bikesPage = new BikesPage();
-        webscrapingUtils = new WebScrapingUtils();
+        webscrapingUtils = new WebScraper();
         ReportUtils.setUpExtentReport();
     }
 
@@ -30,9 +30,24 @@ public class WebScrapingTests {
     public void WebScrapingBikes () {
         homePage.clickingCookieConsentBtn();
         bikesPage.clickViewMoreBikes();
-        WebScrapingUtils.webScraper();
-        WebScrapingUtils.writeToExcel();
 
+        //scrape bikes
+        List<Bike> bikes = WebScraper.webScrapeBikes();
+
+        //defining headers
+        List<String> headers = Arrays.asList("Bike Name","Bike price","Expected Launch Date");
+
+        //calling the Excel handler with scraped data,headers
+        ExcelHandler.writeDataToExcel(
+                bikes,
+                headers,
+                bike -> Arrays.asList(
+                        bike.getName(),
+                        WebScraper.convertPrice(bike.getPrice()),
+                        bike.getLaunchDate()
+                ),
+                "FilteredBikesData.xlsx"
+        );
     }
 
     @AfterTest
