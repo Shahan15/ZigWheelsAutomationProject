@@ -3,24 +3,23 @@ package pages;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Base;
 import utils.NavigationUtils;
-
 import java.time.Duration;
+import static utils.NavigationUtils.waitPageLoad;
 
-public class BikesPage extends Base {
+public class NavigatingToBikes extends Base {
     @FindBy(css = "[data-track-label=\"nav-newbikes\"]") WebElement newBikesLink;
     @FindBy(css = "[data-track-label=\"upcoming-tab\"]") WebElement upcomingSliderTab;
     @FindBy(id = "makeId") WebElement manufacturerDropdown;
     @FindBy(xpath = "//*[@id=\"modelList\"]/li[16]/span") WebElement moreBikesBtn;
 
     WebDriver driver = Base.driver;
-    HomePage homePage = new HomePage();
+    VerifyingHomePage verifyingHomePage = new VerifyingHomePage();
 
-    public BikesPage() {
+    public NavigatingToBikes() {
         PageFactory.initElements(driver, this);
     }
 
@@ -30,7 +29,7 @@ public class BikesPage extends Base {
     }
 
     public void navigateToNewBikes() {
-        homePage.clickingCookieConsentBtn();
+        verifyingHomePage.clickingCookieConsentBtn();
         newBikesLink.click();
         logger.info("New bikes link pressed");
 
@@ -47,13 +46,6 @@ public class BikesPage extends Base {
         logger.info("scrolled down by 800 pixels");
         driver.navigate().to(NavigationUtils.getTestingSiteUrl("upcomingBikesPage"));
         logger.info("All upcoming bikes link pressed");
-    }
-
-    public void waitPageLoad() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(7));
-        wait.until((ExpectedCondition<Boolean>) wd ->
-                ((JavascriptExecutor) wd).executeScript("return document.readyState").equals("complete"));
-        logger.info("Upcoming Bikes page has fully loaded.");
     }
 
     private void filterBikes() {

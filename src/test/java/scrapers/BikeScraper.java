@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import utils.Base;
 import utils.NavigationUtils;
-
 import java.util.ArrayList;
 import java.util.List;
 import static scrapers.ConvertPrice.convertPrice;
@@ -34,7 +33,7 @@ public class BikeScraper {
 
             String convertedPrice = convertPrice(bikePrice);
 
-            boolean includeBike; //filter to include bike
+            boolean includeBike; //filter if it should include the bike or not
             if(convertedPrice.equalsIgnoreCase("Price to be announced")) {
                 includeBike = true;
             } else {

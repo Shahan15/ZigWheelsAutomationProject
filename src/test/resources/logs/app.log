@@ -172,3 +172,341 @@
 [2025-03-31 21:42:45] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
 [2025-03-31 21:42:45] [INFO] Base - Test Passed: PASS: WebScrapingBikes
 [2025-03-31 21:42:46] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 22:25:26] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 22:25:36] [INFO] Base - Chrome has been selected
+[2025-03-31 22:25:42] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 22:25:42] [INFO] Base - accepted cookies
+[2025-03-31 22:25:45] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 22:25:47] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-03-31 22:25:47] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-03-31 22:25:51] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 22:38:44] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 22:38:54] [INFO] Base - Chrome has been selected
+[2025-03-31 22:38:59] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 22:39:00] [INFO] Base - accepted cookies
+[2025-03-31 22:39:02] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 22:39:02] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-03-31 22:39:02] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-03-31 22:39:02] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze S AT i-Vtech
+[2025-03-31 22:39:02] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-03-31 22:39:02] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-03-31 22:39:02] [INFO] Base - Car Price: Rs. 3.05 Lakh
+[2025-03-31 22:39:02] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-03-31 22:39:02] [INFO] Base - Car Price: Rs. 3.50 Lakh
+[2025-03-31 22:39:02] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-03-31 22:39:06] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-31 22:40:00] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 22:40:09] [INFO] Base - Chrome has been selected
+[2025-03-31 22:40:15] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 22:40:15] [INFO] Base - accepted cookies
+[2025-03-31 22:40:17] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 22:40:17] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-03-31 22:40:22] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-31 22:51:09] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 22:51:18] [INFO] Base - Chrome has been selected
+[2025-03-31 22:51:24] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 22:51:24] [INFO] Base - accepted cookies
+[2025-03-31 22:51:34] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 22:51:37] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-03-31 22:51:37] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-03-31 22:51:43] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 23:05:32] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 23:05:41] [INFO] Base - Chrome has been selected
+[2025-03-31 23:05:46] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 23:05:46] [INFO] Base - accepted cookies
+[2025-03-31 23:05:48] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 23:05:49] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-03-31 23:05:52] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-31 23:08:25] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 23:08:34] [INFO] Base - Chrome has been selected
+[2025-03-31 23:08:39] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 23:08:39] [INFO] Base - accepted cookies
+[2025-03-31 23:08:40] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 23:08:41] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-03-31 23:08:48] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-31 23:09:41] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 23:09:49] [INFO] Base - Chrome has been selected
+[2025-03-31 23:09:54] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 23:09:54] [INFO] Base - accepted cookies
+[2025-03-31 23:09:55] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 23:09:57] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-03-31 23:09:57] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-03-31 23:10:02] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 23:12:29] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 23:12:37] [INFO] Base - Chrome has been selected
+[2025-03-31 23:12:42] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 23:12:42] [INFO] Base - accepted cookies
+[2025-03-31 23:12:43] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-31 23:12:43] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 23:12:44] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-03-31 23:12:44] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-03-31 23:12:49] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 23:15:14] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 23:15:21] [INFO] Base - Chrome has been selected
+[2025-03-31 23:15:27] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 23:15:27] [INFO] Base - accepted cookies
+[2025-03-31 23:15:27] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-31 23:15:28] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Brio 2011-2013 Honda Brio S MTcar price Rs. 3.16 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Amaze 2013-2016 Honda Amaze S AT i-Vtechcar price Rs. 3.90 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Brio 2011-2013 Honda Brio S MTcar price Rs. 3.05 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Brio 2013-2016 Honda Brio S MTcar price Rs. 3.50 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Brio 2013-2016 Honda Brio S MTcar price Rs. 3.60 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda City 2008-2011 Honda City 1.5 S MTcar price Rs. 4.00 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda BR-V Honda BR-V i-VTEC V MTcar price Rs. 3.90 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Jazz 2014-2020 Honda Jazz 1.2 SV i VTECcar price Rs. 3.85 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda City ZX 2005-2008 Honda City GXicar price Rs. 2.10 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Amaze 2013-2016 Honda Amaze VX i-Vtechcar price Rs. 4.00 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Civic 2010-2013 Honda Civic 1.8 V MTcar price Rs. 3.00 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Brio 2011-2013 Honda Brio E MTcar price Rs. 1.90 Lakh
+[2025-03-31 23:15:29] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-03-31 23:15:29] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-03-31 23:15:34] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 23:16:42] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 23:16:50] [INFO] Base - Chrome has been selected
+[2025-03-31 23:16:55] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 23:16:56] [INFO] Base - accepted cookies
+[2025-03-31 23:16:57] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-31 23:16:57] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze S AT i-Vtech
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 3.05 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 3.50 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 3.60 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda City 2008-2011 Honda City 1.5 S MT
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 4.00 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda BR-V Honda BR-V i-VTEC V MT
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda Jazz 2014-2020 Honda Jazz 1.2 SV i VTEC
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 3.85 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda City ZX 2005-2008 Honda City GXi
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 2.10 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze VX i-Vtech
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 4.00 Lakh
+[2025-03-31 23:16:57] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-03-31 23:17:03] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-31 23:19:27] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 23:19:35] [INFO] Base - Chrome has been selected
+[2025-03-31 23:19:40] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 23:19:40] [INFO] Base - accepted cookies
+[2025-03-31 23:19:42] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-31 23:19:42] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-31 23:19:42] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 23:19:42] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-03-31 23:19:42] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-03-31 23:19:42] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze S AT i-Vtech
+[2025-03-31 23:19:42] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-03-31 23:19:42] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-03-31 23:19:42] [INFO] Base - Car Price: Rs. 3.05 Lakh
+[2025-03-31 23:19:42] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-03-31 23:19:42] [INFO] Base - Car Price: Rs. 3.50 Lakh
+[2025-03-31 23:19:43] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-03-31 23:19:49] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 09:14:33] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:14:43] [INFO] Base - Chrome has been selected
+[2025-04-01 09:14:49] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:14:49] [INFO] Base - accepted cookies
+[2025-04-01 09:14:50] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-04-01 09:14:51] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-04-01 09:14:51] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:14:51] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:14:51] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-04-01 09:14:51] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze S AT i-Vtech
+[2025-04-01 09:14:51] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-04-01 09:14:51] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-04-01 09:14:55] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 09:30:04] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:30:16] [INFO] Base - Chrome has been selected
+[2025-04-01 09:30:22] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:30:22] [INFO] Base - accepted cookies
+[2025-04-01 09:30:23] [INFO] Base - Clicked view more bikes
+[2025-04-01 09:30:23] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-01 09:30:25] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-01 09:30:25] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-04-01 09:30:29] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 09:31:09] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:31:19] [INFO] Base - Chrome has been selected
+[2025-04-01 09:31:24] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:31:25] [INFO] Base - accepted cookies
+[2025-04-01 09:31:26] [INFO] Base - page has fully loaded.
+[2025-04-01 09:31:27] [INFO] Base - page has fully loaded.
+[2025-04-01 09:31:27] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:31:27] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:31:27] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-04-01 09:31:27] [INFO] Base - Car Name: Honda Jazz 2014-2020 Honda Jazz 1.2 SV i VTEC
+[2025-04-01 09:31:27] [INFO] Base - Car Price: Rs. 3.85 Lakh
+[2025-04-01 09:31:27] [INFO] Base - Car Name: Honda Amaze 2016-2021 Honda Amaze S Petrol
+[2025-04-01 09:31:27] [INFO] Base - Car Price: Rs. 3.65 Lakh
+[2025-04-01 09:31:28] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:31:28] [INFO] Base - Car Price: Rs. 3.05 Lakh
+[2025-04-01 09:31:28] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-04-01 09:31:28] [INFO] Base - Car Price: Rs. 3.60 Lakh
+[2025-04-01 09:31:28] [INFO] Base - Car Name: Honda City ZX 2005-2008 Honda City GXi
+[2025-04-01 09:31:28] [INFO] Base - Car Price: Rs. 2.10 Lakh
+[2025-04-01 09:31:28] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze S AT i-Vtech
+[2025-04-01 09:31:28] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-04-01 09:31:28] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-04-01 09:31:28] [INFO] Base - Car Price: Rs. 3.50 Lakh
+[2025-04-01 09:31:28] [INFO] Base - Car Name: Honda City 2008-2011 Honda City 1.5 S MT
+[2025-04-01 09:31:28] [INFO] Base - Car Price: Rs. 4.00 Lakh
+[2025-04-01 09:31:28] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze VX i-Vtech
+[2025-04-01 09:31:28] [INFO] Base - Car Price: Rs. 4.00 Lakh
+[2025-04-01 09:31:28] [INFO] Base - Car Name: Honda Civic 2010-2013 Honda Civic 1.8 V MT
+[2025-04-01 09:31:28] [INFO] Base - Car Price: Rs. 3.00 Lakh
+[2025-04-01 09:31:29] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio E MT
+[2025-04-01 09:31:29] [INFO] Base - Car Price: Rs. 1.90 Lakh
+[2025-04-01 09:31:29] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-01 09:31:29] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-01 09:31:35] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 09:37:29] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:37:38] [INFO] Base - Chrome has been selected
+[2025-04-01 09:37:45] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:37:46] [INFO] Base - accepted cookies
+[2025-04-01 09:37:47] [INFO] Base - page has fully loaded.
+[2025-04-01 09:37:47] [INFO] Base - page has fully loaded.
+[2025-04-01 09:37:47] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:37:47] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:37:47] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-04-01 09:37:48] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze S AT i-Vtech
+[2025-04-01 09:37:48] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-04-01 09:37:48] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:37:48] [INFO] Base - Car Price: Rs. 3.05 Lakh
+[2025-04-01 09:37:48] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-04-01 09:37:52] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 09:45:08] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:45:21] [INFO] Base - Chrome has been selected
+[2025-04-01 09:45:27] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:45:27] [INFO] Base - accepted cookies
+[2025-04-01 09:45:29] [INFO] Base - page has fully loaded.
+[2025-04-01 09:45:30] [INFO] Base - page has fully loaded.
+[2025-04-01 09:45:30] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:45:30] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:45:30] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-04-01 09:45:30] [INFO] Base - Car Name: Honda Jazz 2014-2020 Honda Jazz 1.2 SV i VTEC
+[2025-04-01 09:45:30] [INFO] Base - Car Price: Rs. 3.85 Lakh
+[2025-04-01 09:45:30] [INFO] Base - Car Name: Honda Amaze 2016-2021 Honda Amaze S Petrol
+[2025-04-01 09:45:31] [INFO] Base - Car Price: Rs. 3.65 Lakh
+[2025-04-01 09:45:31] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:45:31] [INFO] Base - Car Price: Rs. 3.05 Lakh
+[2025-04-01 09:45:31] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-04-01 09:45:31] [INFO] Base - Car Price: Rs. 3.60 Lakh
+[2025-04-01 09:45:31] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-04-01 09:45:35] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 09:46:44] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:46:54] [INFO] Base - Chrome has been selected
+[2025-04-01 09:47:00] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:47:00] [INFO] Base - accepted cookies
+[2025-04-01 09:47:02] [INFO] Base - page has fully loaded.
+[2025-04-01 09:47:03] [INFO] Base - page has fully loaded.
+[2025-04-01 09:47:03] [INFO] Base - Scrolled to element with ID 'thatsAllFolks'
+[2025-04-01 09:47:03] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze S AT i-Vtech
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 3.05 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 3.50 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 3.60 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda City 2008-2011 Honda City 1.5 S MT
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 4.00 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda Jazz 2014-2020 Honda Jazz 1.2 SV i VTEC
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 3.85 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda City ZX 2005-2008 Honda City GXi
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 2.10 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze VX i-Vtech
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 4.00 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda Civic 2010-2013 Honda Civic 1.8 V MT
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 3.00 Lakh
+[2025-04-01 09:47:04] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio E MT
+[2025-04-01 09:47:04] [INFO] Base - Car Price: Rs. 1.90 Lakh
+[2025-04-01 09:47:04] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:47:04] [INFO] Base - Car Price: Rs. 2.48 Lakh
+[2025-04-01 09:47:05] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-01 09:47:05] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-01 09:47:08] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 09:47:36] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:47:46] [INFO] Base - Chrome has been selected
+[2025-04-01 09:47:52] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:47:52] [INFO] Base - accepted cookies
+[2025-04-01 09:47:54] [INFO] Base - page has fully loaded.
+[2025-04-01 09:47:55] [INFO] Base - page has fully loaded.
+[2025-04-01 09:47:56] [INFO] Base - Scrolled to element with ID 'thatsAllFolks'
+[2025-04-01 09:47:56] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda Jazz 2014-2020 Honda Jazz 1.2 SV i VTEC
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 3.85 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda Amaze 2016-2021 Honda Amaze S Petrol
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 3.65 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 3.05 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 3.60 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda City ZX 2005-2008 Honda City GXi
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 2.10 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze S AT i-Vtech
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 3.50 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda City 2008-2011 Honda City 1.5 S MT
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 4.00 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze VX i-Vtech
+[2025-04-01 09:47:57] [INFO] Base - Car Price: Rs. 4.00 Lakh
+[2025-04-01 09:47:57] [INFO] Base - Car Name: Honda Civic 2010-2013 Honda Civic 1.8 V MT
+[2025-04-01 09:47:57] [INFO] Base - Car Price: Rs. 3.00 Lakh
+[2025-04-01 09:47:57] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio E MT
+[2025-04-01 09:47:57] [INFO] Base - Car Price: Rs. 1.90 Lakh
+[2025-04-01 09:47:58] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-01 09:47:58] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-01 09:47:59] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 09:52:29] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:52:43] [INFO] Base - Chrome has been selected
+[2025-04-01 09:52:48] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:52:49] [INFO] Base - accepted cookies
+[2025-04-01 09:52:51] [INFO] Base - page has fully loaded.
+[2025-04-01 09:52:52] [INFO] Base - page has fully loaded.
+[2025-04-01 09:52:52] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:52:52] [WARN] Base - Encountered stale element. Retrying...
+[2025-04-01 09:52:54] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-01 09:52:55] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-01 09:52:55] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 09:54:09] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:54:18] [INFO] Base - Chrome has been selected
+[2025-04-01 09:54:23] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:54:24] [INFO] Base - accepted cookies
+[2025-04-01 09:54:26] [INFO] Base - page has fully loaded.
+[2025-04-01 09:54:26] [INFO] Base - page has fully loaded.
+[2025-04-01 09:54:26] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:54:27] [WARN] Base - Encountered stale element. Retrying...
+[2025-04-01 09:54:28] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-01 09:54:28] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-01 09:54:29] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 09:54:55] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:55:06] [INFO] Base - Chrome has been selected
+[2025-04-01 09:55:12] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:55:12] [INFO] Base - accepted cookies
+[2025-04-01 09:55:14] [INFO] Base - page has fully loaded.
+[2025-04-01 09:55:15] [INFO] Base - page has fully loaded.
+[2025-04-01 09:55:15] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:55:17] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-01 09:55:17] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-01 09:55:20] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 09:55:37] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:55:49] [INFO] Base - Chrome has been selected
+[2025-04-01 09:55:55] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:55:56] [INFO] Base - accepted cookies
+[2025-04-01 09:55:57] [INFO] Base - page has fully loaded.
+[2025-04-01 09:55:58] [INFO] Base - page has fully loaded.
+[2025-04-01 09:55:58] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:55:58] [WARN] Base - Encountered stale element. Retrying...
+[2025-04-01 09:56:00] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-01 09:56:00] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-01 09:56:06] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0

@@ -4,27 +4,27 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import pages.BikesPage;
+import pages.NavigatingToBikes;
 import utils.Base;
 import utils.ReportUtils;
 import utils.TestListener;
 
 @Listeners(TestListener.class)
-public class BikesPageTests {
-    private BikesPage bikesPage;
+public class NavigatingToBikesTests {
+    private NavigatingToBikes navigatingToBikes;
 
     @BeforeTest
     public void setup() {
         Base.getDriver();
-        bikesPage = new BikesPage();
-        bikesPage.init();
+        navigatingToBikes = new NavigatingToBikes();
+        navigatingToBikes.init();
         ReportUtils.setUpExtentReport();
     }
 
     @Test
     public void NavigatingToBikesPageTest() {
         ReportUtils.createTest("Navigating to Bikes page Test");
-        bikesPage.navigatingToBikesPage();
+        navigatingToBikes.navigatingToBikesPage();
         ReportUtils.getTest().pass("Navigated to Bikes page Successfully");
     }
 

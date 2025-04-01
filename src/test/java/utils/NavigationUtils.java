@@ -1,11 +1,15 @@
 package utils;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+
+import static utils.Base.driver;
 
 public class NavigationUtils {
     public static String getTestingSiteUrl(String propertyKey) {
@@ -31,5 +35,12 @@ public class NavigationUtils {
             Base.logger.error("Element not visible after waiting for {} seconds",waitTime);
             throw new RuntimeException("Failed waiitng for element visibility");
         }
+    }
+
+    public static void waitPageLoad() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(7));
+        wait.until((ExpectedCondition<Boolean>) wd ->
+                ((JavascriptExecutor) wd).executeScript("return document.readyState").equals("complete"));
+        Base.logger.info("page has fully loaded.");
     }
 }

@@ -1,6 +1,5 @@
 package pages;
 
-import io.cucumber.java.eo.Se;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -9,13 +8,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.Base;
 import utils.NavigationUtils;
+import static utils.NavigationUtils.waitPageLoad;
 
 public class CarPage {
     @FindBy(id = "priceTo") WebElement maxPrice;
     @FindBy(css = "[data-track-label=\"search-brand\"]") WebElement searchBrand;
+    @FindBy(id = "thatsAllFolks") WebElement endOfPage;
 
     WebDriver driver = Base.driver;
-    HomePage homePage = new HomePage();
 
     public CarPage(){
         PageFactory.initElements(driver,this);
@@ -40,12 +40,16 @@ public class CarPage {
         searchBrand.sendKeys(Keys.ENTER);
     }
 
+//    public void scrollToBottomOfPage() {
+//
+//
+//    }
+
     public void filterCars() {
         filterPrice();
+        waitPageLoad();
         searchForOnlyHonda();
+        waitPageLoad();
     }
-
-
-
 
 }

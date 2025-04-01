@@ -9,16 +9,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import utils.Base;
 import utils.NavigationUtils;
-
 import java.time.Duration;
 
 
-public class HomePage extends Base {
+public class VerifyingHomePage extends Base {
     @FindBy(css = "img.banner.mobileimage") WebElement bannerImg;
     @FindBy(css = "p.fc-button-label") WebElement cookieConsentBtn;
 
 
-    public HomePage() {
+    public VerifyingHomePage() {
         PageFactory.initElements(driver, this);
     }
 

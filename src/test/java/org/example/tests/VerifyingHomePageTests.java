@@ -5,28 +5,28 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import pages.HomePage;
+import pages.VerifyingHomePage;
 import utils.Base;
 import utils.ReportUtils;
 import utils.TestListener;
 
 @Listeners(TestListener.class)
-public class HomePageTests {
-    private HomePage homePage;
+public class VerifyingHomePageTests {
+    private VerifyingHomePage verifyingHomePage;
 
     @BeforeTest
     public void setup() {
         Base.getDriver();
-        homePage = new HomePage();
-        homePage.init();
+        verifyingHomePage = new VerifyingHomePage();
+        verifyingHomePage.init();
         ReportUtils.setUpExtentReport();
     }
 
     @Test
     public void homepageTest() {
         ReportUtils.createTest("Homepage Test");
-        homePage.clickingCookieConsentBtn();
-        Assert.assertTrue(homePage.verifyOnHomePage(), "Failed to verify homepage navigation.");
+        verifyingHomePage.clickingCookieConsentBtn();
+        Assert.assertTrue(verifyingHomePage.verifyOnHomePage(), "Failed to verify homepage navigation.");
         ReportUtils.getTest().pass("Verified Homepage navigation");
     }
 

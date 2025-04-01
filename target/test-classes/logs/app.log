@@ -26,137 +26,118 @@
 [2025-03-31 14:43:36] [INFO] Base - Test Passed: PASS: WebScrapingBikes
 [2025-03-31 14:43:39] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
 [2025-03-31 14:48:49] [INFO] Base - Test suite started: ZigWheelsAutomationProject
-[2025-03-31 14:48:58] [INFO] Base - Chrome has been selected
+[2025-03-31 14:48:58] [INFO] Base - Chrome has been selecte
 [2025-03-31 14:49:03] [INFO] Base - Waiting 5 seconds for accept cookies button to display
 [2025-03-31 14:49:03] [INFO] Base - accepted cookies
 [2025-03-31 14:49:04] [INFO] Base - Clicked view more bikes
 [2025-03-31 14:49:04] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
 [2025-03-31 14:49:06] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
-[2025-03-31 14:49:06] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-03-31 14:49:06] [INFO] Base - Test Passed: PASS: WebScrapingBike
 [2025-03-31 14:49:08] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
 [2025-03-31 20:51:56] [INFO] Base - Test suite started: ZigWheelsAutomationProject
-[2025-03-31 20:52:06] [INFO] Base - Chrome has been selected
+[2025-03-31 20:52:06] [INFO] Base - Chrome has been elected
 [2025-03-31 20:52:12] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
 [2025-03-31 20:52:12] [ERROR] Base - Test Failed: FAIL: WebScrapingBikes
 [2025-03-31 20:52:15] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
 [2025-03-31 20:52:36] [INFO] Base - Test suite started: ZigWheelsAutomationProject
 [2025-03-31 20:52:45] [INFO] Base - Chrome has been selected
-[2025-03-31 20:52:51] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
+[2025-03-31 20:52:51] [ERROR] Base - Error occurred while tying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
 [2025-03-31 20:52:51] [ERROR] Base - Test Failed: FAIL: WebScrapingBikes
 [2025-03-31 20:52:55] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
-[2025-03-31 20:53:36] [INFO] Base - Test suite started: ZigWheelsAutomationProject
-[2025-03-31 20:53:45] [INFO] Base - Chrome has been selected
+[2025-03-31 20:53:36] [INFO] Base - Test suite started: ZigWheelsAutomationProject[2025-03-31 20:53:45] [INFO] Base - Chrome has been selected
 [2025-03-31 20:53:51] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
 [2025-03-31 20:53:51] [ERROR] Base - Test Failed: FAIL: WebScrapingBikes
 [2025-03-31 20:53:54] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
 [2025-03-31 20:55:51] [INFO] Base - Test suite started: ZigWheelsAutomationProject
-[2025-03-31 20:56:01] [INFO] Base - Chrome has been selected
-[2025-03-31 20:56:07] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
+[2025-03-31 20:56:01] [INFO] Base - Chrome has been selected[2025-03-31 20:56:07] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
 [2025-03-31 20:56:07] [ERROR] Base - Test Failed: FAIL: WebScrapingBikes
-[2025-03-31 20:56:10] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-31 20:56:10] [INFO] Base - Test suite finished. Pased: 0, Failed: 1, Skipped: 0
 [2025-03-31 20:59:51] [INFO] Base - Test suite started: ZigWheelsAutomationProject
 [2025-03-31 21:00:01] [INFO] Base - Chrome has been selected
 [2025-03-31 21:00:01] [INFO] Base - PageFactory initialised
 [2025-03-31 21:00:06] [INFO] Base - Started test: Homepage Test
 [2025-03-31 21:00:07] [INFO] Base - Waiting 5 seconds for accept cookies button to display
-[2025-03-31 21:00:07] [INFO] Base - accepted cookies
-[2025-03-31 21:00:07] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-03-31 21:00:07] [INFO] Base - accepted cookies[2025-03-31 21:00:07] [INFO] Base - Waiting 5 seconds for banner image to load
 [2025-03-31 21:00:07] [INFO] Base - The Banner image is present, navigated to home page successfully
-[2025-03-31 21:00:07] [INFO] Base - Test Passed: PASS: homepageTest
+[2025-03-31 21:00:07] [INFO] Base - Test Passed: PAS: homepageTest
 [2025-03-31 21:00:10] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
 [2025-03-31 21:00:35] [INFO] Base - Test suite started: ZigWheelsAutomationProject
 [2025-03-31 21:00:44] [INFO] Base - Chrome has been selected
 [2025-03-31 21:00:45] [INFO] Base - Pagefactory for Navigating to bikes page initialised
 [2025-03-31 21:00:47] [INFO] Base - Started test: Navigating to Bikes page Test
-[2025-03-31 21:00:50] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 21:00:50] [INFO] Base - Waiting 5 seconds for acept cookies button to display
 [2025-03-31 21:00:50] [INFO] Base - accepted cookies
 [2025-03-31 21:00:52] [INFO] Base - New bikes link pressed
-[2025-03-31 21:00:53] [INFO] Base - Navigated to Upcoming bikes tab
-[2025-03-31 21:00:54] [INFO] Base - scrolled down by 800 pixels
+[2025-03-31 21:00:53] [INFO] Base - Navigated to Upcoming bikes tab[2025-03-31 21:00:54] [INFO] Base - scrolled down by 800 pixels
 [2025-03-31 21:00:55] [INFO] Base - All upcoming bikes link pressed
 [2025-03-31 21:00:55] [INFO] Base - Upcoming Bikes page has fully loaded.
 [2025-03-31 21:00:57] [INFO] Base - Filtered by Manufacturer: Honda
 [2025-03-31 21:00:58] [INFO] Base - Clicked view more bikes
-[2025-03-31 21:00:58] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-03-31 21:00:58] [INFO] Base - Test Passed: PAS: NavigatingToBikesPageTest
 [2025-03-31 21:01:03] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
 [2025-03-31 21:04:45] [INFO] Base - Test suite started: ZigWheelsAutomationProject
-[2025-03-31 21:04:54] [INFO] Base - Chrome has been selected
-[2025-03-31 21:04:59] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 21:04:54] [INFO] Base - Chrome has been selected[2025-03-31 21:04:59] [INFO] Base - Waiting 5 seconds for accept cookies button to display
 [2025-03-31 21:05:00] [INFO] Base - accepted cookies
 [2025-03-31 21:05:01] [INFO] Base - Clicked view more bikes
 [2025-03-31 21:05:01] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
 [2025-03-31 21:05:03] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
-[2025-03-31 21:05:03] [INFO] Base - Test Passed: PASS: WebScrapingBikes
-[2025-03-31 21:05:09] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 21:05:03] [INFO] Base - Test Passed: PASS: WebScrapingBikes[2025-03-31 21:05:09] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
 [2025-03-31 21:09:16] [INFO] Base - Test suite started: ZigWheelsAutomationProject
-[2025-03-31 21:09:25] [INFO] Base - Chrome has been selected
-[2025-03-31 21:09:30] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 21:09:25] [INFO] Base - Chrome has been selected[2025-03-31 21:09:30] [INFO] Base - Waiting 5 seconds for accept cookies button to display
 [2025-03-31 21:09:30] [INFO] Base - accepted cookies
 [2025-03-31 21:09:31] [INFO] Base - Clicked view more bikes
 [2025-03-31 21:09:31] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
 [2025-03-31 21:09:34] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
-[2025-03-31 21:09:34] [INFO] Base - Test Passed: PASS: WebScrapingBikes
-[2025-03-31 21:09:40] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 21:09:34] [INFO] Base - Test Passed: PASS: WebScrapingBikes[2025-03-31 21:09:40] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
 [2025-03-31 21:11:53] [INFO] Base - Test suite started: ZigWheelsAutomationProject
-[2025-03-31 21:12:03] [INFO] Base - Chrome has been selected
-[2025-03-31 21:12:11] [INFO] Base - Waiting 5 seconds for accept cookies button to display
-[2025-03-31 21:12:11] [INFO] Base - accepted cookies
-[2025-03-31 21:12:12] [INFO] Base - Clicked view more bikes
-[2025-03-31 21:12:12] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 21:12:03] [INFO] Base - Chrome has been selected[2025-03-31 21:12:11] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 21:12:11] [INFO] Base - accepted cookies[2025-03-31 21:12:12] [INFO] Base - Clicked view more bikes
+[2025-03-31 21:12:12] [INFO] Base - Pulling Bike model names, price, and expected launch dates from site
 [2025-03-31 21:12:15] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
-[2025-03-31 21:12:15] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-03-31 21:12:15] [INFO] Base - Test Passed: PASS: WebScrapingBkes
 [2025-03-31 21:12:21] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
-[2025-03-31 21:15:18] [INFO] Base - Test suite started: ZigWheelsAutomationProject
-[2025-03-31 21:15:27] [INFO] Base - Chrome has been selected
+[2025-03-31 21:15:18] [INFO] Base - Test suite started: ZigWheelsAuomationProject
+[2025-03-31 21:15:27] [INFO] Base - Chrome has been selecte
 [2025-03-31 21:15:32] [INFO] Base - Waiting 5 seconds for accept cookies button to display
 [2025-03-31 21:15:32] [INFO] Base - accepted cookies
 [2025-03-31 21:15:33] [INFO] Base - Clicked view more bikes
 [2025-03-31 21:15:34] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
 [2025-03-31 21:15:35] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
-[2025-03-31 21:15:35] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-03-31 21:15:35] [INFO] Base - Test Passed: PASS: WebScapingBikes
 [2025-03-31 21:15:39] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
 [2025-03-31 21:21:11] [INFO] Base - Test suite started: ZigWheelsAutomationProject
-[2025-03-31 21:21:21] [INFO] Base - Chrome has been selected
-[2025-03-31 21:21:21] [ERROR] Base - Test Failed: FAIL: webScrapingCars
-[2025-03-31 21:21:24] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-31 21:21:21] [INFO] Base - Chrome has been selected[2025-03-31 21:21:21] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-03-31 21:21:24] [INFO] Base - Test suite finished. Passed: 0, Failed: 1,Skipped: 0
 [2025-03-31 21:24:03] [INFO] Base - Test suite started: ZigWheelsAutomationProject
-[2025-03-31 21:24:12] [INFO] Base - Chrome has been selected
-[2025-03-31 21:24:12] [ERROR] Base - Test Failed: FAIL: webScrapingCars
-[2025-03-31 21:24:15] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-31 21:24:12] [INFO] Base - Chrome has been selected[2025-03-31 21:24:12] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-03-31 21:24:15] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skiped: 0
 [2025-03-31 21:27:17] [INFO] Base - Test suite started: ZigWheelsAutomationProject
-[2025-03-31 21:27:27] [INFO] Base - Chrome has been selected
-[2025-03-31 21:27:34] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-03-31 21:27:27] [INFO] Base - Chrome has been selecte
+[2025-03-31 21:27:34] [ERROR] Base - Test Failed: FAIL: webScraingCars
 [2025-03-31 21:27:38] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
 [2025-03-31 21:28:00] [INFO] Base - Test suite started: ZigWheelsAutomationProject
 [2025-03-31 21:28:10] [INFO] Base - Chrome has been selected
 [2025-03-31 21:28:16] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
 [2025-03-31 21:28:16] [ERROR] Base - Test Failed: FAIL: webScrapingCars
-[2025-03-31 21:28:19] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
-[2025-03-31 21:28:53] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 21:28:19] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0[2025-03-31 21:28:53] [INFO] Base - Test suite started: ZigWheelsAutomationProject
 [2025-03-31 21:29:02] [INFO] Base - Chrome has been selected
-[2025-03-31 21:29:08] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
+[2025-03-31 21:29:08] [ERROR] Base - Error occurred hile trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
 [2025-03-31 21:29:08] [ERROR] Base - Test Failed: FAIL: webScrapingCars
-[2025-03-31 21:29:11] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
-[2025-03-31 21:29:29] [INFO] Base - Test suite started: ZigWheelsAutomationProject
-[2025-03-31 21:29:38] [INFO] Base - Chrome has been selected
-[2025-03-31 21:29:44] [ERROR] Base - Test Failed: FAIL: webScrapingCars
-[2025-03-31 21:29:48] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
-[2025-03-31 21:30:02] [INFO] Base - Test suite started: ZigWheelsAutomationProject
-[2025-03-31 21:30:12] [INFO] Base - Chrome has been selected
-[2025-03-31 21:30:17] [INFO] Base - Waiting 5 seconds for accept cookies button to display
-[2025-03-31 21:30:18] [INFO] Base - accepted cookies
+[2025-03-31 21:29:11] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0[2025-03-31 21:29:29] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 21:29:38] [INFO] Base - Chrome has been selected[2025-03-31 21:29:44] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-03-31 21:29:48] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0[2025-03-31 21:30:02] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 21:30:12] [INFO] Base - Chrome has been selecte
+[2025-03-31 21:30:17] [INFO] Base - Waiting 5 seconds for accept cookies button to display[2025-03-31 21:30:18] [INFO] Base - accepted cookies
 [2025-03-31 21:30:19] [INFO] Base - Test Passed: PASS: webScrapingCars
 [2025-03-31 21:30:23] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
 [2025-03-31 21:37:15] [INFO] Base - Test suite started: ZigWheelsAutomationProject
 [2025-03-31 21:37:25] [INFO] Base - Chrome has been selected
-[2025-03-31 21:37:30] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 21:37:30] [INFO] Base - Waiting 5 second for accept cookies button to display
 [2025-03-31 21:37:31] [INFO] Base - accepted cookies
 [2025-03-31 21:37:33] [INFO] Base - Test Passed: PASS: webScrapingCars
-[2025-03-31 21:37:37] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
-[2025-03-31 21:37:50] [INFO] Base - Test suite started: ZigWheelsAutomationProject
-[2025-03-31 21:38:00] [INFO] Base - Chrome has been selected
-[2025-03-31 21:38:06] [INFO] Base - Waiting 5 seconds for accept cookies button to display
-[2025-03-31 21:38:06] [INFO] Base - accepted cookies
+[2025-03-31 21:37:37] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0[2025-03-31 21:37:50] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 21:38:00] [INFO] Base - Chrome has been selected[2025-03-31 21:38:06] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+2025-03-31 21:38:06] [INFO] Base - accepted cookies
 [2025-03-31 21:38:08] [INFO] Base - Test Passed: PASS: webScrapingCars
 [2025-03-31 21:38:13] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
 [2025-03-31 21:39:11] [INFO] Base - Test suite started: ZigWheelsAutomationProject
@@ -182,3 +163,339 @@
 [2025-03-31 21:42:12] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
 [2025-03-31 21:42:12] [ERROR] Base - Test Failed: FAIL: WebScrapingBikes
 [2025-03-31 21:42:13] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-31 21:42:26] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 21:42:35] [INFO] Base - Chrome has been selected
+[2025-03-31 21:42:40] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 21:42:40] [INFO] Base - accepted cookies
+[2025-03-31 21:42:41] [INFO] Base - Clicked view more bikes
+[2025-03-31 21:42:41] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-03-31 21:42:45] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-03-31 21:42:45] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-03-31 21:42:46] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 22:25:26] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 22:25:36] [INFO] Base - Chrome has been selected
+[2025-03-31 22:25:42] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 22:25:42] [INFO] Base - accepted cookies
+[2025-03-31 22:25:45] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 22:25:47] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-03-31 22:25:47] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-03-31 22:25:51] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 22:38:44] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 22:38:54] [INFO] Base - Chrome has been selected
+[2025-03-31 22:38:59] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 22:39:00] [INFO] Base - accepted cookies
+[2025-03-31 22:39:02] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 22:39:02] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-03-31 22:39:02] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-03-31 22:39:02] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze S AT i-Vtech
+[2025-03-31 22:39:02] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-03-31 22:39:02] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-03-31 22:39:02] [INFO] Base - Car Price: Rs. 3.05 Lakh
+[2025-03-31 22:39:02] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-03-31 22:39:02] [INFO] Base - Car Price: Rs. 3.50 Lakh
+[2025-03-31 22:39:02] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-03-31 22:39:06] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-31 22:40:00] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 22:40:09] [INFO] Base - Chrome has been selected
+[2025-03-31 22:40:15] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 22:40:15] [INFO] Base - accepted cookies
+[2025-03-31 22:40:17] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 22:40:17] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-03-31 22:40:22] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-31 22:51:09] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 22:51:18] [INFO] Base - Chrome has been selected
+[2025-03-31 22:51:24] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 22:51:24] [INFO] Base - accepted cookies
+[2025-03-31 22:51:34] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 22:51:37] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-03-31 22:51:37] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-03-31 22:51:43] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 23:05:32] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 23:05:41] [INFO] Base - Chrome has been selected
+[2025-03-31 23:05:46] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 23:05:46] [INFO] Base - accepted cookies
+[2025-03-31 23:05:48] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 23:05:49] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-03-31 23:05:52] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-31 23:08:25] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 23:08:34] [INFO] Base - Chrome has been selected
+[2025-03-31 23:08:39] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 23:08:39] [INFO] Base - accepted cookies
+[2025-03-31 23:08:40] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 23:08:41] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-03-31 23:08:48] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-31 23:09:41] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 23:09:49] [INFO] Base - Chrome has been selected
+[2025-03-31 23:09:54] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 23:09:54] [INFO] Base - accepted cookies
+[2025-03-31 23:09:55] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 23:09:57] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-03-31 23:09:57] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-03-31 23:10:02] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 23:12:29] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 23:12:37] [INFO] Base - Chrome has been selected
+[2025-03-31 23:12:42] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 23:12:42] [INFO] Base - accepted cookies
+[2025-03-31 23:12:43] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-31 23:12:43] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 23:12:44] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-03-31 23:12:44] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-03-31 23:12:49] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 23:15:14] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 23:15:21] [INFO] Base - Chrome has been selected
+[2025-03-31 23:15:27] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 23:15:27] [INFO] Base - accepted cookies
+[2025-03-31 23:15:27] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-31 23:15:28] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Brio 2011-2013 Honda Brio S MTcar price Rs. 3.16 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Amaze 2013-2016 Honda Amaze S AT i-Vtechcar price Rs. 3.90 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Brio 2011-2013 Honda Brio S MTcar price Rs. 3.05 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Brio 2013-2016 Honda Brio S MTcar price Rs. 3.50 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Brio 2013-2016 Honda Brio S MTcar price Rs. 3.60 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda City 2008-2011 Honda City 1.5 S MTcar price Rs. 4.00 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda BR-V Honda BR-V i-VTEC V MTcar price Rs. 3.90 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Jazz 2014-2020 Honda Jazz 1.2 SV i VTECcar price Rs. 3.85 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda City ZX 2005-2008 Honda City GXicar price Rs. 2.10 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Amaze 2013-2016 Honda Amaze VX i-Vtechcar price Rs. 4.00 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Civic 2010-2013 Honda Civic 1.8 V MTcar price Rs. 3.00 Lakh
+[2025-03-31 23:15:28] [INFO] Base - car nameHonda Brio 2011-2013 Honda Brio E MTcar price Rs. 1.90 Lakh
+[2025-03-31 23:15:29] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-03-31 23:15:29] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-03-31 23:15:34] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-03-31 23:16:42] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 23:16:50] [INFO] Base - Chrome has been selected
+[2025-03-31 23:16:55] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 23:16:56] [INFO] Base - accepted cookies
+[2025-03-31 23:16:57] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-31 23:16:57] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze S AT i-Vtech
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 3.05 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 3.50 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 3.60 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda City 2008-2011 Honda City 1.5 S MT
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 4.00 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda BR-V Honda BR-V i-VTEC V MT
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda Jazz 2014-2020 Honda Jazz 1.2 SV i VTEC
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 3.85 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda City ZX 2005-2008 Honda City GXi
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 2.10 Lakh
+[2025-03-31 23:16:57] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze VX i-Vtech
+[2025-03-31 23:16:57] [INFO] Base - Car Price: Rs. 4.00 Lakh
+[2025-03-31 23:16:57] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-03-31 23:17:03] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-03-31 23:19:27] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-03-31 23:19:35] [INFO] Base - Chrome has been selected
+[2025-03-31 23:19:40] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-03-31 23:19:40] [INFO] Base - accepted cookies
+[2025-03-31 23:19:42] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-31 23:19:42] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-03-31 23:19:42] [INFO] Base - Pulling Car Name and Car Price
+[2025-03-31 23:19:42] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-03-31 23:19:42] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-03-31 23:19:42] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze S AT i-Vtech
+[2025-03-31 23:19:42] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-03-31 23:19:42] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-03-31 23:19:42] [INFO] Base - Car Price: Rs. 3.05 Lakh
+[2025-03-31 23:19:42] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-03-31 23:19:42] [INFO] Base - Car Price: Rs. 3.50 Lakh
+[2025-03-31 23:19:43] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-03-31 23:19:49] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 09:14:33] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:14:43] [INFO] Base - Chrome has been selected
+[2025-04-01 09:14:49] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:14:49] [INFO] Base - accepted cookies
+[2025-04-01 09:14:50] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-04-01 09:14:51] [INFO] Base - Upcoming Bikes page has fully loaded.
+[2025-04-01 09:14:51] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:14:51] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:14:51] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-04-01 09:14:51] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze S AT i-Vtech
+[2025-04-01 09:14:51] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-04-01 09:14:51] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-04-01 09:14:55] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 09:30:04] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:30:16] [INFO] Base - Chrome has been selected
+[2025-04-01 09:30:22] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:30:22] [INFO] Base - accepted cookies
+[2025-04-01 09:30:23] [INFO] Base - Clicked view more bikes
+[2025-04-01 09:30:23] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-01 09:30:25] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-01 09:30:25] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-04-01 09:30:29] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 09:31:09] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:31:19] [INFO] Base - Chrome has been selected
+[2025-04-01 09:31:24] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:31:25] [INFO] Base - accepted cookies
+[2025-04-01 09:31:26] [INFO] Base - page has fully loaded.
+[2025-04-01 09:31:27] [INFO] Base - page has fully loaded.
+[2025-04-01 09:31:27] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:31:27] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:31:27] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-04-01 09:31:27] [INFO] Base - Car Name: Honda Jazz 2014-2020 Honda Jazz 1.2 SV i VTEC
+[2025-04-01 09:31:27] [INFO] Base - Car Price: Rs. 3.85 Lakh
+[2025-04-01 09:31:27] [INFO] Base - Car Name: Honda Amaze 2016-2021 Honda Amaze S Petrol
+[2025-04-01 09:31:27] [INFO] Base - Car Price: Rs. 3.65 Lakh
+[2025-04-01 09:31:28] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:31:28] [INFO] Base - Car Price: Rs. 3.05 Lakh
+[2025-04-01 09:31:28] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-04-01 09:31:28] [INFO] Base - Car Price: Rs. 3.60 Lakh
+[2025-04-01 09:31:28] [INFO] Base - Car Name: Honda City ZX 2005-2008 Honda City GXi
+[2025-04-01 09:31:28] [INFO] Base - Car Price: Rs. 2.10 Lakh
+[2025-04-01 09:31:28] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze S AT i-Vtech
+[2025-04-01 09:31:28] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-04-01 09:31:28] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-04-01 09:31:28] [INFO] Base - Car Price: Rs. 3.50 Lakh
+[2025-04-01 09:31:28] [INFO] Base - Car Name: Honda City 2008-2011 Honda City 1.5 S MT
+[2025-04-01 09:31:28] [INFO] Base - Car Price: Rs. 4.00 Lakh
+[2025-04-01 09:31:28] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze VX i-Vtech
+[2025-04-01 09:31:28] [INFO] Base - Car Price: Rs. 4.00 Lakh
+[2025-04-01 09:31:28] [INFO] Base - Car Name: Honda Civic 2010-2013 Honda Civic 1.8 V MT
+[2025-04-01 09:31:28] [INFO] Base - Car Price: Rs. 3.00 Lakh
+[2025-04-01 09:31:29] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio E MT
+[2025-04-01 09:31:29] [INFO] Base - Car Price: Rs. 1.90 Lakh
+[2025-04-01 09:31:29] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-01 09:31:29] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-01 09:31:35] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 09:37:29] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:37:38] [INFO] Base - Chrome has been selected
+[2025-04-01 09:37:45] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:37:46] [INFO] Base - accepted cookies
+[2025-04-01 09:37:47] [INFO] Base - page has fully loaded.
+[2025-04-01 09:37:47] [INFO] Base - page has fully loaded.
+[2025-04-01 09:37:47] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:37:47] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:37:47] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-04-01 09:37:48] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze S AT i-Vtech
+[2025-04-01 09:37:48] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-04-01 09:37:48] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:37:48] [INFO] Base - Car Price: Rs. 3.05 Lakh
+[2025-04-01 09:37:48] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-04-01 09:37:52] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 09:45:08] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:45:21] [INFO] Base - Chrome has been selected
+[2025-04-01 09:45:27] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:45:27] [INFO] Base - accepted cookies
+[2025-04-01 09:45:29] [INFO] Base - page has fully loaded.
+[2025-04-01 09:45:30] [INFO] Base - page has fully loaded.
+[2025-04-01 09:45:30] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:45:30] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:45:30] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-04-01 09:45:30] [INFO] Base - Car Name: Honda Jazz 2014-2020 Honda Jazz 1.2 SV i VTEC
+[2025-04-01 09:45:30] [INFO] Base - Car Price: Rs. 3.85 Lakh
+[2025-04-01 09:45:30] [INFO] Base - Car Name: Honda Amaze 2016-2021 Honda Amaze S Petrol
+[2025-04-01 09:45:31] [INFO] Base - Car Price: Rs. 3.65 Lakh
+[2025-04-01 09:45:31] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:45:31] [INFO] Base - Car Price: Rs. 3.05 Lakh
+[2025-04-01 09:45:31] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-04-01 09:45:31] [INFO] Base - Car Price: Rs. 3.60 Lakh
+[2025-04-01 09:45:31] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-04-01 09:45:35] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 09:46:44] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:46:54] [INFO] Base - Chrome has been selected
+[2025-04-01 09:47:00] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:47:00] [INFO] Base - accepted cookies
+[2025-04-01 09:47:02] [INFO] Base - page has fully loaded.
+[2025-04-01 09:47:03] [INFO] Base - page has fully loaded.
+[2025-04-01 09:47:03] [INFO] Base - Scrolled to element with ID 'thatsAllFolks'
+[2025-04-01 09:47:03] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze S AT i-Vtech
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 3.05 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 3.50 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 3.60 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda City 2008-2011 Honda City 1.5 S MT
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 4.00 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda Jazz 2014-2020 Honda Jazz 1.2 SV i VTEC
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 3.85 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda City ZX 2005-2008 Honda City GXi
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 2.10 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze VX i-Vtech
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 4.00 Lakh
+[2025-04-01 09:47:03] [INFO] Base - Car Name: Honda Civic 2010-2013 Honda Civic 1.8 V MT
+[2025-04-01 09:47:03] [INFO] Base - Car Price: Rs. 3.00 Lakh
+[2025-04-01 09:47:04] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio E MT
+[2025-04-01 09:47:04] [INFO] Base - Car Price: Rs. 1.90 Lakh
+[2025-04-01 09:47:04] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:47:04] [INFO] Base - Car Price: Rs. 2.48 Lakh
+[2025-04-01 09:47:05] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-01 09:47:05] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-01 09:47:08] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 09:47:36] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:47:46] [INFO] Base - Chrome has been selected
+[2025-04-01 09:47:52] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:47:52] [INFO] Base - accepted cookies
+[2025-04-01 09:47:54] [INFO] Base - page has fully loaded.
+[2025-04-01 09:47:55] [INFO] Base - page has fully loaded.
+[2025-04-01 09:47:56] [INFO] Base - Scrolled to element with ID 'thatsAllFolks'
+[2025-04-01 09:47:56] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 3.16 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda Jazz 2014-2020 Honda Jazz 1.2 SV i VTEC
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 3.85 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda Amaze 2016-2021 Honda Amaze S Petrol
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 3.65 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio S MT
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 3.05 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 3.60 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda City ZX 2005-2008 Honda City GXi
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 2.10 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze S AT i-Vtech
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 3.90 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda Brio 2013-2016 Honda Brio S MT
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 3.50 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda City 2008-2011 Honda City 1.5 S MT
+[2025-04-01 09:47:56] [INFO] Base - Car Price: Rs. 4.00 Lakh
+[2025-04-01 09:47:56] [INFO] Base - Car Name: Honda Amaze 2013-2016 Honda Amaze VX i-Vtech
+[2025-04-01 09:47:57] [INFO] Base - Car Price: Rs. 4.00 Lakh
+[2025-04-01 09:47:57] [INFO] Base - Car Name: Honda Civic 2010-2013 Honda Civic 1.8 V MT
+[2025-04-01 09:47:57] [INFO] Base - Car Price: Rs. 3.00 Lakh
+[2025-04-01 09:47:57] [INFO] Base - Car Name: Honda Brio 2011-2013 Honda Brio E MT
+[2025-04-01 09:47:57] [INFO] Base - Car Price: Rs. 1.90 Lakh
+[2025-04-01 09:47:58] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-01 09:47:58] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-01 09:47:59] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 09:52:29] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:52:43] [INFO] Base - Chrome has been selected
+[2025-04-01 09:52:48] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:52:49] [INFO] Base - accepted cookies
+[2025-04-01 09:52:51] [INFO] Base - page has fully loaded.
+[2025-04-01 09:52:52] [INFO] Base - page has fully loaded.
+[2025-04-01 09:52:52] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:52:52] [WARN] Base - Encountered stale element. Retrying...
+[2025-04-01 09:52:54] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-01 09:52:55] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-01 09:52:55] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 09:54:09] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:54:18] [INFO] Base - Chrome has been selected
+[2025-04-01 09:54:23] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:54:24] [INFO] Base - accepted cookies
+[2025-04-01 09:54:26] [INFO] Base - page has fully loaded.
+[2025-04-01 09:54:26] [INFO] Base - page has fully loaded.
+[2025-04-01 09:54:26] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:54:27] [WARN] Base - Encountered stale element. Retrying...
+[2025-04-01 09:54:28] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-01 09:54:28] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-01 09:54:29] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 09:54:55] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:55:06] [INFO] Base - Chrome has been selected
+[2025-04-01 09:55:12] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:55:12] [INFO] Base - accepted cookies
+[2025-04-01 09:55:14] [INFO] Base - page has fully loaded.
+[2025-04-01 09:55:15] [INFO] Base - page has fully loaded.
+[2025-04-01 09:55:15] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:55:17] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-01 09:55:17] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-01 09:55:20] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
