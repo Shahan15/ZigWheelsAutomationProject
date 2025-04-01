@@ -63,8 +63,7 @@ public class NavigatingToBikes extends Base {
             js.executeScript("arguments[0].scrollIntoView({behavior: 'instant', block: 'center', inline: 'nearest'});", moreBikesBtn);
 
             // Wait until the element becomes clickable
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-            wait.until(ExpectedConditions.elementToBeClickable(moreBikesBtn));
+            NavigationUtils.webDriverWait(driver,10,moreBikesBtn);
 
             // Attempt a regular click
             try {

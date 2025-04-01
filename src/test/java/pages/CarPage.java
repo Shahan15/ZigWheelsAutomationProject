@@ -10,7 +10,7 @@ import utils.Base;
 import utils.NavigationUtils;
 import static utils.NavigationUtils.waitPageLoad;
 
-public class CarPage {
+public class CarPage extends Base {
     @FindBy(id = "priceTo") WebElement maxPrice;
     @FindBy(css = "[data-track-label=\"search-brand\"]") WebElement searchBrand;
     @FindBy(id = "thatsAllFolks") WebElement endOfPage;
@@ -29,6 +29,7 @@ public class CarPage {
         maxPrice.click();
         maxPrice.sendKeys("4 Lakh");
         maxPrice.sendKeys(Keys.ENTER);
+        logger.info("Filtered by max price of 4 lakh");
     }
 
     public void searchForOnlyHonda(){
@@ -38,12 +39,10 @@ public class CarPage {
         searchBrand.sendKeys("Honda");
         searchBrand.sendKeys(Keys.ARROW_DOWN);
         searchBrand.sendKeys(Keys.ENTER);
-    }
 
-//    public void scrollToBottomOfPage() {
-//
-//
-//    }
+        logger.info("Filtered by car brand Honda");
+
+    }
 
     public void filterCars() {
         filterPrice();

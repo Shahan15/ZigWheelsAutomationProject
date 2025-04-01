@@ -41,7 +41,7 @@ public class TestListener implements ITestListener {
         test.log(Status.FAIL, "Results are NOT what was expected");
         logger.error("Test Failed: {}", testName);
          try {
-             String SSPath = ReportUtils.takeScreenshot();
+             String SSPath = ReportUtils.takeScreenshot("TestFailure Screenshot");
              test.addScreenCaptureFromPath(SSPath);
          } catch (Exception e) {
              logger.error("Error attaching screenshot: {}", e.getMessage());

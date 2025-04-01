@@ -499,3 +499,406 @@
 [2025-04-01 09:55:17] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
 [2025-04-01 09:55:17] [INFO] Base - Test Passed: PASS: webScrapingCars
 [2025-04-01 09:55:20] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 09:55:37] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 09:55:49] [INFO] Base - Chrome has been selected
+[2025-04-01 09:55:55] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 09:55:56] [INFO] Base - accepted cookies
+[2025-04-01 09:55:57] [INFO] Base - page has fully loaded.
+[2025-04-01 09:55:58] [INFO] Base - page has fully loaded.
+[2025-04-01 09:55:58] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 09:55:58] [WARN] Base - Encountered stale element. Retrying...
+[2025-04-01 09:56:00] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-01 09:56:00] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-01 09:56:06] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 10:43:55] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 10:43:55] [INFO] Base - PageFactory initialised
+[2025-04-01 10:43:55] [ERROR] Base - URL is empty for property key: HomePage
+[2025-04-01 10:43:55] [ERROR] Base - There was an error retrieving the URL: URL is not set for property key: HomePage
+[2025-04-01 10:43:55] [WARN] Base - Test Skipped: SKIPPED: googleLoginTest
+[2025-04-01 10:43:55] [INFO] Base - Test suite finished. Passed: 0, Failed: 0, Skipped: 1
+[2025-04-01 10:48:10] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 10:48:10] [ERROR] Base - URL is empty for property key: HomePage
+[2025-04-01 10:48:10] [ERROR] Base - There was an error retrieving the URL: URL is not set for property key: HomePage
+[2025-04-01 10:48:11] [WARN] Base - Test Skipped: SKIPPED: googleLoginTest
+[2025-04-01 10:48:11] [INFO] Base - Test suite finished. Passed: 0, Failed: 0, Skipped: 1
+[2025-04-01 10:48:49] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 10:49:00] [INFO] Base - Chrome has been selected
+[2025-04-01 10:49:00] [INFO] Base - PageFactory initialised
+[2025-04-01 10:49:04] [INFO] Base - Started test: Homepage Test
+[2025-04-01 10:49:07] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 10:49:07] [INFO] Base - accepted cookies
+[2025-04-01 10:49:08] [INFO] Base - Waiting 5 seconds for banner image to load
+[2025-04-01 10:49:08] [INFO] Base - The Banner image is present, navigated to home page successfully
+[2025-04-01 10:49:08] [INFO] Base - Test Passed: PASS: homepageTest
+[2025-04-01 10:49:11] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 10:49:26] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 10:49:34] [INFO] Base - Chrome has been selected
+[2025-04-01 10:49:40] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 10:49:41] [INFO] Base - accepted cookies
+[2025-04-01 10:49:42] [INFO] Base - page has fully loaded.
+[2025-04-01 10:49:42] [INFO] Base - page has fully loaded.
+[2025-04-01 10:49:42] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-01 10:49:43] [WARN] Base - Encountered stale element. Retrying...
+[2025-04-01 10:49:44] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-01 10:49:44] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-01 10:49:48] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 10:54:32] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 10:54:32] [ERROR] Base - URL is empty for property key: HomePage
+[2025-04-01 10:54:32] [ERROR] Base - There was an error retrieving the URL: URL is not set for property key: HomePage
+[2025-04-01 10:54:32] [WARN] Base - Test Skipped: SKIPPED: googleLoginTest
+[2025-04-01 10:54:33] [INFO] Base - Test suite finished. Passed: 0, Failed: 0, Skipped: 1
+[2025-04-01 10:55:16] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 10:55:16] [ERROR] Base - URL is empty for property key: HomePage
+[2025-04-01 10:55:16] [ERROR] Base - There was an error retrieving the URL: URL is not set for property key: HomePage
+[2025-04-01 10:55:16] [WARN] Base - Test Skipped: SKIPPED: googleLoginTest
+[2025-04-01 10:55:16] [INFO] Base - Test suite finished. Passed: 0, Failed: 0, Skipped: 1
+[2025-04-01 10:56:04] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 10:56:18] [INFO] Base - Chrome has been selected
+[2025-04-01 10:56:23] [ERROR] Base - Test Failed: FAIL: googleLoginTest
+[2025-04-01 10:56:25] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 10:56:58] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 10:57:14] [INFO] Base - Chrome has been selected
+[2025-04-01 10:57:20] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 10:57:21] [INFO] Base - accepted cookies
+[2025-04-01 10:57:21] [ERROR] Base - Test Failed: FAIL: googleLoginTest
+[2025-04-01 10:57:22] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 10:59:16] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 10:59:26] [INFO] Base - Chrome has been selected
+[2025-04-01 10:59:32] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 10:59:33] [INFO] Base - accepted cookies
+[2025-04-01 10:59:33] [ERROR] Base - Test Failed: FAIL: googleLoginTest
+[2025-04-01 10:59:37] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 11:01:49] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 11:02:02] [INFO] Base - Chrome has been selected
+[2025-04-01 11:02:08] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 11:02:08] [INFO] Base - accepted cookies
+[2025-04-01 11:02:09] [INFO] Base - clicked LoginButton
+[2025-04-01 11:02:09] [ERROR] Base - couldnt click google button no such element: Unable to locate element: {"method":"css selector","selector":"[data-track-label="Popup_Login/Register_with_Google"]"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01cc0c7ed16a80b0d328853b27d20116, findElement {value=[data-track-label="Popup_Login/Register_with_Google"], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61627}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61627/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 01cc0c7ed16a80b0d328853b27d20116
+[2025-04-01 11:02:09] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 11:02:12] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 12:31:43] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 12:31:52] [INFO] Base - Chrome has been selected
+[2025-04-01 12:31:52] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-01 12:31:55] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-01 12:32:00] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
+[2025-04-01 12:32:00] [ERROR] Base - Test Failed: FAIL: NavigatingToBikesPageTest
+[2025-04-01 12:32:06] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 12:32:21] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 12:32:29] [INFO] Base - Chrome has been selected
+[2025-04-01 12:32:29] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-01 12:32:32] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-01 12:32:35] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 12:32:35] [INFO] Base - accepted cookies
+[2025-04-01 12:32:36] [INFO] Base - New bikes link pressed
+[2025-04-01 12:32:36] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-01 12:32:36] [INFO] Base - scrolled down by 800 pixels
+[2025-04-01 12:32:38] [INFO] Base - All upcoming bikes link pressed
+[2025-04-01 12:32:38] [INFO] Base - page has fully loaded.
+[2025-04-01 12:32:39] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-01 12:32:39] [INFO] Base - Clicked view more bikes
+[2025-04-01 12:32:39] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-01 12:32:43] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 12:32:53] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 12:33:04] [INFO] Base - Chrome has been selected
+[2025-04-01 12:33:05] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-01 12:33:08] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-01 12:33:10] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 12:33:10] [INFO] Base - accepted cookies
+[2025-04-01 12:33:12] [INFO] Base - New bikes link pressed
+[2025-04-01 12:33:12] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-01 12:33:12] [INFO] Base - scrolled down by 800 pixels
+[2025-04-01 12:33:14] [INFO] Base - All upcoming bikes link pressed
+[2025-04-01 12:33:14] [INFO] Base - page has fully loaded.
+[2025-04-01 12:33:15] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-01 12:33:15] [INFO] Base - Clicked view more bikes
+[2025-04-01 12:33:15] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-01 12:33:24] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 12:33:32] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 12:33:40] [INFO] Base - Chrome has been selected
+[2025-04-01 12:33:40] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-01 12:33:43] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-01 12:33:46] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 12:33:46] [INFO] Base - accepted cookies
+[2025-04-01 12:33:48] [INFO] Base - New bikes link pressed
+[2025-04-01 12:33:48] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-01 12:33:48] [INFO] Base - scrolled down by 800 pixels
+[2025-04-01 12:33:49] [INFO] Base - All upcoming bikes link pressed
+[2025-04-01 12:33:49] [INFO] Base - page has fully loaded.
+[2025-04-01 12:33:50] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-01 12:33:50] [INFO] Base - Clicked view more bikes
+[2025-04-01 12:33:50] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-01 12:33:59] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 12:34:34] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 12:34:42] [INFO] Base - Chrome has been selected
+[2025-04-01 12:34:47] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 12:34:48] [INFO] Base - accepted cookies
+[2025-04-01 12:34:48] [INFO] Base - clicked LoginButton
+[2025-04-01 12:34:49] [INFO] Base - clicked Google login
+[2025-04-01 12:34:49] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 12:34:55] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 12:48:25] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 12:48:36] [INFO] Base - Chrome has been selected
+[2025-04-01 12:48:41] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 12:48:41] [INFO] Base - accepted cookies
+[2025-04-01 12:48:41] [INFO] Base - clicked LoginButton
+[2025-04-01 12:48:42] [INFO] Base - clicked Google login
+[2025-04-01 12:48:47] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-01 12:48:47] [ERROR] Base - Error clicking use another account element Failed waiitng for element visibility
+[2025-04-01 12:48:53] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-01 12:48:53] [ERROR] Base - Error inputting example email in input field Failed waiitng for element visibility
+[2025-04-01 12:48:53] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 12:48:58] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 12:49:22] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 12:49:30] [INFO] Base - Chrome has been selected
+[2025-04-01 12:49:35] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 12:49:35] [INFO] Base - accepted cookies
+[2025-04-01 12:49:35] [INFO] Base - clicked LoginButton
+[2025-04-01 12:49:36] [INFO] Base - clicked Google login
+[2025-04-01 12:49:42] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-01 12:49:42] [ERROR] Base - Error clicking use another account element Failed waiitng for element visibility
+[2025-04-01 12:49:47] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-01 12:49:47] [ERROR] Base - Error inputting example email in input field Failed waiitng for element visibility
+[2025-04-01 12:49:47] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 12:49:51] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 12:50:54] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 12:51:02] [INFO] Base - Chrome has been selected
+[2025-04-01 12:51:08] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 12:51:08] [INFO] Base - accepted cookies
+[2025-04-01 12:51:08] [INFO] Base - clicked LoginButton
+[2025-04-01 12:51:09] [INFO] Base - clicked Google login
+[2025-04-01 12:51:09] [ERROR] Base - Test Failed: FAIL: googleLoginTest
+[2025-04-01 12:51:14] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 12:51:46] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 12:51:54] [INFO] Base - Chrome has been selected
+[2025-04-01 12:51:59] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 12:51:59] [INFO] Base - accepted cookies
+[2025-04-01 12:51:59] [INFO] Base - clicked LoginButton
+[2025-04-01 12:52:00] [INFO] Base - clicked Google login
+[2025-04-01 12:52:00] [ERROR] Base - Test Failed: FAIL: googleLoginTest
+[2025-04-01 12:52:03] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 12:52:20] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 12:52:28] [INFO] Base - Chrome has been selected
+[2025-04-01 12:52:33] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 12:52:34] [INFO] Base - accepted cookies
+[2025-04-01 12:52:34] [INFO] Base - clicked LoginButton
+[2025-04-01 12:52:35] [INFO] Base - clicked Google login
+[2025-04-01 12:52:35] [ERROR] Base - Test Failed: FAIL: googleLoginTest
+[2025-04-01 12:52:35] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 13:19:28] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 13:19:40] [INFO] Base - Chrome has been selected
+[2025-04-01 13:19:46] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 13:19:47] [INFO] Base - accepted cookies
+[2025-04-01 13:19:47] [INFO] Base - clicked LoginButton
+[2025-04-01 13:19:48] [INFO] Base - clicked Google login
+[2025-04-01 13:19:48] [INFO] Base - Switched to login pop up window
+[2025-04-01 13:19:50] [ERROR] Base - Error inputting example email in input field element not interactable
+  (Session info: chrome=134.0.6998.36)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe500b3d981810ecc05c99351d924cb3, sendKeysToElement {value=[Ljava.lang.CharSequence;@387bf2d9, id=f.FE80191FF3F74FAEF630BF5783395B7C.d.377DF71B22E25F2C383D5B8ED18B3E2A.e.2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57523}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57523/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fe500b3d981810ecc05c99351d924cb3)] -> css selector: [jsname="YRMmle"]]
+Session ID: fe500b3d981810ecc05c99351d924cb3
+[2025-04-01 13:19:50] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 13:19:50] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 13:21:57] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 13:22:07] [INFO] Base - Chrome has been selected
+[2025-04-01 13:22:13] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 13:22:14] [INFO] Base - accepted cookies
+[2025-04-01 13:22:15] [INFO] Base - clicked LoginButton
+[2025-04-01 13:22:15] [INFO] Base - clicked Google login
+[2025-04-01 13:22:15] [INFO] Base - Switched to login pop up window
+[2025-04-01 13:22:17] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 13:22:17] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 13:30:19] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 13:30:33] [INFO] Base - Chrome has been selected
+[2025-04-01 13:30:39] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 13:30:40] [INFO] Base - accepted cookies
+[2025-04-01 13:30:40] [INFO] Base - clicked LoginButton
+[2025-04-01 13:30:41] [INFO] Base - clicked Google login
+[2025-04-01 13:30:42] [INFO] Base - Switched to login pop up window
+[2025-04-01 13:30:43] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-01 13:30:43] [ERROR] Base - Test Failed: FAIL: googleLoginTest
+[2025-04-01 13:30:44] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 13:31:27] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 13:31:38] [INFO] Base - Chrome has been selected
+[2025-04-01 13:31:45] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 13:31:45] [INFO] Base - accepted cookies
+[2025-04-01 13:31:46] [INFO] Base - clicked LoginButton
+[2025-04-01 13:31:46] [INFO] Base - clicked Google login
+[2025-04-01 13:31:46] [INFO] Base - Switched to login pop up window
+[2025-04-01 13:31:49] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-01 13:31:49] [ERROR] Base - Test Failed: FAIL: googleLoginTest
+[2025-04-01 13:31:50] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 13:32:15] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 13:32:26] [INFO] Base - Chrome has been selected
+[2025-04-01 13:32:32] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 13:32:32] [INFO] Base - accepted cookies
+[2025-04-01 13:32:33] [INFO] Base - clicked LoginButton
+[2025-04-01 13:32:33] [INFO] Base - clicked Google login
+[2025-04-01 13:32:33] [INFO] Base - Switched to login pop up window
+[2025-04-01 13:32:35] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-01 13:32:35] [INFO] Base - Clicked next button after populating email field
+[2025-04-01 13:32:35] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 13:32:36] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 13:42:59] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 13:43:09] [INFO] Base - Chrome has been selected
+[2025-04-01 13:43:17] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 13:43:18] [INFO] Base - accepted cookies
+[2025-04-01 13:43:18] [INFO] Base - clicked LoginButton
+[2025-04-01 13:43:19] [INFO] Base - clicked Google login
+[2025-04-01 13:43:19] [INFO] Base - Switched to login pop up window
+[2025-04-01 13:43:21] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-01 13:43:21] [INFO] Base - Clicked next button after populating email field
+[2025-04-01 13:43:21] [INFO] Base - Screenshot saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage Screenshot_img20250401_134321.png
+[2025-04-01 13:43:21] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 13:43:26] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 13:57:16] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 13:57:28] [INFO] Base - Chrome has been selected
+[2025-04-01 13:57:35] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 13:57:35] [INFO] Base - accepted cookies
+[2025-04-01 13:57:35] [INFO] Base - clicked LoginButton
+[2025-04-01 13:57:36] [INFO] Base - clicked Google login
+[2025-04-01 13:57:36] [INFO] Base - Switched to login pop up window
+[2025-04-01 13:57:37] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-01 13:57:38] [INFO] Base - Clicked next button after populating email field
+[2025-04-01 13:57:38] [INFO] Base - page has fully loaded.
+[2025-04-01 13:57:38] [INFO] Base - Screenshot saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage Screenshot_img20250401_135738.png
+[2025-04-01 13:57:38] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 13:57:39] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 13:58:52] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 13:59:02] [INFO] Base - Chrome has been selected
+[2025-04-01 13:59:08] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 13:59:08] [INFO] Base - accepted cookies
+[2025-04-01 13:59:09] [INFO] Base - clicked LoginButton
+[2025-04-01 13:59:10] [INFO] Base - clicked Google login
+[2025-04-01 13:59:10] [INFO] Base - Switched to login pop up window
+[2025-04-01 13:59:11] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-01 13:59:12] [INFO] Base - Clicked next button after populating email field
+[2025-04-01 13:59:12] [INFO] Base - page has fully loaded.
+[2025-04-01 13:59:12] [INFO] Base - Screenshot saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage Screenshot_img20250401_135912.png
+[2025-04-01 13:59:12] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 13:59:13] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 14:03:42] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 14:03:51] [INFO] Base - Chrome has been selected
+[2025-04-01 14:03:58] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 14:03:58] [INFO] Base - accepted cookies
+[2025-04-01 14:03:58] [INFO] Base - clicked LoginButton
+[2025-04-01 14:03:59] [INFO] Base - clicked Google login
+[2025-04-01 14:03:59] [INFO] Base - Switched to login pop up window
+[2025-04-01 14:04:01] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-01 14:04:01] [INFO] Base - Clicked next button after populating email field
+[2025-04-01 14:04:01] [INFO] Base - Element with ID 'headingText' is visible
+[2025-04-01 14:04:01] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250401_140401.png
+[2025-04-01 14:04:01] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 14:04:02] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 14:05:51] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 14:06:02] [INFO] Base - Chrome has been selected
+[2025-04-01 14:06:09] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 14:06:09] [INFO] Base - accepted cookies
+[2025-04-01 14:06:09] [INFO] Base - clicked LoginButton
+[2025-04-01 14:06:10] [INFO] Base - clicked Google login
+[2025-04-01 14:06:10] [INFO] Base - Switched to login pop up window
+[2025-04-01 14:06:12] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-01 14:06:12] [INFO] Base - Clicked next button after populating email field
+[2025-04-01 14:06:12] [INFO] Base - Element with ID 'headingText' is visible
+[2025-04-01 14:06:12] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250401_140612.png
+[2025-04-01 14:06:12] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 14:06:13] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 14:06:51] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 14:07:01] [INFO] Base - Chrome has been selected
+[2025-04-01 14:07:10] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
+[2025-04-01 14:07:10] [ERROR] Base - Test Failed: FAIL: googleLoginTest
+[2025-04-01 14:07:11] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 14:07:38] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 14:07:49] [INFO] Base - Chrome has been selected
+[2025-04-01 14:07:56] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 14:07:56] [INFO] Base - accepted cookies
+[2025-04-01 14:07:56] [INFO] Base - clicked LoginButton
+[2025-04-01 14:07:57] [INFO] Base - clicked Google login
+[2025-04-01 14:07:58] [INFO] Base - Switched to login pop up window
+[2025-04-01 14:07:59] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-01 14:07:59] [INFO] Base - Clicked next button after populating email field
+[2025-04-01 14:07:59] [INFO] Base - Element with ID 'headingText' is visible
+[2025-04-01 14:08:00] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250401_140800.png
+[2025-04-01 14:08:00] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 14:08:00] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 14:10:03] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 14:10:13] [INFO] Base - Chrome has been selected
+[2025-04-01 14:10:20] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 14:10:20] [INFO] Base - accepted cookies
+[2025-04-01 14:10:21] [INFO] Base - clicked LoginButton
+[2025-04-01 14:10:22] [INFO] Base - clicked Google login
+[2025-04-01 14:10:22] [INFO] Base - Switched to login pop up window
+[2025-04-01 14:10:24] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-01 14:10:24] [INFO] Base - Clicked next button after populating email field
+[2025-04-01 14:10:24] [INFO] Base - Element with ID 'headingText' is visible
+[2025-04-01 14:10:24] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250401_141024.png
+[2025-04-01 14:10:24] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 14:10:25] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 14:12:32] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 14:12:43] [INFO] Base - Chrome has been selected
+[2025-04-01 14:12:52] [ERROR] Base - Error occurred while trying to click accept cookies button: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p.fc-button-label' (tried for 5 second(s) with 500 milliseconds interval)
+[2025-04-01 14:12:52] [ERROR] Base - Test Failed: FAIL: googleLoginTest
+[2025-04-01 14:12:52] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-01 14:13:07] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 14:13:16] [INFO] Base - Chrome has been selected
+[2025-04-01 14:13:23] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 14:13:24] [INFO] Base - accepted cookies
+[2025-04-01 14:13:25] [INFO] Base - clicked LoginButton
+[2025-04-01 14:13:26] [INFO] Base - clicked Google login
+[2025-04-01 14:13:26] [INFO] Base - Switched to login pop up window
+[2025-04-01 14:13:28] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-01 14:13:28] [INFO] Base - Clicked next button after populating email field
+[2025-04-01 14:13:30] [INFO] Base - Element with ID 'headingText' is visible
+[2025-04-01 14:13:30] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250401_141330.png
+[2025-04-01 14:13:30] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 14:13:31] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 14:13:54] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 14:14:04] [INFO] Base - Chrome has been selected
+[2025-04-01 14:14:11] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 14:14:11] [INFO] Base - accepted cookies
+[2025-04-01 14:14:12] [INFO] Base - clicked LoginButton
+[2025-04-01 14:14:13] [INFO] Base - clicked Google login
+[2025-04-01 14:14:13] [INFO] Base - Switched to login pop up window
+[2025-04-01 14:14:14] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-01 14:14:14] [INFO] Base - Clicked next button after populating email field
+[2025-04-01 14:14:17] [INFO] Base - Element with ID 'headingText' is visible
+[2025-04-01 14:14:17] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250401_141417.png
+[2025-04-01 14:14:17] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 14:14:17] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 14:16:33] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 14:16:45] [INFO] Base - Chrome has been selected
+[2025-04-01 14:16:51] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 14:16:52] [INFO] Base - accepted cookies
+[2025-04-01 14:16:52] [INFO] Base - clicked LoginButton
+[2025-04-01 14:16:53] [INFO] Base - clicked Google login
+[2025-04-01 14:16:53] [INFO] Base - Switched to login pop up window
+[2025-04-01 14:16:54] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-01 14:16:54] [INFO] Base - Clicked next button after populating email field
+[2025-04-01 14:16:57] [INFO] Base - Element with ID 'headingText' is visible
+[2025-04-01 14:16:57] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250401_141657.png
+[2025-04-01 14:16:57] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 14:16:57] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-01 14:22:22] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-01 14:22:31] [INFO] Base - Chrome has been selected
+[2025-04-01 14:22:38] [INFO] Base - Waiting 5 seconds for accept cookies button to display
+[2025-04-01 14:22:38] [INFO] Base - accepted cookies
+[2025-04-01 14:22:39] [INFO] Base - clicked LoginButton
+[2025-04-01 14:22:39] [INFO] Base - clicked Google login
+[2025-04-01 14:22:39] [INFO] Base - Switched to login pop up window
+[2025-04-01 14:22:41] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-01 14:22:41] [INFO] Base - Clicked next button after populating email field
+[2025-04-01 14:22:43] [INFO] Base - Element with ID 'headingText' is visible
+[2025-04-01 14:22:43] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250401_142243.png
+[2025-04-01 14:22:43] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-01 14:22:47] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0

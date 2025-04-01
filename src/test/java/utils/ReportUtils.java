@@ -58,9 +58,9 @@ public class ReportUtils {
         }
     }
 
-    public static String takeScreenshot() {
+    public static String takeScreenshot(String screenshotName) {
         File SS = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        String SFile = FileHandler.screenshotPath + "img"+ getTimeStamp() + ".png";
+        String SFile = FileHandler.screenshotPath + screenshotName + "_" + "img"+ getTimeStamp() + ".png";
         try {
             FileUtils.copyFile(SS,new File(SFile));
         } catch (Exception e) {
