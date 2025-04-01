@@ -19,7 +19,6 @@ import java.util.List;
 
 @Listeners(TestListener.class)
 public class WebScrapingTests {
-    private ConvertPrice convertPrice;
     private NavigatingToBikes navigatingToBikes;
     private VerifyingHomePage verifyingHomePage;
     private CarPage carPage;
@@ -71,7 +70,7 @@ public class WebScrapingTests {
         List<Car> cars = CarsScraper.webScrapeCars();
 
         //Defining headers for excel sheet
-        List<String> headers = Arrays.asList("Car Names","Car price");
+        List<String> headers = Arrays.asList("Car Names","Car Price");
 
         //Writing to Excel
         ExcelHandler.writeDataToExcel(

@@ -27,7 +27,7 @@ public class CarsScraper {
                 String carName = carNameList.get(i).getText();
                 String carPrice = carPriceList.get(i).getText();
 
-                cars.add(new Car(carName, carPrice));
+                cars.add(new Car(carPrice,carName));
 
             } catch (StaleElementReferenceException ex) {
                 /*DOM changes sometimes thus giving you a
