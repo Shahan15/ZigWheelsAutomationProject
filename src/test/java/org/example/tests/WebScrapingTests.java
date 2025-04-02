@@ -11,7 +11,7 @@ import pages.CarPage;
 import pages.VerifyingHomePage;
 import scrapers.BikeScraper;
 import scrapers.CarsScraper;
-import scrapers.ConvertPrice;
+import utils.ConvertPrice;
 import utils.*;
 
 import java.util.Arrays;

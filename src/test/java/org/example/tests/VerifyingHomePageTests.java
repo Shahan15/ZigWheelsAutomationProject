@@ -24,10 +24,18 @@ public class VerifyingHomePageTests {
 
     @Test
     public void homepageTest() {
+        // Create a report for the test
         ReportUtils.createTest("Homepage Test");
+
+        // Click the cookie consent button
         verifyingHomePage.clickingCookieConsentBtn();
+
+        // Verify navigation to the homepage
         Assert.assertTrue(verifyingHomePage.verifyOnHomePage(), "Failed to verify homepage navigation.");
-        ReportUtils.getTest().pass("Verified Homepage navigation");
+
+        // Log success in the report
+        ReportUtils.getTest().pass("Verified Homepage navigation successfully");
+        Base.logger.info("Homepage verification completed successfully");
     }
 
     @AfterTest

@@ -1,6 +1,7 @@
 package pages;
 
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -29,13 +30,12 @@ public class VerifyingHomePage extends Base {
     public void clickingCookieConsentBtn() {
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-            wait.until(ExpectedConditions.visibilityOf(cookieConsentBtn));
-            logger.info("Waiting 5 seconds for accept cookies button to display");
+            WebElement cookieConsentBtn = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("p.fc-button-label")));
+            logger.info("Cookie Consent Button Attributes - isEnabled: {}, isDisplayed: {}, Text: {}",
+                    cookieConsentBtn.isEnabled(), cookieConsentBtn.isDisplayed(), cookieConsentBtn.getText());
 
-            if (cookieConsentBtn.isDisplayed()) {
-                cookieConsentBtn.click();
-                logger.info("accepted cookies");
-            }
+            cookieConsentBtn.click();
+            logger.info("Accepted cookies");
 
         } catch (Exception ex) {
             logger.error("Error occurred while trying to click accept cookies button: {}", ex.getMessage());
@@ -46,17 +46,23 @@ public class VerifyingHomePage extends Base {
 
     public boolean verifyOnHomePage() {
         try {
-            NavigationUtils.webDriverWait(driver,5,bannerImg);
-            logger.info("Waiting 5 seconds for banner image to load");
-
-            logger.info("The Banner image is present, navigated to home page successfully");
-            return bannerImg.isDisplayed();
-
+            NavigationUtils.webDriverWait(driver, 5, bannerImg);
+            if (bannerImg.isDisplayed()) {
+                logger.info("The Banner image is present, navigated to homepage successfully");
+                return true;
+            } else {
+                logger.error("Banner image not displayed, homepage verification failed.");
+                return false;
+            }
         } catch (Exception ex) {
             logger.error("Banner image did not load, navigation to homepage unsuccessful: {}", ex.getMessage());
             return false;
         }
-
     }
+
+//    public void homePageVerificationSteps () {
+//        clickingCookieConsentBtn();
+//        verifyOnHomePage();
+//    }
 
 }

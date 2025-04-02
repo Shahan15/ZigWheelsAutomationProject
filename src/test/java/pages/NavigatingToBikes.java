@@ -26,10 +26,10 @@ public class NavigatingToBikes extends Base {
     public void init() {
         logger.info("Pagefactory for Navigating to bikes page initialised");
         driver.get(NavigationUtils.getTestingSiteUrl("HomePage"));
+        verifyingHomePage.clickingCookieConsentBtn();
     }
 
     public void navigateToNewBikes() {
-        verifyingHomePage.clickingCookieConsentBtn();
         newBikesLink.click();
         logger.info("New bikes link pressed");
 

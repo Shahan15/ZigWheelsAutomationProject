@@ -8,7 +8,7 @@ import utils.Base;
 import utils.NavigationUtils;
 import java.util.ArrayList;
 import java.util.List;
-import static scrapers.ConvertPrice.convertPrice;
+import static utils.ConvertPrice.convertPrice;
 
 public class BikeScraper {
 
