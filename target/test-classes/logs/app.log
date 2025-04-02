@@ -1097,3 +1097,40 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 Session ID: fbfaef41f8a6123a8b8a39c2656e75b7
 [2025-04-02 12:19:39] [ERROR] Base - Test Failed: FAIL: webScrapingCars
 [2025-04-02 12:19:48] [INFO] Base - Test suite finished. Passed: 1, Failed: 1, Skipped: 0
+[2025-04-02 12:20:01] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-02 12:20:09] [INFO] Base - Chrome has been selected
+[2025-04-02 12:20:14] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 12:20:14] [INFO] Base - Accepted cookies
+[2025-04-02 12:20:15] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-02 12:20:15] [INFO] Base - page has fully loaded.
+[2025-04-02 12:20:16] [INFO] Base - Filtered by car brand Honda
+[2025-04-02 12:20:16] [INFO] Base - page has fully loaded.
+[2025-04-02 12:20:16] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-02 12:20:17] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-02 12:20:17] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-02 12:20:24] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-02 12:25:32] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-02 12:25:40] [INFO] Base - Chrome has been selected
+[2025-04-02 12:25:40] [INFO] Base - PageFactory initialised
+[2025-04-02 12:25:42] [INFO] Base - Started test: Homepage Test
+[2025-04-02 12:25:45] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 12:25:45] [INFO] Base - Accepted cookies
+[2025-04-02 12:25:45] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-02 12:25:45] [INFO] Base - Homepage verification completed successfully
+[2025-04-02 12:25:45] [INFO] Base - Test Passed: PASS: homepageTest
+[2025-04-02 12:25:49] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-02 12:26:00] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-02 12:26:08] [INFO] Base - Chrome has been selected
+[2025-04-02 12:26:09] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 12:26:14] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 12:26:14] [INFO] Base - Accepted cookies
+[2025-04-02 12:26:14] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-02 12:26:15] [INFO] Base - New bikes link pressed
+[2025-04-02 12:26:15] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-02 12:26:15] [INFO] Base - scrolled down by 800 pixels
+[2025-04-02 12:26:17] [INFO] Base - All upcoming bikes link pressed
+[2025-04-02 12:26:17] [INFO] Base - page has fully loaded.
+[2025-04-02 12:26:18] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-02 12:26:18] [INFO] Base - Clicked view more bikes
+[2025-04-02 12:26:18] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-02 12:26:27] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0

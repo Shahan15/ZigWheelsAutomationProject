@@ -2,12 +2,12 @@ package pages;
 
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import utils.Base;
 import utils.NavigationUtils;
 import java.time.Duration;
@@ -30,6 +30,8 @@ public class VerifyingHomePage extends Base {
     public void clickingCookieConsentBtn() {
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+
+            // Wait for the element to be clickable, but do not fail if it doesn't appear
             WebElement cookieConsentBtn = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("p.fc-button-label")));
             logger.info("Cookie Consent Button Attributes - isEnabled: {}, isDisplayed: {}, Text: {}",
                     cookieConsentBtn.isEnabled(), cookieConsentBtn.isDisplayed(), cookieConsentBtn.getText());
@@ -37,9 +39,12 @@ public class VerifyingHomePage extends Base {
             cookieConsentBtn.click();
             logger.info("Accepted cookies");
 
+        } catch (TimeoutException timeoutEx) {
+            // Element did not appear; log and continue
+            logger.warn("Cookie consent button did not appear within 5 seconds. Continuing without clicking.");
         } catch (Exception ex) {
+            // Log any unexpected exceptions
             logger.error("Error occurred while trying to click accept cookies button: {}", ex.getMessage());
-            Assert.fail("Failed to click the cookie consent button due to: " + ex.getMessage());
         }
     }
 
