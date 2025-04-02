@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import utils.Base;
 import utils.NavigationUtils;
 import java.time.Duration;
@@ -48,7 +49,7 @@ public class NavigatingToBikes extends Base {
         logger.info("All upcoming bikes link pressed");
     }
 
-    private void filterBikes() {
+    public void filterBikes() {
         manufacturerDropdown.click();
         manufacturerDropdown.sendKeys("Honda");
         manufacturerDropdown.sendKeys(Keys.ENTER);
@@ -77,6 +78,17 @@ public class NavigatingToBikes extends Base {
         } catch (Exception ex) {
             logger.error("Error clicking 'View More Bikes' button: {}", ex.getMessage());
         }
+    }
+
+
+    public void validatingOnlyHondaBikes(){
+        String expectedHondaUrl = NavigationUtils.getTestingSiteUrl("filteredBikes"); // Replace with the actual Honda bikes link
+        String actualUrl = Base.driver.getCurrentUrl();
+        NavigationUtils.waitPageLoad();
+        Base.logger.info("Validating URL after filtering bikes. Expected: {}, Actual: {}", expectedHondaUrl, actualUrl);
+
+        Assert.assertEquals(actualUrl, expectedHondaUrl, "URL after filtering does not match expected Honda bikes page URL!");
+
     }
 
     public void navigatingToBikesPage() {

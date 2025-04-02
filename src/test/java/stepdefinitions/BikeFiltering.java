@@ -5,9 +5,11 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.testng.Assert;
 import pages.NavigatingToBikes;
 import pages.VerifyingHomePage;
 import utils.Base;
+import utils.NavigationUtils;
 
 public class BikeFiltering {
 
@@ -35,20 +37,23 @@ public class BikeFiltering {
 
     @And("they select Upcoming bikes")
     public void theySelect() {
+        navigatingToBikes.navigateToUpcomingSliderTab();
 
     }
 
     @And("they choose All upcoming bikes")
     public void theyChoose() {
-
+        navigatingToBikes.clickAllUpcomingBikesLink();
     }
 
     @And("they filter for only Honda bikes")
     public void theyFilterForOnlyHondaBikes() {
+        navigatingToBikes.filterBikes();
 
     }
 
     @Then("the bike list should contain only Honda bikes")
     public void theBikeListShouldContainOnlyHondaBikes() {
+        navigatingToBikes.validatingOnlyHondaBikes();
     }
 }

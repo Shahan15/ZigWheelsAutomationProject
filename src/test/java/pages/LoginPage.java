@@ -91,6 +91,8 @@ public class LoginPage extends Base {
             wait.until(ExpectedConditions.elementToBeClickable(tryAgain));
             logger.info("Element with ID 'headingText' is visible");
 
+            Thread.sleep(2000);
+
             // Take a screenshot once the element is visible
             String screenshotPath = ReportUtils.takeScreenshot("LoginPage error");
             logger.info("Screenshot taken. File saved at: " + screenshotPath);
