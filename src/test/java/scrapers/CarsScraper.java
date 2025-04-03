@@ -15,7 +15,6 @@ public class CarsScraper {
 
     public static List<Car> webScrapeCars () {
 
-
         List<WebElement> carNameList = driver.findElements(By.cssSelector("[data-track-label=\"Car-name\"]"));
         List<WebElement> carPriceList = driver.findElements(By.cssSelector(".zw-cmn-price.n.pull-left.mt-3"));
         Base.logger.info("Pulling Car Name and Car Price");

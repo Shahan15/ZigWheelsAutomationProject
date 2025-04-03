@@ -21,15 +21,17 @@ public class LoginPage extends Base {
     @FindBy(css = "[data-track-label=\"Popup_Login/Register_with_Google\"]") WebElement googleLogin;
     @FindBy(id = "identifierId") WebElement emailInputField;
     @FindBy(id = "identifierNext") WebElement nextBtn;
-    @FindBy(id = "headingText") WebElement headingText;
     @FindBy(id = "next") WebElement tryAgain;
+
+    VerifyingHomePage verifyingHomePage = new VerifyingHomePage();
 
     public LoginPage() {
         PageFactory.initElements(driver,this);
     }
 
-    public void init () {
-        driver.get(NavigationUtils.getTestingSiteUrl("HomePage"));
+    public void navigateToHomePage () {
+        NavigationUtils.navigateToTestingSite("HomePage");
+        verifyingHomePage.clickingCookieConsentBtn();
     }
 
     public void clickLoginButton () {
@@ -89,7 +91,7 @@ public class LoginPage extends Base {
             // Wait up to 10 seconds for the element to be visible
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
             wait.until(ExpectedConditions.elementToBeClickable(tryAgain));
-            logger.info("Element with ID 'headingText' is visible");
+            logger.info("Element with ID 'Try Again' is visible");
 
             Thread.sleep(2000);
 
@@ -97,7 +99,7 @@ public class LoginPage extends Base {
             String screenshotPath = ReportUtils.takeScreenshot("LoginPage error");
             logger.info("Screenshot taken. File saved at: " + screenshotPath);
         } catch (Exception e) {
-            logger.error("Error waiting for element with ID 'headingText': {}", e.getMessage());
+            logger.error("Error waiting for element with ID 'Try Again': {}", e.getMessage());
         }
     }
 

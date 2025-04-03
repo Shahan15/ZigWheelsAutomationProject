@@ -26,6 +26,20 @@ public class NavigationUtils {
         }
     }
 
+    public static void navigateToTestingSite(String propertyKey) {
+        try {
+            // Retrieve the URL using your existing getTestingSiteUrl method
+            String url = getTestingSiteUrl(propertyKey);
+            // Navigate to the URL
+            Base.getDriver().navigate().to(url);
+            Base.logger.info("Navigated to page with key: " + propertyKey + " and URL: " + url);
+        } catch (RuntimeException ex) {
+            Base.logger.error("Failed to navigate to page for property key: {}", propertyKey, ex);
+            throw ex; // Re-throw to ensure the issue propagates
+        }
+    }
+
+
 
     public static void webDriverWait(WebDriver driver,int waitTime,WebElement element) {
         try{

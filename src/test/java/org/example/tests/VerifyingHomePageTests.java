@@ -18,7 +18,7 @@ public class VerifyingHomePageTests {
     public void setup() {
         Base.getDriver();
         verifyingHomePage = new VerifyingHomePage();
-        verifyingHomePage.init();
+        verifyingHomePage.navigateToHomePage();
         ReportUtils.setUpExtentReport();
     }
 

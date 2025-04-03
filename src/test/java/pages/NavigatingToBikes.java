@@ -17,16 +17,15 @@ public class NavigatingToBikes extends Base {
     @FindBy(id = "makeId") WebElement manufacturerDropdown;
     @FindBy(xpath = "//*[@id=\"modelList\"]/li[16]/span") WebElement moreBikesBtn;
 
-    WebDriver driver = Base.driver;
     VerifyingHomePage verifyingHomePage = new VerifyingHomePage();
 
     public NavigatingToBikes() {
         PageFactory.initElements(driver, this);
     }
 
-    public void init() {
+    public void navigateToHomePage() {
         logger.info("Pagefactory for Navigating to bikes page initialised");
-        driver.get(NavigationUtils.getTestingSiteUrl("HomePage"));
+        NavigationUtils.navigateToTestingSite("HomePage");
         verifyingHomePage.clickingCookieConsentBtn();
     }
 
@@ -98,6 +97,7 @@ public class NavigatingToBikes extends Base {
         waitPageLoad();
         filterBikes();
         clickViewMoreBikes();
+        validatingOnlyHondaBikes();
     }
 
 }

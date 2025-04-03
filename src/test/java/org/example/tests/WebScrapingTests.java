@@ -19,10 +19,9 @@ import java.util.List;
 
 @Listeners(TestListener.class)
 public class WebScrapingTests {
-    private NavigatingToBikes navigatingToBikes;
-    private VerifyingHomePage verifyingHomePage;
-    private CarPage carPage;
-    private BikeScraper bikeScraper;
+    public NavigatingToBikes navigatingToBikes;
+    public VerifyingHomePage verifyingHomePage;
+    public CarPage carPage;
 
     @BeforeTest
     public void setup() {
@@ -34,7 +33,7 @@ public class WebScrapingTests {
 
     @Test
     public void WebScrapingBikes () {
-        bikeScraper = new BikeScraper(); //this goes directly to filtered Honda bikes
+        NavigationUtils.navigateToTestingSite("filteredBikes");
         verifyingHomePage.clickingCookieConsentBtn();
         navigatingToBikes.clickViewMoreBikes();
 
@@ -59,11 +58,11 @@ public class WebScrapingTests {
 
     @Test
     public void webScrapingCars () {
-        carPage = new CarPage();
-        carPage.init();
+        NavigationUtils.navigateToTestingSite("CarsPage");
+        verifyingHomePage.clickingCookieConsentBtn();
 
         //Filter cars
-        verifyingHomePage.clickingCookieConsentBtn();
+        carPage = new CarPage();
         carPage.filterCars();
 
         //Scrape Bikes

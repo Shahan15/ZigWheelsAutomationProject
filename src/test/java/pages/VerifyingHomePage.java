@@ -14,17 +14,15 @@ import java.time.Duration;
 
 
 public class VerifyingHomePage extends Base {
-    @FindBy(css = "img.banner.mobileimage") WebElement bannerImg;
-    @FindBy(css = "p.fc-button-label") WebElement cookieConsentBtn;
-
+    @FindBy(id = "homeslider") WebElement bannerImg;
 
     public VerifyingHomePage() {
         PageFactory.initElements(driver, this);
     }
 
-    public void init() {
+    public void navigateToHomePage() {
         logger.info("PageFactory initialised");
-        driver.get(NavigationUtils.getTestingSiteUrl("HomePage"));
+        NavigationUtils.navigateToTestingSite("HomePage");
     }
 
     public void clickingCookieConsentBtn() {

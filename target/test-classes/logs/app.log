@@ -1228,3 +1228,1001 @@ Session ID: fbfaef41f8a6123a8b8a39c2656e75b7
 [2025-04-02 12:58:04] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250402_125804.png
 [2025-04-02 12:58:04] [INFO] Base - Test Passed: PASS: googleLoginTest
 [2025-04-02 12:58:11] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-02 12:58:53] [INFO] Base - Chrome has been selected
+[2025-04-02 12:58:53] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 12:58:59] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 12:58:59] [INFO] Base - Accepted cookies
+[2025-04-02 12:58:59] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 12:58:59] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 12:58:59] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 12:59:00] [INFO] Base - New bikes link pressed
+[2025-04-02 12:59:00] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-02 12:59:00] [INFO] Base - scrolled down by 800 pixels
+[2025-04-02 12:59:01] [INFO] Base - All upcoming bikes link pressed
+[2025-04-02 12:59:02] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-02 12:59:02] [INFO] Base - page has fully loaded.
+[2025-04-02 12:59:02] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-02 13:16:00] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-02 13:16:12] [INFO] Base - Chrome has been selected
+[2025-04-02 13:16:18] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 13:16:19] [INFO] Base - Accepted cookies
+[2025-04-02 13:16:19] [INFO] Base - Clicked view more bikes
+[2025-04-02 13:16:19] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-02 13:16:22] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-02 13:16:22] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-04-02 13:16:30] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-02 13:16:31] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-02 13:16:31] [INFO] Base - page has fully loaded.
+[2025-04-02 13:16:31] [INFO] Base - Filtered by car brand Honda
+[2025-04-02 13:16:31] [INFO] Base - page has fully loaded.
+[2025-04-02 13:16:31] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-02 13:16:32] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-02 13:16:32] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-02 13:16:37] [INFO] Base - Test suite finished. Passed: 2, Failed: 0, Skipped: 0
+[2025-04-02 13:43:52] [INFO] Base - Chrome has been selected
+[2025-04-02 13:43:52] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 13:44:02] [INFO] Base - Chrome has been selected
+[2025-04-02 13:44:10] [INFO] Base - Chrome has been selected
+[2025-04-02 13:44:10] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 13:44:18] [ERROR] Base - Error occurred while trying to click accept cookies button: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.36)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2773c005576c6d9861d1cc5830edc7e, findElement {using=css selector, value=p.fc-button-label}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57368/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2773c005576c6d9861d1cc5830edc7e
+[2025-04-02 13:44:18] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 13:53:38] [INFO] Base - Chrome has been selected
+[2025-04-02 13:53:38] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 13:53:48] [INFO] Base - Chrome has been selected
+[2025-04-02 13:54:34] [INFO] Base - Chrome has been selected
+[2025-04-02 13:54:35] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 13:54:45] [INFO] Base - Chrome has been selected
+[2025-04-02 13:55:24] [INFO] Base - Chrome has been selected
+[2025-04-02 13:55:24] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 13:55:34] [INFO] Base - Chrome has been selected
+[2025-04-02 13:55:43] [INFO] Base - Chrome has been selected
+[2025-04-02 13:55:43] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 13:55:52] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-02 13:55:52] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 13:56:01] [INFO] Base - Chrome has been selected
+[2025-04-02 13:57:15] [INFO] Base - Chrome has been selected
+[2025-04-02 13:57:15] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 13:58:31] [INFO] Base - Chrome has been selected
+[2025-04-02 13:58:31] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 13:58:38] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 13:58:38] [INFO] Base - Accepted cookies
+[2025-04-02 13:58:38] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 13:58:38] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 13:58:38] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 13:58:40] [INFO] Base - New bikes link pressed
+[2025-04-02 13:58:40] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-02 13:58:40] [INFO] Base - scrolled down by 800 pixels
+[2025-04-02 13:58:42] [INFO] Base - All upcoming bikes link pressed
+[2025-04-02 13:58:44] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-02 13:58:44] [INFO] Base - page has fully loaded.
+[2025-04-02 13:58:44] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-02 13:58:53] [INFO] Base - Chrome has been selected
+[2025-04-02 13:58:53] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 13:58:59] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 13:58:59] [INFO] Base - Accepted cookies
+[2025-04-02 13:58:59] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 14:01:29] [INFO] Base - Chrome has been selected
+[2025-04-02 14:01:29] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 14:01:35] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 14:01:36] [INFO] Base - Accepted cookies
+[2025-04-02 14:01:36] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 14:01:45] [INFO] Base - Chrome has been selected
+[2025-04-02 14:01:52] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 14:01:52] [INFO] Base - Accepted cookies
+[2025-04-02 14:01:52] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 14:01:52] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-02 14:01:53] [INFO] Base - clicked LoginButton
+[2025-04-02 14:01:54] [INFO] Base - clicked Google login
+[2025-04-02 14:01:54] [INFO] Base - Switched to login pop up window
+[2025-04-02 14:01:56] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-02 14:01:56] [INFO] Base - Clicked next button after populating email field
+[2025-04-02 14:01:57] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-02 14:01:59] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250402_140159.png
+[2025-04-02 14:07:49] [INFO] Base - Chrome has been selected
+[2025-04-02 14:07:49] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 14:07:55] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 14:07:56] [INFO] Base - Accepted cookies
+[2025-04-02 14:07:56] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 14:08:02] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-02 14:08:13] [INFO] Base - Chrome has been selected
+[2025-04-02 14:08:13] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 14:08:21] [INFO] Base - Chrome has been selected
+[2025-04-02 14:08:21] [INFO] Base - WebDriver initialized
+[2025-04-02 14:08:21] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 14:08:21] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 14:10:00] [INFO] Base - Chrome has been selected
+[2025-04-02 14:10:00] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 14:10:06] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-02 14:10:06] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 14:10:10] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 14:10:11] [INFO] Base - Accepted cookies
+[2025-04-02 14:10:19] [INFO] Base - Chrome has been selected
+[2025-04-02 14:10:19] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 14:10:27] [INFO] Base - Chrome has been selected
+[2025-04-02 14:10:27] [INFO] Base - WebDriver initialized
+[2025-04-02 14:10:27] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 14:10:27] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 14:10:29] [INFO] Base - New bikes link pressed
+[2025-04-02 14:15:55] [INFO] Base - Chrome has been selected
+[2025-04-02 14:15:55] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 14:16:02] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 14:16:02] [INFO] Base - Accepted cookies
+[2025-04-02 14:16:02] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 14:16:11] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-02 14:16:11] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 14:16:11] [INFO] Base - WebDriver initialized
+[2025-04-02 14:16:11] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 14:16:11] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 14:16:22] [INFO] Base - New bikes link pressed
+[2025-04-02 14:16:22] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-02 14:16:22] [INFO] Base - scrolled down by 800 pixels
+[2025-04-02 14:16:24] [INFO] Base - All upcoming bikes link pressed
+[2025-04-02 14:16:26] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-02 14:16:26] [INFO] Base - page has fully loaded.
+[2025-04-02 14:16:26] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-02 14:16:31] [INFO] Base - WebDriver closed
+[2025-04-02 14:24:56] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-02 14:25:08] [INFO] Base - Chrome has been selected
+[2025-04-02 14:25:08] [INFO] Base - PageFactory initialised
+[2025-04-02 14:25:12] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 14:25:12] [INFO] Base - Started test: Homepage Test
+[2025-04-02 14:25:15] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 14:25:15] [INFO] Base - Accepted cookies
+[2025-04-02 14:25:15] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-02 14:25:15] [INFO] Base - Homepage verification completed successfully
+[2025-04-02 14:25:15] [INFO] Base - Test Passed: PASS: homepageTest
+[2025-04-02 14:25:19] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-02 14:28:58] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-02 14:29:09] [INFO] Base - Chrome has been selected
+[2025-04-02 14:29:09] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 14:29:09] [ERROR] Base - URL is empty for property key: Homepage
+[2025-04-02 14:29:09] [ERROR] Base - There was an error retrieving the URL: URL is not set for property key: Homepage
+[2025-04-02 14:29:09] [ERROR] Base - Failed to navigate to page for property key: Homepage
+java.lang.RuntimeException: Failed to retrieve URL due to: URL is not set for property key: Homepage
+	at utils.NavigationUtils.getTestingSiteUrl(NavigationUtils.java:25) ~[test-classes/:?]
+	at utils.NavigationUtils.navigateToTestingSite(NavigationUtils.java:32) [test-classes/:?]
+	at pages.NavigatingToBikes.navigateToHomePage(NavigatingToBikes.java:29) [test-classes/:?]
+	at org.example.tests.NavigatingToBikesTests.setup(NavigatingToBikesTests.java:20) [test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.beforeRun(TestRunner.java:646) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:612) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: java.lang.RuntimeException: URL is not set for property key: Homepage
+	at utils.NavigationUtils.getTestingSiteUrl(NavigationUtils.java:20) ~[test-classes/:?]
+	... 24 more
+[2025-04-02 14:29:09] [WARN] Base - Test Skipped: SKIPPED: NavigatingToBikesPageTest
+[2025-04-02 14:29:10] [INFO] Base - Test suite finished. Passed: 0, Failed: 0, Skipped: 1
+[2025-04-02 14:30:04] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-02 14:30:13] [INFO] Base - Chrome has been selected
+[2025-04-02 14:30:14] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 14:30:17] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 14:30:20] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 14:30:21] [INFO] Base - Accepted cookies
+[2025-04-02 14:30:21] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-02 14:30:24] [INFO] Base - New bikes link pressed
+[2025-04-02 14:30:24] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-02 14:30:24] [INFO] Base - scrolled down by 800 pixels
+[2025-04-02 14:30:26] [INFO] Base - All upcoming bikes link pressed
+[2025-04-02 14:30:26] [INFO] Base - page has fully loaded.
+[2025-04-02 14:30:27] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-02 14:30:28] [INFO] Base - Clicked view more bikes
+[2025-04-02 14:30:28] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-02 14:30:32] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-02 14:37:55] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-02 14:38:06] [INFO] Base - Chrome has been selected
+[2025-04-02 14:38:06] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 14:38:09] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 14:38:12] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 14:38:12] [INFO] Base - Accepted cookies
+[2025-04-02 14:38:12] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-02 14:38:14] [INFO] Base - New bikes link pressed
+[2025-04-02 14:38:15] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-02 14:38:15] [INFO] Base - scrolled down by 800 pixels
+[2025-04-02 14:38:16] [INFO] Base - All upcoming bikes link pressed
+[2025-04-02 14:38:16] [INFO] Base - page has fully loaded.
+[2025-04-02 14:38:18] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-02 14:38:19] [INFO] Base - Clicked view more bikes
+[2025-04-02 14:38:19] [INFO] Base - page has fully loaded.
+[2025-04-02 14:38:19] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-02 14:38:19] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-02 14:38:23] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-02 14:38:33] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-02 14:38:43] [INFO] Base - Chrome has been selected
+[2025-04-02 14:38:43] [INFO] Base - PageFactory initialised
+[2025-04-02 14:38:47] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 14:38:47] [INFO] Base - Started test: Homepage Test
+[2025-04-02 14:38:50] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 14:38:50] [INFO] Base - Accepted cookies
+[2025-04-02 14:38:50] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-02 14:38:50] [INFO] Base - Homepage verification completed successfully
+[2025-04-02 14:38:50] [INFO] Base - Test Passed: PASS: homepageTest
+[2025-04-02 14:38:54] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-02 14:40:13] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-02 14:40:24] [INFO] Base - Chrome has been selected
+[2025-04-02 14:40:27] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 14:40:30] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 14:40:30] [INFO] Base - Accepted cookies
+[2025-04-02 14:40:35] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-02 14:40:35] [INFO] Base - clicked LoginButton
+[2025-04-02 14:40:36] [INFO] Base - clicked Google login
+[2025-04-02 14:40:37] [INFO] Base - Switched to login pop up window
+[2025-04-02 14:40:38] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-02 14:40:39] [INFO] Base - Clicked next button after populating email field
+[2025-04-02 14:40:39] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-02 14:40:41] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250402_144041.png
+[2025-04-02 14:40:41] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-02 14:40:46] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-02 14:41:45] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-02 14:41:55] [INFO] Base - Chrome has been selected
+[2025-04-02 14:41:57] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-02 14:42:01] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 14:42:01] [INFO] Base - Accepted cookies
+[2025-04-02 14:42:02] [INFO] Base - Clicked view more bikes
+[2025-04-02 14:42:02] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-02 14:42:04] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-02 14:42:04] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-04-02 14:42:09] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-02 14:42:15] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-02 14:42:15] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-02 14:42:15] [INFO] Base - page has fully loaded.
+[2025-04-02 14:42:16] [INFO] Base - Filtered by car brand Honda
+[2025-04-02 14:42:16] [INFO] Base - page has fully loaded.
+[2025-04-02 14:42:16] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-02 14:42:16] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-02 14:42:16] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-02 14:42:23] [INFO] Base - Test suite finished. Passed: 2, Failed: 0, Skipped: 0
+[2025-04-02 14:44:25] [INFO] Base - Chrome has been selected
+[2025-04-02 14:44:25] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 14:44:29] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 14:44:32] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 14:44:32] [INFO] Base - Accepted cookies
+[2025-04-02 14:44:32] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 14:44:36] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 14:44:41] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-02 14:44:41] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 14:44:41] [INFO] Base - WebDriver initialized
+[2025-04-02 14:44:41] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 14:44:41] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 14:44:44] [INFO] Base - New bikes link pressed
+[2025-04-02 14:44:44] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-02 14:44:44] [INFO] Base - scrolled down by 800 pixels
+[2025-04-02 14:44:45] [INFO] Base - All upcoming bikes link pressed
+[2025-04-02 14:44:47] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-02 14:44:47] [INFO] Base - page has fully loaded.
+[2025-04-02 14:44:47] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-02 14:44:53] [INFO] Base - WebDriver closed
+[2025-04-02 14:46:01] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 14:46:01] [ERROR] Base - URL is empty for property key: HomePage
+[2025-04-02 14:46:01] [ERROR] Base - There was an error retrieving the URL: URL is not set for property key: HomePage
+[2025-04-02 14:46:01] [ERROR] Base - Failed to navigate to page for property key: HomePage
+java.lang.RuntimeException: Failed to retrieve URL due to: URL is not set for property key: HomePage
+	at utils.NavigationUtils.getTestingSiteUrl(NavigationUtils.java:25) ~[test-classes/:?]
+	at utils.NavigationUtils.navigateToTestingSite(NavigationUtils.java:32) ~[test-classes/:?]
+	at pages.NavigatingToBikes.navigateToHomePage(NavigatingToBikes.java:28) ~[test-classes/:?]
+	at stepdefinitions.BikeFilteringBdd.setUp(BikeFilteringBdd.java:20) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: java.lang.RuntimeException: URL is not set for property key: HomePage
+	at utils.NavigationUtils.getTestingSiteUrl(NavigationUtils.java:20) ~[test-classes/:?]
+	... 47 more
+[2025-04-02 14:46:01] [ERROR] Base - URL is empty for property key: HomePage
+[2025-04-02 14:46:01] [ERROR] Base - There was an error retrieving the URL: URL is not set for property key: HomePage
+[2025-04-02 14:46:01] [ERROR] Base - Failed to navigate to page for property key: HomePage
+java.lang.RuntimeException: Failed to retrieve URL due to: URL is not set for property key: HomePage
+	at utils.NavigationUtils.getTestingSiteUrl(NavigationUtils.java:25) ~[test-classes/:?]
+	at utils.NavigationUtils.navigateToTestingSite(NavigationUtils.java:32) ~[test-classes/:?]
+	at pages.LoginPage.navigateToHomePage(LoginPage.java:33) ~[test-classes/:?]
+	at stepdefinitions.LoginBdd.setUp(LoginBdd.java:22) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: java.lang.RuntimeException: URL is not set for property key: HomePage
+	at utils.NavigationUtils.getTestingSiteUrl(NavigationUtils.java:20) ~[test-classes/:?]
+	... 47 more
+[2025-04-02 14:46:11] [INFO] Base - Chrome has been selected
+[2025-04-02 14:46:11] [INFO] Base - WebDriver initialized
+[2025-04-02 14:46:13] [INFO] Base - WebDriver closed
+[2025-04-02 14:46:41] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-02 14:46:41] [ERROR] Base - URL is empty for property key: HomePage
+[2025-04-02 14:46:41] [ERROR] Base - There was an error retrieving the URL: URL is not set for property key: HomePage
+[2025-04-02 14:46:41] [ERROR] Base - Failed to navigate to page for property key: HomePage
+java.lang.RuntimeException: Failed to retrieve URL due to: URL is not set for property key: HomePage
+	at utils.NavigationUtils.getTestingSiteUrl(NavigationUtils.java:25) ~[test-classes/:?]
+	at utils.NavigationUtils.navigateToTestingSite(NavigationUtils.java:32) ~[test-classes/:?]
+	at pages.NavigatingToBikes.navigateToHomePage(NavigatingToBikes.java:28) ~[test-classes/:?]
+	at stepdefinitions.BikeFilteringBdd.setUp(BikeFilteringBdd.java:20) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: java.lang.RuntimeException: URL is not set for property key: HomePage
+	at utils.NavigationUtils.getTestingSiteUrl(NavigationUtils.java:20) ~[test-classes/:?]
+	... 47 more
+[2025-04-02 14:46:53] [INFO] Base - Chrome has been selected
+[2025-04-02 14:46:56] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 14:46:59] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 14:46:59] [INFO] Base - Accepted cookies
+[2025-04-02 14:46:59] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 14:46:59] [INFO] Base - WebDriver initialized
+[2025-04-02 14:47:03] [INFO] Base - WebDriver closed
+[2025-04-02 14:49:50] [INFO] Base - Chrome has been selected
+[2025-04-02 14:49:53] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 14:49:53] [INFO] Base - WebDriver and Homepage initialized
+[2025-04-02 14:49:55] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 14:49:55] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 14:49:55] [INFO] Base - WebDriver initialized
+[2025-04-02 14:49:56] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-02 14:49:59] [INFO] Base - New bikes link pressed
+[2025-04-02 14:49:59] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-02 14:49:59] [INFO] Base - scrolled down by 800 pixels
+[2025-04-02 14:50:00] [INFO] Base - All upcoming bikes link pressed
+[2025-04-02 14:50:07] [INFO] Base - WebDriver closed
+[2025-04-02 14:51:40] [INFO] Base - Chrome has been selected
+[2025-04-02 14:51:44] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 14:51:44] [INFO] Base - WebDriver and Homepage initialized
+[2025-04-02 14:51:48] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 14:51:48] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 14:51:48] [INFO] Base - WebDriver initialized
+[2025-04-02 14:51:48] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 14:51:48] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 14:51:51] [INFO] Base - WebDriver closed
+[2025-04-02 14:52:22] [INFO] Base - Chrome has been selected
+[2025-04-02 14:52:25] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 14:52:25] [INFO] Base - WebDriver and Homepage initialized
+[2025-04-02 14:52:26] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 14:52:26] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 14:52:26] [INFO] Base - WebDriver initialized
+[2025-04-02 14:52:26] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 14:52:26] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 14:52:28] [INFO] Base - WebDriver closed
+[2025-04-02 14:59:16] [INFO] Base - Chrome has been selected
+[2025-04-02 14:59:20] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 14:59:20] [INFO] Base - WebDriver and Homepage initialized
+[2025-04-02 14:59:21] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 14:59:21] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 14:59:21] [INFO] Base - WebDriver initialized
+[2025-04-02 14:59:21] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 14:59:21] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 14:59:24] [INFO] Base - WebDriver closed
+[2025-04-02 15:10:22] [INFO] Base - WebDriver and Homepage initialized
+[2025-04-02 15:10:31] [INFO] Base - Chrome has been selected
+[2025-04-02 15:10:34] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 15:10:34] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 15:10:34] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 15:10:34] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 15:10:37] [INFO] Base - WebDriver closed
+[2025-04-02 16:07:18] [INFO] Base - WebDriver and Homepage initialized
+[2025-04-02 16:07:29] [INFO] Base - Chrome has been selected
+[2025-04-02 16:07:32] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 16:07:32] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 16:07:32] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 16:07:32] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 16:07:35] [INFO] Base - WebDriver closed
+[2025-04-02 16:11:10] [INFO] Base - WebDriver and Homepage initialized
+[2025-04-02 16:11:23] [INFO] Base - Chrome has been selected
+[2025-04-02 16:11:26] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 16:11:26] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 16:11:26] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 16:11:26] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 16:11:28] [INFO] Base - WebDriver closed
+[2025-04-02 16:15:23] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-02 16:15:32] [INFO] Base - Chrome has been selected
+[2025-04-02 16:15:32] [INFO] Base - PageFactory initialised
+[2025-04-02 16:15:38] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 16:15:38] [INFO] Base - Started test: Homepage Test
+[2025-04-02 16:15:38] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 16:15:38] [INFO] Base - Accepted cookies
+[2025-04-02 16:15:38] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-02 16:15:38] [INFO] Base - Homepage verification completed successfully
+[2025-04-02 16:15:38] [INFO] Base - Test Passed: PASS: homepageTest
+[2025-04-02 16:15:42] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-02 16:15:56] [INFO] Base - WebDriver and Homepage initialized
+[2025-04-02 16:16:06] [INFO] Base - Chrome has been selected
+[2025-04-02 16:16:11] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 16:16:11] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 16:16:11] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 16:16:11] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 16:16:14] [INFO] Base - WebDriver closed
+[2025-04-02 16:17:42] [INFO] Base - WebDriver and Homepage initialized
+[2025-04-02 16:17:52] [INFO] Base - Chrome has been selected
+[2025-04-02 16:17:52] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 16:17:57] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 16:17:57] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 16:18:00] [INFO] Base - WebDriver closed
+[2025-04-02 16:20:49] [INFO] Base - WebDriver and Homepage initialized
+[2025-04-02 16:20:49] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 16:20:59] [INFO] Base - Chrome has been selected
+[2025-04-02 16:20:59] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 16:20:59] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 16:21:02] [INFO] Base - WebDriver closed
+[2025-04-02 16:21:56] [INFO] Base - WebDriver and Homepage initialized
+[2025-04-02 16:21:56] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 16:22:05] [INFO] Base - Chrome has been selected
+[2025-04-02 16:22:05] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 16:22:05] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 16:22:07] [INFO] Base - WebDriver closed
+[2025-04-02 16:27:44] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-02 16:27:53] [INFO] Base - Chrome has been selected
+[2025-04-02 16:27:53] [INFO] Base - PageFactory initialised
+[2025-04-02 16:27:53] [ERROR] Base - Failed to navigate to URL: invalid argument
+  (Session info: chrome=134.0.6998.36)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c7f3f410c0f2d52fe41d4125c4845f7, get {url=HomePage}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50312/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c7f3f410c0f2d52fe41d4125c4845f7
+[2025-04-02 16:27:53] [WARN] Base - Test Skipped: SKIPPED: homepageTest
+[2025-04-02 16:27:54] [INFO] Base - Test suite finished. Passed: 0, Failed: 0, Skipped: 1
+[2025-04-02 16:28:18] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-02 16:28:27] [INFO] Base - Chrome has been selected
+[2025-04-02 16:28:27] [INFO] Base - PageFactory initialised
+[2025-04-02 16:28:31] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 16:28:31] [INFO] Base - Started test: Homepage Test
+[2025-04-02 16:28:35] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 16:28:35] [INFO] Base - Accepted cookies
+[2025-04-02 16:28:35] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-02 16:28:35] [INFO] Base - Homepage verification completed successfully
+[2025-04-02 16:28:35] [INFO] Base - Test Passed: PASS: homepageTest
+[2025-04-02 16:28:39] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-02 16:30:35] [INFO] Base - WebDriver and Homepage initialized
+[2025-04-02 16:30:35] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 16:30:44] [INFO] Base - Chrome has been selected
+[2025-04-02 16:30:44] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 16:30:44] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 16:30:46] [INFO] Base - WebDriver closed
+[2025-04-02 16:31:14] [INFO] Base - WebDriver and Homepage initialized
+[2025-04-02 16:31:14] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 16:31:14] [ERROR] Base - URL is empty for property key: HomePage
+[2025-04-02 16:31:14] [ERROR] Base - There was an error retrieving the URL: URL is not set for property key: HomePage
+[2025-04-02 16:31:14] [ERROR] Base - Failed to navigate to page for property key: HomePage
+java.lang.RuntimeException: Failed to retrieve URL due to: URL is not set for property key: HomePage
+	at utils.NavigationUtils.getTestingSiteUrl(NavigationUtils.java:25) ~[test-classes/:?]
+	at utils.NavigationUtils.navigateToTestingSite(NavigationUtils.java:32) ~[test-classes/:?]
+	at hooks.Hooks.setUp(Hooks.java:13) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: java.lang.RuntimeException: URL is not set for property key: HomePage
+	at utils.NavigationUtils.getTestingSiteUrl(NavigationUtils.java:20) ~[test-classes/:?]
+	... 46 more
+[2025-04-02 16:31:14] [INFO] Base - WebDriver closed
+[2025-04-02 16:32:01] [INFO] Base - WebDriver and Homepage initialized
+[2025-04-02 16:32:01] [ERROR] Base - URL is empty for property key: HomePage
+[2025-04-02 16:32:01] [ERROR] Base - There was an error retrieving the URL: URL is not set for property key: HomePage
+[2025-04-02 16:32:01] [ERROR] Base - Failed to navigate to page for property key: HomePage
+java.lang.RuntimeException: Failed to retrieve URL due to: URL is not set for property key: HomePage
+	at utils.NavigationUtils.getTestingSiteUrl(NavigationUtils.java:25) ~[test-classes/:?]
+	at utils.NavigationUtils.navigateToTestingSite(NavigationUtils.java:32) ~[test-classes/:?]
+	at stepdefinitions.LoginBdd.setUp(LoginBdd.java:21) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: java.lang.RuntimeException: URL is not set for property key: HomePage
+	at utils.NavigationUtils.getTestingSiteUrl(NavigationUtils.java:20) ~[test-classes/:?]
+	... 46 more
+[2025-04-02 16:32:01] [INFO] Base - WebDriver initialized and navigated to homepage.
+[2025-04-02 16:32:01] [INFO] Base - WebDriver closed
+[2025-04-02 16:33:30] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-02 16:33:40] [INFO] Base - Chrome has been selected
+[2025-04-02 16:33:40] [INFO] Base - PageFactory initialised
+[2025-04-02 16:33:43] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 16:33:43] [INFO] Base - Started test: Homepage Test
+[2025-04-02 16:33:45] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 16:33:46] [INFO] Base - Accepted cookies
+[2025-04-02 16:33:46] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-02 16:33:46] [INFO] Base - Homepage verification completed successfully
+[2025-04-02 16:33:46] [INFO] Base - Test Passed: PASS: homepageTest
+[2025-04-02 16:33:50] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-02 16:34:49] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-02 16:34:49] [ERROR] Base - URL is empty for property key: HomePage
+[2025-04-02 16:34:49] [ERROR] Base - There was an error retrieving the URL: URL is not set for property key: HomePage
+[2025-04-02 16:34:49] [ERROR] Base - Failed to navigate to page for property key: HomePage
+java.lang.RuntimeException: Failed to retrieve URL due to: URL is not set for property key: HomePage
+	at utils.NavigationUtils.getTestingSiteUrl(NavigationUtils.java:25) ~[test-classes/:?]
+	at utils.NavigationUtils.navigateToTestingSite(NavigationUtils.java:32) [test-classes/:?]
+	at pages.LoginPage.navigateToHomePage(LoginPage.java:33) [test-classes/:?]
+	at org.example.tests.LoginTest.setUp(LoginTest.java:25) [test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.beforeRun(TestRunner.java:646) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:612) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: java.lang.RuntimeException: URL is not set for property key: HomePage
+	at utils.NavigationUtils.getTestingSiteUrl(NavigationUtils.java:20) ~[test-classes/:?]
+	... 24 more
+[2025-04-02 16:34:49] [WARN] Base - Test Skipped: SKIPPED: googleLoginTest
+[2025-04-02 16:34:49] [INFO] Base - Test suite finished. Passed: 0, Failed: 0, Skipped: 1
+[2025-04-02 16:35:12] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-02 16:35:21] [INFO] Base - Chrome has been selected
+[2025-04-02 16:35:25] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 16:35:27] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 16:35:28] [INFO] Base - Accepted cookies
+[2025-04-02 16:35:33] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-02 16:35:34] [INFO] Base - clicked LoginButton
+[2025-04-02 16:35:35] [INFO] Base - clicked Google login
+[2025-04-02 16:35:35] [INFO] Base - Switched to login pop up window
+[2025-04-02 16:35:37] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-02 16:35:38] [INFO] Base - Clicked next button after populating email field
+[2025-04-02 16:35:38] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-02 16:35:41] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250402_163540.png
+[2025-04-02 16:35:41] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-02 16:35:45] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-02 16:37:10] [INFO] Base - WebDriver and Homepage initialized
+[2025-04-02 16:37:20] [INFO] Base - Chrome has been selected
+[2025-04-02 16:37:23] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 16:37:23] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 16:37:23] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 16:37:23] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 16:37:25] [INFO] Base - WebDriver closed
+[2025-04-02 16:39:20] [INFO] Base - WebDriver and Homepage initialized
+[2025-04-02 16:39:29] [INFO] Base - Chrome has been selected
+[2025-04-02 16:39:33] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 16:39:37] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 16:39:38] [INFO] Base - Accepted cookies
+[2025-04-02 16:39:38] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 16:39:38] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 16:39:38] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 16:39:40] [INFO] Base - WebDriver closed
+[2025-04-02 16:42:11] [INFO] Base - WebDriver and Homepage initialized - Bikes page
+[2025-04-02 16:42:21] [INFO] Base - Chrome has been selected
+[2025-04-02 16:42:24] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 16:42:27] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 16:42:27] [INFO] Base - Accepted cookies
+[2025-04-02 16:42:27] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 16:42:27] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 16:42:27] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 16:42:30] [INFO] Base - WebDriver closed
+[2025-04-02 16:44:10] [INFO] Base - WebDriver and Homepage initialized - Bikes page
+[2025-04-02 16:44:19] [INFO] Base - Chrome has been selected
+[2025-04-02 16:44:22] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 16:44:25] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 16:44:25] [INFO] Base - Accepted cookies
+[2025-04-02 16:44:25] [INFO] Base - Webdriver and Homepage initialised - loginbdd
+[2025-04-02 16:44:25] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 16:44:25] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 16:44:28] [INFO] Base - WebDriver closed
+[2025-04-02 16:45:20] [INFO] Base - WebDriver and Homepage initialized - Bikes page
+[2025-04-02 16:45:30] [INFO] Base - Chrome has been selected
+[2025-04-02 16:45:32] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 16:45:35] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 16:45:35] [INFO] Base - Accepted cookies
+[2025-04-02 16:45:35] [INFO] Base - Webdriver and Homepage initialised - loginbdd
+[2025-04-02 16:45:35] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 16:45:35] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 16:49:00] [INFO] Base - WebDriver and Homepage initialized - Bikes page
+[2025-04-02 16:49:10] [INFO] Base - Chrome has been selected
+[2025-04-02 16:49:13] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 16:49:15] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 16:49:15] [INFO] Base - Accepted cookies
+[2025-04-02 16:49:15] [INFO] Base - Webdriver and Homepage initialised - loginbdd
+[2025-04-02 16:49:15] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 16:49:15] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 16:53:52] [INFO] Base - WebDriver and Homepage initialized - Bikes page
+[2025-04-02 16:54:02] [INFO] Base - Chrome has been selected
+[2025-04-02 16:54:05] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 16:54:10] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-02 16:54:10] [INFO] Base - Webdriver and Homepage initialised - loginbdd
+[2025-04-02 16:54:10] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 16:54:10] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 16:55:11] [INFO] Base - WebDriver and Homepage initialized - Bikes page
+[2025-04-02 16:55:23] [INFO] Base - Chrome has been selected
+[2025-04-02 16:55:25] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 16:55:30] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 16:55:30] [INFO] Base - Accepted cookies
+[2025-04-02 16:55:30] [INFO] Base - Webdriver and Homepage initialised - loginbdd
+[2025-04-02 16:55:30] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 16:55:30] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 17:02:08] [INFO] Base - WebDriver and Homepage initialized - Bikes page
+[2025-04-02 17:02:19] [INFO] Base - Chrome has been selected
+[2025-04-02 17:02:21] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 17:02:24] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 17:02:24] [INFO] Base - Accepted cookies
+[2025-04-02 17:02:24] [INFO] Base - Webdriver and Homepage initialised - loginbdd
+[2025-04-02 17:02:24] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 17:02:24] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 17:02:24] [INFO] Base - WebDriver and Homepage initialized - Bikes page
+[2025-04-02 17:02:26] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 17:02:31] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-02 17:02:31] [INFO] Base - Webdriver and Homepage initialised - loginbdd
+[2025-04-02 17:02:31] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-02 17:02:32] [INFO] Base - clicked LoginButton
+[2025-04-02 17:02:33] [INFO] Base - clicked Google login
+[2025-04-02 17:02:33] [INFO] Base - Switched to login pop up window
+[2025-04-02 17:02:36] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-02 17:02:36] [INFO] Base - Clicked next button after populating email field
+[2025-04-02 17:02:37] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-02 17:02:39] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250402_170239.png
+[2025-04-02 17:20:32] [INFO] Base - WebDriver and Homepage initialized - Bikes page
+[2025-04-02 17:20:43] [INFO] Base - Chrome has been selected
+[2025-04-02 17:20:45] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 17:20:48] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 17:20:48] [INFO] Base - Accepted cookies
+[2025-04-02 17:20:48] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 17:20:48] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-02 17:20:49] [INFO] Base - clicked LoginButton
+[2025-04-02 17:20:50] [INFO] Base - clicked Google login
+[2025-04-02 17:20:50] [INFO] Base - Switched to login pop up window
+[2025-04-02 17:20:51] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-02 17:20:51] [INFO] Base - Clicked next button after populating email field
+[2025-04-02 17:20:53] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-02 17:20:55] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250402_172055.png
+[2025-04-02 17:21:31] [INFO] Base - WebDriver and Homepage initialized - Bikes page
+[2025-04-02 17:21:41] [INFO] Base - Chrome has been selected
+[2025-04-02 17:21:44] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 17:21:47] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 17:21:47] [INFO] Base - Accepted cookies
+[2025-04-02 17:21:47] [INFO] Base - Webdriver and Homepage initialised
+[2025-04-02 17:21:47] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 17:21:47] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-02 17:22:47] [INFO] Base - WebDriver and Homepage initialized - Bikesbdd
+[2025-04-02 17:22:57] [INFO] Base - Chrome has been selected
+[2025-04-02 17:23:00] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-02 17:23:02] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-02 17:23:03] [INFO] Base - Accepted cookies
+[2025-04-02 17:23:03] [INFO] Base - Webdriver and Homepage initialised - loginbdd
+[2025-04-02 17:23:03] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-02 17:23:03] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-03 09:06:14] [INFO] Base - WebDriver and Homepage initialized - Bikesbdd
+[2025-04-03 09:06:32] [INFO] Base - Chrome has been selected
+[2025-04-03 09:06:36] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 09:06:41] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 09:06:41] [INFO] Base - Accepted cookies
+[2025-04-03 09:06:41] [INFO] Base - Webdriver and Homepage initialised - loginbdd
+[2025-04-03 09:06:41] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-03 09:06:41] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-03 09:07:32] [INFO] Base - WebDriver and Homepage initialized - Bikesbdd
+[2025-04-03 09:07:43] [INFO] Base - Chrome has been selected
+[2025-04-03 09:07:47] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 09:07:50] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 09:07:51] [INFO] Base - Accepted cookies
+[2025-04-03 09:07:51] [INFO] Base - Webdriver and Homepage initialised - loginbdd
+[2025-04-03 09:07:51] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 09:07:52] [INFO] Base - clicked LoginButton
+[2025-04-03 09:07:53] [INFO] Base - clicked Google login
+[2025-04-03 09:07:53] [INFO] Base - Switched to login pop up window
+[2025-04-03 09:07:56] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-03 09:07:57] [INFO] Base - Clicked next button after populating email field
+[2025-04-03 09:07:58] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-03 09:08:00] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_090800.png
+[2025-04-03 09:09:50] [INFO] Base - Chrome has been selected
+[2025-04-03 09:09:50] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 09:09:52] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 09:09:57] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 09:09:57] [INFO] Base - Accepted cookies
+[2025-04-03 09:09:57] [INFO] Base - WebDriver and Homepage initialized - Bikesbdd
+[2025-04-03 09:09:58] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 09:10:04] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 09:10:04] [INFO] Base - Webdriver and Homepage initialised - loginbdd
+[2025-04-03 09:10:04] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 09:10:11] [INFO] Base - New bikes link pressed
+[2025-04-03 09:10:12] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 09:10:12] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 09:10:13] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 09:10:19] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 09:10:19] [INFO] Base - page has fully loaded.
+[2025-04-03 09:10:19] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 09:16:16] [INFO] Base - Chrome has been selected
+[2025-04-03 09:16:16] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 09:16:20] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 09:16:23] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 09:16:23] [INFO] Base - Accepted cookies
+[2025-04-03 09:16:23] [INFO] Base - WebDriver and Homepage initialized - Bikesbdd
+[2025-04-03 09:16:25] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 09:16:30] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 09:16:30] [INFO] Base - Webdriver and Homepage initialised - loginbdd
+[2025-04-03 09:16:30] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 09:16:30] [INFO] Base - clicked LoginButton
+[2025-04-03 09:16:31] [INFO] Base - clicked Google login
+[2025-04-03 09:16:31] [INFO] Base - Switched to login pop up window
+[2025-04-03 09:16:34] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-03 09:16:35] [INFO] Base - Clicked next button after populating email field
+[2025-04-03 09:16:36] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-03 09:16:38] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_091638.png
+[2025-04-03 09:26:36] [INFO] Base - Chrome has been selected
+[2025-04-03 09:26:36] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 09:26:39] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 09:26:42] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 09:26:43] [INFO] Base - Accepted cookies
+[2025-04-03 09:26:43] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 09:26:43] [INFO] Base - User is on the homepage for login.
+[2025-04-03 09:26:44] [INFO] Base - clicked LoginButton
+[2025-04-03 09:26:44] [INFO] Base - Login button clicked.
+[2025-04-03 09:26:44] [INFO] Base - clicked Google login
+[2025-04-03 09:26:44] [INFO] Base - Switched to login pop up window
+[2025-04-03 09:26:44] [INFO] Base - Google Login clicked.
+[2025-04-03 09:26:46] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-03 09:26:46] [INFO] Base - Email or phone number entered.
+[2025-04-03 09:26:47] [INFO] Base - Clicked next button after populating email field
+[2025-04-03 09:26:47] [INFO] Base - Next button clicked.
+[2025-04-03 09:26:48] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-03 09:26:51] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_092651.png
+[2025-04-03 09:26:51] [INFO] Base - Error page validated and screenshot taken.
+[2025-04-03 09:26:54] [INFO] Base - WebDriver closed
+[2025-04-03 09:28:09] [INFO] Base - Chrome has been selected
+[2025-04-03 09:28:09] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 09:28:09] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 09:28:13] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 09:28:16] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 09:28:16] [INFO] Base - Accepted cookies
+[2025-04-03 09:28:16] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 09:28:16] [INFO] Base - User is now on the homepage.
+[2025-04-03 09:28:21] [INFO] Base - New bikes link pressed
+[2025-04-03 09:28:21] [INFO] Base - Navigated to New Bikes page.
+[2025-04-03 09:28:21] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 09:28:21] [INFO] Base - Selected Upcoming Bikes tab.
+[2025-04-03 09:28:21] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 09:28:23] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 09:28:23] [INFO] Base - Chose All Upcoming Bikes.
+[2025-04-03 09:28:25] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 09:28:25] [INFO] Base - Filtered for Honda bikes.
+[2025-04-03 09:28:26] [INFO] Base - page has fully loaded.
+[2025-04-03 09:28:26] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-bikes
+[2025-04-03 09:28:31] [INFO] Base - WebDriver closed
+[2025-04-03 09:33:49] [INFO] Base - Chrome has been selected
+[2025-04-03 09:33:49] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 09:33:50] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 09:33:53] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 09:33:56] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 09:33:57] [INFO] Base - Accepted cookies
+[2025-04-03 09:33:57] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 09:33:57] [INFO] Base - User is now on the homepage.
+[2025-04-03 09:34:02] [INFO] Base - New bikes link pressed
+[2025-04-03 09:34:02] [INFO] Base - Navigated to New Bikes page.
+[2025-04-03 09:34:02] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 09:34:02] [INFO] Base - Selected Upcoming Bikes tab.
+[2025-04-03 09:34:02] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 09:34:04] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 09:34:04] [INFO] Base - Chose All Upcoming Bikes.
+[2025-04-03 09:34:07] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 09:34:07] [INFO] Base - Filtered for Honda bikes.
+[2025-04-03 09:34:07] [INFO] Base - page has fully loaded.
+[2025-04-03 09:34:07] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 09:34:07] [INFO] Base - Validated that the bike list contains only Honda bikes.
+[2025-04-03 09:34:12] [INFO] Base - WebDriver closed

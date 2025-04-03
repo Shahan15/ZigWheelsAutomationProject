@@ -15,14 +15,8 @@ public class CarPage extends Base {
     @FindBy(css = "[data-track-label=\"search-brand\"]") WebElement searchBrand;
     @FindBy(id = "thatsAllFolks") WebElement endOfPage;
 
-    WebDriver driver = Base.driver;
-
     public CarPage(){
         PageFactory.initElements(driver,this);
-    }
-
-    public void init () {
-        driver.get(NavigationUtils.getTestingSiteUrl("CarsPage"));
     }
 
     public void filterPrice() {

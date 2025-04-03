@@ -2,20 +2,17 @@ package scrapers;
 
 import model.Bike;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import utils.Base;
-import utils.NavigationUtils;
 import java.util.ArrayList;
 import java.util.List;
+import static utils.Base.driver;
 import static utils.ConvertPrice.convertPrice;
 
 public class BikeScraper {
 
-    static WebDriver driver = Base.driver;
-
     public BikeScraper() {
-        driver.get(NavigationUtils.getTestingSiteUrl("filteredBikes"));
+        Base.logger.info("Initialized BikeScraper instance");
     }
 
     public static List<Bike> webScrapeBikes() {

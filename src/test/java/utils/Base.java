@@ -18,40 +18,45 @@ public class Base {
     public static WebDriver driver;
 
     public static WebDriver getDriver() {
-        try {
-            String browser = FileHandler.getConfigProperty("browser");
-            switch (browser.toLowerCase()) {
-                case "chrome":
-                    ChromeOptions chromeOptions = new ChromeOptions();
-                    chromeOptions.addArguments("--disable-notifications");
-                    driver = new ChromeDriver(chromeOptions);
-                    logger.info("Chrome has been selected");
-                    break;
-                case "edge":
-                    EdgeOptions edgeOptions = new EdgeOptions();
-                    edgeOptions.addArguments("--disable-notifications");
-                    driver = new EdgeDriver(edgeOptions);
-                    logger.info("Microsoft Edge has been selected");
-                    break;
-                case "firefox":
-                    FirefoxOptions firefoxOptions = new FirefoxOptions();
-                    firefoxOptions.addPreference("dom.webnotifications.enabled", false);
-                    driver = new FirefoxDriver(firefoxOptions);
-                    logger.info("Firefox has been selected");
-                    break;
-                default:
-                    ChromeOptions defaultOptions = new ChromeOptions();
-                    defaultOptions.addArguments("--disable-notifications");
-                    driver = new ChromeDriver(defaultOptions);
-                    logger.info("Default browser has been selected - Chrome");
-                    break;
+        if (driver == null) { // Only create a new instance if driver is null
+            try {
+                String browser = FileHandler.getConfigProperty("browser");
+                switch (browser.toLowerCase()) {
+                    case "chrome":
+                        ChromeOptions chromeOptions = new ChromeOptions();
+                        chromeOptions.addArguments("--disable-notifications");
+                        driver = new ChromeDriver(chromeOptions);
+                        logger.info("Chrome has been selected");
+                        break;
+                    case "edge":
+                        EdgeOptions edgeOptions = new EdgeOptions();
+                        edgeOptions.addArguments("--disable-notifications");
+                        driver = new EdgeDriver(edgeOptions);
+                        logger.info("Microsoft Edge has been selected");
+                        break;
+                    case "firefox":
+                        FirefoxOptions firefoxOptions = new FirefoxOptions();
+                        firefoxOptions.addPreference("dom.webnotifications.enabled", false);
+                        driver = new FirefoxDriver(firefoxOptions);
+                        logger.info("Firefox has been selected");
+                        break;
+                    default:
+                        ChromeOptions defaultOptions = new ChromeOptions();
+                        defaultOptions.addArguments("--disable-notifications");
+                        driver = new ChromeDriver(defaultOptions);
+                        logger.info("Default browser has been selected - Chrome");
+                        break;
+                }
+            } catch (Exception ex) {
+                logger.error("There was an error initialising the browser: {}", ex.getMessage());
             }
-        } catch (Exception ex) {
-            logger.error("There was an error initializing {}", ex.getMessage(), ex);
+            if (driver != null) {
+                driver.manage().window().maximize();
+            }
         }
-        driver.manage().window().maximize();
         return driver;
     }
+
 
     public static void quitDriver() {
         if (driver != null) {

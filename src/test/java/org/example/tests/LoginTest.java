@@ -23,7 +23,7 @@ public class LoginTest {
         ReportUtils.setUpExtentReport();
         verifyingHomePage = new VerifyingHomePage();
         loginPage = new LoginPage();
-        loginPage.init();
+        loginPage.navigateToHomePage();
     }
 
     @Test

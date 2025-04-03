@@ -17,7 +17,7 @@ public class NavigatingToBikesTests {
     public void setup() {
         Base.getDriver();
         navigatingToBikes = new NavigatingToBikes();
-        navigatingToBikes.init();
+        navigatingToBikes.navigateToHomePage();
         ReportUtils.setUpExtentReport();
     }
 
