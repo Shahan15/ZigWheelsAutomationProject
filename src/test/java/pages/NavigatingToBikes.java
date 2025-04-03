@@ -81,12 +81,16 @@ public class NavigatingToBikes extends Base {
 
 
     public void validatingOnlyHondaBikes(){
-        String expectedHondaUrl = NavigationUtils.getTestingSiteUrl("filteredBikes"); // Replace with the actual Honda bikes link
+        String expectedHondaUrl = NavigationUtils.getTestingSiteUrl("filteredBikes");
         String actualUrl = Base.driver.getCurrentUrl();
-        NavigationUtils.waitPageLoad();
-        Base.logger.info("Validating URL after filtering bikes. Expected: {}, Actual: {}", expectedHondaUrl, actualUrl);
-
+        try {
+            new WebDriverWait(driver, Duration.ofSeconds(20)).until(ExpectedConditions.urlToBe(expectedHondaUrl));
+        } catch (TimeoutException e) {
+            Base.logger.error("Timeout while waiting for URL to match expected Honda bikes page URL. Expected: {}, Actual: {}", expectedHondaUrl, Base.driver.getCurrentUrl());
+            throw e;
+        }
         Assert.assertEquals(actualUrl, expectedHondaUrl, "URL after filtering does not match expected Honda bikes page URL!");
+        Base.logger.info("Validating URL after filtering bikes. Expected: {}, Actual: {}", expectedHondaUrl, actualUrl);
 
     }
 
