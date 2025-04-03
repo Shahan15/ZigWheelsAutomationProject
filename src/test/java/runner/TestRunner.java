@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features = "src/test/resources/features/",
         glue = {"stepdefinitions", "hooks"}, //Specifies the package containing the step definitions.
-        tags = "@carScraping",
+//        tags = "@carScraping",
         plugin = {"pretty", "html:src/test/resources/CucumberReports/cucumber-reports"}
         //this allows generation of reports
 )

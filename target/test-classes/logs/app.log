@@ -2675,3 +2675,27 @@ Session ID: 2f1ddd723197c3af7fc70630537e6b75
 [2025-04-03 12:12:37] [INFO] Base - Chrome has been selected
 [2025-04-03 12:12:37] [INFO] Base - Webdriver in hooks class called
 [2025-04-03 12:12:39] [INFO] Base - WebDriver closed
+[2025-04-03 12:17:45] [INFO] Base - Chrome has been selected
+[2025-04-03 12:17:45] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 12:17:50] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 12:17:50] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 12:17:50] [INFO] Base - Accepted cookies
+[2025-04-03 12:17:51] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 12:17:51] [INFO] Base - page has fully loaded.
+[2025-04-03 12:17:51] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 12:17:51] [INFO] Base - page has fully loaded.
+[2025-04-03 12:17:51] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 12:17:53] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 12:17:59] [INFO] Base - WebDriver closed
+[2025-04-03 12:31:18] [INFO] Base - Chrome has been selected
+[2025-04-03 12:31:18] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 12:31:18] [INFO] Base - Initialized BikeScraper instance
+[2025-04-03 12:31:21] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 12:31:23] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 12:31:24] [INFO] Base - Accepted cookies
+[2025-04-03 12:31:24] [INFO] Base - Clicked view more bikes
+[2025-04-03 12:31:35] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 12:31:35] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 12:31:35] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 12:31:36] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 12:31:43] [INFO] Base - WebDriver closed

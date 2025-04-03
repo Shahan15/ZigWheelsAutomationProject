@@ -11,9 +11,6 @@ import static utils.ConvertPrice.convertPrice;
 
 public class BikeScraper {
 
-    public BikeScraper() {
-        Base.logger.info("Initialized BikeScraper instance");
-    }
 
     public static List<Bike> webScrapeBikes() {
         List<WebElement> bikeNamesElement = driver.findElements(By.cssSelector("a[data-track-label='model-name'] strong"));
