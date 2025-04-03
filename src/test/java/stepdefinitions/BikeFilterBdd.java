@@ -13,7 +13,7 @@ public class BikeFilterBdd {
     private NavigatingToBikes navigatingToBikes;
     private VerifyingHomePage verifyingHomePage;
 
-    // Constructor to initialize page objects
+    // Initialise page objects in the constructor
     public BikeFilterBdd() {
         verifyingHomePage = new VerifyingHomePage();
         navigatingToBikes = new NavigatingToBikes();

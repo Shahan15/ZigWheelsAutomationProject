@@ -1,5 +1,6 @@
 package utils;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Properties;
@@ -15,16 +16,17 @@ public class FileHandler {
     //dir will get the user directory
     public static String Fs = getDefault().getSeparator();
     public static String dir = System.getProperty("user.dir");
-    public static String ResourcesPath = dir + Fs + "src" + Fs + "test" + Fs + "resources" + Fs;
-    public static String ConfigFile = ResourcesPath + "config.properties";
 
-    public static String reports = ResourcesPath + "Reports" + Fs;
-    public static String screenshotPath = ResourcesPath + "ScreenshotsFolder" + Fs;
+    public static String resourcesPath = dir + Fs + "src" + Fs + "test" + Fs + "resources" + Fs;
+    public static String configFile = resourcesPath + "config.properties";
+
+    public static String reports = resourcesPath + "Reports" + Fs;
+    public static String screenshotPath = resourcesPath + "ScreenshotsFolder" + Fs;
 
     public static String getConfigProperty(String key) {
         String result = "";
         try {
-            FileInputStream fis = new FileInputStream(ConfigFile);
+            FileInputStream fis = new FileInputStream(configFile);
             properties.load(fis); //loads properties from file
             result = properties.getProperty(key);
         } catch (Exception ex) {
@@ -39,5 +41,10 @@ public class FileHandler {
         return results;
     }
 
+
+    public static boolean doesExcelSheetExist(String fileName) {
+        File file = new File(fileName);
+        return file.exists();
+    }
 
 }

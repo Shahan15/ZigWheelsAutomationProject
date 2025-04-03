@@ -2267,3 +2267,423 @@ Caused by: java.lang.RuntimeException: URL is not set for property key: HomePage
 [2025-04-03 09:45:32] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_094532.png
 [2025-04-03 09:45:32] [INFO] Base - Error page validated and screenshot taken.
 [2025-04-03 09:45:36] [INFO] Base - WebDriver closed
+[2025-04-03 10:22:23] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 10:22:34] [INFO] Base - Chrome has been selected
+[2025-04-03 10:22:37] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 10:22:40] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 10:22:40] [INFO] Base - Accepted cookies
+[2025-04-03 10:22:40] [INFO] Base - Clicked view more bikes
+[2025-04-03 10:22:41] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 10:22:43] [INFO] Base - Data successfully written to src/test/resources/ExcelSheets/FilteredBikesData.xlsx
+[2025-04-03 10:22:43] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-04-03 10:22:47] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 10:27:53] [INFO] Base - Chrome has been selected
+[2025-04-03 10:27:53] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 10:27:53] [INFO] Base - Initialized BikeScraper instance
+[2025-04-03 10:27:55] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 10:27:58] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 10:27:59] [INFO] Base - Accepted cookies
+[2025-04-03 10:28:00] [INFO] Base - Clicked view more bikes
+[2025-04-03 10:28:11] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 10:28:11] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 10:28:11] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 10:28:12] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 10:28:16] [INFO] Base - WebDriver closed
+[2025-04-03 10:33:58] [INFO] Base - Chrome has been selected
+[2025-04-03 10:33:58] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 10:33:58] [INFO] Base - Initialized BikeScraper instance
+[2025-04-03 10:34:00] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 10:34:04] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 10:34:04] [INFO] Base - Accepted cookies
+[2025-04-03 10:34:04] [INFO] Base - Clicked view more bikes
+[2025-04-03 10:34:15] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 10:34:15] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 10:34:15] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 10:34:16] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 10:34:21] [INFO] Base - WebDriver closed
+[2025-04-03 10:37:05] [INFO] Base - Chrome has been selected
+[2025-04-03 10:37:05] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 10:37:05] [INFO] Base - Initialized BikeScraper instance
+[2025-04-03 10:37:07] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 10:37:10] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 10:37:10] [INFO] Base - Accepted cookies
+[2025-04-03 10:37:11] [INFO] Base - Clicked view more bikes
+[2025-04-03 10:37:22] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 10:37:22] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 10:37:22] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 10:37:23] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 10:37:28] [INFO] Base - WebDriver closed
+[2025-04-03 10:39:04] [INFO] Base - Chrome has been selected
+[2025-04-03 10:39:04] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 10:39:04] [INFO] Base - Initialized BikeScraper instance
+[2025-04-03 10:39:07] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 10:39:10] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 10:39:10] [INFO] Base - Accepted cookies
+[2025-04-03 10:39:11] [INFO] Base - Clicked view more bikes
+[2025-04-03 10:39:22] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 10:39:22] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 10:39:22] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 10:39:24] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 10:39:30] [INFO] Base - WebDriver closed
+[2025-04-03 10:39:40] [INFO] Base - Chrome has been selected
+[2025-04-03 10:39:40] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 10:39:40] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 10:39:42] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 10:39:47] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 10:39:47] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 10:39:47] [INFO] Base - User is now on the homepage.
+[2025-04-03 10:39:51] [INFO] Base - WebDriver closed
+[2025-04-03 10:40:00] [INFO] Base - Chrome has been selected
+[2025-04-03 10:40:01] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 10:40:02] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 10:40:08] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 10:40:08] [INFO] Base - Accepted cookies
+[2025-04-03 10:40:08] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 10:40:08] [INFO] Base - User is on the homepage for login.
+[2025-04-03 10:40:09] [INFO] Base - clicked LoginButton
+[2025-04-03 10:40:09] [INFO] Base - Login button clicked.
+[2025-04-03 10:40:10] [INFO] Base - clicked Google login
+[2025-04-03 10:40:10] [INFO] Base - Switched to login pop up window
+[2025-04-03 10:40:10] [INFO] Base - Google Login clicked.
+[2025-04-03 10:40:12] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-03 10:40:12] [INFO] Base - Email or phone number entered.
+[2025-04-03 10:40:12] [INFO] Base - Clicked next button after populating email field
+[2025-04-03 10:40:12] [INFO] Base - Next button clicked.
+[2025-04-03 10:40:13] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-03 10:40:15] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_104015.png
+[2025-04-03 10:40:15] [INFO] Base - Error page validated and screenshot taken.
+[2025-04-03 10:40:21] [INFO] Base - WebDriver closed
+[2025-04-03 10:44:17] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 10:44:29] [INFO] Base - Chrome has been selected
+[2025-04-03 10:44:29] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 10:44:33] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 10:44:37] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 10:44:37] [INFO] Base - Accepted cookies
+[2025-04-03 10:44:37] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 10:44:39] [INFO] Base - New bikes link pressed
+[2025-04-03 10:44:40] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 10:44:40] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 10:44:41] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 10:44:41] [INFO] Base - page has fully loaded.
+[2025-04-03 10:44:44] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 10:44:44] [INFO] Base - Clicked view more bikes
+[2025-04-03 10:44:44] [INFO] Base - page has fully loaded.
+[2025-04-03 10:44:44] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 10:44:44] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-03 10:44:49] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 10:45:14] [INFO] Base - Chrome has been selected
+[2025-04-03 10:45:14] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 10:45:14] [INFO] Base - Initialized BikeScraper instance
+[2025-04-03 10:45:20] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 10:45:20] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 10:45:20] [INFO] Base - Accepted cookies
+[2025-04-03 10:45:23] [INFO] Base - Clicked view more bikes
+[2025-04-03 10:45:34] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 10:45:34] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 10:45:34] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 10:45:36] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 10:45:39] [INFO] Base - WebDriver closed
+[2025-04-03 10:45:49] [INFO] Base - Chrome has been selected
+[2025-04-03 10:45:49] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 10:45:49] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 10:45:53] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 10:45:56] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 10:45:57] [INFO] Base - Accepted cookies
+[2025-04-03 10:45:57] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 10:45:57] [INFO] Base - User is now on the homepage.
+[2025-04-03 10:46:00] [INFO] Base - New bikes link pressed
+[2025-04-03 10:46:00] [INFO] Base - Navigated to New Bikes page.
+[2025-04-03 10:46:01] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 10:46:01] [INFO] Base - Selected Upcoming Bikes tab.
+[2025-04-03 10:46:01] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 10:46:03] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 10:46:03] [INFO] Base - Chose All Upcoming Bikes.
+[2025-04-03 10:46:05] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 10:46:05] [INFO] Base - Filtered for Honda bikes.
+[2025-04-03 10:46:05] [INFO] Base - page has fully loaded.
+[2025-04-03 10:46:05] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 10:46:05] [INFO] Base - Validated that the bike list contains only Honda bikes.
+[2025-04-03 10:46:09] [INFO] Base - WebDriver closed
+[2025-04-03 10:46:18] [INFO] Base - Chrome has been selected
+[2025-04-03 10:46:18] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 10:46:19] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 10:46:25] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 10:46:25] [INFO] Base - Accepted cookies
+[2025-04-03 10:46:26] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 10:46:26] [INFO] Base - User is on the homepage for login.
+[2025-04-03 10:46:27] [INFO] Base - clicked LoginButton
+[2025-04-03 10:46:27] [INFO] Base - Login button clicked.
+[2025-04-03 10:46:27] [INFO] Base - clicked Google login
+[2025-04-03 10:46:27] [INFO] Base - Switched to login pop up window
+[2025-04-03 10:46:27] [INFO] Base - Google Login clicked.
+[2025-04-03 10:46:30] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-03 10:46:30] [INFO] Base - Email or phone number entered.
+[2025-04-03 10:46:30] [INFO] Base - Clicked next button after populating email field
+[2025-04-03 10:46:30] [INFO] Base - Next button clicked.
+[2025-04-03 10:46:31] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-03 10:46:33] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_104633.png
+[2025-04-03 10:46:33] [INFO] Base - Error page validated and screenshot taken.
+[2025-04-03 10:46:38] [INFO] Base - WebDriver closed
+[2025-04-03 10:48:01] [INFO] Base - Chrome has been selected
+[2025-04-03 10:48:01] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 10:48:01] [INFO] Base - Initialized BikeScraper instance
+[2025-04-03 10:48:03] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 10:48:06] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 10:48:07] [INFO] Base - Accepted cookies
+[2025-04-03 10:48:08] [INFO] Base - Clicked view more bikes
+[2025-04-03 10:48:19] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 10:48:19] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 10:48:19] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 10:48:20] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 10:48:26] [INFO] Base - WebDriver closed
+[2025-04-03 10:51:09] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 10:51:19] [INFO] Base - Chrome has been selected
+[2025-04-03 10:51:19] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 10:51:23] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 10:51:26] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 10:51:26] [INFO] Base - Accepted cookies
+[2025-04-03 10:51:26] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 10:51:32] [INFO] Base - New bikes link pressed
+[2025-04-03 10:51:33] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 10:51:33] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 10:51:34] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 10:51:34] [INFO] Base - page has fully loaded.
+[2025-04-03 10:51:39] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 10:51:41] [WARN] Base - Standard click intercepted. Falling back to JavaScript click.
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (457, 1335)
+  (Session info: chrome=134.0.6998.36)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d48d56faa34fa2c4be8a4abbedbde6be, clickElement {id=f.369025F77A5599083A496BF1FA67149F.d.6785C472F6BF00AFCC2BD78DEFE7FF57.e.495}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53591}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53591/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d48d56faa34fa2c4be8a4abbedbde6be)] -> xpath: //*[@id="modelList"]/li[16]/span]
+Session ID: d48d56faa34fa2c4be8a4abbedbde6be
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.29.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.29.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source) ~[?:?]
+	at pages.NavigatingToBikes.clickViewMoreBikes(NavigatingToBikes.java:71) ~[test-classes/:?]
+	at pages.NavigatingToBikes.navigatingToBikesPage(NavigatingToBikes.java:102) ~[test-classes/:?]
+	at org.example.tests.NavigatingToBikesTests.NavigatingToBikesPageTest(NavigatingToBikesTests.java:27) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[2025-04-03 10:51:41] [INFO] Base - JavaScript click performed successfully.
+[2025-04-03 10:51:41] [INFO] Base - page has fully loaded.
+[2025-04-03 10:51:41] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 10:51:41] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-03 10:51:50] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 10:54:16] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 10:54:26] [INFO] Base - Chrome has been selected
+[2025-04-03 10:54:26] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 10:54:27] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 10:54:32] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 10:54:33] [INFO] Base - Accepted cookies
+[2025-04-03 10:54:33] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 10:54:34] [INFO] Base - New bikes link pressed
+[2025-04-03 10:54:35] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 10:54:35] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 10:54:37] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 10:54:37] [INFO] Base - page has fully loaded.
+[2025-04-03 10:54:38] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 10:54:40] [WARN] Base - Standard click intercepted. Falling back to JavaScript click.
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (457, 1449)
+  (Session info: chrome=134.0.6998.36)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f1ddd723197c3af7fc70630537e6b75, clickElement {id=f.9A5CFF7351AC05B499F4E15372A9D2E4.d.62A662AEECA4536119EA717B0F991288.e.477}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54366}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54366/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2f1ddd723197c3af7fc70630537e6b75)] -> xpath: //span[contains(@class, 'zw-cmn-loadMore')]]
+Session ID: 2f1ddd723197c3af7fc70630537e6b75
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.29.0.jar:?]
+	at pages.NavigatingToBikes.clickViewMoreBikes(NavigatingToBikes.java:72) ~[test-classes/:?]
+	at pages.NavigatingToBikes.navigatingToBikesPage(NavigatingToBikes.java:103) ~[test-classes/:?]
+	at org.example.tests.NavigatingToBikesTests.NavigatingToBikesPageTest(NavigatingToBikesTests.java:27) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[2025-04-03 10:54:40] [INFO] Base - JavaScript click performed successfully.
+[2025-04-03 10:54:41] [INFO] Base - page has fully loaded.
+[2025-04-03 10:54:41] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 10:54:41] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-03 10:54:46] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 10:55:22] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 10:55:32] [INFO] Base - Chrome has been selected
+[2025-04-03 10:55:32] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 10:55:35] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 10:55:39] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 10:55:39] [INFO] Base - Accepted cookies
+[2025-04-03 10:55:39] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 10:55:41] [INFO] Base - New bikes link pressed
+[2025-04-03 10:55:41] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 10:55:42] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 10:55:43] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 10:55:43] [INFO] Base - page has fully loaded.
+[2025-04-03 10:55:46] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 10:55:47] [INFO] Base - Clicked view more bikes
+[2025-04-03 10:55:47] [INFO] Base - page has fully loaded.
+[2025-04-03 10:55:47] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 10:55:47] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-03 10:55:51] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 10:57:54] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 10:58:05] [INFO] Base - Chrome has been selected
+[2025-04-03 10:58:05] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 10:58:09] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 10:58:12] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 10:58:12] [INFO] Base - Accepted cookies
+[2025-04-03 10:58:12] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 10:58:15] [INFO] Base - New bikes link pressed
+[2025-04-03 10:58:16] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 10:58:16] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 10:58:18] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 10:58:18] [INFO] Base - page has fully loaded.
+[2025-04-03 10:58:20] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 10:58:20] [INFO] Base - page has fully loaded.
+[2025-04-03 10:58:21] [INFO] Base - Clicked view more bikes
+[2025-04-03 10:58:21] [INFO] Base - page has fully loaded.
+[2025-04-03 10:58:21] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 10:58:21] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-03 10:58:25] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 10:59:04] [INFO] Base - Chrome has been selected
+[2025-04-03 10:59:04] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 10:59:04] [INFO] Base - Initialized BikeScraper instance
+[2025-04-03 10:59:06] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 10:59:09] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 10:59:09] [INFO] Base - Accepted cookies
+[2025-04-03 10:59:10] [INFO] Base - Clicked view more bikes
+[2025-04-03 10:59:20] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 10:59:20] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 10:59:21] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 10:59:22] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 10:59:28] [INFO] Base - WebDriver closed
+[2025-04-03 11:00:25] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 11:00:35] [INFO] Base - Chrome has been selected
+[2025-04-03 11:00:38] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 11:00:41] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 11:00:41] [INFO] Base - Accepted cookies
+[2025-04-03 11:00:42] [INFO] Base - Clicked view more bikes
+[2025-04-03 11:00:42] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 11:00:44] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 11:00:45] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-04-03 11:00:49] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 11:02:11] [INFO] Base - Chrome has been selected
+[2025-04-03 11:02:11] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 11:02:11] [INFO] Base - Initialized BikeScraper instance
+[2025-04-03 11:02:13] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 11:02:16] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 11:02:16] [INFO] Base - Accepted cookies
+[2025-04-03 11:02:16] [INFO] Base - Clicked view more bikes
+[2025-04-03 11:02:27] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 11:02:27] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 11:02:27] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 11:02:28] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 11:02:35] [INFO] Base - WebDriver closed
+[2025-04-03 11:03:22] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 11:03:30] [INFO] Base - Chrome has been selected
+[2025-04-03 11:03:33] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 11:03:35] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 11:03:35] [INFO] Base - Accepted cookies
+[2025-04-03 11:03:36] [INFO] Base - Clicked view more bikes
+[2025-04-03 11:03:36] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 11:03:37] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 11:03:37] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-04-03 11:03:40] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 11:04:28] [INFO] Base - Chrome has been selected
+[2025-04-03 11:04:28] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 11:04:28] [INFO] Base - Initialized BikeScraper instance
+[2025-04-03 11:04:31] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 11:04:33] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 11:04:33] [INFO] Base - Accepted cookies
+[2025-04-03 11:04:34] [INFO] Base - Clicked view more bikes
+[2025-04-03 11:04:44] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 11:04:44] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 11:04:44] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 11:04:46] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 11:04:49] [INFO] Base - WebDriver closed
+[2025-04-03 12:08:03] [INFO] Base - Chrome has been selected
+[2025-04-03 12:08:03] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 12:08:06] [INFO] Base - WebDriver closed
+[2025-04-03 12:12:37] [INFO] Base - Chrome has been selected
+[2025-04-03 12:12:37] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 12:12:39] [INFO] Base - WebDriver closed
+[2025-04-03 12:17:45] [INFO] Base - Chrome has been selected
+[2025-04-03 12:17:45] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 12:17:50] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 12:17:50] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 12:17:50] [INFO] Base - Accepted cookies
+[2025-04-03 12:17:51] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 12:17:51] [INFO] Base - page has fully loaded.
+[2025-04-03 12:17:51] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 12:17:51] [INFO] Base - page has fully loaded.
+[2025-04-03 12:17:51] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 12:17:53] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 12:17:59] [INFO] Base - WebDriver closed

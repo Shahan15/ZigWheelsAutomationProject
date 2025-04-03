@@ -12,7 +12,7 @@ import java.time.Duration;
 import static utils.NavigationUtils.waitPageLoad;
 
 public class NavigatingToBikes extends Base {
-    @FindBy(css = "[data-track-label=\"nav-newbikes\"]") WebElement newBikesLink;
+    @FindBy(css = "a[href=\"/newbikes\"]\n") WebElement newBikesLink;
     @FindBy(css = "[data-track-label=\"upcoming-tab\"]") WebElement upcomingSliderTab;
     @FindBy(id = "makeId") WebElement manufacturerDropdown;
     @FindBy(xpath = "//*[@id=\"modelList\"]/li[16]/span") WebElement moreBikesBtn;
@@ -62,7 +62,7 @@ public class NavigatingToBikes extends Base {
             //centers element
             js.executeScript("arguments[0].scrollIntoView({behavior: 'instant', block: 'center', inline: 'nearest'});", moreBikesBtn);
 
-            // Wait until the element becomes clickable
+            // Wait until the element becomes visible
             NavigationUtils.webDriverWait(driver,10,moreBikesBtn);
 
             // Attempt a regular click
@@ -94,8 +94,9 @@ public class NavigatingToBikes extends Base {
         navigateToNewBikes();
         navigateToUpcomingSliderTab();
         clickAllUpcomingBikesLink();
-        waitPageLoad();
+        NavigationUtils.waitPageLoad();
         filterBikes();
+        NavigationUtils.waitPageLoad();
         clickViewMoreBikes();
         validatingOnlyHondaBikes();
     }

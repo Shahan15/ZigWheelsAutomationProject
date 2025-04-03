@@ -13,7 +13,7 @@ public class LoginBdd {
     private VerifyingHomePage verifyingHomePage;
     private LoginPage loginPage;
 
-    // Initialize page objects in the constructor
+    // Initialise page objects in the constructor
     public LoginBdd() {
         verifyingHomePage = new VerifyingHomePage();
         loginPage = new LoginPage();
