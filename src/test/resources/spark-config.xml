@@ -1,0 +1,36 @@
+<extent>
+    <configuration>
+        <!-- Report Theme -->
+        <theme>dark</theme> <!-- Options: 'standard' or 'dark' -->
+
+        <!-- Encoding -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Report Title -->
+        <documentTitle>Automation Test Report</documentTitle>
+
+        <!-- Report Name -->
+        <reportName>Cucumber Test Execution Report</reportName>
+
+        <!-- Chart Configuration -->
+        <enableTimeline>true</enableTimeline>
+        <protocol>https</protocol> <!-- For embedded images -->
+
+        <!-- Custom CSS -->
+        <styles>
+            /* Add custom CSS to style your report */
+            .test-status-pass {
+            color: green;
+            }
+            .test-status-fail {
+            color: red;
+            }
+        </styles>
+
+        <!-- Custom JavaScript -->
+        <scripts>
+            /* Add custom JavaScript for interactivity or custom features */
+            console.log("Custom Spark Report Loaded");
+        </scripts>
+    </configuration>
+</extent>

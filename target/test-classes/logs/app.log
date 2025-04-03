@@ -2968,3 +2968,881 @@ Session ID: 2f1ddd723197c3af7fc70630537e6b75
 [2025-04-03 12:46:48] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_124648.png
 [2025-04-03 12:46:48] [INFO] Base - Error page validated and screenshot taken.
 [2025-04-03 12:46:55] [INFO] Base - WebDriver closed
+[2025-04-03 12:52:54] [INFO] Base - Chrome has been selected
+[2025-04-03 12:52:54] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 12:52:54] [INFO] Base - BikeScraperBdd initialized with VerifyingHomePage, NavigatingToBikes, and BikeScraper.
+[2025-04-03 12:52:54] [INFO] Base - Navigating to the filtered bikes page...
+[2025-04-03 12:52:56] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 12:52:56] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 12:52:59] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 12:52:59] [INFO] Base - Accepted cookies
+[2025-04-03 12:52:59] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 12:53:01] [INFO] Base - Clicked view more bikes
+[2025-04-03 12:53:01] [INFO] Base - 'View More Bikes' button clicked successfully.
+[2025-04-03 12:53:01] [INFO] Base - Starting bike data scraping process...
+[2025-04-03 12:53:01] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 12:53:11] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 12:53:11] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 12:53:11] [INFO] Base - 'View More Bikes' button clicked successfully. Proceeding with data scraping...
+[2025-04-03 12:53:11] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 12:53:12] [INFO] Base - Bike data successfully scraped. Found 8 bikes.
+[2025-04-03 12:53:12] [INFO] Base - Writing bike data to Excel sheet with headers: [Bike Name, Bike price, Expected Launch Date].
+[2025-04-03 12:53:13] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 12:53:13] [INFO] Base - Bike data successfully written to 'FilteredBikesData.xlsx'.
+[2025-04-03 12:53:13] [INFO] Base - Verifying existence of 'FilteredBikesData.xlsx' file...
+[2025-04-03 12:53:13] [INFO] Base - 'FilteredBikesData.xlsx' file exists. Verification successful.
+[2025-04-03 12:53:18] [INFO] Base - WebDriver closed
+[2025-04-03 12:53:26] [INFO] Base - Chrome has been selected
+[2025-04-03 12:53:26] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 12:53:27] [INFO] Base - CarScraperBdd initialized with VerifyingHomePage and CarPage objects.
+[2025-04-03 12:53:27] [INFO] Base - Navigating to the used cars page...
+[2025-04-03 12:53:32] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 12:53:32] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 12:53:32] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 12:53:32] [INFO] Base - Accepted cookies
+[2025-04-03 12:53:32] [INFO] Base - Applying filter by maximum price...
+[2025-04-03 12:53:33] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 12:53:33] [INFO] Base - Filter by maximum price applied successfully. Waiting for page to load...
+[2025-04-03 12:53:33] [INFO] Base - page has fully loaded.
+[2025-04-03 12:53:33] [INFO] Base - Applying filter for only Honda cars...
+[2025-04-03 12:53:33] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 12:53:33] [INFO] Base - Filter for Honda cars applied successfully. Waiting for page to load...
+[2025-04-03 12:53:33] [INFO] Base - page has fully loaded.
+[2025-04-03 12:53:33] [INFO] Base - Starting car data scraping process...
+[2025-04-03 12:53:33] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 12:53:34] [INFO] Base - Car data successfully scraped. Found 12 cars.
+[2025-04-03 12:53:34] [INFO] Base - Writing car data to Excel sheet with headers: [Car Names, Car Price].
+[2025-04-03 12:53:34] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 12:53:34] [INFO] Base - Car data successfully written to 'FilteredCarsData.xlsx'.
+[2025-04-03 12:53:34] [INFO] Base - Verifying existence of 'FilteredCarsData.xlsx' file...
+[2025-04-03 12:53:34] [INFO] Base - 'FilteredCarsData.xlsx' file exists. Verification successful.
+[2025-04-03 12:53:40] [INFO] Base - WebDriver closed
+[2025-04-03 12:53:48] [INFO] Base - Chrome has been selected
+[2025-04-03 12:53:48] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 12:53:48] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 12:53:51] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 12:53:54] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 12:53:54] [INFO] Base - Accepted cookies
+[2025-04-03 12:53:54] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 12:53:54] [INFO] Base - User is now on the homepage.
+[2025-04-03 12:53:56] [INFO] Base - New bikes link pressed
+[2025-04-03 12:53:56] [INFO] Base - Navigated to New Bikes page.
+[2025-04-03 12:53:56] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 12:53:56] [INFO] Base - Selected Upcoming Bikes tab.
+[2025-04-03 12:53:56] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 12:53:58] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 12:53:58] [INFO] Base - Chose All Upcoming Bikes.
+[2025-04-03 12:53:59] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 12:53:59] [INFO] Base - Filtered for Honda bikes.
+[2025-04-03 12:53:59] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 12:53:59] [INFO] Base - Validated that the bike list contains only Honda bikes.
+[2025-04-03 12:54:07] [INFO] Base - WebDriver closed
+[2025-04-03 12:54:15] [INFO] Base - Chrome has been selected
+[2025-04-03 12:54:15] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 12:54:19] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 12:54:21] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 12:54:21] [INFO] Base - Accepted cookies
+[2025-04-03 12:54:21] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 12:54:21] [INFO] Base - User is on the homepage for login.
+[2025-04-03 12:54:22] [INFO] Base - clicked LoginButton
+[2025-04-03 12:54:22] [INFO] Base - Login button clicked.
+[2025-04-03 12:54:22] [INFO] Base - clicked Google login
+[2025-04-03 12:54:22] [INFO] Base - Switched to login pop up window
+[2025-04-03 12:54:22] [INFO] Base - Google Login clicked.
+[2025-04-03 12:54:24] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-03 12:54:24] [INFO] Base - Email or phone number entered.
+[2025-04-03 12:54:24] [INFO] Base - Clicked next button after populating email field
+[2025-04-03 12:54:24] [INFO] Base - Next button clicked.
+[2025-04-03 12:54:26] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-03 12:54:28] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_125428.png
+[2025-04-03 12:54:28] [INFO] Base - Error page validated and screenshot taken.
+[2025-04-03 12:54:33] [INFO] Base - WebDriver closed
+[2025-04-03 13:02:30] [INFO] Base - Chrome has been selected
+[2025-04-03 13:02:31] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:02:31] [INFO] Base - BikeScraperBdd initialized with VerifyingHomePage, NavigatingToBikes, and BikeScraper.
+[2025-04-03 13:02:31] [INFO] Base - Navigating to the filtered bikes page...
+[2025-04-03 13:02:33] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:02:33] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:02:36] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:02:36] [INFO] Base - Accepted cookies
+[2025-04-03 13:02:36] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:02:38] [INFO] Base - Clicked view more bikes
+[2025-04-03 13:02:38] [INFO] Base - 'View More Bikes' button clicked successfully.
+[2025-04-03 13:02:38] [INFO] Base - Starting bike data scraping process...
+[2025-04-03 13:02:38] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:02:48] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 13:02:48] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 13:02:48] [INFO] Base - 'View More Bikes' button clicked successfully. Proceeding with data scraping...
+[2025-04-03 13:02:48] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 13:02:50] [INFO] Base - Bike data successfully scraped. Found 8 bikes.
+[2025-04-03 13:02:50] [INFO] Base - Writing bike data to Excel sheet with headers: [Bike Name, Bike price, Expected Launch Date].
+[2025-04-03 13:02:51] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 13:02:51] [INFO] Base - Bike data successfully written to 'FilteredBikesData.xlsx'.
+[2025-04-03 13:02:51] [INFO] Base - Verifying existence of 'FilteredBikesData.xlsx' file...
+[2025-04-03 13:02:51] [INFO] Base - 'FilteredBikesData.xlsx' file exists. Verification successful.
+[2025-04-03 13:02:58] [INFO] Base - WebDriver closed
+[2025-04-03 13:03:09] [INFO] Base - Chrome has been selected
+[2025-04-03 13:03:09] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:03:09] [INFO] Base - CarScraperBdd initialized with VerifyingHomePage and CarPage objects.
+[2025-04-03 13:03:09] [INFO] Base - Navigating to the used cars page...
+[2025-04-03 13:03:14] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 13:03:14] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:03:14] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:03:15] [INFO] Base - Accepted cookies
+[2025-04-03 13:03:15] [INFO] Base - Applying filter by maximum price...
+[2025-04-03 13:03:16] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 13:03:16] [INFO] Base - Filter by maximum price applied successfully. Waiting for page to load...
+[2025-04-03 13:03:16] [INFO] Base - page has fully loaded.
+[2025-04-03 13:03:16] [INFO] Base - Applying filter for only Honda cars...
+[2025-04-03 13:03:18] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 13:03:18] [INFO] Base - Filter for Honda cars applied successfully. Waiting for page to load...
+[2025-04-03 13:03:18] [INFO] Base - page has fully loaded.
+[2025-04-03 13:03:18] [INFO] Base - Starting car data scraping process...
+[2025-04-03 13:03:18] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 13:03:18] [INFO] Base - Car data successfully scraped. Found 12 cars.
+[2025-04-03 13:03:18] [INFO] Base - Writing car data to Excel sheet with headers: [Car Names, Car Price].
+[2025-04-03 13:03:18] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 13:03:18] [INFO] Base - Car data successfully written to 'FilteredCarsData.xlsx'.
+[2025-04-03 13:03:18] [INFO] Base - Verifying existence of 'FilteredCarsData.xlsx' file...
+[2025-04-03 13:03:18] [INFO] Base - 'FilteredCarsData.xlsx' file exists. Verification successful.
+[2025-04-03 13:03:22] [INFO] Base - WebDriver closed
+[2025-04-03 13:03:32] [INFO] Base - Chrome has been selected
+[2025-04-03 13:03:32] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:03:32] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 13:03:36] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:03:39] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:03:40] [INFO] Base - Accepted cookies
+[2025-04-03 13:03:40] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:03:40] [INFO] Base - User is now on the homepage.
+[2025-04-03 13:03:46] [INFO] Base - New bikes link pressed
+[2025-04-03 13:03:46] [INFO] Base - Navigated to New Bikes page.
+[2025-04-03 13:03:47] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 13:03:47] [INFO] Base - Selected Upcoming Bikes tab.
+[2025-04-03 13:03:47] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 13:03:49] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 13:03:49] [INFO] Base - Chose All Upcoming Bikes.
+[2025-04-03 13:03:52] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 13:03:52] [INFO] Base - Filtered for Honda bikes.
+[2025-04-03 13:03:52] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:03:52] [INFO] Base - Validated that the bike list contains only Honda bikes.
+[2025-04-03 13:03:59] [INFO] Base - WebDriver closed
+[2025-04-03 13:04:08] [INFO] Base - Chrome has been selected
+[2025-04-03 13:04:08] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:04:11] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:04:15] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:04:16] [INFO] Base - Accepted cookies
+[2025-04-03 13:04:16] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:04:16] [INFO] Base - User is on the homepage for login.
+[2025-04-03 13:04:16] [INFO] Base - clicked LoginButton
+[2025-04-03 13:04:16] [INFO] Base - Login button clicked.
+[2025-04-03 13:04:17] [INFO] Base - clicked Google login
+[2025-04-03 13:04:17] [INFO] Base - Switched to login pop up window
+[2025-04-03 13:04:17] [INFO] Base - Google Login clicked.
+[2025-04-03 13:04:19] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-03 13:04:19] [INFO] Base - Email or phone number entered.
+[2025-04-03 13:04:19] [INFO] Base - Clicked next button after populating email field
+[2025-04-03 13:04:19] [INFO] Base - Next button clicked.
+[2025-04-03 13:04:20] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-03 13:04:23] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_130423.png
+[2025-04-03 13:04:23] [INFO] Base - Error page validated and screenshot taken.
+[2025-04-03 13:04:29] [INFO] Base - WebDriver closed
+[2025-04-03 13:06:38] [INFO] Base - Chrome has been selected
+[2025-04-03 13:06:38] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:06:38] [INFO] Base - BikeScraperBdd initialized with VerifyingHomePage, NavigatingToBikes, and BikeScraper.
+[2025-04-03 13:06:38] [INFO] Base - Navigating to the filtered bikes page...
+[2025-04-03 13:06:43] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:06:43] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:06:47] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:06:47] [INFO] Base - Accepted cookies
+[2025-04-03 13:06:47] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:06:50] [INFO] Base - Clicked view more bikes
+[2025-04-03 13:06:50] [INFO] Base - 'View More Bikes' button clicked successfully.
+[2025-04-03 13:06:50] [INFO] Base - Starting bike data scraping process...
+[2025-04-03 13:06:50] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:07:01] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 13:07:01] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 13:07:01] [INFO] Base - 'View More Bikes' button clicked successfully. Proceeding with data scraping...
+[2025-04-03 13:07:01] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 13:07:02] [INFO] Base - Bike data successfully scraped. Found 8 bikes.
+[2025-04-03 13:07:02] [INFO] Base - Writing bike data to Excel sheet with headers: [Bike Name, Bike price, Expected Launch Date].
+[2025-04-03 13:07:03] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 13:07:03] [INFO] Base - Bike data successfully written to 'FilteredBikesData.xlsx'.
+[2025-04-03 13:07:03] [INFO] Base - Verifying existence of 'FilteredBikesData.xlsx' file...
+[2025-04-03 13:07:03] [INFO] Base - 'FilteredBikesData.xlsx' file exists. Verification successful.
+[2025-04-03 13:07:08] [INFO] Base - WebDriver closed
+[2025-04-03 13:07:19] [INFO] Base - Chrome has been selected
+[2025-04-03 13:07:19] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:07:19] [INFO] Base - CarScraperBdd initialized with VerifyingHomePage and CarPage objects.
+[2025-04-03 13:07:19] [INFO] Base - Navigating to the used cars page...
+[2025-04-03 13:07:26] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 13:07:26] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:07:31] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:07:31] [INFO] Base - Applying filter by maximum price...
+[2025-04-03 13:07:38] [INFO] Base - WebDriver closed
+[2025-04-03 13:07:47] [INFO] Base - Chrome has been selected
+[2025-04-03 13:07:47] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:07:47] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 13:07:51] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:07:54] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:07:54] [INFO] Base - Accepted cookies
+[2025-04-03 13:07:54] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:07:54] [INFO] Base - User is now on the homepage.
+[2025-04-03 13:08:02] [INFO] Base - New bikes link pressed
+[2025-04-03 13:08:02] [INFO] Base - Navigated to New Bikes page.
+[2025-04-03 13:08:02] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 13:08:02] [INFO] Base - Selected Upcoming Bikes tab.
+[2025-04-03 13:08:02] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 13:08:03] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 13:08:03] [INFO] Base - Chose All Upcoming Bikes.
+[2025-04-03 13:08:06] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 13:08:06] [INFO] Base - Filtered for Honda bikes.
+[2025-04-03 13:08:06] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:08:06] [INFO] Base - Validated that the bike list contains only Honda bikes.
+[2025-04-03 13:08:10] [INFO] Base - WebDriver closed
+[2025-04-03 13:08:21] [INFO] Base - Chrome has been selected
+[2025-04-03 13:08:21] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:08:24] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:08:30] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:08:30] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:08:30] [INFO] Base - User is on the homepage for login.
+[2025-04-03 13:08:35] [INFO] Base - WebDriver closed
+[2025-04-03 13:11:09] [INFO] Base - Chrome has been selected
+[2025-04-03 13:11:09] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:11:09] [INFO] Base - BikeScraperBdd initialized with VerifyingHomePage, NavigatingToBikes, and BikeScraper.
+[2025-04-03 13:11:09] [INFO] Base - Navigating to the filtered bikes page...
+[2025-04-03 13:11:11] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:11:11] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:11:14] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:11:14] [INFO] Base - Accepted cookies
+[2025-04-03 13:11:14] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:11:15] [INFO] Base - Clicked view more bikes
+[2025-04-03 13:11:15] [INFO] Base - 'View More Bikes' button clicked successfully.
+[2025-04-03 13:11:15] [INFO] Base - Starting bike data scraping process...
+[2025-04-03 13:11:15] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:11:26] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 13:11:26] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 13:11:26] [INFO] Base - 'View More Bikes' button clicked successfully. Proceeding with data scraping...
+[2025-04-03 13:11:26] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 13:11:26] [INFO] Base - Bike data successfully scraped. Found 8 bikes.
+[2025-04-03 13:11:26] [INFO] Base - Writing bike data to Excel sheet with headers: [Bike Name, Bike price, Expected Launch Date].
+[2025-04-03 13:11:27] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 13:11:27] [INFO] Base - Bike data successfully written to 'FilteredBikesData.xlsx'.
+[2025-04-03 13:11:27] [INFO] Base - Verifying existence of 'FilteredBikesData.xlsx' file...
+[2025-04-03 13:11:27] [INFO] Base - 'FilteredBikesData.xlsx' file exists. Verification successful.
+[2025-04-03 13:11:28] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:11:28] [INFO] Base - CarScraperBdd initialized with VerifyingHomePage and CarPage objects.
+[2025-04-03 13:11:28] [INFO] Base - Navigating to the used cars page...
+[2025-04-03 13:11:32] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 13:11:32] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:11:37] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:11:37] [INFO] Base - Applying filter by maximum price...
+[2025-04-03 13:11:38] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 13:11:38] [INFO] Base - Filter by maximum price applied successfully. Waiting for page to load...
+[2025-04-03 13:11:38] [INFO] Base - page has fully loaded.
+[2025-04-03 13:11:38] [INFO] Base - Applying filter for only Honda cars...
+[2025-04-03 13:11:39] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 13:11:39] [INFO] Base - Filter for Honda cars applied successfully. Waiting for page to load...
+[2025-04-03 13:11:39] [INFO] Base - page has fully loaded.
+[2025-04-03 13:11:39] [INFO] Base - Starting car data scraping process...
+[2025-04-03 13:11:39] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 13:11:39] [INFO] Base - Car data successfully scraped. Found 12 cars.
+[2025-04-03 13:11:39] [INFO] Base - Writing car data to Excel sheet with headers: [Car Names, Car Price].
+[2025-04-03 13:11:39] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 13:11:39] [INFO] Base - Car data successfully written to 'FilteredCarsData.xlsx'.
+[2025-04-03 13:11:39] [INFO] Base - Verifying existence of 'FilteredCarsData.xlsx' file...
+[2025-04-03 13:11:39] [INFO] Base - 'FilteredCarsData.xlsx' file exists. Verification successful.
+[2025-04-03 13:11:39] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:11:39] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 13:11:44] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:11:49] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:11:49] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:11:49] [INFO] Base - User is now on the homepage.
+[2025-04-03 13:11:50] [INFO] Base - New bikes link pressed
+[2025-04-03 13:11:50] [INFO] Base - Navigated to New Bikes page.
+[2025-04-03 13:11:50] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 13:11:50] [INFO] Base - Selected Upcoming Bikes tab.
+[2025-04-03 13:11:50] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 13:11:52] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 13:11:52] [INFO] Base - Chose All Upcoming Bikes.
+[2025-04-03 13:11:53] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 13:11:53] [INFO] Base - Filtered for Honda bikes.
+[2025-04-03 13:11:53] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:11:53] [INFO] Base - Validated that the bike list contains only Honda bikes.
+[2025-04-03 13:11:53] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:11:54] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:11:59] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:12:00] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:12:00] [INFO] Base - User is on the homepage for login.
+[2025-04-03 13:12:00] [INFO] Base - clicked LoginButton
+[2025-04-03 13:12:00] [INFO] Base - Login button clicked.
+[2025-04-03 13:12:01] [INFO] Base - clicked Google login
+[2025-04-03 13:12:01] [INFO] Base - Switched to login pop up window
+[2025-04-03 13:12:01] [INFO] Base - Google Login clicked.
+[2025-04-03 13:12:03] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-03 13:12:03] [INFO] Base - Email or phone number entered.
+[2025-04-03 13:12:04] [INFO] Base - Clicked next button after populating email field
+[2025-04-03 13:12:04] [INFO] Base - Next button clicked.
+[2025-04-03 13:12:04] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-03 13:12:06] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_131206.png
+[2025-04-03 13:12:06] [INFO] Base - Error page validated and screenshot taken.
+[2025-04-03 13:30:46] [INFO] Base - Chrome has been selected
+[2025-04-03 13:30:46] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:30:46] [INFO] Base - BikeScraperBdd initialized with VerifyingHomePage, NavigatingToBikes, and BikeScraper.
+[2025-04-03 13:30:46] [INFO] Base - Navigating to the filtered bikes page...
+[2025-04-03 13:30:48] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:30:48] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:30:53] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:30:53] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:30:53] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id=modelList]/li[16]/span"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2c29fb19d14e216809a69b4c130dd517, findElement {value=//*[@id=modelList]/li[16]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53501}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53501/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c29fb19d14e216809a69b4c130dd517
+[2025-04-03 13:30:53] [INFO] Base - 'View More Bikes' button clicked successfully.
+[2025-04-03 13:30:53] [INFO] Base - Starting bike data scraping process...
+[2025-04-03 13:30:53] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:30:53] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id=modelList]/li[16]/span"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2c29fb19d14e216809a69b4c130dd517, findElement {value=//*[@id=modelList]/li[16]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53501}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53501/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c29fb19d14e216809a69b4c130dd517
+[2025-04-03 13:30:53] [INFO] Base - 'View More Bikes' button clicked successfully. Proceeding with data scraping...
+[2025-04-03 13:30:53] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 13:30:56] [INFO] Base - WebDriver closed
+[2025-04-03 13:31:06] [INFO] Base - Chrome has been selected
+[2025-04-03 13:31:06] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:31:06] [INFO] Base - CarScraperBdd initialized with VerifyingHomePage and CarPage objects.
+[2025-04-03 13:31:06] [INFO] Base - Navigating to the used cars page...
+[2025-04-03 13:31:12] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 13:31:12] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:31:18] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:31:18] [INFO] Base - Applying filter by maximum price...
+[2025-04-03 13:31:26] [INFO] Base - WebDriver closed
+[2025-04-03 13:35:10] [INFO] Base - Chrome has been selected
+[2025-04-03 13:35:10] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:35:10] [INFO] Base - BikeScraperBdd initialized with VerifyingHomePage, NavigatingToBikes, and BikeScraper.
+[2025-04-03 13:35:10] [INFO] Base - Navigating to the filtered bikes page...
+[2025-04-03 13:35:16] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:35:16] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:35:21] [WARN] Base - First cookie consent button did not appear within 5 seconds. Checking for alternate button...
+[2025-04-03 13:35:21] [INFO] Base - Alternate Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:35:22] [INFO] Base - Accepted cookies via 'button.fc-cta-consent'.
+[2025-04-03 13:35:22] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:35:22] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id=modelList]/li[16]/span"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [286e103dcb44c0db53d594dc50125ce9, findElement {value=//*[@id=modelList]/li[16]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54028/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 286e103dcb44c0db53d594dc50125ce9
+[2025-04-03 13:35:22] [INFO] Base - 'View More Bikes' button clicked successfully.
+[2025-04-03 13:35:22] [INFO] Base - Starting bike data scraping process...
+[2025-04-03 13:35:22] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:35:22] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id=modelList]/li[16]/span"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [286e103dcb44c0db53d594dc50125ce9, findElement {value=//*[@id=modelList]/li[16]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54028/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 286e103dcb44c0db53d594dc50125ce9
+[2025-04-03 13:35:22] [INFO] Base - 'View More Bikes' button clicked successfully. Proceeding with data scraping...
+[2025-04-03 13:35:22] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 13:35:28] [INFO] Base - WebDriver closed
+[2025-04-03 13:35:38] [INFO] Base - Chrome has been selected
+[2025-04-03 13:35:38] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:35:38] [INFO] Base - CarScraperBdd initialized with VerifyingHomePage and CarPage objects.
+[2025-04-03 13:35:38] [INFO] Base - Navigating to the used cars page...
+[2025-04-03 13:35:44] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 13:35:44] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:35:44] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:35:44] [INFO] Base - Accepted cookies via 'p.fc-button-label'.
+[2025-04-03 13:35:44] [INFO] Base - Applying filter by maximum price...
+[2025-04-03 13:35:46] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 13:35:46] [INFO] Base - Filter by maximum price applied successfully. Waiting for page to load...
+[2025-04-03 13:35:46] [INFO] Base - page has fully loaded.
+[2025-04-03 13:35:46] [INFO] Base - Applying filter for only Honda cars...
+[2025-04-03 13:35:47] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 13:35:47] [INFO] Base - Filter for Honda cars applied successfully. Waiting for page to load...
+[2025-04-03 13:35:47] [INFO] Base - page has fully loaded.
+[2025-04-03 13:35:47] [INFO] Base - Starting car data scraping process...
+[2025-04-03 13:35:47] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 13:35:47] [INFO] Base - Car data successfully scraped. Found 12 cars.
+[2025-04-03 13:35:47] [INFO] Base - Writing car data to Excel sheet with headers: [Car Names, Car Price].
+[2025-04-03 13:35:48] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 13:35:48] [INFO] Base - Car data successfully written to 'FilteredCarsData.xlsx'.
+[2025-04-03 13:35:48] [INFO] Base - Verifying existence of 'FilteredCarsData.xlsx' file...
+[2025-04-03 13:35:48] [INFO] Base - 'FilteredCarsData.xlsx' file exists. Verification successful.
+[2025-04-03 13:35:52] [INFO] Base - WebDriver closed
+[2025-04-03 13:36:02] [INFO] Base - Chrome has been selected
+[2025-04-03 13:36:02] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:36:02] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 13:36:06] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:36:08] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:36:09] [INFO] Base - Accepted cookies via 'p.fc-button-label'.
+[2025-04-03 13:36:09] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:36:09] [INFO] Base - User is now on the homepage.
+[2025-04-03 13:36:12] [INFO] Base - WebDriver closed
+[2025-04-03 13:36:21] [INFO] Base - Chrome has been selected
+[2025-04-03 13:36:21] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:36:25] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:36:28] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:36:28] [INFO] Base - Accepted cookies via 'p.fc-button-label'.
+[2025-04-03 13:36:28] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:36:28] [INFO] Base - User is on the homepage for login.
+[2025-04-03 13:36:29] [INFO] Base - clicked LoginButton
+[2025-04-03 13:36:29] [INFO] Base - Login button clicked.
+[2025-04-03 13:36:29] [INFO] Base - clicked Google login
+[2025-04-03 13:36:30] [INFO] Base - Switched to login pop up window
+[2025-04-03 13:36:30] [INFO] Base - Google Login clicked.
+[2025-04-03 13:36:32] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-03 13:36:32] [INFO] Base - Email or phone number entered.
+[2025-04-03 13:36:32] [INFO] Base - Clicked next button after populating email field
+[2025-04-03 13:36:32] [INFO] Base - Next button clicked.
+[2025-04-03 13:36:34] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-03 13:36:36] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_133636.png
+[2025-04-03 13:36:36] [INFO] Base - Error page validated and screenshot taken.
+[2025-04-03 13:36:41] [INFO] Base - WebDriver closed
+[2025-04-03 13:37:26] [INFO] Base - Chrome has been selected
+[2025-04-03 13:37:26] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:37:26] [INFO] Base - BikeScraperBdd initialized with VerifyingHomePage, NavigatingToBikes, and BikeScraper.
+[2025-04-03 13:37:26] [INFO] Base - Navigating to the filtered bikes page...
+[2025-04-03 13:37:29] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:37:29] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:37:31] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:37:32] [INFO] Base - Accepted cookies via 'p.fc-button-label'.
+[2025-04-03 13:37:32] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:37:32] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id=modelList]/li[16]/span"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [362de79a7c00f48ea099f79471581df9, findElement {using=xpath, value=//*[@id=modelList]/li[16]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54708}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54708/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 362de79a7c00f48ea099f79471581df9
+[2025-04-03 13:37:32] [INFO] Base - 'View More Bikes' button clicked successfully.
+[2025-04-03 13:37:32] [INFO] Base - Starting bike data scraping process...
+[2025-04-03 13:37:32] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:37:32] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id=modelList]/li[16]/span"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [362de79a7c00f48ea099f79471581df9, findElement {using=xpath, value=//*[@id=modelList]/li[16]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54708}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54708/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 362de79a7c00f48ea099f79471581df9
+[2025-04-03 13:37:32] [INFO] Base - 'View More Bikes' button clicked successfully. Proceeding with data scraping...
+[2025-04-03 13:37:32] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 13:37:36] [INFO] Base - WebDriver closed
+[2025-04-03 13:37:45] [INFO] Base - Chrome has been selected
+[2025-04-03 13:37:46] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:37:46] [INFO] Base - CarScraperBdd initialized with VerifyingHomePage and CarPage objects.
+[2025-04-03 13:37:46] [INFO] Base - Navigating to the used cars page...
+[2025-04-03 13:37:52] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 13:37:52] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:37:52] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:37:52] [INFO] Base - Accepted cookies via 'p.fc-button-label'.
+[2025-04-03 13:37:52] [INFO] Base - Applying filter by maximum price...
+[2025-04-03 13:37:53] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 13:37:53] [INFO] Base - Filter by maximum price applied successfully. Waiting for page to load...
+[2025-04-03 13:37:53] [INFO] Base - page has fully loaded.
+[2025-04-03 13:37:53] [INFO] Base - Applying filter for only Honda cars...
+[2025-04-03 13:37:54] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 13:37:54] [INFO] Base - Filter for Honda cars applied successfully. Waiting for page to load...
+[2025-04-03 13:37:54] [INFO] Base - page has fully loaded.
+[2025-04-03 13:37:54] [INFO] Base - Starting car data scraping process...
+[2025-04-03 13:37:54] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 13:37:55] [INFO] Base - Car data successfully scraped. Found 12 cars.
+[2025-04-03 13:37:55] [INFO] Base - Writing car data to Excel sheet with headers: [Car Names, Car Price].
+[2025-04-03 13:37:56] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 13:37:56] [INFO] Base - Car data successfully written to 'FilteredCarsData.xlsx'.
+[2025-04-03 13:37:56] [INFO] Base - Verifying existence of 'FilteredCarsData.xlsx' file...
+[2025-04-03 13:37:56] [INFO] Base - 'FilteredCarsData.xlsx' file exists. Verification successful.
+[2025-04-03 13:37:59] [INFO] Base - WebDriver closed
+[2025-04-03 13:38:09] [INFO] Base - Chrome has been selected
+[2025-04-03 13:38:09] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:38:09] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 13:38:13] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:38:16] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:38:17] [INFO] Base - Accepted cookies via 'p.fc-button-label'.
+[2025-04-03 13:38:17] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:38:17] [INFO] Base - User is now on the homepage.
+[2025-04-03 13:38:20] [INFO] Base - WebDriver closed
+[2025-04-03 13:38:30] [INFO] Base - Chrome has been selected
+[2025-04-03 13:38:30] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:38:34] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:41:08] [INFO] Base - Chrome has been selected
+[2025-04-03 13:41:08] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:41:08] [INFO] Base - BikeScraperBdd initialized with VerifyingHomePage, NavigatingToBikes, and BikeScraper.
+[2025-04-03 13:41:08] [INFO] Base - Navigating to the filtered bikes page...
+[2025-04-03 13:41:10] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:41:10] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:41:13] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:41:13] [INFO] Base - Accepted cookies
+[2025-04-03 13:41:13] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:41:13] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id=modelList]/li[16]/span"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [577a200fb04c6b26ae09a3e8a42dd027, findElement {using=xpath, value=//*[@id=modelList]/li[16]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55740/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 577a200fb04c6b26ae09a3e8a42dd027
+[2025-04-03 13:41:13] [INFO] Base - 'View More Bikes' button clicked successfully.
+[2025-04-03 13:41:13] [INFO] Base - Starting bike data scraping process...
+[2025-04-03 13:41:13] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:41:13] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id=modelList]/li[16]/span"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [577a200fb04c6b26ae09a3e8a42dd027, findElement {using=xpath, value=//*[@id=modelList]/li[16]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55740/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 577a200fb04c6b26ae09a3e8a42dd027
+[2025-04-03 13:41:13] [INFO] Base - 'View More Bikes' button clicked successfully. Proceeding with data scraping...
+[2025-04-03 13:41:13] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 13:41:17] [INFO] Base - WebDriver closed
+[2025-04-03 13:41:26] [INFO] Base - Chrome has been selected
+[2025-04-03 13:41:26] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:41:26] [INFO] Base - CarScraperBdd initialized with VerifyingHomePage and CarPage objects.
+[2025-04-03 13:41:26] [INFO] Base - Navigating to the used cars page...
+[2025-04-03 13:41:32] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 13:41:32] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:41:32] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:41:33] [INFO] Base - Accepted cookies
+[2025-04-03 13:41:33] [INFO] Base - Applying filter by maximum price...
+[2025-04-03 13:41:34] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 13:41:34] [INFO] Base - Filter by maximum price applied successfully. Waiting for page to load...
+[2025-04-03 13:41:34] [INFO] Base - page has fully loaded.
+[2025-04-03 13:41:34] [INFO] Base - Applying filter for only Honda cars...
+[2025-04-03 13:41:34] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 13:41:34] [INFO] Base - Filter for Honda cars applied successfully. Waiting for page to load...
+[2025-04-03 13:41:34] [INFO] Base - page has fully loaded.
+[2025-04-03 13:41:34] [INFO] Base - Starting car data scraping process...
+[2025-04-03 13:41:34] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 13:41:35] [INFO] Base - Car data successfully scraped. Found 12 cars.
+[2025-04-03 13:41:35] [INFO] Base - Writing car data to Excel sheet with headers: [Car Names, Car Price].
+[2025-04-03 13:41:36] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 13:41:36] [INFO] Base - Car data successfully written to 'FilteredCarsData.xlsx'.
+[2025-04-03 13:41:36] [INFO] Base - Verifying existence of 'FilteredCarsData.xlsx' file...
+[2025-04-03 13:41:36] [INFO] Base - 'FilteredCarsData.xlsx' file exists. Verification successful.
+[2025-04-03 13:41:39] [INFO] Base - WebDriver closed
+[2025-04-03 13:41:48] [INFO] Base - Chrome has been selected
+[2025-04-03 13:41:48] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:41:48] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 13:41:52] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:41:55] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:41:55] [INFO] Base - Accepted cookies
+[2025-04-03 13:41:55] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:41:55] [INFO] Base - User is now on the homepage.
+[2025-04-03 13:41:58] [INFO] Base - WebDriver closed
+[2025-04-03 13:42:08] [INFO] Base - Chrome has been selected
+[2025-04-03 13:42:08] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:42:12] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:42:15] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:42:15] [INFO] Base - Accepted cookies
+[2025-04-03 13:42:15] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:42:15] [INFO] Base - User is on the homepage for login.
+[2025-04-03 13:42:15] [INFO] Base - clicked LoginButton
+[2025-04-03 13:42:15] [INFO] Base - Login button clicked.
+[2025-04-03 13:42:16] [INFO] Base - clicked Google login
+[2025-04-03 13:42:16] [INFO] Base - Switched to login pop up window
+[2025-04-03 13:42:16] [INFO] Base - Google Login clicked.
+[2025-04-03 13:42:17] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-03 13:42:17] [INFO] Base - Email or phone number entered.
+[2025-04-03 13:42:18] [INFO] Base - Clicked next button after populating email field
+[2025-04-03 13:42:18] [INFO] Base - Next button clicked.
+[2025-04-03 13:42:20] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-03 13:42:22] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_134222.png
+[2025-04-03 13:42:22] [INFO] Base - Error page validated and screenshot taken.
+[2025-04-03 13:42:25] [INFO] Base - WebDriver closed
+[2025-04-03 13:44:28] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 13:44:38] [INFO] Base - Chrome has been selected
+[2025-04-03 13:44:38] [INFO] Base - PageFactory initialised
+[2025-04-03 13:44:42] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:44:42] [INFO] Base - Started test: Homepage Test
+[2025-04-03 13:44:45] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:44:45] [INFO] Base - Accepted cookies
+[2025-04-03 13:44:45] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:44:45] [INFO] Base - Homepage verification completed successfully
+[2025-04-03 13:44:45] [INFO] Base - Test Passed: PASS: homepageTest
+[2025-04-03 13:44:49] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 13:45:19] [INFO] Base - Chrome has been selected
+[2025-04-03 13:45:19] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:45:19] [INFO] Base - BikeScraperBdd initialized with VerifyingHomePage, NavigatingToBikes, and BikeScraper.
+[2025-04-03 13:45:19] [INFO] Base - Navigating to the filtered bikes page...
+[2025-04-03 13:45:21] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:45:21] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:45:24] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:45:24] [INFO] Base - Accepted cookies
+[2025-04-03 13:45:24] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:45:25] [INFO] Base - Clicked view more bikes
+[2025-04-03 13:45:25] [INFO] Base - 'View More Bikes' button clicked successfully.
+[2025-04-03 13:45:25] [INFO] Base - Starting bike data scraping process...
+[2025-04-03 13:45:25] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:45:35] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 13:45:35] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 13:45:35] [INFO] Base - 'View More Bikes' button clicked successfully. Proceeding with data scraping...
+[2025-04-03 13:45:35] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 13:45:36] [INFO] Base - Bike data successfully scraped. Found 8 bikes.
+[2025-04-03 13:45:36] [INFO] Base - Writing bike data to Excel sheet with headers: [Bike Name, Bike price, Expected Launch Date].
+[2025-04-03 13:45:37] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 13:45:37] [INFO] Base - Bike data successfully written to 'FilteredBikesData.xlsx'.
+[2025-04-03 13:45:37] [INFO] Base - Verifying existence of 'FilteredBikesData.xlsx' file...
+[2025-04-03 13:45:37] [INFO] Base - 'FilteredBikesData.xlsx' file exists. Verification successful.
+[2025-04-03 13:45:44] [INFO] Base - WebDriver closed
+[2025-04-03 13:45:52] [INFO] Base - Chrome has been selected
+[2025-04-03 13:45:53] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:45:53] [INFO] Base - CarScraperBdd initialized with VerifyingHomePage and CarPage objects.
+[2025-04-03 13:45:53] [INFO] Base - Navigating to the used cars page...
+[2025-04-03 13:45:58] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 13:45:58] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:45:58] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:45:58] [INFO] Base - Accepted cookies
+[2025-04-03 13:45:58] [INFO] Base - Applying filter by maximum price...
+[2025-04-03 13:45:59] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 13:45:59] [INFO] Base - Filter by maximum price applied successfully. Waiting for page to load...
+[2025-04-03 13:45:59] [INFO] Base - page has fully loaded.
+[2025-04-03 13:45:59] [INFO] Base - Applying filter for only Honda cars...
+[2025-04-03 13:46:00] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 13:46:00] [INFO] Base - Filter for Honda cars applied successfully. Waiting for page to load...
+[2025-04-03 13:46:00] [INFO] Base - page has fully loaded.
+[2025-04-03 13:46:00] [INFO] Base - Starting car data scraping process...
+[2025-04-03 13:46:00] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 13:46:00] [WARN] Base - Encountered stale element. Retrying...
+[2025-04-03 13:46:00] [INFO] Base - Car data successfully scraped. Found 12 cars.
+[2025-04-03 13:46:00] [INFO] Base - Writing car data to Excel sheet with headers: [Car Names, Car Price].
+[2025-04-03 13:46:00] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 13:46:00] [INFO] Base - Car data successfully written to 'FilteredCarsData.xlsx'.
+[2025-04-03 13:46:00] [INFO] Base - Verifying existence of 'FilteredCarsData.xlsx' file...
+[2025-04-03 13:46:00] [INFO] Base - 'FilteredCarsData.xlsx' file exists. Verification successful.
+[2025-04-03 13:46:04] [INFO] Base - WebDriver closed
+[2025-04-03 13:46:13] [INFO] Base - Chrome has been selected
+[2025-04-03 13:46:13] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:46:13] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 13:46:15] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:46:19] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:46:19] [INFO] Base - Accepted cookies
+[2025-04-03 13:46:19] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:46:19] [INFO] Base - User is now on the homepage.
+[2025-04-03 13:46:20] [INFO] Base - New bikes link pressed
+[2025-04-03 13:46:20] [INFO] Base - Navigated to New Bikes page.
+[2025-04-03 13:46:20] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 13:46:20] [INFO] Base - Selected Upcoming Bikes tab.
+[2025-04-03 13:46:20] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 13:46:21] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 13:46:21] [INFO] Base - Chose All Upcoming Bikes.
+[2025-04-03 13:46:23] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 13:46:23] [INFO] Base - Filtered for Honda bikes.
+[2025-04-03 13:46:23] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:46:23] [INFO] Base - Validated that the bike list contains only Honda bikes.
+[2025-04-03 13:46:27] [INFO] Base - WebDriver closed
+[2025-04-03 13:46:36] [INFO] Base - Chrome has been selected
+[2025-04-03 13:46:36] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:46:39] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:46:44] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:46:45] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:46:45] [INFO] Base - User is on the homepage for login.
+[2025-04-03 13:46:52] [INFO] Base - WebDriver closed
+[2025-04-03 13:49:20] [INFO] Base - Chrome has been selected
+[2025-04-03 13:49:20] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:49:20] [INFO] Base - BikeScraperBdd initialized with VerifyingHomePage, NavigatingToBikes, and BikeScraper.
+[2025-04-03 13:49:20] [INFO] Base - Navigating to the filtered bikes page...
+[2025-04-03 13:49:22] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:49:22] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:49:25] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:49:25] [INFO] Base - Accepted cookies
+[2025-04-03 13:49:30] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:49:30] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:49:31] [INFO] Base - Clicked view more bikes
+[2025-04-03 13:49:31] [INFO] Base - 'View More Bikes' button clicked successfully.
+[2025-04-03 13:49:31] [INFO] Base - Starting bike data scraping process...
+[2025-04-03 13:49:31] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:49:42] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 13:49:42] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 13:49:42] [INFO] Base - 'View More Bikes' button clicked successfully. Proceeding with data scraping...
+[2025-04-03 13:49:42] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 13:49:42] [INFO] Base - Bike data successfully scraped. Found 8 bikes.
+[2025-04-03 13:49:42] [INFO] Base - Writing bike data to Excel sheet with headers: [Bike Name, Bike price, Expected Launch Date].
+[2025-04-03 13:49:43] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 13:49:43] [INFO] Base - Bike data successfully written to 'FilteredBikesData.xlsx'.
+[2025-04-03 13:49:43] [INFO] Base - Verifying existence of 'FilteredBikesData.xlsx' file...
+[2025-04-03 13:49:43] [INFO] Base - 'FilteredBikesData.xlsx' file exists. Verification successful.
+[2025-04-03 13:49:46] [INFO] Base - WebDriver closed
+[2025-04-03 13:49:55] [INFO] Base - Chrome has been selected
+[2025-04-03 13:49:55] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:49:55] [INFO] Base - CarScraperBdd initialized with VerifyingHomePage and CarPage objects.
+[2025-04-03 13:49:55] [INFO] Base - Navigating to the used cars page...
+[2025-04-03 13:50:00] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 13:50:00] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:50:01] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:50:01] [INFO] Base - Accepted cookies
+[2025-04-03 13:50:06] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:50:06] [INFO] Base - Applying filter by maximum price...
+[2025-04-03 13:50:07] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 13:50:07] [INFO] Base - Filter by maximum price applied successfully. Waiting for page to load...
+[2025-04-03 13:50:07] [INFO] Base - page has fully loaded.
+[2025-04-03 13:50:07] [INFO] Base - Applying filter for only Honda cars...
+[2025-04-03 13:50:07] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 13:50:07] [INFO] Base - Filter for Honda cars applied successfully. Waiting for page to load...
+[2025-04-03 13:50:07] [INFO] Base - page has fully loaded.
+[2025-04-03 13:50:07] [INFO] Base - Starting car data scraping process...
+[2025-04-03 13:50:07] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 13:50:08] [INFO] Base - Car data successfully scraped. Found 12 cars.
+[2025-04-03 13:50:08] [INFO] Base - Writing car data to Excel sheet with headers: [Car Names, Car Price].
+[2025-04-03 13:50:08] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 13:50:08] [INFO] Base - Car data successfully written to 'FilteredCarsData.xlsx'.
+[2025-04-03 13:50:08] [INFO] Base - Verifying existence of 'FilteredCarsData.xlsx' file...
+[2025-04-03 13:50:08] [INFO] Base - 'FilteredCarsData.xlsx' file exists. Verification successful.
+[2025-04-03 13:50:13] [INFO] Base - WebDriver closed
+[2025-04-03 13:50:22] [INFO] Base - Chrome has been selected
+[2025-04-03 13:50:22] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:50:22] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 13:50:25] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:50:28] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:50:28] [INFO] Base - Accepted cookies
+[2025-04-03 13:50:34] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:50:35] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:50:35] [INFO] Base - User is now on the homepage.
+[2025-04-03 13:50:42] [INFO] Base - New bikes link pressed
+[2025-04-03 13:50:42] [INFO] Base - Navigated to New Bikes page.
+[2025-04-03 13:50:42] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 13:50:42] [INFO] Base - Selected Upcoming Bikes tab.
+[2025-04-03 13:50:42] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 13:50:44] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 13:50:44] [INFO] Base - Chose All Upcoming Bikes.
+[2025-04-03 13:50:47] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 13:50:47] [INFO] Base - Filtered for Honda bikes.
+[2025-04-03 13:50:47] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:50:47] [INFO] Base - Validated that the bike list contains only Honda bikes.
+[2025-04-03 13:50:52] [INFO] Base - WebDriver closed
+[2025-04-03 13:51:01] [INFO] Base - Chrome has been selected
+[2025-04-03 13:51:01] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:51:04] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:51:06] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:51:07] [INFO] Base - Accepted cookies
+[2025-04-03 13:51:13] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:51:13] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:51:13] [INFO] Base - User is on the homepage for login.
+[2025-04-03 13:51:13] [INFO] Base - clicked LoginButton
+[2025-04-03 13:51:13] [INFO] Base - Login button clicked.
+[2025-04-03 13:51:14] [INFO] Base - clicked Google login
+[2025-04-03 13:51:14] [INFO] Base - Switched to login pop up window
+[2025-04-03 13:51:14] [INFO] Base - Google Login clicked.
+[2025-04-03 13:51:16] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-03 13:51:16] [INFO] Base - Email or phone number entered.
+[2025-04-03 13:51:16] [INFO] Base - Clicked next button after populating email field
+[2025-04-03 13:51:16] [INFO] Base - Next button clicked.
+[2025-04-03 13:51:17] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-03 13:51:19] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_135119.png
+[2025-04-03 13:51:19] [INFO] Base - Error page validated and screenshot taken.
+[2025-04-03 13:51:24] [INFO] Base - WebDriver closed
+[2025-04-03 13:51:49] [INFO] Base - Chrome has been selected
+[2025-04-03 13:51:49] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:51:49] [INFO] Base - BikeScraperBdd initialized with VerifyingHomePage, NavigatingToBikes, and BikeScraper.
+[2025-04-03 13:51:49] [INFO] Base - Navigating to the filtered bikes page...
+[2025-04-03 13:51:51] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:51:51] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:51:54] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:51:54] [INFO] Base - Accepted cookies
+[2025-04-03 13:51:59] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:51:59] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:51:59] [INFO] Base - Clicked view more bikes
+[2025-04-03 13:51:59] [INFO] Base - 'View More Bikes' button clicked successfully.
+[2025-04-03 13:51:59] [INFO] Base - Starting bike data scraping process...
+[2025-04-03 13:51:59] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:52:09] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 13:52:09] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 13:52:09] [INFO] Base - 'View More Bikes' button clicked successfully. Proceeding with data scraping...
+[2025-04-03 13:52:09] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 13:52:10] [INFO] Base - Bike data successfully scraped. Found 8 bikes.
+[2025-04-03 13:52:10] [INFO] Base - Writing bike data to Excel sheet with headers: [Bike Name, Bike price, Expected Launch Date].
+[2025-04-03 13:52:11] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 13:52:11] [INFO] Base - Bike data successfully written to 'FilteredBikesData.xlsx'.
+[2025-04-03 13:52:11] [INFO] Base - Verifying existence of 'FilteredBikesData.xlsx' file...
+[2025-04-03 13:52:11] [INFO] Base - 'FilteredBikesData.xlsx' file exists. Verification successful.
+[2025-04-03 13:52:15] [INFO] Base - WebDriver closed
+[2025-04-03 13:52:26] [INFO] Base - Chrome has been selected
+[2025-04-03 13:52:26] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:52:26] [INFO] Base - CarScraperBdd initialized with VerifyingHomePage and CarPage objects.
+[2025-04-03 13:52:26] [INFO] Base - Navigating to the used cars page...
+[2025-04-03 13:52:32] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 13:52:32] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:52:32] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:52:32] [INFO] Base - Accepted cookies
+[2025-04-03 13:52:37] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:52:37] [INFO] Base - Applying filter by maximum price...
+[2025-04-03 13:52:38] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 13:52:38] [INFO] Base - Filter by maximum price applied successfully. Waiting for page to load...
+[2025-04-03 13:52:38] [INFO] Base - page has fully loaded.
+[2025-04-03 13:52:38] [INFO] Base - Applying filter for only Honda cars...
+[2025-04-03 13:52:38] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 13:52:38] [INFO] Base - Filter for Honda cars applied successfully. Waiting for page to load...
+[2025-04-03 13:52:38] [INFO] Base - page has fully loaded.
+[2025-04-03 13:52:38] [INFO] Base - Starting car data scraping process...
+[2025-04-03 13:52:38] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 13:52:39] [WARN] Base - Encountered stale element. Retrying...
+[2025-04-03 13:52:39] [INFO] Base - Car data successfully scraped. Found 12 cars.
+[2025-04-03 13:52:39] [INFO] Base - Writing car data to Excel sheet with headers: [Car Names, Car Price].
+[2025-04-03 13:52:39] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 13:52:39] [INFO] Base - Car data successfully written to 'FilteredCarsData.xlsx'.
+[2025-04-03 13:52:39] [INFO] Base - Verifying existence of 'FilteredCarsData.xlsx' file...
+[2025-04-03 13:52:39] [INFO] Base - 'FilteredCarsData.xlsx' file exists. Verification successful.
+[2025-04-03 13:52:45] [INFO] Base - WebDriver closed
+[2025-04-03 13:52:54] [INFO] Base - Chrome has been selected
+[2025-04-03 13:52:54] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:52:54] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 13:52:59] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:53:02] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:53:02] [INFO] Base - Accepted cookies
+[2025-04-03 13:53:07] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:53:07] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:53:07] [INFO] Base - User is now on the homepage.
+[2025-04-03 13:53:10] [INFO] Base - New bikes link pressed
+[2025-04-03 13:53:10] [INFO] Base - Navigated to New Bikes page.
+[2025-04-03 13:53:11] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 13:53:11] [INFO] Base - Selected Upcoming Bikes tab.
+[2025-04-03 13:53:11] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 13:53:12] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 13:53:12] [INFO] Base - Chose All Upcoming Bikes.
+[2025-04-03 13:53:15] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 13:53:15] [INFO] Base - Filtered for Honda bikes.
+[2025-04-03 13:53:15] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:53:15] [INFO] Base - Validated that the bike list contains only Honda bikes.
+[2025-04-03 13:53:22] [INFO] Base - WebDriver closed
+[2025-04-03 13:53:33] [INFO] Base - Chrome has been selected
+[2025-04-03 13:53:33] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:53:35] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:53:41] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:53:42] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:53:42] [INFO] Base - Accepted cookies
+[2025-04-03 13:53:42] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:53:42] [INFO] Base - User is on the homepage for login.
+[2025-04-03 13:53:42] [INFO] Base - clicked LoginButton
+[2025-04-03 13:53:42] [INFO] Base - Login button clicked.
+[2025-04-03 13:53:43] [INFO] Base - clicked Google login
+[2025-04-03 13:53:43] [INFO] Base - Switched to login pop up window
+[2025-04-03 13:53:43] [INFO] Base - Google Login clicked.
+[2025-04-03 13:53:44] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-03 13:53:44] [INFO] Base - Email or phone number entered.
+[2025-04-03 13:53:45] [INFO] Base - Clicked next button after populating email field
+[2025-04-03 13:53:45] [INFO] Base - Next button clicked.
+[2025-04-03 13:53:45] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-03 13:53:47] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_135347.png
+[2025-04-03 13:53:47] [INFO] Base - Error page validated and screenshot taken.
+[2025-04-03 13:53:53] [INFO] Base - WebDriver closed
