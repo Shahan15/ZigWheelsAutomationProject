@@ -16,7 +16,7 @@ public class CarPage extends Base {
     @FindBy(id = "thatsAllFolks") WebElement endOfPage;
 
     public CarPage(){
-        PageFactory.initElements(driver,this);
+        PageFactory.initElements(Base.getDriver(),this);
     }
 
     public void filterPrice() {
@@ -27,7 +27,7 @@ public class CarPage extends Base {
     }
 
     public void searchForOnlyHonda(){
-        JavascriptExecutor js = (JavascriptExecutor) driver;
+        JavascriptExecutor js = (JavascriptExecutor) Base.getDriver();
         js.executeScript("window.scrollBy(0,600);");
 
         searchBrand.sendKeys("Honda");

@@ -9,18 +9,17 @@ import org.testng.Assert;
 import utils.Base;
 import utils.NavigationUtils;
 import java.time.Duration;
-import static utils.NavigationUtils.waitPageLoad;
 
 public class NavigatingToBikes extends Base {
     @FindBy(css = "a[href=\"/newbikes\"]\n") WebElement newBikesLink;
     @FindBy(css = "[data-track-label=\"upcoming-tab\"]") WebElement upcomingSliderTab;
     @FindBy(id = "makeId") WebElement manufacturerDropdown;
-    @FindBy(xpath = "//*[@id=\"modelList\"]/li[16]/span") WebElement moreBikesBtn;
+    @FindBy(css = ".zw-cmn-loadMore") WebElement moreBikesBtn;
 
     VerifyingHomePage verifyingHomePage = new VerifyingHomePage();
 
     public NavigatingToBikes() {
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(Base.getDriver(), this);
     }
 
     public void navigateToHomePage() {
@@ -41,10 +40,10 @@ public class NavigatingToBikes extends Base {
     }
 
     public void clickAllUpcomingBikesLink() {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
+        JavascriptExecutor js = (JavascriptExecutor) Base.getDriver();
         js.executeScript("window.scrollBy(0,300);");
         logger.info("scrolled down by 800 pixels");
-        driver.navigate().to(NavigationUtils.getTestingSiteUrl("upcomingBikesPage"));
+        Base.getDriver().navigate().to(NavigationUtils.getTestingSiteUrl("upcomingBikesPage"));
         logger.info("All upcoming bikes link pressed");
     }
 
@@ -57,13 +56,13 @@ public class NavigatingToBikes extends Base {
 
     public void clickViewMoreBikes() {
         try {
-            JavascriptExecutor js = (JavascriptExecutor) driver;
+            JavascriptExecutor js = (JavascriptExecutor) Base.getDriver();
 
             //centers element
             js.executeScript("arguments[0].scrollIntoView({behavior: 'instant', block: 'center', inline: 'nearest'});", moreBikesBtn);
 
             // Wait until the element becomes visible
-            NavigationUtils.webDriverWait(driver,10,moreBikesBtn);
+            NavigationUtils.webDriverWait(Base.getDriver(),15,moreBikesBtn);
 
             // Attempt a regular click
             try {
@@ -82,11 +81,13 @@ public class NavigatingToBikes extends Base {
 
     public void validatingOnlyHondaBikes(){
         String expectedHondaUrl = NavigationUtils.getTestingSiteUrl("filteredBikes");
-        String actualUrl = Base.driver.getCurrentUrl();
+        String actualUrl = Base.getDriver().getCurrentUrl();
         try {
-            new WebDriverWait(driver, Duration.ofSeconds(20)).until(ExpectedConditions.urlToBe(expectedHondaUrl));
+            new WebDriverWait(Base.getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.urlToBe(expectedHondaUrl));
         } catch (TimeoutException e) {
-            Base.logger.error("Timeout while waiting for URL to match expected Honda bikes page URL. Expected: {}, Actual: {}", expectedHondaUrl, Base.driver.getCurrentUrl());
+            Base.logger.error("Timeout while waiting for URL to match expected " +
+                    "Honda bikes page URL. Expected: {}, Actual: {}",
+                    expectedHondaUrl, Base.getDriver().getCurrentUrl());
             throw e;
         }
         Assert.assertEquals(actualUrl, expectedHondaUrl, "URL after filtering does not match expected Honda bikes page URL!");

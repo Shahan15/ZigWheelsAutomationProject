@@ -6,16 +6,15 @@ import org.openqa.selenium.WebElement;
 import utils.Base;
 import java.util.ArrayList;
 import java.util.List;
-import static utils.Base.driver;
 import static utils.ConvertPrice.convertPrice;
 
 public class BikeScraper {
 
 
     public static List<Bike> webScrapeBikes() {
-        List<WebElement> bikeNamesElement = driver.findElements(By.cssSelector("a[data-track-label='model-name'] strong"));
-        List<WebElement> bikePriceElement = driver.findElements(By.cssSelector("div.b.fnt-15"));
-        List<WebElement> bikeLaunchDateElement = driver.findElements(By.cssSelector(".clr-try.fnt-14")); // Fetching launch dates
+        List<WebElement> bikeNamesElement = Base.getDriver().findElements(By.cssSelector("a[data-track-label='model-name'] strong"));
+        List<WebElement> bikePriceElement = Base.getDriver().findElements(By.cssSelector("div.b.fnt-15"));
+        List<WebElement> bikeLaunchDateElement = Base.getDriver().findElements(By.cssSelector(".clr-try.fnt-14")); // Fetching launch dates
         Base.logger.info("Pulling Bike model names, prices, and expected launch dates from site");
 
         List<Bike> bikes = new ArrayList<>();

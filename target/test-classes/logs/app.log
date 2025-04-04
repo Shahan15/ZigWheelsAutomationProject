@@ -3846,3 +3846,1767 @@ Session ID: 577a200fb04c6b26ae09a3e8a42dd027
 [2025-04-03 13:53:47] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_135347.png
 [2025-04-03 13:53:47] [INFO] Base - Error page validated and screenshot taken.
 [2025-04-03 13:53:53] [INFO] Base - WebDriver closed
+[2025-04-03 13:56:48] [INFO] Base - Chrome has been selected
+[2025-04-03 13:56:48] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:56:48] [INFO] Base - BikeScraperBdd initialized with VerifyingHomePage, NavigatingToBikes, and BikeScraper.
+[2025-04-03 13:56:48] [INFO] Base - Navigating to the filtered bikes page...
+[2025-04-03 13:56:50] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:56:50] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:56:53] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:56:54] [INFO] Base - Accepted cookies
+[2025-04-03 13:56:59] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:56:59] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:56:59] [INFO] Base - Clicked view more bikes
+[2025-04-03 13:56:59] [INFO] Base - 'View More Bikes' button clicked successfully.
+[2025-04-03 13:56:59] [INFO] Base - Starting bike data scraping process...
+[2025-04-03 13:56:59] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-03 13:57:10] [ERROR] Base - Element not visible after waiting for 10 seconds
+[2025-04-03 13:57:10] [ERROR] Base - Error clicking 'View More Bikes' button: Failed waiitng for element visibility
+[2025-04-03 13:57:10] [INFO] Base - 'View More Bikes' button clicked successfully. Proceeding with data scraping...
+[2025-04-03 13:57:10] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 13:57:11] [INFO] Base - Bike data successfully scraped. Found 8 bikes.
+[2025-04-03 13:57:11] [INFO] Base - Writing bike data to Excel sheet with headers: [Bike Name, Bike price, Expected Launch Date].
+[2025-04-03 13:57:11] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 13:57:11] [INFO] Base - Bike data successfully written to 'FilteredBikesData.xlsx'.
+[2025-04-03 13:57:11] [INFO] Base - Verifying existence of 'FilteredBikesData.xlsx' file...
+[2025-04-03 13:57:11] [INFO] Base - 'FilteredBikesData.xlsx' file exists. Verification successful.
+[2025-04-03 13:57:15] [INFO] Base - WebDriver closed
+[2025-04-03 13:57:23] [INFO] Base - Chrome has been selected
+[2025-04-03 13:57:23] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:57:23] [INFO] Base - CarScraperBdd initialized with VerifyingHomePage and CarPage objects.
+[2025-04-03 13:57:23] [INFO] Base - Navigating to the used cars page...
+[2025-04-03 13:57:29] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 13:57:29] [INFO] Base - Cookie consent button clicked.
+[2025-04-03 13:57:29] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:57:29] [INFO] Base - Accepted cookies
+[2025-04-03 13:57:34] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:57:34] [INFO] Base - Applying filter by maximum price...
+[2025-04-03 13:57:35] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 13:57:35] [INFO] Base - Filter by maximum price applied successfully. Waiting for page to load...
+[2025-04-03 13:57:35] [INFO] Base - page has fully loaded.
+[2025-04-03 13:57:35] [INFO] Base - Applying filter for only Honda cars...
+[2025-04-03 13:57:35] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 13:57:35] [INFO] Base - Filter for Honda cars applied successfully. Waiting for page to load...
+[2025-04-03 13:57:35] [INFO] Base - page has fully loaded.
+[2025-04-03 13:57:35] [INFO] Base - Starting car data scraping process...
+[2025-04-03 13:57:35] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 13:57:36] [INFO] Base - Car data successfully scraped. Found 12 cars.
+[2025-04-03 13:57:36] [INFO] Base - Writing car data to Excel sheet with headers: [Car Names, Car Price].
+[2025-04-03 13:57:36] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 13:57:36] [INFO] Base - Car data successfully written to 'FilteredCarsData.xlsx'.
+[2025-04-03 13:57:36] [INFO] Base - Verifying existence of 'FilteredCarsData.xlsx' file...
+[2025-04-03 13:57:36] [INFO] Base - 'FilteredCarsData.xlsx' file exists. Verification successful.
+[2025-04-03 13:57:41] [INFO] Base - WebDriver closed
+[2025-04-03 13:57:49] [INFO] Base - Chrome has been selected
+[2025-04-03 13:57:49] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:57:49] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 13:57:53] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:57:56] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:57:56] [INFO] Base - Accepted cookies
+[2025-04-03 13:58:01] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:58:01] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:58:01] [INFO] Base - User is now on the homepage.
+[2025-04-03 13:58:07] [INFO] Base - New bikes link pressed
+[2025-04-03 13:58:07] [INFO] Base - Navigated to New Bikes page.
+[2025-04-03 13:58:08] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 13:58:08] [INFO] Base - Selected Upcoming Bikes tab.
+[2025-04-03 13:58:08] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 13:58:09] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 13:58:09] [INFO] Base - Chose All Upcoming Bikes.
+[2025-04-03 13:58:13] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 13:58:13] [INFO] Base - Filtered for Honda bikes.
+[2025-04-03 13:58:13] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 13:58:13] [INFO] Base - Validated that the bike list contains only Honda bikes.
+[2025-04-03 13:58:18] [INFO] Base - WebDriver closed
+[2025-04-03 13:58:27] [INFO] Base - Chrome has been selected
+[2025-04-03 13:58:27] [INFO] Base - Webdriver in hooks class called
+[2025-04-03 13:58:30] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 13:58:33] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 13:58:33] [INFO] Base - Accepted cookies
+[2025-04-03 13:58:38] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 13:58:38] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 13:58:38] [INFO] Base - User is on the homepage for login.
+[2025-04-03 13:58:39] [INFO] Base - clicked LoginButton
+[2025-04-03 13:58:39] [INFO] Base - Login button clicked.
+[2025-04-03 13:58:40] [INFO] Base - clicked Google login
+[2025-04-03 13:58:40] [INFO] Base - Switched to login pop up window
+[2025-04-03 13:58:40] [INFO] Base - Google Login clicked.
+[2025-04-03 13:58:43] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-03 13:58:43] [INFO] Base - Email or phone number entered.
+[2025-04-03 13:58:44] [INFO] Base - Clicked next button after populating email field
+[2025-04-03 13:58:44] [INFO] Base - Next button clicked.
+[2025-04-03 13:58:44] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-03 13:58:46] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_135846.png
+[2025-04-03 13:58:46] [INFO] Base - Error page validated and screenshot taken.
+[2025-04-03 13:58:53] [INFO] Base - WebDriver closed
+[2025-04-03 14:19:33] [INFO] Base - Test suite started: Test1
+[2025-04-03 14:19:45] [INFO] Base - Chrome has been selected
+[2025-04-03 14:19:48] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 14:19:50] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 14:19:51] [INFO] Base - Accepted cookies
+[2025-04-03 14:19:56] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:20:02] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:20:07] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:20:07] [INFO] Base - clicked LoginButton
+[2025-04-03 14:20:08] [INFO] Base - clicked Google login
+[2025-04-03 14:20:08] [INFO] Base - Switched to login pop up window
+[2025-04-03 14:20:10] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-03 14:20:11] [INFO] Base - Clicked next button after populating email field
+[2025-04-03 14:20:12] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-03 14:20:14] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_142014.png
+[2025-04-03 14:20:14] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-03 14:20:19] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 14:20:19] [INFO] Base - Test suite started: Test2
+[2025-04-03 14:20:28] [INFO] Base - Chrome has been selected
+[2025-04-03 14:20:28] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 14:20:32] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 14:20:35] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 14:20:35] [INFO] Base - Accepted cookies
+[2025-04-03 14:20:40] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:20:40] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 14:20:51] [INFO] Base - New bikes link pressed
+[2025-04-03 14:20:51] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 14:20:52] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 14:20:53] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 14:20:53] [INFO] Base - page has fully loaded.
+[2025-04-03 14:20:55] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 14:20:55] [INFO] Base - page has fully loaded.
+[2025-04-03 14:20:56] [INFO] Base - Clicked view more bikes
+[2025-04-03 14:20:56] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 14:20:56] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-03 14:21:00] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 14:21:00] [INFO] Base - Test suite started: Test3
+[2025-04-03 14:21:09] [INFO] Base - Chrome has been selected
+[2025-04-03 14:21:09] [INFO] Base - PageFactory initialised
+[2025-04-03 14:21:13] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 14:21:13] [INFO] Base - Started test: Homepage Test
+[2025-04-03 14:21:16] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 14:21:16] [INFO] Base - Accepted cookies
+[2025-04-03 14:21:21] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:21:21] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 14:21:21] [INFO] Base - Homepage verification completed successfully
+[2025-04-03 14:21:21] [INFO] Base - Test Passed: PASS: homepageTest
+[2025-04-03 14:21:24] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 14:21:24] [INFO] Base - Test suite started: Test4
+[2025-04-03 14:21:32] [INFO] Base - Chrome has been selected
+[2025-04-03 14:21:35] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 14:21:38] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 14:21:38] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 14:21:38] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 14:21:38] [INFO] Base - Accepted cookies
+[2025-04-03 14:21:38] [ERROR] Base - Error occurred while trying to click accept cookies button: stale element reference: stale element not found in the current frame
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8cf3b0da446c3fb88211090fce3588ae, clickElement {id=f.CC4610FC9F0D0A3AF529809D9CB42C05.d.A56F49A3C7435FD335DAB3A950F98EAB.e.388}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63205}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63205/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8cf3b0da446c3fb88211090fce3588ae)] -> css selector: p.fc-button-label]
+Session ID: 8cf3b0da446c3fb88211090fce3588ae
+[2025-04-03 14:21:43] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:21:43] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="modelList"]/li[16]/span"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8cf3b0da446c3fb88211090fce3588ae, findElement {using=xpath, value=//*[@id="modelList"]/li[16]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63205}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63205/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cf3b0da446c3fb88211090fce3588ae
+[2025-04-03 14:21:43] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:21:44] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 14:21:44] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 14:21:44] [INFO] Base - page has fully loaded.
+[2025-04-03 14:21:44] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 14:21:44] [INFO] Base - page has fully loaded.
+[2025-04-03 14:21:44] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 14:21:45] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 14:21:45] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 14:21:45] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-04-03 14:21:45] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-03 14:21:50] [INFO] Base - Test suite finished. Passed: 2, Failed: 0, Skipped: 0
+[2025-04-03 14:23:49] [INFO] Base - Test suite started: Parallel Test Classes
+[2025-04-03 14:23:59] [INFO] Base - Chrome has been selected
+[2025-04-03 14:24:02] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 14:24:05] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 14:24:05] [INFO] Base - Accepted cookies
+[2025-04-03 14:24:10] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:24:10] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 14:24:12] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 14:24:18] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:24:23] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:24:23] [INFO] Base - PageFactory initialised
+[2025-04-03 14:24:24] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 14:24:24] [INFO] Base - Started test: Homepage Test
+[2025-04-03 14:24:24] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 14:24:26] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 14:24:27] [INFO] Base - New bikes link pressed
+[2025-04-03 14:24:28] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 14:24:28] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 14:24:29] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 14:24:29] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:24:29] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:24:29] [INFO] Base - page has fully loaded.
+[2025-04-03 14:24:30] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 14:24:30] [INFO] Base - page has fully loaded.
+[2025-04-03 14:24:30] [INFO] Base - Clicked view more bikes
+[2025-04-03 14:24:30] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 14:24:30] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-03 14:24:31] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:24:34] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:24:34] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:24:35] [INFO] Base - clicked LoginButton
+[2025-04-03 14:24:36] [INFO] Base - clicked Google login
+[2025-04-03 14:24:36] [INFO] Base - Switched to login pop up window
+[2025-04-03 14:24:38] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:24:38] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="modelList"]/li[16]/span"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [14ad6739196274d06de820cfd49f9ac3, findElement {value=//*[@id="modelList"]/li[16]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63441/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14ad6739196274d06de820cfd49f9ac3
+[2025-04-03 14:24:38] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-03 14:24:38] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 14:24:39] [INFO] Base - Clicked next button after populating email field
+[2025-04-03 14:24:39] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-03 14:24:40] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-03 14:24:40] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-03 14:24:40] [ERROR] Base - Test Failed: FAIL: homepageTest
+[2025-04-03 14:24:40] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 14:24:40] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-04-03 14:24:41] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 14:24:44] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250403_142444.png
+[2025-04-03 14:24:44] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-03 14:24:46] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:24:51] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:24:51] [ERROR] Base - Test Failed: FAIL: webScrapingCars
+[2025-04-03 14:24:58] [INFO] Base - Test suite finished. Passed: 3, Failed: 2, Skipped: 0
+[2025-04-03 14:39:49] [INFO] Base - Test suite started: Parallel Test Classes
+[2025-04-03 14:39:58] [INFO] Base - Chrome has been selected
+[2025-04-03 14:40:02] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 14:40:05] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 14:40:05] [INFO] Base - Accepted cookies
+[2025-04-03 14:40:10] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:40:10] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 14:40:12] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 14:40:17] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:40:23] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:40:23] [INFO] Base - PageFactory initialised
+[2025-04-03 14:40:24] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 14:40:24] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 14:40:24] [INFO] Base - Started test: Homepage Test
+[2025-04-03 14:40:31] [INFO] Base - New bikes link pressed
+[2025-04-03 14:40:32] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 14:40:35] [INFO] Base - Chrome has been selected
+[2025-04-03 14:40:37] [INFO] Base - Chrome has been selected
+[2025-04-03 14:40:38] [INFO] Base - Chrome has been selected
+[2025-04-03 14:40:41] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:40:42] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:40:45] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 14:40:45] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 14:40:45] [INFO] Base - Accepted cookies
+[2025-04-03 14:40:46] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:40:47] [INFO] Base - clicked LoginButton
+[2025-04-03 14:40:48] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:40:50] [INFO] Base - Chrome has been selected
+[2025-04-03 14:40:50] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 14:40:50] [INFO] Base - clicked Google login
+[2025-04-03 14:40:52] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 14:40:53] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-03 14:40:53] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-03 14:40:53] [ERROR] Base - Test Failed: FAIL: homepageTest
+[2025-04-03 14:40:56] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-03 14:40:56] [ERROR] Base - Error inputting example email in input field Failed waiitng for element visibility
+[2025-04-03 14:40:57] [ERROR] Base - error clicking next button no such element: Unable to locate element: {"method":"css selector","selector":"#identifierNext"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a355b941ac27ad93b4dae3f9bfa2e157, findElement {value=identifierNext, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64387/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a355b941ac27ad93b4dae3f9bfa2e157
+[2025-04-03 14:40:57] [INFO] Base - page has fully loaded.
+[2025-04-03 14:40:57] [ERROR] Base - Test Failed: FAIL: NavigatingToBikesPageTest
+[2025-04-03 14:40:57] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:40:57] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="modelList"]/li[16]/span"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a355b941ac27ad93b4dae3f9bfa2e157, findElement {value=//*[@id="modelList"]/li[16]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64387/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a355b941ac27ad93b4dae3f9bfa2e157
+[2025-04-03 14:40:57] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 14:40:58] [ERROR] Base - Test Failed: FAIL: WebScrapingBikes
+[2025-04-03 14:41:21] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 14:41:24] [ERROR] Base - Error waiting for element with ID 'Try Again': Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: next' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-04-03 14:41:24] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-03 14:41:26] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:41:31] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:41:32] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 14:41:32] [INFO] Base - page has fully loaded.
+[2025-04-03 14:41:33] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 14:41:33] [INFO] Base - page has fully loaded.
+[2025-04-03 14:41:33] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 14:41:36] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 14:41:36] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-03 14:41:47] [INFO] Base - Test suite finished. Passed: 2, Failed: 3, Skipped: 0
+[2025-04-03 14:53:41] [INFO] Base - Test suite started: Parallel Test Classes
+[2025-04-03 14:53:41] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 14:53:52] [INFO] Base - Chrome has been selected
+[2025-04-03 14:53:52] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:53:52] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:53:52] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:53:52] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:53:55] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 14:53:55] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:53:58] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 14:53:58] [INFO] Base - Accepted cookies
+[2025-04-03 14:53:58] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:54:04] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:54:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:54:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:54:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:54:04] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 14:54:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:54:05] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 14:54:05] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:54:10] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:54:10] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:54:15] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:54:15] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:54:15] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:54:15] [INFO] Base - PageFactory initialised
+[2025-04-03 14:54:15] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:54:16] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 14:54:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:54:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:54:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:54:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:54:16] [INFO] Base - Initializing driver for Thread: 58
+[2025-04-03 14:54:16] [INFO] Base - Initializing driver for Thread: 57
+[2025-04-03 14:54:16] [INFO] Base - Initializing driver for Thread: 59
+[2025-04-03 14:54:16] [INFO] Base - Initializing driver for Thread: 60
+[2025-04-03 14:54:26] [INFO] Base - Chrome has been selected
+[2025-04-03 14:54:26] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:54:29] [INFO] Base - Chrome has been selected
+[2025-04-03 14:54:30] [INFO] Base - Chrome has been selected
+[2025-04-03 14:54:30] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 14:54:30] [INFO] Base - Chrome has been selected
+[2025-04-03 14:54:30] [INFO] Base - Started test: Homepage Test
+[2025-04-03 14:54:30] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-03 14:54:31] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 14:54:31] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:54:34] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:54:34] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-03 14:54:35] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:54:35] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-03 14:54:38] [INFO] Base - New bikes link pressed
+[2025-04-03 14:54:38] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 14:54:38] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-03 14:54:38] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 14:54:38] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-03 14:54:39] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 14:54:39] [INFO] Base - Accepted cookies
+[2025-04-03 14:54:39] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:54:39] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 14:54:39] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-03 14:54:40] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:54:40] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:54:40] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-03 14:54:41] [INFO] Base - clicked LoginButton
+[2025-04-03 14:54:41] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-03 14:54:42] [INFO] Base - clicked Google login
+[2025-04-03 14:54:42] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-03 14:54:42] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-03 14:54:42] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-03 14:54:45] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-03 14:54:45] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-03 14:54:45] [ERROR] Base - Test Failed: FAIL: homepageTest
+[2025-04-03 14:54:45] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-03 14:54:47] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:54:47] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:54:47] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="modelList"]/li[16]/span"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [433038c5bbc2fea63ae44b9936c17ef9, findElement {using=xpath, value=//*[@id="modelList"]/li[16]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50168}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50168/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 433038c5bbc2fea63ae44b9936c17ef9
+[2025-04-03 14:54:47] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:54:47] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:54:47] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:54:47] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 14:54:47] [ERROR] Base - Test Failed: FAIL: WebScrapingBikes
+[2025-04-03 14:54:47] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:54:48] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-03 14:54:48] [ERROR] Base - Error inputting example email in input field Failed waiitng for element visibility
+[2025-04-03 14:54:48] [ERROR] Base - error clicking next button no such element: Unable to locate element: {"method":"css selector","selector":"#identifierNext"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [433038c5bbc2fea63ae44b9936c17ef9, findElement {using=id, value=identifierNext}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50168}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50168/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 433038c5bbc2fea63ae44b9936c17ef9
+[2025-04-03 14:54:48] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-03 14:54:50] [ERROR] Base - Test Failed: FAIL: NavigatingToBikesPageTest
+[2025-04-03 14:54:50] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-03 14:54:54] [INFO] Base - Initializing driver for Thread: 60
+[2025-04-03 14:54:58] [ERROR] Base - Error waiting for element with ID 'Try Again': Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: next' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-04-03 14:54:58] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-03 14:55:04] [INFO] Base - Chrome has been selected
+[2025-04-03 14:55:04] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:55:17] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 14:55:17] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:55:17] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 14:55:18] [INFO] Base - Accepted cookies
+[2025-04-03 14:55:18] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:55:23] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:55:23] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:55:24] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 14:55:24] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:55:24] [INFO] Base - page has fully loaded.
+[2025-04-03 14:55:24] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:55:24] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 14:55:24] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:55:24] [INFO] Base - page has fully loaded.
+[2025-04-03 14:55:24] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:55:24] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:55:24] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 14:55:25] [WARN] Base - Encountered stale element. Retrying...
+[2025-04-03 14:55:25] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:55:25] [INFO] Base - Reusing driver for Thread: 60
+[2025-04-03 14:55:26] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 14:55:26] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-03 14:55:31] [INFO] Base - Test suite finished. Passed: 2, Failed: 3, Skipped: 0
+[2025-04-03 14:57:50] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 14:57:50] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 14:58:00] [INFO] Base - Chrome has been selected
+[2025-04-03 14:58:00] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:58:00] [INFO] Base - PageFactory initialised
+[2025-04-03 14:58:00] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:58:03] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 14:58:03] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:58:03] [INFO] Base - Started test: Homepage Test
+[2025-04-03 14:58:03] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:58:06] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 14:58:06] [INFO] Base - Accepted cookies
+[2025-04-03 14:58:06] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:58:12] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:58:12] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:58:12] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 14:58:12] [INFO] Base - Homepage verification completed successfully
+[2025-04-03 14:58:12] [INFO] Base - Test Passed: PASS: homepageTest
+[2025-04-03 14:58:16] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 14:59:22] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 14:59:22] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 14:59:31] [INFO] Base - Chrome has been selected
+[2025-04-03 14:59:31] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:59:31] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:59:31] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:59:31] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:59:31] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:59:34] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 14:59:34] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:59:36] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 14:59:37] [INFO] Base - Accepted cookies
+[2025-04-03 14:59:37] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:59:42] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 14:59:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:59:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:59:42] [INFO] Base - Clicked view more bikes
+[2025-04-03 14:59:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:59:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:59:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 14:59:42] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 14:59:44] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 14:59:44] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-04-03 14:59:52] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 15:00:01] [INFO] Base - Chrome has been selected
+[2025-04-03 15:00:01] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 15:00:07] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 15:00:07] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 15:00:07] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 15:00:07] [INFO] Base - Accepted cookies
+[2025-04-03 15:00:07] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 15:00:12] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 15:00:12] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 15:00:12] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 15:00:12] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 15:00:13] [INFO] Base - page has fully loaded.
+[2025-04-03 15:00:13] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 15:00:13] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 15:00:13] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 15:00:13] [INFO] Base - page has fully loaded.
+[2025-04-03 15:00:13] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 15:00:13] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 15:00:13] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 15:00:13] [WARN] Base - Encountered stale element. Retrying...
+[2025-04-03 15:00:13] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 15:00:13] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 15:00:13] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 15:00:13] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-03 15:00:19] [INFO] Base - Test suite finished. Passed: 2, Failed: 0, Skipped: 0
+[2025-04-03 15:01:13] [INFO] Base - Test suite started: Parallel Test Classes
+[2025-04-03 15:01:13] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 15:01:23] [INFO] Base - Chrome has been selected
+[2025-04-03 15:01:23] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 15:01:23] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 15:01:23] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 15:01:23] [INFO] Base - Initializing driver for Thread: 55
+[2025-04-03 15:01:34] [INFO] Base - Chrome has been selected
+[2025-04-03 15:01:34] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:01:38] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 15:01:38] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:01:40] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 15:01:41] [INFO] Base - Accepted cookies
+[2025-04-03 15:01:41] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:01:46] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 15:01:46] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:01:46] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="modelList"]/li[16]/span"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bf4e7246a98cfec8f3b7f4cf10d355de, findElement {using=xpath, value=//*[@id="modelList"]/li[16]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52861}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52861/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf4e7246a98cfec8f3b7f4cf10d355de
+[2025-04-03 15:01:46] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:01:46] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:01:46] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:01:46] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 15:01:46] [ERROR] Base - Test Failed: FAIL: WebScrapingBikes
+[2025-04-03 15:01:46] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:01:51] [INFO] Base - Initializing driver for Thread: 55
+[2025-04-03 15:02:00] [INFO] Base - Chrome has been selected
+[2025-04-03 15:02:01] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:02:06] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 15:02:06] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:02:07] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 15:02:07] [INFO] Base - Accepted cookies
+[2025-04-03 15:02:07] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:02:12] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 15:02:12] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:02:13] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 15:02:13] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:02:13] [INFO] Base - page has fully loaded.
+[2025-04-03 15:02:13] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:02:13] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 15:02:13] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:02:13] [INFO] Base - page has fully loaded.
+[2025-04-03 15:02:13] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:02:13] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:02:14] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 15:02:14] [WARN] Base - Encountered stale element. Retrying...
+[2025-04-03 15:02:14] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:02:14] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 15:02:16] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 15:02:16] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-03 15:02:23] [INFO] Base - Test suite finished. Passed: 1, Failed: 1, Skipped: 0
+[2025-04-03 19:17:41] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 19:17:41] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 19:17:54] [INFO] Base - Chrome has been selected
+[2025-04-03 19:17:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:17:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:17:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:17:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:17:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:17:56] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 19:17:56] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:17:59] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 19:17:59] [INFO] Base - Accepted cookies
+[2025-04-03 19:17:59] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:18:04] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 19:18:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:18:05] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:18:05] [INFO] Base - Clicked view more bikes
+[2025-04-03 19:18:05] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:18:05] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:18:05] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:18:05] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 19:18:08] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 19:18:08] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-04-03 19:18:16] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 19:20:58] [INFO] Base - Test suite started: Parallel Test Classes
+[2025-04-03 19:20:58] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 19:21:06] [INFO] Base - Chrome has been selected
+[2025-04-03 19:21:06] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:21:06] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:21:06] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:21:06] [INFO] Base - Initializing driver for Thread: 55
+[2025-04-03 19:21:13] [INFO] Base - Chrome has been selected
+[2025-04-03 19:21:13] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:15] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 19:21:15] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:18] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 19:21:18] [INFO] Base - Accepted cookies
+[2025-04-03 19:21:18] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:23] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 19:21:23] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:23] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="modelList"]/li[16]/span"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d8afc6a39189eb3d86d2a453ae3b1f3, findElement {value=//*[@id="modelList"]/li[16]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55353}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55353/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d8afc6a39189eb3d86d2a453ae3b1f3
+[2025-04-03 19:21:23] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:23] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:23] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:23] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 19:21:26] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 19:21:26] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-04-03 19:21:29] [INFO] Base - Initializing driver for Thread: 55
+[2025-04-03 19:21:36] [INFO] Base - Chrome has been selected
+[2025-04-03 19:21:36] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:42] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 19:21:42] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:42] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 19:21:42] [INFO] Base - Accepted cookies
+[2025-04-03 19:21:42] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:48] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 19:21:48] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:48] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 19:21:48] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:48] [INFO] Base - page has fully loaded.
+[2025-04-03 19:21:48] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:49] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 19:21:49] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:49] [INFO] Base - page has fully loaded.
+[2025-04-03 19:21:49] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:49] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:49] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 19:21:49] [WARN] Base - Encountered stale element. Retrying...
+[2025-04-03 19:21:49] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:49] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:21:49] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 19:21:50] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-03 19:21:55] [INFO] Base - Test suite finished. Passed: 2, Failed: 0, Skipped: 0
+[2025-04-03 19:24:51] [INFO] Base - Test suite started: Parallel Test Classes
+[2025-04-03 19:24:51] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 19:25:00] [INFO] Base - Chrome has been selected
+[2025-04-03 19:25:00] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:25:00] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:25:00] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:25:00] [INFO] Base - Initializing driver for Thread: 54
+[2025-04-03 19:25:09] [INFO] Base - Chrome has been selected
+[2025-04-03 19:25:09] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 19:25:12] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 19:25:12] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 19:25:14] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 19:25:14] [INFO] Base - Accepted cookies
+[2025-04-03 19:25:14] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 19:25:20] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 19:25:20] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 19:25:20] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="modelList"]/li[16]/span"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [442e1581fff5464429592aa02479b0a1, findElement {using=xpath, value=//*[@id="modelList"]/li[16]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55701/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 442e1581fff5464429592aa02479b0a1
+[2025-04-03 19:25:20] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 19:25:20] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 19:25:20] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 19:25:20] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 19:25:23] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 19:25:23] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-04-03 19:25:28] [INFO] Base - Initializing driver for Thread: 54
+[2025-04-03 19:25:38] [INFO] Base - Chrome has been selected
+[2025-04-03 19:25:38] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 19:25:43] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 19:25:43] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 19:25:43] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 19:25:43] [INFO] Base - Accepted cookies
+[2025-04-03 19:25:43] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 19:25:49] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 19:25:49] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 19:25:49] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 19:25:49] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 19:25:49] [INFO] Base - page has fully loaded.
+[2025-04-03 19:25:49] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 19:25:49] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 19:25:49] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 19:25:49] [INFO] Base - page has fully loaded.
+[2025-04-03 19:25:49] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 19:25:49] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 19:25:49] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 19:25:50] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 19:25:50] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-03 19:25:54] [INFO] Base - Test suite finished. Passed: 2, Failed: 0, Skipped: 0
+[2025-04-03 19:28:32] [INFO] Base - Test suite started: Parallel Test methods
+[2025-04-03 19:28:32] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 19:28:41] [INFO] Base - Chrome has been selected
+[2025-04-03 19:28:41] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:28:41] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:28:41] [INFO] Base - Initializing driver for Thread: 56
+[2025-04-03 19:28:41] [INFO] Base - Initializing driver for Thread: 55
+[2025-04-03 19:28:51] [INFO] Base - Chrome has been selected
+[2025-04-03 19:28:51] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 19:28:53] [INFO] Base - Chrome has been selected
+[2025-04-03 19:28:53] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:28:55] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 19:28:55] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 19:28:56] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 19:28:56] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:29:02] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 19:29:02] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:29:02] [INFO] Base - Cookie Consent Button 2 Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 19:29:02] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 19:29:02] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 19:29:02] [INFO] Base - Accepted cookies Button 2 
+[2025-04-03 19:29:02] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:29:02] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="modelList"]/li[16]/span"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb391f6c096b6508f93f97c508403ed2, findElement {using=xpath, value=//*[@id="modelList"]/li[16]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56050}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56050/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb391f6c096b6508f93f97c508403ed2
+[2025-04-03 19:29:02] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:29:02] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:29:02] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 19:29:02] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 19:29:03] [INFO] Base - Cookie Consent Button 2 Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 19:29:06] [INFO] Base - Accepted cookies Button 2 
+[2025-04-03 19:29:06] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 19:29:08] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 19:29:08] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 19:29:08] [INFO] Base - page has fully loaded.
+[2025-04-03 19:29:08] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 19:29:09] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 19:29:09] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 19:29:09] [INFO] Base - page has fully loaded.
+[2025-04-03 19:29:09] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 19:29:09] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 19:29:09] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 19:29:09] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 19:29:09] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-04-03 19:29:10] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 19:29:10] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-03 19:29:16] [INFO] Base - Test suite finished. Passed: 2, Failed: 0, Skipped: 0
+[2025-04-03 19:34:16] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 19:34:16] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 19:34:24] [INFO] Base - Chrome has been selected
+[2025-04-03 19:34:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:34:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:34:24] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 19:34:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:34:26] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 19:34:26] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:34:28] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 19:34:29] [INFO] Base - Accepted cookies
+[2025-04-03 19:34:29] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:34:34] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 19:34:34] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:34:34] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 19:34:36] [INFO] Base - New bikes link pressed
+[2025-04-03 19:34:36] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 19:34:36] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:34:36] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 19:34:36] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:34:37] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 19:34:37] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:34:37] [INFO] Base - page has fully loaded.
+[2025-04-03 19:34:40] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 19:34:40] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:34:40] [INFO] Base - page has fully loaded.
+[2025-04-03 19:34:40] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:34:42] [WARN] Base - Regular click intercepted. Falling back to JavaScript click for 'View More Bikes'.
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (457, 1495)
+  (Session info: chrome=134.0.6998.36)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f881cda6ea6aa7313fc6cc3b9bac50d, clickElement {id=f.07FD3B409262A959202FE4CE8A666BD7.d.E01F228CF9E2C151583D872394E35FFE.e.502}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56497}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56497/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9f881cda6ea6aa7313fc6cc3b9bac50d)] -> xpath: //*[@id='modelList']/li[16]/span]
+Session ID: 9f881cda6ea6aa7313fc6cc3b9bac50d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.29.0.jar:?]
+	at pages.NavigatingToBikes.clickViewMoreBikes(NavigatingToBikes.java:79) ~[test-classes/:?]
+	at pages.NavigatingToBikes.navigatingToBikesPage(NavigatingToBikes.java:116) ~[test-classes/:?]
+	at org.example.tests.NavigatingToBikesTests.NavigatingToBikesPageTest(NavigatingToBikesTests.java:28) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[2025-04-03 19:34:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:34:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:34:42] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 19:34:42] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-03 19:34:47] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 19:39:08] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 19:39:08] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 19:39:18] [INFO] Base - Chrome has been selected
+[2025-04-03 19:39:18] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:39:18] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:39:18] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 19:39:18] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:39:21] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 19:39:21] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:39:23] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 19:39:24] [INFO] Base - Accepted cookies
+[2025-04-03 19:39:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:39:29] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 19:39:29] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:39:29] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 19:39:31] [INFO] Base - New bikes link pressed
+[2025-04-03 19:39:31] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 19:39:31] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:39:31] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 19:39:31] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:39:32] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 19:39:32] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:39:32] [INFO] Base - page has fully loaded.
+[2025-04-03 19:39:34] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 19:39:34] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:39:34] [INFO] Base - page has fully loaded.
+[2025-04-03 19:39:34] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:39:35] [WARN] Base - Regular click intercepted. Falling back to JavaScript click for 'View More Bikes'.
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (457, 1590)
+  (Session info: chrome=134.0.6998.36)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18145482b43697a5fd60ccb7414a7636, clickElement {id=f.916287F5AF52C0CD6CE5F853B1D16884.d.0C9639E2AD89BFC8D1FF13362675C00A.e.466}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57180}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57180/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (18145482b43697a5fd60ccb7414a7636)] -> xpath: //*[@id='modelList']/li[16]/span]
+Session ID: 18145482b43697a5fd60ccb7414a7636
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.29.0.jar:?]
+	at pages.NavigatingToBikes.clickViewMoreBikes(NavigatingToBikes.java:84) ~[test-classes/:?]
+	at pages.NavigatingToBikes.navigatingToBikesPage(NavigatingToBikes.java:122) ~[test-classes/:?]
+	at org.example.tests.NavigatingToBikesTests.NavigatingToBikesPageTest(NavigatingToBikesTests.java:28) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[2025-04-03 19:39:35] [INFO] Base - JS click executed for 'View More Bikes'.
+[2025-04-03 19:39:35] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:39:35] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:39:35] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 19:39:35] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-03 19:39:39] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 19:40:32] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 19:40:32] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 19:40:41] [INFO] Base - Chrome has been selected
+[2025-04-03 19:40:41] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:40:41] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:40:41] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 19:40:41] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:40:45] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 19:40:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:40:46] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 19:40:46] [INFO] Base - Accepted cookies
+[2025-04-03 19:40:46] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:40:52] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 19:40:52] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:40:52] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 19:40:54] [INFO] Base - New bikes link pressed
+[2025-04-03 19:40:54] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 19:40:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:40:54] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 19:40:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:40:56] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 19:40:56] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:40:56] [INFO] Base - page has fully loaded.
+[2025-04-03 19:41:00] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 19:41:00] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:41:00] [INFO] Base - page has fully loaded.
+[2025-04-03 19:41:00] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:41:00] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:41:00] [INFO] Base - Clicked view more bikes
+[2025-04-03 19:41:00] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:41:00] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:41:00] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 19:41:00] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-03 19:41:06] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 19:44:15] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 19:44:15] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 19:44:25] [INFO] Base - Chrome has been selected
+[2025-04-03 19:44:25] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:44:25] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:44:25] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 19:44:25] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:44:29] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 19:44:29] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:44:31] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 19:44:32] [INFO] Base - Accepted cookies
+[2025-04-03 19:44:32] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:44:37] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 19:44:37] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:44:37] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 19:44:45] [INFO] Base - New bikes link pressed
+[2025-04-03 19:44:47] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 19:44:47] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:44:47] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 19:44:47] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:44:49] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 19:44:49] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:44:49] [INFO] Base - page has fully loaded.
+[2025-04-03 19:44:51] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 19:44:51] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:44:51] [INFO] Base - page has fully loaded.
+[2025-04-03 19:44:51] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:44:53] [WARN] Base - Regular click intercepted. Falling back to JavaScript click.
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (457, 1590)
+  (Session info: chrome=134.0.6998.36)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e2ef360be1fa1a5a94e58b5fcd242ed, clickElement {id=f.01C74D7680EDF85860ADE2EB52418D3D.d.0C2470292A47EBEA1CA8EBBB3F068036.e.485}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57908}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57908/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0e2ef360be1fa1a5a94e58b5fcd242ed)] -> xpath: //*[@id='modelList']/li[16]/span]
+Session ID: 0e2ef360be1fa1a5a94e58b5fcd242ed
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.29.0.jar:?]
+	at pages.NavigatingToBikes.clickViewMoreBikes(NavigatingToBikes.java:82) ~[test-classes/:?]
+	at pages.NavigatingToBikes.navigatingToBikesPage(NavigatingToBikes.java:119) ~[test-classes/:?]
+	at org.example.tests.NavigatingToBikesTests.NavigatingToBikesPageTest(NavigatingToBikesTests.java:28) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[2025-04-03 19:44:53] [INFO] Base - JS click executed for 'View More Bikes'.
+[2025-04-03 19:44:53] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:44:53] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:44:54] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 19:44:54] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-03 19:45:00] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 19:46:54] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 19:46:54] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 19:47:04] [INFO] Base - Chrome has been selected
+[2025-04-03 19:47:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:47:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:47:04] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 19:47:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:47:07] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 19:47:07] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:47:09] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 19:47:09] [INFO] Base - Accepted cookies
+[2025-04-03 19:47:09] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:47:15] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 19:47:15] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:47:15] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 19:47:17] [INFO] Base - New bikes link pressed
+[2025-04-03 19:47:20] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 19:47:20] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:47:20] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 19:47:20] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:47:21] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 19:47:21] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:47:21] [INFO] Base - page has fully loaded.
+[2025-04-03 19:47:22] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 19:47:22] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:47:22] [INFO] Base - page has fully loaded.
+[2025-04-03 19:47:22] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:47:22] [INFO] Base - Found 16 bike items in the list.
+[2025-04-03 19:47:25] [WARN] Base - Regular click intercepted. Falling back to JavaScript click.
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (457, 1590)
+  (Session info: chrome=134.0.6998.36)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d4d8c34bb51817caa94b9be501053e29, clickElement {id=f.AC83216619AE110BA85884AEFAA8318B.d.9E405E679C71ACA3D0760C2B3E69C296.e.490}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58256}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58256/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d4d8c34bb51817caa94b9be501053e29)] -> xpath: //*[@id='modelList']/li[16]/span]
+Session ID: d4d8c34bb51817caa94b9be501053e29
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.29.0.jar:?]
+	at pages.NavigatingToBikes.clickViewMoreBikes(NavigatingToBikes.java:89) ~[test-classes/:?]
+	at pages.NavigatingToBikes.navigatingToBikesPage(NavigatingToBikes.java:127) ~[test-classes/:?]
+	at org.example.tests.NavigatingToBikesTests.NavigatingToBikesPageTest(NavigatingToBikesTests.java:28) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[2025-04-03 19:47:25] [INFO] Base - JS click executed for 'View More Bikes'.
+[2025-04-03 19:47:25] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:47:25] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 19:47:25] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 19:47:25] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-03 19:47:31] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 20:01:07] [INFO] Base - Test suite started: Parallel Test methods
+[2025-04-03 20:01:07] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 20:01:16] [INFO] Base - Chrome has been selected
+[2025-04-03 20:01:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:01:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:01:16] [INFO] Base - Initializing driver for Thread: 53
+[2025-04-03 20:01:16] [INFO] Base - Initializing driver for Thread: 54
+[2025-04-03 20:01:26] [INFO] Base - Chrome has been selected
+[2025-04-03 20:01:26] [INFO] Base - Reusing driver for Thread: 53
+[2025-04-03 20:01:28] [INFO] Base - Chrome has been selected
+[2025-04-03 20:01:28] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 20:01:31] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 20:01:31] [INFO] Base - Reusing driver for Thread: 53
+[2025-04-03 20:01:31] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 20:01:31] [INFO] Base - Accepted cookies
+[2025-04-03 20:01:31] [INFO] Base - Reusing driver for Thread: 53
+[2025-04-03 20:01:36] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 20:01:36] [INFO] Base - Reusing driver for Thread: 53
+[2025-04-03 20:01:36] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="modelList"]/li[16]/span"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d0a5ebe6fe4f36ac3599badcd6f04bf1, findElement {using=xpath, value=//*[@id="modelList"]/li[16]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59037}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59037/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d0a5ebe6fe4f36ac3599badcd6f04bf1
+[2025-04-03 20:01:36] [INFO] Base - Reusing driver for Thread: 53
+[2025-04-03 20:01:36] [INFO] Base - Reusing driver for Thread: 53
+[2025-04-03 20:01:36] [INFO] Base - Reusing driver for Thread: 53
+[2025-04-03 20:01:36] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 20:01:37] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 20:01:37] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 20:01:37] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 20:01:37] [INFO] Base - Accepted cookies
+[2025-04-03 20:01:37] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 20:01:39] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 20:01:39] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-04-03 20:01:46] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 20:01:46] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 20:01:47] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 20:01:47] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 20:01:47] [INFO] Base - page has fully loaded.
+[2025-04-03 20:01:47] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 20:01:47] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 20:01:47] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 20:01:47] [INFO] Base - page has fully loaded.
+[2025-04-03 20:01:47] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 20:01:47] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-03 20:01:47] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 20:01:48] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 20:01:48] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-03 20:01:55] [INFO] Base - Test suite finished. Passed: 2, Failed: 0, Skipped: 0
+[2025-04-03 20:39:18] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 20:39:18] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 20:39:28] [INFO] Base - Chrome has been selected
+[2025-04-03 20:39:28] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:39:28] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:39:28] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 20:39:28] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:39:31] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 20:39:31] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:39:33] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 20:39:33] [INFO] Base - Accepted cookies
+[2025-04-03 20:39:33] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:39:39] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 20:39:39] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:39:39] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 20:39:47] [INFO] Base - New bikes link pressed
+[2025-04-03 20:39:47] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 20:39:47] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:39:47] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 20:39:47] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:39:49] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 20:39:49] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:39:49] [INFO] Base - page has fully loaded.
+[2025-04-03 20:39:53] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 20:39:53] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:39:53] [INFO] Base - page has fully loaded.
+[2025-04-03 20:39:53] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:39:53] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"css selector","selector":".zw-cmn-loadMore"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec3df9fbad4698b5a03889c7d0528941, findElement {value=.zw-cmn-loadMore, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62148}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62148/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec3df9fbad4698b5a03889c7d0528941
+[2025-04-03 20:39:53] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:39:53] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:40:13] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:40:13] [ERROR] Base - Timeout while waiting for URL to match expected Honda bikes page URL. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-bikes
+[2025-04-03 20:40:13] [ERROR] Base - Test Failed: FAIL: NavigatingToBikesPageTest
+[2025-04-03 20:40:13] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:40:21] [INFO] Base - Test suite finished. Passed: 0, Failed: 1, Skipped: 0
+[2025-04-03 20:40:27] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 20:40:27] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 20:40:36] [INFO] Base - Chrome has been selected
+[2025-04-03 20:40:36] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:40:36] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:40:36] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 20:40:36] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:40:39] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 20:40:39] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:40:41] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 20:40:42] [INFO] Base - Accepted cookies
+[2025-04-03 20:40:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:40:47] [WARN] Base - Cookie consent button 2 did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 20:40:47] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:40:47] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 20:40:59] [INFO] Base - New bikes link pressed
+[2025-04-03 20:40:59] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 20:40:59] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:40:59] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 20:40:59] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:41:00] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 20:41:00] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:41:00] [INFO] Base - page has fully loaded.
+[2025-04-03 20:41:03] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 20:41:03] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:41:03] [INFO] Base - page has fully loaded.
+[2025-04-03 20:41:03] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:41:03] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:41:04] [INFO] Base - Clicked view more bikes
+[2025-04-03 20:41:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:41:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:41:04] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 20:41:04] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-03 20:41:10] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 20:45:34] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 20:45:34] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 20:45:46] [INFO] Base - Chrome has been selected
+[2025-04-03 20:45:46] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:45:46] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:45:46] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 20:45:46] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:45:49] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 20:45:49] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:45:52] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 20:45:52] [INFO] Base - Accepted cookies
+[2025-04-03 20:45:52] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:45:52] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 20:45:53] [INFO] Base - New bikes link pressed
+[2025-04-03 20:45:53] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 20:45:53] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:45:53] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 20:45:53] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:45:55] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 20:45:55] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:45:55] [INFO] Base - page has fully loaded.
+[2025-04-03 20:45:57] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 20:45:57] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:45:57] [INFO] Base - page has fully loaded.
+[2025-04-03 20:45:57] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:45:58] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:45:58] [INFO] Base - Clicked view more bikes
+[2025-04-03 20:45:58] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:45:58] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:45:58] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 20:45:58] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-03 20:46:03] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 20:57:14] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 20:57:14] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 20:57:24] [INFO] Base - Chrome has been selected
+[2025-04-03 20:57:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:57:25] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:57:25] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 20:57:25] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:57:27] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 20:57:27] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:57:29] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 20:57:30] [INFO] Base - Accepted cookies
+[2025-04-03 20:57:30] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:57:30] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 20:57:31] [INFO] Base - New bikes link pressed
+[2025-04-03 20:57:32] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 20:57:32] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:57:32] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 20:57:32] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:57:33] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 20:57:33] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:57:33] [INFO] Base - page has fully loaded.
+[2025-04-03 20:57:35] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-03 20:57:35] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:57:35] [INFO] Base - page has fully loaded.
+[2025-04-03 20:57:35] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:57:35] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:57:35] [INFO] Base - Clicked view more bikes
+[2025-04-03 20:57:35] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:57:35] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:57:35] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 20:57:35] [INFO] Base - Test Passed: PASS: NavigatingToBikesPageTest
+[2025-04-03 20:57:40] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-03 20:57:55] [INFO] Base - Test suite started: Parallel Test methods
+[2025-04-03 20:57:55] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 20:58:05] [INFO] Base - Chrome has been selected
+[2025-04-03 20:58:05] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:58:05] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 20:58:05] [INFO] Base - Initializing driver for Thread: 55
+[2025-04-03 20:58:05] [INFO] Base - Initializing driver for Thread: 56
+[2025-04-03 20:58:15] [INFO] Base - Chrome has been selected
+[2025-04-03 20:58:15] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 20:58:17] [INFO] Base - Chrome has been selected
+[2025-04-03 20:58:17] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 20:58:20] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-03 20:58:20] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 20:58:23] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-03 20:58:23] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 20:58:24] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 20:58:24] [INFO] Base - Accepted cookies
+[2025-04-03 20:58:24] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 20:58:24] [ERROR] Base - Error clicking 'View More Bikes' button: no such element: Unable to locate element: {"method":"css selector","selector":".zw-cmn-loadMore"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58892a05852b2e1406e023cb98585a02, findElement {value=.zw-cmn-loadMore, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64259/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 58892a05852b2e1406e023cb98585a02
+[2025-04-03 20:58:24] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 20:58:24] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 20:58:25] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 20:58:28] [INFO] Base - Accepted cookies
+[2025-04-03 20:58:28] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 20:58:29] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-03 20:58:29] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 20:58:29] [INFO] Base - page has fully loaded.
+[2025-04-03 20:58:29] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 20:58:31] [INFO] Base - Filtered by car brand Honda
+[2025-04-03 20:58:31] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 20:58:31] [INFO] Base - page has fully loaded.
+[2025-04-03 20:58:31] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 20:58:31] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 20:58:31] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-03 20:58:31] [WARN] Base - Encountered stale element. Retrying...
+[2025-04-03 20:58:31] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 20:58:32] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 20:58:33] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 20:58:33] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-03 20:58:34] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-03 20:58:34] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-03 20:58:34] [INFO] Base - Test Passed: PASS: webScrapingCars
+[2025-04-03 20:58:34] [INFO] Base - Test Passed: PASS: WebScrapingBikes
+[2025-04-03 20:58:40] [INFO] Base - Test suite finished. Passed: 2, Failed: 0, Skipped: 0
+[2025-04-03 21:00:00] [INFO] Base - Test suite started: Parallel Test methods
+[2025-04-03 21:00:00] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 21:00:10] [INFO] Base - Chrome has been selected
+[2025-04-03 21:00:10] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:00:10] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:00:10] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:00:10] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:00:13] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 21:00:13] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:00:15] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 21:00:15] [INFO] Base - Accepted cookies
+[2025-04-03 21:00:15] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:00:15] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:00:15] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:00:15] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 21:00:15] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:00:16] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 21:00:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:00:21] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 21:00:21] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:00:21] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:00:21] [INFO] Base - PageFactory initialised
+[2025-04-03 21:00:21] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:00:22] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 21:00:22] [INFO] Base - Initializing driver for Thread: 57
+[2025-04-03 21:00:22] [INFO] Base - Initializing driver for Thread: 56
+[2025-04-03 21:00:22] [INFO] Base - Initializing driver for Thread: 58
+[2025-04-03 21:00:35] [INFO] Base - Chrome has been selected
+[2025-04-03 21:00:35] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 21:00:37] [INFO] Base - Chrome has been selected
+[2025-04-03 21:00:37] [INFO] Base - Started test: Homepage Test
+[2025-04-03 21:00:37] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-03 21:00:40] [INFO] Base - New bikes link pressed
+[2025-04-03 21:00:40] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 21:00:40] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-03 21:00:40] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 21:00:40] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-03 21:00:40] [INFO] Base - Chrome has been selected
+[2025-04-03 21:00:42] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 21:00:42] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-03 21:00:46] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 21:00:47] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 21:00:47] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-03 21:00:47] [INFO] Base - page has fully loaded.
+[2025-04-03 21:00:49] [ERROR] Base - Test Failed: FAIL: NavigatingToBikesPageTest
+[2025-04-03 21:00:49] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-03 21:00:49] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-03 21:00:49] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-03 21:00:49] [ERROR] Base - Test Failed: FAIL: homepageTest
+[2025-04-03 21:00:49] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-03 21:00:49] [INFO] Base - clicked LoginButton
+[2025-04-03 21:00:49] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 21:00:50] [INFO] Base - clicked Google login
+[2025-04-03 21:00:50] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 21:00:50] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 21:00:50] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 21:00:55] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-03 21:00:55] [ERROR] Base - Error inputting example email in input field Failed waiitng for element visibility
+[2025-04-03 21:00:55] [ERROR] Base - error clicking next button no such element: Unable to locate element: {"method":"css selector","selector":"#identifierNext"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [16cb71a4101b26fa1251e7ed3dbd064d, findElement {using=id, value=identifierNext}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64744}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64744/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 16cb71a4101b26fa1251e7ed3dbd064d
+[2025-04-03 21:00:55] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 21:01:06] [ERROR] Base - Error waiting for element with ID 'Try Again': Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: next' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-04-03 21:01:06] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-03 21:01:08] [INFO] Base - Test suite finished. Passed: 1, Failed: 2, Skipped: 0
+[2025-04-03 21:01:55] [INFO] Base - Test suite started: Parallel Test methods
+[2025-04-03 21:01:55] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 21:02:03] [INFO] Base - Chrome has been selected
+[2025-04-03 21:02:03] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:02:03] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:02:03] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:02:06] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 21:02:06] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:02:11] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 21:02:11] [INFO] Base - Accepted cookies
+[2025-04-03 21:02:11] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:02:11] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:02:11] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 21:02:11] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:02:12] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 21:02:12] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:02:18] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 21:02:18] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:02:18] [INFO] Base - PageFactory initialised
+[2025-04-03 21:02:18] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:02:19] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 21:02:19] [INFO] Base - Initializing driver for Thread: 57
+[2025-04-03 21:02:19] [INFO] Base - Initializing driver for Thread: 58
+[2025-04-03 21:02:19] [INFO] Base - Initializing driver for Thread: 56
+[2025-04-03 21:02:34] [INFO] Base - Chrome has been selected
+[2025-04-03 21:02:34] [INFO] Base - Chrome has been selected
+[2025-04-03 21:02:34] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 21:02:36] [INFO] Base - Chrome has been selected
+[2025-04-03 21:02:36] [INFO] Base - Started test: Homepage Test
+[2025-04-03 21:02:36] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-03 21:02:36] [INFO] Base - New bikes link pressed
+[2025-04-03 21:02:37] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 21:02:37] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-03 21:02:37] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 21:02:37] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-03 21:02:38] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 21:02:38] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-03 21:02:39] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 21:02:40] [INFO] Base - clicked LoginButton
+[2025-04-03 21:02:40] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 21:02:41] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 21:02:41] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-03 21:02:42] [INFO] Base - clicked Google login
+[2025-04-03 21:02:42] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 21:02:42] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 21:02:42] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 21:02:45] [INFO] Base - page has fully loaded.
+[2025-04-03 21:02:45] [ERROR] Base - Test Failed: FAIL: NavigatingToBikesPageTest
+[2025-04-03 21:02:45] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-03 21:02:46] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-03 21:02:46] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-03 21:02:46] [ERROR] Base - Test Failed: FAIL: homepageTest
+[2025-04-03 21:02:46] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-03 21:02:47] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-03 21:02:47] [ERROR] Base - Error inputting example email in input field Failed waiitng for element visibility
+[2025-04-03 21:02:47] [ERROR] Base - error clicking next button no such element: Unable to locate element: {"method":"css selector","selector":"#identifierNext"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [472acc47c8bea72d964e4f05ad4a4900, findElement {using=id, value=identifierNext}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65217/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 472acc47c8bea72d964e4f05ad4a4900
+[2025-04-03 21:02:47] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 21:02:57] [ERROR] Base - Error waiting for element with ID 'Try Again': Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: next' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-04-03 21:02:57] [INFO] Base - Test Passed: PASS: googleLoginTest
+[2025-04-03 21:03:01] [INFO] Base - Test suite finished. Passed: 1, Failed: 2, Skipped: 0
+[2025-04-03 21:06:10] [INFO] Base - Test suite started: Parallel Test methods
+[2025-04-03 21:06:10] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 21:06:20] [INFO] Base - Chrome has been selected
+[2025-04-03 21:06:20] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:06:20] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 21:06:20] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:06:23] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 21:06:23] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:06:26] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 21:06:26] [INFO] Base - Accepted cookies
+[2025-04-03 21:06:26] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:06:26] [INFO] Base - PageFactory initialised
+[2025-04-03 21:06:26] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:06:30] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 21:06:30] [INFO] Base - Initializing driver for Thread: 56
+[2025-04-03 21:06:30] [INFO] Base - Initializing driver for Thread: 55
+[2025-04-03 21:06:43] [INFO] Base - Chrome has been selected
+[2025-04-03 21:06:43] [INFO] Base - Started test: Homepage Test
+[2025-04-03 21:06:43] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 21:06:47] [INFO] Base - Chrome has been selected
+[2025-04-03 21:06:47] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 21:06:48] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 21:06:48] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 21:06:53] [INFO] Base - New bikes link pressed
+[2025-04-03 21:06:53] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 21:06:53] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 21:06:53] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 21:06:53] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 21:06:54] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-03 21:06:54] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-03 21:06:54] [ERROR] Base - Test Failed: FAIL: homepageTest
+[2025-04-03 21:06:54] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 21:06:54] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 21:06:54] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 21:06:57] [INFO] Base - page has fully loaded.
+[2025-04-03 21:06:57] [ERROR] Base - Test Failed: FAIL: NavigatingToBikesPageTest
+[2025-04-03 21:06:57] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 21:07:04] [INFO] Base - Test suite finished. Passed: 0, Failed: 2, Skipped: 0
+[2025-04-03 21:09:25] [INFO] Base - Test suite started: Parallel Test methods
+[2025-04-03 21:09:25] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 21:09:35] [INFO] Base - Chrome has been selected
+[2025-04-03 21:09:35] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:09:35] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-03 21:09:35] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:09:38] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 21:09:38] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:09:40] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 21:09:40] [INFO] Base - Accepted cookies
+[2025-04-03 21:09:40] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:09:40] [INFO] Base - PageFactory initialised
+[2025-04-03 21:09:40] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:09:42] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 21:09:42] [INFO] Base - Initializing driver for Thread: 55
+[2025-04-03 21:09:42] [INFO] Base - Initializing driver for Thread: 56
+[2025-04-03 21:09:54] [INFO] Base - Chrome has been selected
+[2025-04-03 21:09:54] [INFO] Base - Started test: Navigating to Bikes page Test
+[2025-04-03 21:09:57] [INFO] Base - Chrome has been selected
+[2025-04-03 21:09:57] [INFO] Base - Started test: Homepage Test
+[2025-04-03 21:09:57] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 21:10:02] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-03 21:10:02] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 21:10:05] [INFO] Base - New bikes link pressed
+[2025-04-03 21:10:05] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-03 21:10:05] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 21:10:05] [INFO] Base - scrolled down by 800 pixels
+[2025-04-03 21:10:05] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 21:10:08] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-03 21:10:08] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-03 21:10:08] [ERROR] Base - Test Failed: FAIL: homepageTest
+[2025-04-03 21:10:08] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-03 21:10:17] [INFO] Base - All upcoming bikes link pressed
+[2025-04-03 21:10:17] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 21:10:17] [INFO] Base - page has fully loaded.
+[2025-04-03 21:10:17] [ERROR] Base - Test Failed: FAIL: NavigatingToBikesPageTest
+[2025-04-03 21:10:17] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-03 21:10:23] [INFO] Base - Test suite finished. Passed: 0, Failed: 2, Skipped: 0
+[2025-04-03 21:22:47] [INFO] Base - Test suite started: ZigWheelsAutomationProject
+[2025-04-03 21:22:47] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-03 21:22:55] [INFO] Base - Chrome has been selected
+[2025-04-03 21:22:55] [INFO] Base - PageFactory initialised
+[2025-04-03 21:22:55] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:22:58] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-03 21:22:58] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:22:58] [INFO] Base - Started test: Homepage Test
+[2025-04-03 21:22:58] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:23:00] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-03 21:23:00] [INFO] Base - Accepted cookies
+[2025-04-03 21:23:00] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-03 21:23:00] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-03 21:23:00] [INFO] Base - Homepage verification completed successfully
+[2025-04-03 21:23:00] [INFO] Base - Test Passed: PASS: homepageTest
+[2025-04-03 21:23:04] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-04 10:23:22] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 10:23:35] [INFO] Base - Chrome has been selected
+[2025-04-04 10:23:36] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:23:39] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-04 10:23:40] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:24:42] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 10:24:52] [INFO] Base - Chrome has been selected
+[2025-04-04 10:24:52] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:24:55] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-04 10:26:26] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 10:26:36] [INFO] Base - Chrome has been selected
+[2025-04-04 10:26:36] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:26:36] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:26:39] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-04 10:26:39] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:26:42] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-04 10:26:42] [INFO] Base - Accepted cookies
+[2025-04-04 10:26:43] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:35:30] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 10:35:40] [INFO] Base - Chrome has been selected
+[2025-04-04 10:35:41] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:35:41] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:35:44] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-04 10:35:44] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:35:47] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-04 10:35:48] [INFO] Base - Accepted cookies
+[2025-04-04 10:35:48] [INFO] Base - Started test: Accessibility Test for Home Page
+[2025-04-04 10:35:48] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:38:37] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 10:38:49] [INFO] Base - Chrome has been selected
+[2025-04-04 10:38:49] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:38:49] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:38:53] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-04 10:38:53] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:38:56] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-04 10:38:56] [INFO] Base - Accepted cookies
+[2025-04-04 10:38:56] [INFO] Base - Started test: Accessibility Test for Home Page
+[2025-04-04 10:38:56] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:39:08] [INFO] Base - Extent reports flushed
+[2025-04-04 10:44:49] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 10:45:02] [INFO] Base - Chrome has been selected
+[2025-04-04 10:45:03] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:45:03] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:45:06] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-04 10:45:06] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:45:09] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-04 10:45:09] [INFO] Base - Accepted cookies
+[2025-04-04 10:45:09] [INFO] Base - Started test: Accessibility Test for Home Page
+[2025-04-04 10:45:10] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:45:19] [INFO] Base - Extent reports flushed
+[2025-04-04 10:53:39] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 10:53:50] [INFO] Base - Chrome has been selected
+[2025-04-04 10:53:51] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:53:51] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:53:55] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-04 10:53:55] [INFO] Base - Started test: Accessibility Test for HomePage
+[2025-04-04 10:53:55] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:54:02] [INFO] Base - Extent reports flushed
+[2025-04-04 10:54:05] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 10:54:13] [INFO] Base - Chrome has been selected
+[2025-04-04 10:54:13] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:54:16] [INFO] Base - Navigated to page with key: upcomingBikesPage and URL: https://www.zigwheels.com/upcoming-bikes/
+[2025-04-04 10:54:16] [INFO] Base - Started test: Accessibility Test for upcomingBikesPage
+[2025-04-04 10:54:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:54:18] [INFO] Base - Extent reports flushed
+[2025-04-04 10:54:21] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 10:54:29] [INFO] Base - Chrome has been selected
+[2025-04-04 10:54:29] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:54:35] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-04 10:54:35] [INFO] Base - Started test: Accessibility Test for CarsPage
+[2025-04-04 10:54:35] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:54:41] [INFO] Base - Extent reports flushed
+[2025-04-04 10:56:32] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 10:56:42] [INFO] Base - Chrome has been selected
+[2025-04-04 10:56:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:56:43] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:56:46] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-04 10:56:46] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:56:49] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-04 10:56:49] [INFO] Base - Accepted cookies
+[2025-04-04 10:56:49] [INFO] Base - Started test: Accessibility Test for HomePage
+[2025-04-04 10:56:50] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:57:00] [INFO] Base - Extent reports flushed
+[2025-04-04 10:57:04] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 10:57:14] [INFO] Base - Chrome has been selected
+[2025-04-04 10:57:14] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:57:16] [INFO] Base - Navigated to page with key: upcomingBikesPage and URL: https://www.zigwheels.com/upcoming-bikes/
+[2025-04-04 10:57:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:57:20] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-04 10:57:20] [INFO] Base - Accepted cookies
+[2025-04-04 10:57:20] [INFO] Base - Started test: Accessibility Test for upcomingBikesPage
+[2025-04-04 10:57:20] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:57:23] [INFO] Base - Extent reports flushed
+[2025-04-04 10:57:25] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 10:57:34] [INFO] Base - Chrome has been selected
+[2025-04-04 10:57:34] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:57:40] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-04 10:57:40] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:57:40] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-04 10:57:41] [INFO] Base - Accepted cookies
+[2025-04-04 10:57:41] [INFO] Base - Started test: Accessibility Test for CarsPage
+[2025-04-04 10:57:41] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 10:57:44] [INFO] Base - Extent reports flushed
+[2025-04-04 11:00:06] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 11:00:16] [INFO] Base - Chrome has been selected
+[2025-04-04 11:00:17] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:00:17] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:00:20] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-04 11:00:20] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:00:23] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-04 11:00:23] [INFO] Base - Accepted cookies
+[2025-04-04 11:00:23] [INFO] Base - Started test: Accessibility Test for HomePage
+[2025-04-04 11:00:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:00:33] [INFO] Base - Extent reports flushed
+[2025-04-04 11:00:39] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 11:00:48] [INFO] Base - Chrome has been selected
+[2025-04-04 11:00:48] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:00:51] [INFO] Base - Navigated to page with key: upcomingBikesPage and URL: https://www.zigwheels.com/upcoming-bikes/
+[2025-04-04 11:00:51] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:00:53] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-04 11:00:54] [INFO] Base - Accepted cookies
+[2025-04-04 11:00:54] [INFO] Base - Started test: Accessibility Test for upcomingBikesPage
+[2025-04-04 11:00:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:00:56] [INFO] Base - Extent reports flushed
+[2025-04-04 11:00:59] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 11:01:07] [INFO] Base - Chrome has been selected
+[2025-04-04 11:01:07] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:01:09] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-04 11:01:09] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:01:13] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-04 11:01:13] [INFO] Base - Accepted cookies
+[2025-04-04 11:01:13] [INFO] Base - Started test: Accessibility Test for CarsPage
+[2025-04-04 11:01:13] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:01:17] [INFO] Base - Extent reports flushed
+[2025-04-04 11:06:28] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 11:06:42] [INFO] Base - Chrome has been selected
+[2025-04-04 11:06:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:06:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:06:45] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-04 11:06:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:06:47] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-04 11:06:47] [INFO] Base - Accepted cookies
+[2025-04-04 11:06:47] [INFO] Base - Started test: Accessibility Test for HomePage
+[2025-04-04 11:06:47] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:06:54] [INFO] Base - Extent reports flushed
+[2025-04-04 11:07:04] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 11:07:12] [INFO] Base - Chrome has been selected
+[2025-04-04 11:07:12] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:07:15] [INFO] Base - Navigated to page with key: upcomingBikesPage and URL: https://www.zigwheels.com/upcoming-bikes/
+[2025-04-04 11:07:15] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:07:18] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-04 11:07:18] [INFO] Base - Accepted cookies
+[2025-04-04 11:07:18] [INFO] Base - Started test: Accessibility Test for upcomingBikesPage
+[2025-04-04 11:07:18] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:07:20] [INFO] Base - Extent reports flushed
+[2025-04-04 11:07:25] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-04 11:07:33] [INFO] Base - Chrome has been selected
+[2025-04-04 11:07:33] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:07:38] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-04 11:07:38] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:07:38] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-04 11:07:38] [INFO] Base - Accepted cookies
+[2025-04-04 11:07:38] [INFO] Base - Started test: Accessibility Test for CarsPage
+[2025-04-04 11:07:38] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-04 11:07:41] [INFO] Base - Extent reports flushed

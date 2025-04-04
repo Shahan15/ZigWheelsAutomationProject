@@ -8,18 +8,18 @@ import org.testng.annotations.Test;
 import pages.LoginPage;
 import pages.VerifyingHomePage;
 import utils.Base;
+import utils.BaseTest;
 import utils.ReportUtils;
 import utils.TestListener;
 
 
 @Listeners(TestListener.class)
-public class LoginTest {
+public class LoginTest extends BaseTest {
     private VerifyingHomePage verifyingHomePage;
     private LoginPage loginPage;
 
     @BeforeTest
     public void setUp () {
-        Base.getDriver();
         ReportUtils.setUpExtentReport();
         verifyingHomePage = new VerifyingHomePage();
         loginPage = new LoginPage();
@@ -31,13 +31,5 @@ public class LoginTest {
         verifyingHomePage.clickingCookieConsentBtn();
         loginPage.attemptLogin();
     }
-
-    @AfterTest
-    public void tearDown() {
-        Base.quitDriver();
-    }
-
-
-
 
 }

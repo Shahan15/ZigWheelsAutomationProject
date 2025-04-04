@@ -8,13 +8,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Base;
 import utils.NavigationUtils;
 import utils.ReportUtils;
-
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
-
-import static utils.NavigationUtils.waitPageLoad;
 
 public class LoginPage extends Base {
     @FindBy(id = "forum_login_title_lg") WebElement loginButton;
@@ -26,7 +23,7 @@ public class LoginPage extends Base {
     VerifyingHomePage verifyingHomePage = new VerifyingHomePage();
 
     public LoginPage() {
-        PageFactory.initElements(driver,this);
+        PageFactory.initElements(Base.getDriver(),this);
     }
 
     public void navigateToHomePage () {
@@ -41,12 +38,12 @@ public class LoginPage extends Base {
 
     public void clickGoogleLogin() {
         try {
-            NavigationUtils.webDriverWait(driver,5,googleLogin);
+            NavigationUtils.webDriverWait(Base.getDriver(),5,googleLogin);
             googleLogin.click();
             logger.info("clicked Google login");
 
-            String parentWindow = driver.getWindowHandle();
-            Set<String> windowHandles = driver.getWindowHandles(); //getWindowHandles returns a SET like output.
+            String parentWindow = Base.getDriver().getWindowHandle();
+            Set<String> windowHandles = Base.getDriver().getWindowHandles(); //getWindowHandles returns a SET like output.
             //so appropriate to use SET.
             List<String> windowHandleList = new ArrayList<>(windowHandles); // Convert Set to List. cant index set.
 
@@ -54,7 +51,7 @@ public class LoginPage extends Base {
             for (String winHandle : windowHandleList) {
                 if(!winHandle.equals(parentWindow)){
                     try {
-                        driver.switchTo().window(winHandle);
+                        Base.getDriver().switchTo().window(winHandle);
                         logger.info("Switched to login pop up window");
                         break;
                     }catch (Exception ex){
@@ -70,7 +67,7 @@ public class LoginPage extends Base {
 
     public void setEmailInputField() {
         try{
-            NavigationUtils.webDriverWait(driver,5,emailInputField);
+            NavigationUtils.webDriverWait(Base.getDriver(),5,emailInputField);
             emailInputField.sendKeys("example123@gmail.com");
             logger.info("Email field populated with \"example123@gmail.com\" ");
         }catch (Exception ex){
@@ -89,7 +86,7 @@ public class LoginPage extends Base {
     public void waitForPageAndSS(){
         try {
             // Wait up to 10 seconds for the element to be visible
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            WebDriverWait wait = new WebDriverWait(Base.getDriver(), Duration.ofSeconds(10));
             wait.until(ExpectedConditions.elementToBeClickable(tryAgain));
             logger.info("Element with ID 'Try Again' is visible");
 

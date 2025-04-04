@@ -6,16 +6,16 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.NavigatingToBikes;
 import utils.Base;
+import utils.BaseTest;
 import utils.ReportUtils;
 import utils.TestListener;
 
 @Listeners(TestListener.class)
-public class NavigatingToBikesTests {
+public class NavigatingToBikesTests extends BaseTest {
     private NavigatingToBikes navigatingToBikes;
 
     @BeforeTest
     public void setup() {
-        Base.getDriver();
         navigatingToBikes = new NavigatingToBikes();
         navigatingToBikes.navigateToHomePage();
         ReportUtils.setUpExtentReport();
@@ -28,9 +28,5 @@ public class NavigatingToBikesTests {
         ReportUtils.getTest().pass("Navigated to Bikes page Successfully");
     }
 
-    @AfterTest
-    public void tearDown() {
-        Base.quitDriver();
-    }
 }
 

@@ -7,16 +7,16 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.VerifyingHomePage;
 import utils.Base;
+import utils.BaseTest;
 import utils.ReportUtils;
 import utils.TestListener;
 
 @Listeners(TestListener.class)
-public class VerifyingHomePageTests {
+public class VerifyingHomePageTests extends BaseTest {
     private VerifyingHomePage verifyingHomePage;
 
     @BeforeTest
     public void setup() {
-        Base.getDriver();
         verifyingHomePage = new VerifyingHomePage();
         verifyingHomePage.navigateToHomePage();
         ReportUtils.setUpExtentReport();
@@ -38,9 +38,5 @@ public class VerifyingHomePageTests {
         Base.logger.info("Homepage verification completed successfully");
     }
 
-    @AfterTest
-    public void tearDown() {
-        Base.quitDriver();
-    }
 }
 

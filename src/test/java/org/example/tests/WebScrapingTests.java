@@ -18,14 +18,13 @@ import java.util.Arrays;
 import java.util.List;
 
 @Listeners(TestListener.class)
-public class WebScrapingTests {
+public class WebScrapingTests extends BaseTest {
     public NavigatingToBikes navigatingToBikes;
     public VerifyingHomePage verifyingHomePage;
     public CarPage carPage;
 
     @BeforeTest
     public void setup() {
-        Base.getDriver();
         verifyingHomePage = new VerifyingHomePage();
         navigatingToBikes = new NavigatingToBikes();
         ReportUtils.setUpExtentReport();
@@ -83,8 +82,4 @@ public class WebScrapingTests {
         );
     }
 
-    @AfterTest
-    public void tearDown() {
-        Base.quitDriver();
-    }
 }

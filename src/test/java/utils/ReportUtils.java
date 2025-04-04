@@ -4,16 +4,13 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-import lombok.Getter;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static utils.Base.driver;
 
 public class ReportUtils {
     private static ExtentReports extent;
@@ -59,7 +56,7 @@ public class ReportUtils {
     }
 
     public static String takeScreenshot(String screenshotName) {
-        File SS = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        File SS = ((TakesScreenshot) Base.getDriver()).getScreenshotAs(OutputType.FILE);
         String SFile = FileHandler.screenshotPath + screenshotName + "_" + "img"+ getTimeStamp() + ".png";
         try {
             FileUtils.copyFile(SS,new File(SFile));

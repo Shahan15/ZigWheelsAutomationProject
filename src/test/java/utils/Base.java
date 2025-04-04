@@ -10,17 +10,17 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
-import static utils.NavigationUtils.getTestingSiteUrl;
-
 public class Base {
 
+    private static final ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
     public static final Logger logger = LogManager.getLogger(Base.class);
-    public static WebDriver driver;
 
     public static WebDriver getDriver() {
-        if (driver == null) { // Only create a new instance if driver is null
+        if (driverThreadLocal.get() == null) {
+            logger.info("Initializing driver for Thread: " + Thread.currentThread().getId());
             try {
                 String browser = FileHandler.getConfigProperty("browser");
+                WebDriver driver;
                 switch (browser.toLowerCase()) {
                     case "chrome":
                         ChromeOptions chromeOptions = new ChromeOptions();
@@ -47,21 +47,22 @@ public class Base {
                         logger.info("Default browser has been selected - Chrome");
                         break;
                 }
-            } catch (Exception ex) {
-                logger.error("There was an error initialising the browser: {}", ex.getMessage());
-            }
-            if (driver != null) {
                 driver.manage().window().maximize();
+                driverThreadLocal.set(driver);
+            } catch (Exception ex) {
+                logger.error("Error initializing the browser: {}", ex.getMessage());
             }
+        } else {
+            logger.info("Reusing driver for Thread: " + Thread.currentThread().getId());
         }
-        return driver;
+        return driverThreadLocal.get();
     }
-
 
     public static void quitDriver() {
-        if (driver != null) {
-            driver.quit();
-            driver = null;
+        if (driverThreadLocal.get() != null) {
+            driverThreadLocal.get().quit();
+            driverThreadLocal.remove();
         }
     }
+
 }

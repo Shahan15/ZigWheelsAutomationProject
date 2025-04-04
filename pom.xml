@@ -80,6 +80,18 @@
       <artifactId>poi-ooxml</artifactId>
       <version>5.4.0</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.deque.html.axe-core/selenium -->
+    <dependency>
+      <groupId>com.deque.html.axe-core</groupId>
+      <artifactId>selenium</artifactId>
+      <version>4.9.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.json/json -->
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20250107</version>
+    </dependency>
   </dependencies>
 
   <build>
