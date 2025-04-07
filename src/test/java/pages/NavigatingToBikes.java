@@ -42,22 +42,37 @@ public class NavigatingToBikes extends Base {
     }
 
     public void clickAllUpcomingBikesLink() {
-        JavascriptExecutor js = (JavascriptExecutor) Base.getDriver();
-        js.executeScript("window.scrollBy(0,300);");
-        logger.info("scrolled down by 300 pixels");
+        try{
+            JavascriptExecutor js = (JavascriptExecutor) Base.getDriver();
+            js.executeScript("window.scrollBy(0,300);");
+            logger.info("scrolled down by 300 pixels");
 
-        ((JavascriptExecutor) Base.getDriver()).executeScript("window.focus();");
+            ((JavascriptExecutor) Base.getDriver()).executeScript("window.focus();");
 
-        Base.getDriver().navigate().to(NavigationUtils.getTestingSiteUrl("upcomingBikesPage"));
-        logger.info("All upcoming bikes link pressed");
+            Base.getDriver().navigate().to(NavigationUtils.getTestingSiteUrl("upcomingBikesPage"));
+            logger.info("All upcoming bikes link pressed");
+        } catch (Exception e) {
+            logger.error("Failed to click upcoming bikes link, {}", e.getMessage());
+        }
+
     }
 
     public void filterBikes() {
-        manufacturerDropdown.click();
-        manufacturerDropdown.sendKeys("Honda");
-        manufacturerDropdown.sendKeys(Keys.ENTER);
-        logger.info("Filtered by Manufacturer: Honda");
+        try {
+            WebDriverWait wait = new WebDriverWait(Base.getDriver(), Duration.ofSeconds(10));
+            wait.until(ExpectedConditions.elementToBeClickable(manufacturerDropdown));
+
+            manufacturerDropdown.click();
+            manufacturerDropdown.sendKeys("Honda");
+            manufacturerDropdown.sendKeys(Keys.ENTER);
+
+            logger.info("Filtered by Manufacturer: Honda");
+        } catch (Exception e) {
+            logger.error("Failed to filter by Manufacturer: Honda" + e);
+            throw new RuntimeException("Filtering by Manufacturer failed.", e);
+        }
     }
+
 
     public void clickViewMoreBikes() {
         try {

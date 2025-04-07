@@ -1,8 +1,6 @@
 package org.example.tests;
 
 
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;

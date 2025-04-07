@@ -7,7 +7,6 @@ import pages.NavigatingToBikes;
 import utils.BaseTest;
 import utils.ReportUtils;
 import utils.TestListener;
-
 import static utils.ReportUtils.extent;
 
 @Listeners(TestListener.class)

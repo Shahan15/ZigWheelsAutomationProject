@@ -12,7 +12,6 @@ import scrapers.BikeScraper;
 import scrapers.CarsScraper;
 import utils.ConvertPrice;
 import utils.*;
-
 import java.util.Arrays;
 import java.util.List;
 
