@@ -29,6 +29,8 @@ public class NavigatingToBikes extends Base {
     }
 
     public void navigateToNewBikes() {
+        ((JavascriptExecutor) Base.getDriver()).executeScript("window.focus();");
+
         newBikesLink.click();
         logger.info("New bikes link pressed");
 
@@ -42,7 +44,10 @@ public class NavigatingToBikes extends Base {
     public void clickAllUpcomingBikesLink() {
         JavascriptExecutor js = (JavascriptExecutor) Base.getDriver();
         js.executeScript("window.scrollBy(0,300);");
-        logger.info("scrolled down by 800 pixels");
+        logger.info("scrolled down by 300 pixels");
+
+        ((JavascriptExecutor) Base.getDriver()).executeScript("window.focus();");
+
         Base.getDriver().navigate().to(NavigationUtils.getTestingSiteUrl("upcomingBikesPage"));
         logger.info("All upcoming bikes link pressed");
     }

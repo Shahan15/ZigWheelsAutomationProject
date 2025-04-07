@@ -2,7 +2,6 @@ package org.example.tests;
 
 import model.Bike;
 import model.Car;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -17,6 +16,8 @@ import utils.*;
 import java.util.Arrays;
 import java.util.List;
 
+import static utils.ReportUtils.extent;
+
 @Listeners(TestListener.class)
 public class WebScrapingTests extends BaseTest {
     public NavigatingToBikes navigatingToBikes;
@@ -25,9 +26,11 @@ public class WebScrapingTests extends BaseTest {
 
     @BeforeTest
     public void setup() {
+        ReportUtils.setUpExtentReport(this.getClass().getSimpleName());
+        TestListener.setExtent(extent);
+
         verifyingHomePage = new VerifyingHomePage();
         navigatingToBikes = new NavigatingToBikes();
-        ReportUtils.setUpExtentReport();
     }
 
     @Test
@@ -56,7 +59,7 @@ public class WebScrapingTests extends BaseTest {
     }
 
     @Test
-    public void webScrapingCars () {
+    public void WebScrapingCars() {
         NavigationUtils.navigateToTestingSite("CarsPage");
         verifyingHomePage.clickingCookieConsentBtn();
 

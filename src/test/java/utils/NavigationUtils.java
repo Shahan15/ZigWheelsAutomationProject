@@ -29,6 +29,9 @@ public class NavigationUtils {
             String url = getTestingSiteUrl(propertyKey);
             // Navigate to the URL
             Base.getDriver().navigate().to(url);
+
+            ((JavascriptExecutor) Base.getDriver()).executeScript("window.focus();");
+
             Base.logger.info("Navigated to page with key: " + propertyKey + " and URL: " + url);
         } catch (RuntimeException ex) {
             Base.logger.error("Failed to navigate to page for property key: {}", propertyKey, ex);
@@ -40,6 +43,8 @@ public class NavigationUtils {
 
     public static void webDriverWait(WebDriver driver,int waitTime,WebElement element) {
         try{
+            ((JavascriptExecutor) Base.getDriver()).executeScript("window.focus();");
+
             WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(waitTime));
             wait.until(ExpectedConditions.visibilityOf(element));
         } catch (Exception ex){

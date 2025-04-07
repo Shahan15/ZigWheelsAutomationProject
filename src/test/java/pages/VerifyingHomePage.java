@@ -1,10 +1,7 @@
 package pages;
 
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -24,10 +21,15 @@ public class VerifyingHomePage extends Base {
     public void navigateToHomePage() {
         logger.info("PageFactory initialised");
         NavigationUtils.navigateToTestingSite("HomePage");
+
+        ((JavascriptExecutor) Base.getDriver()).executeScript("window.focus();");
     }
 
     public void clickingCookieConsentBtn() {
         WebDriver driver = Base.getDriver();
+
+        ((JavascriptExecutor) Base.getDriver()).executeScript("window.focus();");
+
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
         // Define a custom ExpectedCondition that returns a clickable element for either locator.

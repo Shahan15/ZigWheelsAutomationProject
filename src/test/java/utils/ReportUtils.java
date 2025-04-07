@@ -13,7 +13,7 @@ import java.util.Date;
 
 
 public class ReportUtils {
-    private static ExtentReports extent;
+    public static ExtentReports extent;
     private static ExtentTest test;
 
 
@@ -21,12 +21,15 @@ public class ReportUtils {
         return new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
     }
 
-    public static ExtentReports setUpExtentReport() {
+    public static ExtentReports setUpExtentReport(String testName) {
         if (extent == null) {
-            String temp = FileHandler.reports + "TestReport_" + getTimeStamp() + ".html";
-            ExtentSparkReporter htmlReporter = new ExtentSparkReporter(temp);
+            // Build a file name that includes the test method name
+            String fileName = "TestReport_" + testName + "_" + getTimeStamp() + ".html";
+            String filePath = FileHandler.reports + fileName;
+
+            ExtentSparkReporter htmlReporter = new ExtentSparkReporter(filePath);
             htmlReporter.config().setDocumentTitle("Automation Report");
-            htmlReporter.config().setReportName("Selenium Test Results");
+            htmlReporter.config().setReportName("Test Results - " + testName);
             htmlReporter.config().setTheme(Theme.STANDARD);
 
             extent = new ExtentReports();
@@ -34,6 +37,8 @@ public class ReportUtils {
         }
         return extent;
     }
+
+
 
     public static ExtentTest createTest(String testName) {
         if (extent == null) {

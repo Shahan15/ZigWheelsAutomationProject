@@ -1,7 +1,9 @@
 package org.example.tests;
 
 
-import org.testng.annotations.AfterTest;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -11,6 +13,7 @@ import utils.Base;
 import utils.BaseTest;
 import utils.ReportUtils;
 import utils.TestListener;
+import static utils.ReportUtils.extent;
 
 
 @Listeners(TestListener.class)
@@ -20,7 +23,9 @@ public class LoginTest extends BaseTest {
 
     @BeforeTest
     public void setUp () {
-        ReportUtils.setUpExtentReport();
+        ReportUtils.setUpExtentReport(this.getClass().getSimpleName());
+        TestListener.setExtent(extent);
+
         verifyingHomePage = new VerifyingHomePage();
         loginPage = new LoginPage();
         loginPage.navigateToHomePage();
@@ -28,6 +33,8 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void googleLoginTest() {
+        ((JavascriptExecutor) Base.getDriver()).executeScript("window.focus();");
+
         verifyingHomePage.clickingCookieConsentBtn();
         loginPage.attemptLogin();
     }

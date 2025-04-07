@@ -2,12 +2,10 @@ package pages;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.Base;
-import utils.NavigationUtils;
 import static utils.NavigationUtils.waitPageLoad;
 
 public class CarPage extends Base {

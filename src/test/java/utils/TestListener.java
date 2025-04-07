@@ -10,60 +10,62 @@ import org.testng.ITestResult;
 import static utils.Base.logger;
 
 public class TestListener implements ITestListener {
-    private ExtentReports extent;
+    private static ExtentReports extent;
     private ExtentTest test;
+
+    public static void setExtent(ExtentReports sharedExtent) {
+        extent = sharedExtent; // Set the shared instance
+    }
+
 
     @Override
     public void onStart(ITestContext context) {
-        // Initialize ExtentReports using ReportUtils
-        extent = ReportUtils.setUpExtentReport();
-        logger.info("Test suite started: {}", context.getName());
-
-        // Log context name into the report
-        extent.createTest("Test Suite Context: " + context.getName())
-                .log(Status.INFO, "Test suite started.");
+        logger.info("Test suite started: {}", context);
     }
 
     @Override
+    public void onTestStart(ITestResult result) {
+        String testName = result.getMethod().getMethodName(); // Get test method name
+        this.test = ReportUtils.createTest(testName); // Create and assign the test node
+        test.log(Status.INFO, "Starting test: " + testName);
+        logger.info("Test started: {}", testName);
+    }
+
+
+    @Override
     public void onTestSuccess(ITestResult result) {
-        // Create test entry and log success
-        String testName = "PASS: " + result.getName();
-        test = extent.createTest(testName);
-        test.log(Status.PASS, "Results are expected");
-        logger.info("Test Passed: {}", testName);
+        test.log(Status.PASS, "Test passed: " + result.getMethod().getMethodName());
+        logger.info("Test Passed: {}", result.getMethod().getMethodName());
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
-        // Create test entry and log failure
-        String testName = "FAIL: " + result.getName();
-        test = extent.createTest(testName);
-        test.log(Status.FAIL, "Results are NOT what was expected");
-        logger.error("Test Failed: {}", testName);
-         try {
-             String SSPath = ReportUtils.takeScreenshot("TestFailure Screenshot");
-             test.addScreenCaptureFromPath(SSPath);
-         } catch (Exception e) {
-             logger.error("Error attaching screenshot: {}", e.getMessage());
-         }
+        test.log(Status.FAIL, "Test failed: " + result.getMethod().getMethodName());
+        logger.error("Test Failed: {}", result.getMethod().getMethodName());
+
+        try {
+            String screenshotPath = ReportUtils.takeScreenshot(result.getMethod().getMethodName());
+            test.addScreenCaptureFromPath(screenshotPath);
+        } catch (Exception e) {
+            logger.error("Error attaching screenshot: {}", e.getMessage());
+        }
     }
 
     @Override
     public void onTestSkipped(ITestResult result) {
-        // Create test entry and log skipped test
-        String testName = "SKIPPED: " + result.getName();
-        test = extent.createTest(testName);
-        test.log(Status.SKIP, "This test was not executed, it was skipped");
-        logger.warn("Test Skipped: {}", testName);
+        test.log(Status.SKIP, "Test skipped: " + result.getMethod().getMethodName());
+        logger.warn("Test Skipped: {}", result.getMethod().getMethodName());
     }
 
     @Override
     public void onFinish(ITestContext context) {
-        // Flush the ExtentReports and log suite summary
-        extent.flush();
-        logger.info("Test suite finished. Passed: {}, Failed: {}, Skipped: {}",
-                context.getPassedTests().size(),
-                context.getFailedTests().size(),
-                context.getSkippedTests().size());
+        if (extent != null) {
+            extent.flush(); // Use shared instance to flush the report
+            logger.info("Test suite finished. Passed: {}, Failed: {}, Skipped: {}",
+                    context.getPassedTests().size(),
+                    context.getFailedTests().size(),
+                    context.getSkippedTests().size());
+        }
     }
+
 }
