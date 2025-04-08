@@ -39,7 +39,6 @@ public class ReportUtils {
     }
 
 
-
     public static ExtentTest createTest(String testName) {
         if (extent == null) {
             throw new IllegalStateException("ExtentReports is not initialised. Call setUpExtentReport() first.");

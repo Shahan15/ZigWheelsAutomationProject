@@ -10,8 +10,6 @@ public class Hooks {
     public void setUp() {
         Base.getDriver();
         Base.logger.info("Webdriver in hooks class called");
-
-        // Ensure driver is initialized only once
     }
 
     @After

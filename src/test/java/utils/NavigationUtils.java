@@ -25,7 +25,7 @@ public class NavigationUtils {
 
     public static void navigateToTestingSite(String propertyKey) {
         try {
-            // Retrieve the URL using your existing getTestingSiteUrl method
+            // Retrieve the URL using existing getTestingSiteUrl method
             String url = getTestingSiteUrl(propertyKey);
             // Navigate to the URL
             Base.getDriver().navigate().to(url);

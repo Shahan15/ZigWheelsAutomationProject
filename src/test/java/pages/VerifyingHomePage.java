@@ -32,7 +32,7 @@ public class VerifyingHomePage extends Base {
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
-        // Define a custom ExpectedCondition that returns a clickable element for either locator.
+        //Custom ExpectedCondition that returns a clickable element for either locator.
         ExpectedCondition<WebElement> consentButtonClickable = new ExpectedCondition<WebElement>() {
             @Override
             public WebElement apply(WebDriver driver) {

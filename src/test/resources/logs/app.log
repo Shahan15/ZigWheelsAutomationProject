@@ -7297,3 +7297,112 @@ Session ID: feb207ee0f7a6995b3f1751c584352cb
 [2025-04-07 20:41:36] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250407_204136.png
 [2025-04-07 20:41:36] [INFO] Base - Error page validated and screenshot taken.
 [2025-04-07 20:41:41] [INFO] Base - WebDriver closed
+[2025-04-08 13:25:30] [INFO] Base - Test suite started: org.testng.TestRunner@2de5509c
+[2025-04-08 13:25:31] [INFO] Base - Initializing driver for Thread: 30
+[2025-04-08 13:25:44] [INFO] Base - Chrome has been selected
+[2025-04-08 13:25:44] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:25:44] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-08 13:25:45] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:25:48] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:25:50] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-08 13:25:50] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:25:50] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:25:52] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-08 13:25:52] [INFO] Base - Accepted cookies
+[2025-04-08 13:25:52] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:25:52] [INFO] Base - PageFactory initialised
+[2025-04-08 13:25:52] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:25:56] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:25:56] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-08 13:25:56] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:25:56] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:25:56] [INFO] Base - Started test: NavigatingToBikesPageTest
+[2025-04-08 13:25:56] [INFO] Base - Test started: NavigatingToBikesPageTest
+[2025-04-08 13:25:56] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:26:02] [INFO] Base - New bikes link pressed
+[2025-04-08 13:26:02] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-08 13:26:02] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:26:03] [INFO] Base - scrolled down by 300 pixels
+[2025-04-08 13:26:03] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:26:03] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:26:05] [INFO] Base - All upcoming bikes link pressed
+[2025-04-08 13:26:05] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:26:05] [INFO] Base - page has fully loaded.
+[2025-04-08 13:26:05] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:26:07] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-08 13:26:07] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:26:07] [INFO] Base - page has fully loaded.
+[2025-04-08 13:26:07] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:26:07] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:26:07] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:26:08] [INFO] Base - Clicked view more bikes
+[2025-04-08 13:26:08] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:26:08] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:26:08] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-08 13:26:08] [INFO] Base - Test Passed: NavigatingToBikesPageTest
+[2025-04-08 13:26:13] [INFO] Base - Initializing driver for Thread: 30
+[2025-04-08 13:26:23] [INFO] Base - Chrome has been selected
+[2025-04-08 13:26:24] [INFO] Base - Started test: homepageTest
+[2025-04-08 13:26:24] [INFO] Base - Test started: homepageTest
+[2025-04-08 13:26:24] [INFO] Base - Started test: Homepage Test
+[2025-04-08 13:26:24] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:26:24] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:26:29] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-08 13:26:29] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:26:29] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:26:29] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-08 13:26:29] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-08 13:26:29] [ERROR] Base - Test Failed: homepageTest
+[2025-04-08 13:26:29] [INFO] Base - Reusing driver for Thread: 30
+[2025-04-08 13:26:32] [INFO] Base - Test suite finished. Passed: 1, Failed: 1, Skipped: 0
+[2025-04-08 13:26:47] [INFO] Base - Test suite started: org.testng.TestRunner@57ea113a
+[2025-04-08 13:26:47] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-08 13:27:00] [INFO] Base - Chrome has been selected
+[2025-04-08 13:27:00] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-08 13:27:00] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-08 13:27:00] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-08 13:27:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-08 13:27:04] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-08 13:27:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-08 13:27:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-08 13:27:07] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-08 13:27:07] [INFO] Base - Accepted cookies
+[2025-04-08 13:27:07] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-08 13:27:07] [INFO] Base - PageFactory initialised
+[2025-04-08 13:27:07] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-08 13:27:12] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-08 13:27:12] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-08 13:27:12] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-08 13:27:12] [INFO] Base - Initializing driver for Thread: 56
+[2025-04-08 13:27:12] [INFO] Base - Initializing driver for Thread: 55
+[2025-04-08 13:27:22] [INFO] Base - Chrome has been selected
+[2025-04-08 13:27:23] [INFO] Base - Started test: homepageTest
+[2025-04-08 13:27:23] [INFO] Base - Test started: homepageTest
+[2025-04-08 13:27:23] [INFO] Base - Started test: Homepage Test
+[2025-04-08 13:27:23] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-08 13:27:23] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-08 13:27:24] [INFO] Base - Chrome has been selected
+[2025-04-08 13:27:24] [INFO] Base - Started test: NavigatingToBikesPageTest
+[2025-04-08 13:27:24] [INFO] Base - Test started: NavigatingToBikesPageTest
+[2025-04-08 13:27:24] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-08 13:27:28] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-08 13:27:28] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-08 13:27:28] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-08 13:27:29] [INFO] Base - New bikes link pressed
+[2025-04-08 13:27:29] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-08 13:27:29] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-08 13:27:29] [INFO] Base - scrolled down by 300 pixels
+[2025-04-08 13:27:29] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-08 13:27:29] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-08 13:27:32] [INFO] Base - All upcoming bikes link pressed
+[2025-04-08 13:27:32] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-08 13:27:32] [INFO] Base - page has fully loaded.
+[2025-04-08 13:27:32] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-08 13:27:33] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-08 13:27:33] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-08 13:27:33] [ERROR] Base - Test Failed: homepageTest
+[2025-04-08 13:27:33] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-08 13:27:42] [ERROR] Base - Failed to filter by Manufacturer: Hondaorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: makeId' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-04-08 13:27:42] [ERROR] Base - Test Failed: NavigatingToBikesPageTest
+[2025-04-08 13:27:42] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-08 13:27:47] [INFO] Base - Test suite finished. Passed: 0, Failed: 2, Skipped: 0

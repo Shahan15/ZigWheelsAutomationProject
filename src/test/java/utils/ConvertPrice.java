@@ -8,7 +8,7 @@ public class ConvertPrice {
 
         // Check if the cleaned string is now empty; if so, return a default value
         if (cleaned.isEmpty()) {
-            // You can choose to either return "0" or a specific value indicating that it wasn't available.
+            // choose to either return "0" or a specific value indicating that it wasn't available.
             return "0";
         }
 
