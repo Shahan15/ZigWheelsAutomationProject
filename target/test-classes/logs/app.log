@@ -6989,3 +6989,154 @@ Session ID: 472acc47c8bea72d964e4f05ad4a4900
 [2025-04-07 19:48:56] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
 [2025-04-07 19:48:56] [INFO] Base - Validated that the bike list contains only Honda bikes.
 [2025-04-07 19:49:01] [INFO] Base - WebDriver closed
+[2025-04-07 19:51:27] [INFO] Base - Test suite started: org.testng.TestRunner@3bcbb589
+[2025-04-07 19:51:27] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-07 19:51:38] [INFO] Base - Chrome has been selected
+[2025-04-07 19:51:39] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:39] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-07 19:51:39] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:43] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-07 19:51:43] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:43] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:45] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-07 19:51:45] [INFO] Base - Accepted cookies
+[2025-04-07 19:51:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:45] [INFO] Base - Started test: NavigatingToBikesPageTest
+[2025-04-07 19:51:45] [INFO] Base - Test started: NavigatingToBikesPageTest
+[2025-04-07 19:51:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:47] [INFO] Base - New bikes link pressed
+[2025-04-07 19:51:48] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-07 19:51:48] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:48] [INFO] Base - scrolled down by 300 pixels
+[2025-04-07 19:51:48] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:48] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:49] [INFO] Base - All upcoming bikes link pressed
+[2025-04-07 19:51:49] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:49] [INFO] Base - page has fully loaded.
+[2025-04-07 19:51:49] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:51] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-07 19:51:51] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:51] [INFO] Base - page has fully loaded.
+[2025-04-07 19:51:51] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:51] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:51] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:52] [INFO] Base - Clicked view more bikes
+[2025-04-07 19:51:52] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:52] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 19:51:52] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-07 19:51:52] [INFO] Base - Test Passed: NavigatingToBikesPageTest
+[2025-04-07 19:51:57] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-07 20:34:10] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-07 20:34:22] [INFO] Base - Chrome has been selected
+[2025-04-07 20:34:22] [INFO] Base - Webdriver in hooks class called
+[2025-04-07 20:34:22] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:34:22] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:34:22] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:34:22] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-07 20:34:22] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:34:26] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:34:26] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-07 20:34:26] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:34:26] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:34:28] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-07 20:34:28] [INFO] Base - Accepted cookies
+[2025-04-07 20:34:28] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:34:28] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:34:29] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-07 20:34:29] [INFO] Base - User is now on the homepage.
+[2025-04-07 20:34:29] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:34:36] [INFO] Base - New bikes link pressed
+[2025-04-07 20:34:36] [INFO] Base - Navigated to New Bikes page.
+[2025-04-07 20:34:36] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-07 20:34:36] [INFO] Base - Selected Upcoming Bikes tab.
+[2025-04-07 20:34:36] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:34:45] [INFO] Base - scrolled down by 300 pixels
+[2025-04-07 20:34:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:34:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:34:47] [INFO] Base - All upcoming bikes link pressed
+[2025-04-07 20:34:47] [INFO] Base - Chose All Upcoming Bikes.
+[2025-04-07 20:34:47] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:35:18] [ERROR] Base - Failed to filter by Manufacturer: Hondaorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#makeId"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [feb207ee0f7a6995b3f1751c584352cb, findElement {value=makeId, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\2391448\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53022}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53022/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: feb207ee0f7a6995b3f1751c584352cb
+[2025-04-07 20:35:42] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-07 20:35:53] [INFO] Base - Chrome has been selected
+[2025-04-07 20:35:53] [INFO] Base - Webdriver in hooks class called
+[2025-04-07 20:35:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:35:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:35:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:35:54] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-07 20:35:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:35:56] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:35:56] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-07 20:35:56] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:35:56] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:35:58] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-07 20:35:59] [INFO] Base - Accepted cookies
+[2025-04-07 20:35:59] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:35:59] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:35:59] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-07 20:35:59] [INFO] Base - User is now on the homepage.
+[2025-04-07 20:35:59] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:36:00] [INFO] Base - New bikes link pressed
+[2025-04-07 20:36:00] [INFO] Base - Navigated to New Bikes page.
+[2025-04-07 20:36:01] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-07 20:36:01] [INFO] Base - Selected Upcoming Bikes tab.
+[2025-04-07 20:36:01] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:36:01] [INFO] Base - scrolled down by 300 pixels
+[2025-04-07 20:36:01] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:36:01] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:36:03] [INFO] Base - All upcoming bikes link pressed
+[2025-04-07 20:36:03] [INFO] Base - Chose All Upcoming Bikes.
+[2025-04-07 20:36:03] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:36:04] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-07 20:36:04] [INFO] Base - Filtered for Honda bikes.
+[2025-04-07 20:36:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:36:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:36:04] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-07 20:36:04] [INFO] Base - Validated that the bike list contains only Honda bikes.
+[2025-04-07 20:36:09] [INFO] Base - WebDriver closed
+[2025-04-07 20:38:13] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-07 20:38:24] [INFO] Base - Chrome has been selected
+[2025-04-07 20:38:24] [INFO] Base - Webdriver in hooks class called
+[2025-04-07 20:38:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:38:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:38:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:38:24] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-07 20:38:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:38:28] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:38:28] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-07 20:38:28] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:38:28] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:38:31] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-07 20:38:31] [INFO] Base - Accepted cookies
+[2025-04-07 20:38:31] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:38:31] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:38:31] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-07 20:38:31] [INFO] Base - User is now on the homepage.
+[2025-04-07 20:38:31] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:38:34] [INFO] Base - New bikes link pressed
+[2025-04-07 20:38:34] [INFO] Base - Navigated to New Bikes page.
+[2025-04-07 20:38:35] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-07 20:38:35] [INFO] Base - Selected Upcoming Bikes tab.
+[2025-04-07 20:38:35] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:38:35] [INFO] Base - scrolled down by 300 pixels
+[2025-04-07 20:38:35] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:38:35] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:38:36] [INFO] Base - All upcoming bikes link pressed
+[2025-04-07 20:38:36] [INFO] Base - Chose All Upcoming Bikes.
+[2025-04-07 20:38:36] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:38:39] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-07 20:38:39] [INFO] Base - Filtered for Honda bikes.
+[2025-04-07 20:38:39] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:38:39] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-07 20:38:39] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-07 20:38:39] [INFO] Base - Validated that the bike list contains only Honda bikes.
+[2025-04-07 20:38:43] [INFO] Base - WebDriver closed
