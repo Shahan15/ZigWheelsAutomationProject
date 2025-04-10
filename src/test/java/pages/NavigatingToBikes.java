@@ -13,7 +13,7 @@ import java.time.Duration;
 public class NavigatingToBikes extends Base {
     @FindBy(css = "a[href=\"/newbikes\"]\n") WebElement newBikesLink;
     @FindBy(css = "[data-track-label=\"upcoming-tab\"]") WebElement upcomingSliderTab;
-    @FindBy(id = "makeId") WebElement manufacturerDropdown;
+    @FindBy(css = "[title='upcoming Honda bikes']") WebElement filterByHonda;
     @FindBy(css = ".zw-cmn-loadMore") WebElement moreBikesBtn;
 
     VerifyingHomePage verifyingHomePage = new VerifyingHomePage();
@@ -59,45 +59,26 @@ public class NavigatingToBikes extends Base {
 
     public void filterBikes() {
         try {
-            WebDriverWait wait = new WebDriverWait(Base.getDriver(), Duration.ofSeconds(10));
-            wait.until(ExpectedConditions.elementToBeClickable(manufacturerDropdown));
+            JavascriptExecutor js = (JavascriptExecutor) Base.getDriver();
 
-            manufacturerDropdown.click();
-            manufacturerDropdown.sendKeys("Honda");
-            manufacturerDropdown.sendKeys(Keys.ENTER);
+            // Scroll until the filterByHonda element is visible in the viewport
+            WebElement filterByHonda = Base.getDriver().findElement(By.cssSelector("[title='upcoming Honda bikes']"));
+            js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", filterByHonda);
 
+            // Wait for the filterByHonda element to be clickable
+            WebDriverWait wait = new WebDriverWait(Base.getDriver(), Duration.ofSeconds(15));
+            wait.until(ExpectedConditions.elementToBeClickable(filterByHonda));
+
+            Thread.sleep(500);
+
+            // Click on the filterByHonda element
+            filterByHonda.click();
             logger.info("Filtered by Manufacturer: Honda");
         } catch (Exception e) {
-            logger.error("Failed to filter by Manufacturer: Honda" + e);
+            logger.error("Failed to filter by Manufacturer: Honda. Error: {}", e.getMessage());
             throw new RuntimeException("Filtering by Manufacturer failed.", e);
         }
     }
-
-
-    public void clickViewMoreBikes() {
-        try {
-            JavascriptExecutor js = (JavascriptExecutor) Base.getDriver();
-
-            //centers element
-            js.executeScript("arguments[0].scrollIntoView({behavior: 'instant', block: 'center', inline: 'nearest'});", moreBikesBtn);
-
-            // Wait until the element becomes visible
-            NavigationUtils.webDriverWait(Base.getDriver(),15,moreBikesBtn);
-
-            // Attempt a regular click
-            try {
-                moreBikesBtn.click();
-                logger.info("Clicked view more bikes");
-            } catch (ElementClickInterceptedException e) {
-                // Fall back to a JS click if a normal click is intercepted
-                logger.warn("Standard click intercepted. Falling back to JavaScript click.", e);
-                js.executeScript("arguments[0].click();", moreBikesBtn);
-            }
-        } catch (Exception ex) {
-            logger.error("Error clicking 'View More Bikes' button: {}", ex.getMessage());
-        }
-    }
-
 
     public void validatingOnlyHondaBikes(){
         String expectedHondaUrl = NavigationUtils.getTestingSiteUrl("filteredBikes");
@@ -122,7 +103,6 @@ public class NavigatingToBikes extends Base {
         NavigationUtils.waitPageLoad();
         filterBikes();
         NavigationUtils.waitPageLoad();
-        clickViewMoreBikes();
         validatingOnlyHondaBikes();
     }
 

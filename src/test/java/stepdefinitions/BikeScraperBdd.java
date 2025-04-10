@@ -33,25 +33,17 @@ public class BikeScraperBdd {
         verifyingHomePage.clickingCookieConsentBtn();
     }
 
-    @And("the system clicks view more bikes")
-    public void theSystemClicksViewMoreBikes() {
-        Base.logger.info("Clicking 'View More Bikes' button...");
-        navigatingToBikes.clickViewMoreBikes();
-        Base.logger.info("'View More Bikes' button clicked successfully.");
-    }
-
     @When("the system scrapes bike data")
     public void theSystemScrapesBikeData() {
         Base.logger.info("Starting bike data scraping process...");
         NavigatingToBikes navigatingToBikes = new NavigatingToBikes();
         Base.logger.info("Clicking 'View More Bikes' button...");
-        navigatingToBikes.clickViewMoreBikes();
         Base.logger.info("'View More Bikes' button clicked successfully. Proceeding with data scraping...");
 
         List<Bike> bikes = BikeScraper.webScrapeBikes();
         Base.logger.info("Bike data successfully scraped. Found {} bikes.", bikes.size());
 
-        List<String> headers = Arrays.asList("Bike Name", "Bike price", "Expected Launch Date");
+        List<String> headers = Arrays.asList("Bike Name", "Bike price: Rs ", "Expected Launch Date");
         Base.logger.info("Writing bike data to Excel sheet with headers: {}.", headers);
 
         ExcelHandler.writeDataToExcel(

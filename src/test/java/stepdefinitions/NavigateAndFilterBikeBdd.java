@@ -8,13 +8,13 @@ import pages.NavigatingToBikes;
 import pages.VerifyingHomePage;
 import utils.Base;
 
-public class BikeFilterBdd {
+public class NavigateAndFilterBikeBdd {
 
     private NavigatingToBikes navigatingToBikes;
     private VerifyingHomePage verifyingHomePage;
 
     // Initialise page objects in the constructor
-    public BikeFilterBdd() {
+    public NavigateAndFilterBikeBdd() {
         verifyingHomePage = new VerifyingHomePage();
         navigatingToBikes = new NavigatingToBikes();
     }
@@ -33,7 +33,7 @@ public class BikeFilterBdd {
     }
 
     @And("they select Upcoming bikes")
-    public void theySelect() {
+    public void theySelectUpcomingBikes() {
         navigatingToBikes.navigateToUpcomingSliderTab();
         Base.logger.info("Selected Upcoming Bikes tab.");
     }

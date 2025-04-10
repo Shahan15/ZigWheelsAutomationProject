@@ -36,13 +36,12 @@ public class WebScrapingTests extends BaseTest {
     public void WebScrapingBikes () {
         NavigationUtils.navigateToTestingSite("filteredBikes");
         verifyingHomePage.clickingCookieConsentBtn();
-        navigatingToBikes.clickViewMoreBikes();
 
         //scrape bikes
         List<Bike> bikes = BikeScraper.webScrapeBikes();
 
         //defining headers
-        List<String> headers = Arrays.asList("Bike Name","Bike price","Expected Launch Date");
+        List<String> headers = Arrays.asList("Bike Name","Bike price: Rs ","Expected Launch Date");
 
         //calling the Excel handler with scraped data,headers
         ExcelHandler.writeDataToExcel(
