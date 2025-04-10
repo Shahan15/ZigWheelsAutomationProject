@@ -4,7 +4,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.After;
 import utils.Base;
 
-public class Hooks {
+public class hooks {
 
     @Before
     public void setUp() {

@@ -34,7 +34,7 @@ public class LoginBdd {
 
     @And("they click on Google Login")
     public void theyClickOnGoogleLogin() {
-        loginPage.clickGoogleLogin();
+        loginPage.performGoogleLogin();
         Base.logger.info("Google Login clicked.");
     }
 

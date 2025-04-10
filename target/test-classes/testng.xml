@@ -2,10 +2,10 @@
     <suite name="Parallel Test Suite" parallel="classes" thread-count="4">
         <test name="Parallel Test methods">
             <classes>
-<!--                <class name="org.example.tests.LoginTest"/>-->
-                <class name="org.example.tests.NavigatingToBikesTests"/>
-                <class name="org.example.tests.VerifyingHomePageTests"/>
-<!--                <class name="org.example.tests.WebScrapingTests"/>-->
+                <class name="org.example.tests.LoginTest"/>
+<!--                <class name="org.example.tests.NavigatingToBikesTests"/>-->
+<!--                <class name="org.example.tests.VerifyingHomePageTests"/>-->
+                <class name="org.example.tests.WebScrapingTests"/>
             </classes>
         </test>
     </suite>

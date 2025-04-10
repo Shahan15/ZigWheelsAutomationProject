@@ -9,12 +9,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Base;
 import utils.NavigationUtils;
 import utils.ReportUtils;
+
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
 public class LoginPage extends Base {
+
+    // Web elements defined using PageFactory
     @FindBy(id = "forum_login_title_lg") WebElement loginButton;
     @FindBy(css = "[data-track-label=\"Popup_Login/Register_with_Google\"]") WebElement googleLogin;
     @FindBy(id = "identifierId") WebElement emailInputField;
@@ -24,94 +27,148 @@ public class LoginPage extends Base {
     VerifyingHomePage verifyingHomePage = new VerifyingHomePage();
 
     public LoginPage() {
-        PageFactory.initElements(Base.getDriver(),this);
+        // Initialize WebElements using PageFactory
+        PageFactory.initElements(Base.getDriver(), this);
     }
 
-    public void navigateToHomePage () {
+    /**
+     * Navigate to the homepage and click the cookie consent button
+     */
+    public void navigateToHomePage() {
         NavigationUtils.navigateToTestingSite("HomePage");
         verifyingHomePage.clickingCookieConsentBtn();
     }
 
-    public void clickLoginButton () {
-
-        ((JavascriptExecutor) Base.getDriver()).executeScript("window.focus();");
-
-        loginButton.click();
-        logger.info("clicked LoginButton");
+    /**
+     * Click the Login button
+     */
+    public void clickLoginButton() {
+        try {
+            ((JavascriptExecutor) Base.getDriver()).executeScript("window.focus();");
+            loginButton.click();
+            logger.info("Clicked Login Button");
+        } catch (Exception ex) {
+            logger.error("Error clicking Login Button: {}", ex.getMessage());
+            throw new RuntimeException("Login Button click failed.", ex);
+        }
     }
 
-    public void clickGoogleLogin() {
+    /**
+     * Wait for the Google Login element to be clickable
+     */
+    public void waitForGoogleLogin() {
         try {
-            NavigationUtils.webDriverWait(Base.getDriver(),5,googleLogin);
+            WebDriverWait wait = new WebDriverWait(Base.getDriver(), Duration.ofSeconds(15));
+            wait.until(ExpectedConditions.elementToBeClickable(googleLogin));
+            logger.info("Google Login element is clickable");
+        } catch (Exception ex) {
+            logger.error("Error waiting for Google Login element: {}", ex.getMessage());
+            throw new RuntimeException("Failed to wait for Google Login element.", ex);
+        }
+    }
+
+    /**
+     * Click the Google Login button
+     */
+    public void clickGoogleLoginButton() {
+        try {
+            ((JavascriptExecutor) Base.getDriver()).executeScript("window.focus();");
             googleLogin.click();
-            logger.info("clicked Google login");
+            logger.info("Clicked Google Login button");
+        } catch (Exception ex) {
+            logger.error("Error clicking Google Login button: {}", ex.getMessage());
+            throw new RuntimeException("Google Login button click failed.", ex);
+        }
+    }
 
+    /**
+     * Switch to the popup window after clicking Google Login
+     */
+    public void switchToGoogleLoginPopup() {
+        try {
             String parentWindow = Base.getDriver().getWindowHandle();
-            Set<String> windowHandles = Base.getDriver().getWindowHandles(); //getWindowHandles returns a SET like output.
-            //so appropriate to use SET.
-            List<String> windowHandleList = new ArrayList<>(windowHandles); // Convert Set to List. cant index set.
+            Set<String> windowHandles = Base.getDriver().getWindowHandles();
+            List<String> windowHandleList = new ArrayList<>(windowHandles);
 
-            // Access each handle by index
             for (String winHandle : windowHandleList) {
-                if(!winHandle.equals(parentWindow)){
-                    try {
-                        Base.getDriver().switchTo().window(winHandle);
-                        logger.info("Switched to login pop up window");
-                        break;
-                    }catch (Exception ex){
-                        logger.error("Error switching to login pop up window {}",ex.getMessage());
-                    }
+                if (!winHandle.equals(parentWindow)) {
+                    Base.getDriver().switchTo().window(winHandle);
+                    logger.info("Switched to Google Login popup window");
+                    break;
                 }
             }
-
-        } catch (Exception ex){
-            logger.error("Error clicking google login button {}",ex.getMessage());
+        } catch (Exception ex) {
+            logger.error("Error switching to Google Login popup window: {}", ex.getMessage());
+            throw new RuntimeException("Failed to switch to Google Login popup window.", ex);
         }
     }
 
+    /**
+     * Perform the modularized Google Login sequence
+     */
+    public void performGoogleLogin() {
+        waitForGoogleLogin();
+        clickGoogleLoginButton();
+        switchToGoogleLoginPopup();
+    }
+
+    /**
+     * Populate the email input field with a hardcoded email
+     */
     public void setEmailInputField() {
-        try{
-            NavigationUtils.webDriverWait(Base.getDriver(),5,emailInputField);
-            emailInputField.sendKeys("example123@gmail.com");
+        try {
+            ((JavascriptExecutor) Base.getDriver()).executeScript("window.focus();");
+            NavigationUtils.webDriverWait(Base.getDriver(), 15, emailInputField);
+            emailInputField.sendKeys("example123@gmail.com"); // Hardcoded email
             logger.info("Email field populated with \"example123@gmail.com\" ");
-        }catch (Exception ex){
-            logger.error("Error inputting example email in input field {}",ex.getMessage());
+        } catch (Exception ex) {
+            logger.error("Error inputting email in input field: {}", ex.getMessage());
+            throw new RuntimeException("Failed to input email.", ex);
         }
     }
+
+    /**
+     * Click the Next button after entering the email
+     */
     public void clickNextBtn() {
         try {
+            NavigationUtils.webDriverWait(Base.getDriver(), 15, nextBtn);
             nextBtn.click();
-            logger.info("Clicked next button after populating email field");
-        }catch (Exception ex) {
-            logger.error("error clicking next button {}",ex.getMessage());
+            logger.info("Clicked Next button after populating email field");
+        } catch (Exception ex) {
+            logger.error("Error clicking Next button: {}", ex.getMessage());
+            throw new RuntimeException("Next button click failed.", ex);
         }
     }
 
-    public void waitForPageAndSS(){
+    /**
+     * Wait for the page to load and take a screenshot if necessary
+     */
+    public void waitForPageAndSS() {
         try {
-            // Wait up to 10 seconds for the element to be visible
-            WebDriverWait wait = new WebDriverWait(Base.getDriver(), Duration.ofSeconds(10));
+            WebDriverWait wait = new WebDriverWait(Base.getDriver(), Duration.ofSeconds(15));
             wait.until(ExpectedConditions.elementToBeClickable(tryAgain));
             logger.info("Element with ID 'Try Again' is visible");
 
-            Thread.sleep(2000);
+            Thread.sleep(2000); // Pause for visual inspection
 
-            // Take a screenshot once the element is visible
             String screenshotPath = ReportUtils.takeScreenshot("LoginPage error");
             logger.info("Screenshot taken. File saved at: " + screenshotPath);
         } catch (Exception e) {
             logger.error("Error waiting for element with ID 'Try Again': {}", e.getMessage());
+            throw new RuntimeException("Failed to wait for element or take screenshot.", e);
         }
     }
 
-
+    /**
+     * Perform the full login attempt sequence
+     */
     public void attemptLogin() {
+        navigateToHomePage();
         clickLoginButton();
-        clickGoogleLogin();
+        performGoogleLogin(); // Modularized method replaces previous implementation
         setEmailInputField();
         clickNextBtn();
         waitForPageAndSS();
     }
-
-
 }

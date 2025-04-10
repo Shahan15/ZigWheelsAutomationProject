@@ -1827,7 +1827,7 @@ Session ID: 5c7f3f410c0f2d52fe41d4125c4845f7
 java.lang.RuntimeException: Failed to retrieve URL due to: URL is not set for property key: HomePage
 	at utils.NavigationUtils.getTestingSiteUrl(NavigationUtils.java:25) ~[test-classes/:?]
 	at utils.NavigationUtils.navigateToTestingSite(NavigationUtils.java:32) ~[test-classes/:?]
-	at hooks.Hooks.setUp(Hooks.java:13) ~[test-classes/:?]
+	at hooks.hooks.setUp(Hooks.java:13) ~[test-classes/:?]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
 	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
@@ -8353,3 +8353,766 @@ Session ID: 51794b0fb5437d708af8eff0b159ddb2
 [2025-04-10 14:34:46] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250410_143446.png
 [2025-04-10 14:34:46] [INFO] Base - Error page validated and screenshot taken.
 [2025-04-10 14:34:50] [INFO] Base - WebDriver closed
+[2025-04-10 14:38:06] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-10 14:38:16] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 14:38:17] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:17] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:17] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-10 14:38:17] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:17] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:19] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-10 14:38:19] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:19] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:21] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-10 14:38:21] [INFO] Base - Accepted cookies
+[2025-04-10 14:38:21] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:21] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:21] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-10 14:38:21] [INFO] Base - User is now on the homepage.
+[2025-04-10 14:38:21] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:23] [INFO] Base - New bikes link pressed
+[2025-04-10 14:38:23] [INFO] Base - Navigated to New Bikes page.
+[2025-04-10 14:38:24] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-10 14:38:24] [INFO] Base - Selected Upcoming Bikes tab.
+[2025-04-10 14:38:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:24] [INFO] Base - scrolled down by 300 pixels
+[2025-04-10 14:38:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:25] [INFO] Base - All upcoming bikes link pressed
+[2025-04-10 14:38:25] [INFO] Base - Chose All Upcoming Bikes.
+[2025-04-10 14:38:25] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:25] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:25] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:27] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-10 14:38:27] [INFO] Base - Filtered for Honda bikes.
+[2025-04-10 14:38:27] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:27] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:27] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-10 14:38:27] [INFO] Base - Validated that the bike list contains only Honda bikes.
+[2025-04-10 14:38:27] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:27] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:27] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:27] [INFO] Base - BikeScraperBdd initialized with VerifyingHomePage, NavigatingToBikes, and BikeScraper.
+[2025-04-10 14:38:27] [INFO] Base - Navigating to the filtered bikes page...
+[2025-04-10 14:38:27] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:27] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:27] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-10 14:38:27] [INFO] Base - Cookie consent button clicked.
+[2025-04-10 14:38:27] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:27] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:32] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-10 14:38:32] [INFO] Base - Starting bike data scraping process...
+[2025-04-10 14:38:32] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:32] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:32] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-10 14:38:32] [INFO] Base - 'View More Bikes' button clicked successfully. Proceeding with data scraping...
+[2025-04-10 14:38:32] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:32] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:32] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:33] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-10 14:38:33] [INFO] Base - Bike data successfully scraped. Found 2 bikes.
+[2025-04-10 14:38:33] [INFO] Base - Writing bike data to Excel sheet with headers: [Bike Name, Bike price: Rs , Expected Launch Date].
+[2025-04-10 14:38:34] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-10 14:38:34] [INFO] Base - Bike data successfully written to 'FilteredBikesData.xlsx'.
+[2025-04-10 14:38:34] [INFO] Base - Verifying existence of 'FilteredBikesData.xlsx' file...
+[2025-04-10 14:38:34] [INFO] Base - 'FilteredBikesData.xlsx' file exists. Verification successful.
+[2025-04-10 14:38:34] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:34] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:34] [INFO] Base - CarScraperBdd initialized with VerifyingHomePage and CarPage objects.
+[2025-04-10 14:38:34] [INFO] Base - Navigating to the used cars page...
+[2025-04-10 14:38:34] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:38] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:38] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-10 14:38:38] [INFO] Base - Cookie consent button clicked.
+[2025-04-10 14:38:38] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:38] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:44] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-10 14:38:44] [INFO] Base - Applying filter by maximum price...
+[2025-04-10 14:38:45] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-10 14:38:45] [INFO] Base - Filter by maximum price applied successfully. Waiting for page to load...
+[2025-04-10 14:38:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:45] [INFO] Base - page has fully loaded.
+[2025-04-10 14:38:45] [INFO] Base - Applying filter for only Honda cars...
+[2025-04-10 14:38:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:45] [INFO] Base - Filtered by car brand Honda
+[2025-04-10 14:38:45] [INFO] Base - Filter for Honda cars applied successfully. Waiting for page to load...
+[2025-04-10 14:38:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:45] [INFO] Base - page has fully loaded.
+[2025-04-10 14:38:45] [INFO] Base - Starting car data scraping process...
+[2025-04-10 14:38:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:45] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-10 14:38:46] [INFO] Base - Car data successfully scraped. Found 12 cars.
+[2025-04-10 14:38:46] [INFO] Base - Writing car data to Excel sheet with headers: [Car Names, Car Price].
+[2025-04-10 14:38:46] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-10 14:38:46] [INFO] Base - Car data successfully written to 'FilteredCarsData.xlsx'.
+[2025-04-10 14:38:46] [INFO] Base - Verifying existence of 'FilteredCarsData.xlsx' file...
+[2025-04-10 14:38:46] [INFO] Base - 'FilteredCarsData.xlsx' file exists. Verification successful.
+[2025-04-10 14:38:46] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:46] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:46] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:46] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:47] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:48] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-10 14:38:48] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:48] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:54] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-10 14:38:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:54] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-10 14:38:54] [INFO] Base - User is on the homepage for login.
+[2025-04-10 14:38:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:54] [INFO] Base - clicked LoginButton
+[2025-04-10 14:38:54] [INFO] Base - Login button clicked.
+[2025-04-10 14:38:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:55] [INFO] Base - clicked Google login
+[2025-04-10 14:38:55] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:55] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:55] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:55] [INFO] Base - Switched to login pop up window
+[2025-04-10 14:38:55] [INFO] Base - Google Login clicked.
+[2025-04-10 14:38:55] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:55] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:58] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-10 14:38:58] [INFO] Base - Email or phone number entered.
+[2025-04-10 14:38:58] [INFO] Base - Clicked next button after populating email field
+[2025-04-10 14:38:58] [INFO] Base - Next button clicked.
+[2025-04-10 14:38:58] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:38:58] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-10 14:39:01] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:02] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250410_143902.png
+[2025-04-10 14:39:02] [INFO] Base - Error page validated and screenshot taken.
+[2025-04-10 14:39:30] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-10 14:39:42] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 14:39:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:42] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-10 14:39:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:46] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-10 14:39:46] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:46] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:49] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-10 14:39:49] [INFO] Base - Accepted cookies
+[2025-04-10 14:39:49] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:49] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:49] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-10 14:39:49] [INFO] Base - User is now on the homepage.
+[2025-04-10 14:39:49] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:51] [INFO] Base - New bikes link pressed
+[2025-04-10 14:39:51] [INFO] Base - Navigated to New Bikes page.
+[2025-04-10 14:39:52] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-10 14:39:52] [INFO] Base - Selected Upcoming Bikes tab.
+[2025-04-10 14:39:52] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:52] [INFO] Base - scrolled down by 300 pixels
+[2025-04-10 14:39:52] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:52] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:53] [INFO] Base - All upcoming bikes link pressed
+[2025-04-10 14:39:53] [INFO] Base - Chose All Upcoming Bikes.
+[2025-04-10 14:39:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:54] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:56] [INFO] Base - Filtered by Manufacturer: Honda
+[2025-04-10 14:39:56] [INFO] Base - Filtered for Honda bikes.
+[2025-04-10 14:39:56] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:56] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:56] [INFO] Base - Validating URL after filtering bikes. Expected: https://www.zigwheels.com/upcoming-honda-bikes, Actual: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-10 14:39:56] [INFO] Base - Validated that the bike list contains only Honda bikes.
+[2025-04-10 14:39:57] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:57] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:57] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:57] [INFO] Base - BikeScraperBdd initialized with VerifyingHomePage, NavigatingToBikes, and BikeScraper.
+[2025-04-10 14:39:57] [INFO] Base - Navigating to the filtered bikes page...
+[2025-04-10 14:39:57] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:57] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:57] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-10 14:39:57] [INFO] Base - Cookie consent button clicked.
+[2025-04-10 14:39:57] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:39:57] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:02] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-10 14:40:02] [INFO] Base - Starting bike data scraping process...
+[2025-04-10 14:40:02] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:02] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:02] [INFO] Base - Clicking 'View More Bikes' button...
+[2025-04-10 14:40:02] [INFO] Base - 'View More Bikes' button clicked successfully. Proceeding with data scraping...
+[2025-04-10 14:40:02] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:02] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:02] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:02] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-10 14:40:02] [INFO] Base - Bike data successfully scraped. Found 2 bikes.
+[2025-04-10 14:40:02] [INFO] Base - Writing bike data to Excel sheet with headers: [Bike Name, Bike price: Rs , Expected Launch Date].
+[2025-04-10 14:40:04] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-10 14:40:04] [INFO] Base - Bike data successfully written to 'FilteredBikesData.xlsx'.
+[2025-04-10 14:40:04] [INFO] Base - Verifying existence of 'FilteredBikesData.xlsx' file...
+[2025-04-10 14:40:04] [INFO] Base - 'FilteredBikesData.xlsx' file exists. Verification successful.
+[2025-04-10 14:40:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:04] [INFO] Base - CarScraperBdd initialized with VerifyingHomePage and CarPage objects.
+[2025-04-10 14:40:04] [INFO] Base - Navigating to the used cars page...
+[2025-04-10 14:40:04] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:07] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:07] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-10 14:40:07] [INFO] Base - Cookie consent button clicked.
+[2025-04-10 14:40:07] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:07] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:13] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-10 14:40:13] [INFO] Base - Applying filter by maximum price...
+[2025-04-10 14:40:13] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-10 14:40:13] [INFO] Base - Filter by maximum price applied successfully. Waiting for page to load...
+[2025-04-10 14:40:13] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:13] [INFO] Base - page has fully loaded.
+[2025-04-10 14:40:13] [INFO] Base - Applying filter for only Honda cars...
+[2025-04-10 14:40:13] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:13] [INFO] Base - Filtered by car brand Honda
+[2025-04-10 14:40:13] [INFO] Base - Filter for Honda cars applied successfully. Waiting for page to load...
+[2025-04-10 14:40:13] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:13] [INFO] Base - page has fully loaded.
+[2025-04-10 14:40:13] [INFO] Base - Starting car data scraping process...
+[2025-04-10 14:40:13] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:14] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:14] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-10 14:40:14] [WARN] Base - Encountered stale element. Retrying...
+[2025-04-10 14:40:14] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:14] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:14] [INFO] Base - Car data successfully scraped. Found 12 cars.
+[2025-04-10 14:40:14] [INFO] Base - Writing car data to Excel sheet with headers: [Car Names, Car Price].
+[2025-04-10 14:40:14] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-10 14:40:14] [INFO] Base - Car data successfully written to 'FilteredCarsData.xlsx'.
+[2025-04-10 14:40:14] [INFO] Base - Verifying existence of 'FilteredCarsData.xlsx' file...
+[2025-04-10 14:40:14] [INFO] Base - 'FilteredCarsData.xlsx' file exists. Verification successful.
+[2025-04-10 14:40:14] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:14] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:14] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:14] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:17] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-10 14:40:17] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:17] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:22] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-10 14:40:22] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:22] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:23] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-10 14:40:23] [INFO] Base - User is on the homepage for login.
+[2025-04-10 14:40:23] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:23] [INFO] Base - clicked LoginButton
+[2025-04-10 14:40:23] [INFO] Base - Login button clicked.
+[2025-04-10 14:40:23] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:23] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:24] [INFO] Base - clicked Google login
+[2025-04-10 14:40:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:24] [INFO] Base - Switched to login pop up window
+[2025-04-10 14:40:24] [INFO] Base - Google Login clicked.
+[2025-04-10 14:40:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:25] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-10 14:40:25] [INFO] Base - Email or phone number entered.
+[2025-04-10 14:40:26] [INFO] Base - Clicked next button after populating email field
+[2025-04-10 14:40:26] [INFO] Base - Next button clicked.
+[2025-04-10 14:40:26] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:27] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-10 14:40:29] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:40:29] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250410_144029.png
+[2025-04-10 14:40:29] [INFO] Base - Error page validated and screenshot taken.
+[2025-04-10 14:41:04] [INFO] Base - Test suite started: org.testng.TestRunner@65045a87
+[2025-04-10 14:41:05] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-10 14:41:16] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 14:41:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:41:16] [INFO] Base - Pagefactory for Navigating to bikes page initialised
+[2025-04-10 14:41:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:41:19] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:41:19] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-10 14:41:19] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:41:19] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:41:21] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-10 14:41:21] [INFO] Base - Accepted cookies
+[2025-04-10 14:41:21] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:41:21] [INFO] Base - PageFactory initialised
+[2025-04-10 14:41:21] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:41:25] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:41:25] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-10 14:41:25] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:41:25] [INFO] Base - Initializing driver for Thread: 54
+[2025-04-10 14:41:25] [INFO] Base - Initializing driver for Thread: 55
+[2025-04-10 14:41:36] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 14:41:36] [INFO] Base - Started test: NavigatingToBikesPageTest
+[2025-04-10 14:41:36] [INFO] Base - Test started: NavigatingToBikesPageTest
+[2025-04-10 14:41:36] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-10 14:41:38] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 14:41:39] [INFO] Base - Started test: homepageTest
+[2025-04-10 14:41:39] [INFO] Base - Test started: homepageTest
+[2025-04-10 14:41:39] [INFO] Base - Started test: Homepage Test
+[2025-04-10 14:41:39] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-10 14:41:39] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-10 14:41:42] [INFO] Base - New bikes link pressed
+[2025-04-10 14:41:43] [INFO] Base - Navigated to Upcoming bikes tab
+[2025-04-10 14:41:43] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-10 14:41:43] [INFO] Base - scrolled down by 300 pixels
+[2025-04-10 14:41:43] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-10 14:41:43] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-10 14:41:44] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-10 14:41:44] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-10 14:41:44] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-10 14:41:48] [INFO] Base - All upcoming bikes link pressed
+[2025-04-10 14:41:48] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-10 14:41:48] [INFO] Base - page has fully loaded.
+[2025-04-10 14:41:48] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-10 14:41:48] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-10 14:41:48] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-10 14:41:50] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-10 14:41:50] [ERROR] Base - Banner image did not load, navigation to homepage unsuccessful: Failed waiitng for element visibility
+[2025-04-10 14:41:50] [ERROR] Base - Test Failed: homepageTest
+[2025-04-10 14:41:50] [INFO] Base - Reusing driver for Thread: 55
+[2025-04-10 14:41:52] [ERROR] Base - Failed to filter by Manufacturer: Honda. Error: element click intercepted: Element <a href="upcoming-honda-bikes" class="fnt-14" title="upcoming ... bikes" data-track-label="filter-by-brand">Honda</a> is not clickable at point (499, 314). Other element would receive the click: <span class="fc-faq-label">...</span>
+  (Session info: MicrosoftEdge=134.0.3124.93)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6d64d3ab56da49d689b5c684df78b41c, clickElement {id=f.0629833B92D8461660AF9BF7BBE8A75F.d.63DCA817C94FF2C47B3A675BD3BAF5AF.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53996}, msedge: {msedgedriverVersion: 134.0.3124.119 (5703c68f3ea..., userDataDir: C:\Users\2391448\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53996/devtoo..., se:cdpVersion: 134.0.3124.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (6d64d3ab56da49d689b5c684df78b41c)] -> css selector: [title='upcoming Honda bikes']]
+Session ID: 6d64d3ab56da49d689b5c684df78b41c
+[2025-04-10 14:41:52] [ERROR] Base - Test Failed: NavigatingToBikesPageTest
+[2025-04-10 14:41:52] [INFO] Base - Reusing driver for Thread: 54
+[2025-04-10 14:41:58] [INFO] Base - Test suite finished. Passed: 0, Failed: 2, Skipped: 0
+[2025-04-10 14:43:14] [INFO] Base - Test suite started: org.testng.TestRunner@31000e60
+[2025-04-10 14:43:14] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-10 14:43:26] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 14:43:26] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:43:26] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:43:26] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:43:28] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:43:28] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-10 14:43:28] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:43:28] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:43:30] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-10 14:43:31] [INFO] Base - Accepted cookies
+[2025-04-10 14:43:31] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:43:31] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:43:31] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:43:31] [INFO] Base - Initializing driver for Thread: 59
+[2025-04-10 14:43:31] [INFO] Base - Started test: googleLoginTest
+[2025-04-10 14:43:31] [INFO] Base - Test started: googleLoginTest
+[2025-04-10 14:43:31] [INFO] Base - Initializing driver for Thread: 58
+[2025-04-10 14:43:44] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 14:43:44] [INFO] Base - Started test: WebScrapingBikes
+[2025-04-10 14:43:44] [INFO] Base - Test started: WebScrapingBikes
+[2025-04-10 14:43:44] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-10 14:43:45] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 14:43:45] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-10 14:43:45] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-10 14:43:46] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-10 14:43:46] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-10 14:43:46] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-10 14:43:46] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-10 14:43:50] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-10 14:43:50] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-10 14:43:50] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-10 14:43:50] [INFO] Base - Accepted cookies
+[2025-04-10 14:43:50] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-10 14:43:51] [INFO] Base - clicked LoginButton
+[2025-04-10 14:43:51] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-10 14:43:51] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-10 14:43:52] [INFO] Base - clicked Google login
+[2025-04-10 14:43:52] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-10 14:43:52] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-10 14:43:52] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-10 14:43:52] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-10 14:43:52] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-10 14:43:52] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-10 14:43:52] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-10 14:43:54] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-10 14:43:54] [INFO] Base - Test Passed: WebScrapingBikes
+[2025-04-10 14:43:57] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-10 14:43:57] [ERROR] Base - Error inputting example email in input field Failed waiitng for element visibility
+[2025-04-10 14:43:57] [ERROR] Base - error clicking next button no such element: Unable to locate element: {"method":"css selector","selector":"#identifierNext"}
+  (Session info: MicrosoftEdge=134.0.3124.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ed06933083498db9de6f635d4f9b0f58, findElement {value=identifierNext, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54328}, msedge: {msedgedriverVersion: 134.0.3124.119 (5703c68f3ea..., userDataDir: C:\Users\2391448\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54328/devtoo..., se:cdpVersion: 134.0.3124.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed06933083498db9de6f635d4f9b0f58
+[2025-04-10 14:43:57] [INFO] Base - Reusing driver for Thread: 58
+[2025-04-10 14:43:58] [INFO] Base - Initializing driver for Thread: 59
+[2025-04-10 14:44:07] [ERROR] Base - Error waiting for element with ID 'Try Again': Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: next' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-04-10 14:44:07] [INFO] Base - Test Passed: googleLoginTest
+[2025-04-10 14:44:10] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 14:44:10] [INFO] Base - Started test: WebScrapingCars
+[2025-04-10 14:44:10] [INFO] Base - Test started: WebScrapingCars
+[2025-04-10 14:44:10] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-10 14:44:15] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-10 14:44:15] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-10 14:44:15] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-10 14:44:15] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-10 14:44:15] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-10 14:44:16] [INFO] Base - Accepted cookies
+[2025-04-10 14:44:16] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-10 14:44:17] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-10 14:44:17] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-10 14:44:17] [INFO] Base - page has fully loaded.
+[2025-04-10 14:44:17] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-10 14:44:19] [INFO] Base - Filtered by car brand Honda
+[2025-04-10 14:44:19] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-10 14:44:19] [INFO] Base - page has fully loaded.
+[2025-04-10 14:44:19] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-10 14:44:19] [INFO] Base - Reusing driver for Thread: 59
+[2025-04-10 14:44:19] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-10 14:44:19] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-10 14:44:19] [INFO] Base - Test Passed: WebScrapingCars
+[2025-04-10 14:44:23] [INFO] Base - Test suite finished. Passed: 3, Failed: 0, Skipped: 0
+[2025-04-10 14:45:56] [INFO] Base - Test suite started: org.testng.TestRunner@5f6722d3
+[2025-04-10 14:45:57] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-10 14:46:08] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 14:46:08] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:46:08] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:46:08] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:46:11] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:46:11] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-10 14:46:11] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:46:11] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:46:13] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-10 14:46:14] [INFO] Base - Accepted cookies
+[2025-04-10 14:46:14] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:46:14] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:46:14] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:46:14] [INFO] Base - Initializing driver for Thread: 57
+[2025-04-10 14:46:14] [INFO] Base - Started test: googleLoginTest
+[2025-04-10 14:46:14] [INFO] Base - Test started: googleLoginTest
+[2025-04-10 14:46:14] [INFO] Base - Initializing driver for Thread: 56
+[2025-04-10 14:46:26] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 14:46:26] [INFO] Base - Started test: WebScrapingBikes
+[2025-04-10 14:46:26] [INFO] Base - Test started: WebScrapingBikes
+[2025-04-10 14:46:26] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:46:27] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 14:46:27] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 14:46:27] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 14:46:28] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:46:28] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-10 14:46:28] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:46:28] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:46:32] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-10 14:46:32] [INFO] Base - Accepted cookies
+[2025-04-10 14:46:32] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:46:33] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-10 14:46:33] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 14:46:34] [INFO] Base - clicked LoginButton
+[2025-04-10 14:46:34] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 14:46:34] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 14:46:35] [INFO] Base - clicked Google login
+[2025-04-10 14:46:35] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 14:46:35] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 14:46:35] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 14:46:35] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 14:46:35] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 14:46:37] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:46:37] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:46:37] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-10 14:46:38] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-10 14:46:38] [INFO] Base - Test Passed: WebScrapingBikes
+[2025-04-10 14:46:41] [ERROR] Base - Element not visible after waiting for 5 seconds
+[2025-04-10 14:46:41] [ERROR] Base - Error inputting example email in input field Failed waiitng for element visibility
+[2025-04-10 14:46:41] [ERROR] Base - error clicking next button no such element: Unable to locate element: {"method":"css selector","selector":"#identifierNext"}
+  (Session info: MicrosoftEdge=134.0.3124.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4aa4309ba253fe291c8be620c15c937d, findElement {value=identifierNext, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55164}, msedge: {msedgedriverVersion: 134.0.3124.119 (5703c68f3ea..., userDataDir: C:\Users\2391448\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55164/devtoo..., se:cdpVersion: 134.0.3124.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4aa4309ba253fe291c8be620c15c937d
+[2025-04-10 14:46:41] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 14:46:44] [INFO] Base - Initializing driver for Thread: 57
+[2025-04-10 14:46:51] [ERROR] Base - Error waiting for element with ID 'Try Again': Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: next' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-04-10 14:46:51] [INFO] Base - Test Passed: googleLoginTest
+[2025-04-10 14:46:54] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 14:46:54] [INFO] Base - Started test: WebScrapingCars
+[2025-04-10 14:46:54] [INFO] Base - Test started: WebScrapingCars
+[2025-04-10 14:46:54] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:47:02] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:47:02] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-10 14:47:02] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:47:02] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:47:02] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-10 14:47:06] [INFO] Base - Accepted cookies
+[2025-04-10 14:47:06] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:47:06] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-10 14:47:06] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:47:06] [INFO] Base - page has fully loaded.
+[2025-04-10 14:47:06] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:47:07] [INFO] Base - Filtered by car brand Honda
+[2025-04-10 14:47:07] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:47:07] [INFO] Base - page has fully loaded.
+[2025-04-10 14:47:07] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:47:07] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:47:07] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-10 14:47:08] [WARN] Base - Encountered stale element. Retrying...
+[2025-04-10 14:47:08] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:47:08] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 14:47:08] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-10 14:47:08] [INFO] Base - Test Passed: WebScrapingCars
+[2025-04-10 14:47:15] [INFO] Base - Test suite finished. Passed: 3, Failed: 0, Skipped: 0
+[2025-04-10 14:52:25] [INFO] Base - Test suite started: org.testng.TestRunner@c5dc4a2
+[2025-04-10 14:52:26] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-10 14:52:36] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 14:52:37] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:52:37] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:52:37] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:52:41] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:52:42] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-10 14:52:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:52:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:52:45] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-10 14:52:45] [INFO] Base - Accepted cookies
+[2025-04-10 14:52:45] [INFO] Base - Started test: googleLoginTest
+[2025-04-10 14:52:45] [INFO] Base - Test started: googleLoginTest
+[2025-04-10 14:52:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:52:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:52:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:52:51] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-10 14:52:51] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:52:56] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:52:56] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-10 14:52:56] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:52:56] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:53:01] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-10 14:53:01] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:53:02] [INFO] Base - Clicked Login Button
+[2025-04-10 14:53:02] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:53:02] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:53:03] [INFO] Base - Clicked Google login
+[2025-04-10 14:53:03] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:53:03] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:53:03] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:53:03] [INFO] Base - Switched to login popup window
+[2025-04-10 14:53:03] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:53:05] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:53:05] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:53:05] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-10 14:53:05] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:53:05] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:53:06] [INFO] Base - Clicked Next button after populating email field
+[2025-04-10 14:53:06] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:53:07] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-10 14:53:09] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 14:53:09] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250410_145309.png
+[2025-04-10 14:53:09] [INFO] Base - Test Passed: googleLoginTest
+[2025-04-10 14:53:15] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-10 15:01:03] [INFO] Base - Test suite started: org.testng.TestRunner@c5dc4a2
+[2025-04-10 15:01:03] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-10 15:01:14] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 15:01:14] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:14] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:14] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:16] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-10 15:01:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:18] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-10 15:01:18] [INFO] Base - Accepted cookies
+[2025-04-10 15:01:19] [INFO] Base - Started test: googleLoginTest
+[2025-04-10 15:01:19] [INFO] Base - Test started: googleLoginTest
+[2025-04-10 15:01:19] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:19] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:19] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:24] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-10 15:01:24] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:26] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:26] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-10 15:01:26] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:26] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:31] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-10 15:01:31] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:31] [INFO] Base - Clicked Login Button
+[2025-04-10 15:01:31] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:32] [INFO] Base - Google Login element is clickable
+[2025-04-10 15:01:32] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:32] [INFO] Base - Clicked Google Login button
+[2025-04-10 15:01:32] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:32] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:32] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:32] [INFO] Base - Switched to Google Login popup window
+[2025-04-10 15:01:32] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:33] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:33] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:34] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-10 15:01:34] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:34] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:34] [INFO] Base - Clicked Next button after populating email field
+[2025-04-10 15:01:34] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:35] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-10 15:01:37] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:01:37] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250410_150137.png
+[2025-04-10 15:01:37] [INFO] Base - Test Passed: googleLoginTest
+[2025-04-10 15:01:45] [INFO] Base - Test suite finished. Passed: 1, Failed: 0, Skipped: 0
+[2025-04-10 15:02:29] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-10 15:02:40] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 15:02:40] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:40] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:40] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:42] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:43] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-10 15:02:43] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:43] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:45] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-10 15:02:45] [INFO] Base - Accepted cookies
+[2025-04-10 15:02:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:45] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-10 15:02:45] [INFO] Base - User is on the homepage for login.
+[2025-04-10 15:02:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:45] [INFO] Base - Clicked Login Button
+[2025-04-10 15:02:45] [INFO] Base - Login button clicked.
+[2025-04-10 15:02:45] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:46] [INFO] Base - Google Login element is clickable
+[2025-04-10 15:02:46] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:46] [INFO] Base - Clicked Google Login button
+[2025-04-10 15:02:46] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:46] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:46] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:46] [INFO] Base - Switched to Google Login popup window
+[2025-04-10 15:02:46] [INFO] Base - Google Login clicked.
+[2025-04-10 15:02:46] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:47] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:47] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:47] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-10 15:02:47] [INFO] Base - Email or phone number entered.
+[2025-04-10 15:02:47] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:47] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:48] [INFO] Base - Clicked Next button after populating email field
+[2025-04-10 15:02:48] [INFO] Base - Next button clicked.
+[2025-04-10 15:02:48] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:49] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-10 15:02:51] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:02:51] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250410_150251.png
+[2025-04-10 15:02:51] [INFO] Base - Error page validated and screenshot taken.
+[2025-04-10 15:04:09] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-10 15:04:20] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 15:04:20] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:20] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:20] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:23] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:23] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-10 15:04:23] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:23] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:27] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-10 15:04:27] [INFO] Base - Accepted cookies
+[2025-04-10 15:04:27] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:27] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:27] [INFO] Base - The Banner image is present, navigated to homepage successfully
+[2025-04-10 15:04:27] [INFO] Base - User is on the homepage for login.
+[2025-04-10 15:04:27] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:28] [INFO] Base - Clicked Login Button
+[2025-04-10 15:04:28] [INFO] Base - Login button clicked.
+[2025-04-10 15:04:28] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:29] [INFO] Base - Google Login element is clickable
+[2025-04-10 15:04:29] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:29] [INFO] Base - Clicked Google Login button
+[2025-04-10 15:04:29] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:29] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:29] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:29] [INFO] Base - Switched to Google Login popup window
+[2025-04-10 15:04:29] [INFO] Base - Google Login clicked.
+[2025-04-10 15:04:29] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:30] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:30] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:30] [INFO] Base - Email field populated with "example123@gmail.com" 
+[2025-04-10 15:04:30] [INFO] Base - Email or phone number entered.
+[2025-04-10 15:04:30] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:30] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:31] [INFO] Base - Clicked Next button after populating email field
+[2025-04-10 15:04:31] [INFO] Base - Next button clicked.
+[2025-04-10 15:04:31] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:31] [INFO] Base - Element with ID 'Try Again' is visible
+[2025-04-10 15:04:34] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:04:34] [INFO] Base - Screenshot taken. File saved at: C:\Users\2391448\IdeaProjects\ZigWheelsAutomationProject\src\test\resources\ScreenshotsFolder\LoginPage error_img20250410_150434.png
+[2025-04-10 15:04:34] [INFO] Base - Error page validated and screenshot taken.
+[2025-04-10 15:07:05] [INFO] Base - Test suite started: org.testng.TestRunner@2002348
+[2025-04-10 15:07:05] [INFO] Base - Initializing driver for Thread: 1
+[2025-04-10 15:07:16] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 15:07:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:07:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:07:16] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:07:18] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:07:19] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-10 15:07:19] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:07:19] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:07:21] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-10 15:07:21] [INFO] Base - Accepted cookies
+[2025-04-10 15:07:21] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:07:21] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:07:21] [INFO] Base - Reusing driver for Thread: 1
+[2025-04-10 15:07:21] [INFO] Base - Initializing driver for Thread: 57
+[2025-04-10 15:07:21] [INFO] Base - Started test: googleLoginTest
+[2025-04-10 15:07:21] [INFO] Base - Test started: googleLoginTest
+[2025-04-10 15:07:21] [INFO] Base - Initializing driver for Thread: 56
+[2025-04-10 15:07:33] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 15:07:33] [INFO] Base - Started test: WebScrapingBikes
+[2025-04-10 15:07:33] [INFO] Base - Test started: WebScrapingBikes
+[2025-04-10 15:07:33] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 15:07:34] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 15:07:34] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 15:07:34] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 15:07:37] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 15:07:37] [INFO] Base - Navigated to page with key: filteredBikes and URL: https://www.zigwheels.com/upcoming-honda-bikes
+[2025-04-10 15:07:37] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 15:07:37] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 15:07:38] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-10 15:07:38] [INFO] Base - Accepted cookies
+[2025-04-10 15:07:38] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 15:07:38] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 15:07:39] [WARN] Base - Cookie consent button did not appear within 5 seconds. Continuing without clicking.
+[2025-04-10 15:07:39] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 15:07:39] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 15:07:39] [INFO] Base - Pulling Bike model names, prices, and expected launch dates from site
+[2025-04-10 15:07:41] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 15:07:41] [INFO] Base - Data successfully written to FilteredBikesData.xlsx
+[2025-04-10 15:07:41] [INFO] Base - Test Passed: WebScrapingBikes
+[2025-04-10 15:07:42] [INFO] Base - Navigated to page with key: HomePage and URL: https://www.zigwheels.com/
+[2025-04-10 15:07:42] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 15:07:42] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 15:07:44] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-10 15:07:44] [INFO] Base - Accepted cookies
+[2025-04-10 15:07:44] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 15:07:45] [INFO] Base - Clicked Login Button
+[2025-04-10 15:07:45] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 15:07:45] [INFO] Base - Google Login element is clickable
+[2025-04-10 15:07:45] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 15:07:46] [INFO] Base - Clicked Google Login button
+[2025-04-10 15:07:46] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 15:07:46] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 15:07:46] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 15:07:46] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 15:07:46] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 15:07:48] [INFO] Base - Initializing driver for Thread: 57
+[2025-04-10 15:07:58] [INFO] Base - Microsoft Edge has been selected
+[2025-04-10 15:07:58] [INFO] Base - Started test: WebScrapingCars
+[2025-04-10 15:07:58] [INFO] Base - Test started: WebScrapingCars
+[2025-04-10 15:07:58] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 15:08:01] [ERROR] Base - Element not visible after waiting for 15 seconds
+[2025-04-10 15:08:01] [ERROR] Base - Error inputting email in input field: Failed waiitng for element visibility
+[2025-04-10 15:08:01] [ERROR] Base - Test Failed: googleLoginTest
+[2025-04-10 15:08:01] [INFO] Base - Reusing driver for Thread: 56
+[2025-04-10 15:08:02] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 15:08:02] [INFO] Base - Navigated to page with key: CarsPage and URL: https://www.zigwheels.com/used-car?budget=0-400000&bycity=chennai&bymakeid=8&sortdirection=asc/
+[2025-04-10 15:08:02] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 15:08:02] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 15:08:03] [INFO] Base - Cookie Consent Button Attributes - isEnabled: true, isDisplayed: true, Text: Consent
+[2025-04-10 15:08:03] [INFO] Base - Accepted cookies
+[2025-04-10 15:08:03] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 15:08:04] [INFO] Base - Filtered by max price of 4 lakh
+[2025-04-10 15:08:04] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 15:08:04] [INFO] Base - page has fully loaded.
+[2025-04-10 15:08:04] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 15:08:05] [INFO] Base - Filtered by car brand Honda
+[2025-04-10 15:08:05] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 15:08:05] [INFO] Base - page has fully loaded.
+[2025-04-10 15:08:05] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 15:08:05] [INFO] Base - Reusing driver for Thread: 57
+[2025-04-10 15:08:05] [INFO] Base - Pulling Car Name and Car Price
+[2025-04-10 15:08:05] [INFO] Base - Data successfully written to FilteredCarsData.xlsx
+[2025-04-10 15:08:05] [INFO] Base - Test Passed: WebScrapingCars
+[2025-04-10 15:08:12] [INFO] Base - Test suite finished. Passed: 2, Failed: 1, Skipped: 0
