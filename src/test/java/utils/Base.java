@@ -15,9 +15,12 @@ public class Base {
     private static final ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
     public static final Logger logger = LogManager.getLogger(Base.class);
 
+    /**
+     * @return The driver instance
+     */
     public static WebDriver getDriver() {
         if (driverThreadLocal.get() == null) {
-            logger.info("Initializing driver for Thread: " + Thread.currentThread().getId());
+            logger.info("Initializing driver for Thread: " + Thread.currentThread().threadId());
             try {
                 String browser = FileHandler.getConfigProperty("browser");
                 WebDriver driver;
@@ -53,11 +56,14 @@ public class Base {
                 logger.error("Error initializing the browser: {}", ex.getMessage());
             }
         } else {
-            logger.info("Reusing driver for Thread: " + Thread.currentThread().getId());
+            logger.info("Reusing driver for Thread: " + Thread.currentThread().threadId());
         }
         return driverThreadLocal.get();
     }
 
+    /**
+     * Quits the driver instance
+     */
     public static void quitDriver() {
         if (driverThreadLocal.get() != null) {
             driverThreadLocal.get().quit();

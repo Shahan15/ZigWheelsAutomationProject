@@ -9,6 +9,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class NavigationUtils {
+
+    /**
+     * @param propertyKey Gets the URL of the page we want to test from Config.properties
+     * @return the URL we want to test
+     */
     public static String getTestingSiteUrl(String propertyKey) {
         try {
             String url = FileHandler.getProperty(propertyKey);
@@ -23,6 +28,10 @@ public class NavigationUtils {
         }
     }
 
+    /**
+     * Actually navigates to the page we want to test
+     * @param propertyKey the URL we want to navigate to
+     */
     public static void navigateToTestingSite(String propertyKey) {
         try {
             // Retrieve the URL using existing getTestingSiteUrl method
@@ -40,7 +49,12 @@ public class NavigationUtils {
     }
 
 
-
+    /**
+     * Waiting util
+     * @param driver The driver instance
+     * @param waitTime How long we want to wait for
+     * @param element The element we are waiting to be actionable
+     */
     public static void webDriverWait(WebDriver driver,int waitTime,WebElement element) {
         try{
             ((JavascriptExecutor) Base.getDriver()).executeScript("window.focus();");
@@ -53,6 +67,9 @@ public class NavigationUtils {
         }
     }
 
+    /**
+     * Waiting for page to load util
+     */
     public static void waitPageLoad() {
         WebDriver currentDriver = Base.getDriver();
         WebDriverWait wait = new WebDriverWait(currentDriver, Duration.ofSeconds(7));

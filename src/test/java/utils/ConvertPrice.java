@@ -2,6 +2,11 @@ package utils;
 
 public class ConvertPrice {
 
+    /**
+     *
+     * @param priceClean this is the price we want to clean
+     * @return cleaned price
+     */
     public static String convertPrice(String priceClean) {
         // Remove currency symbols and excess whitespace
         String cleaned = priceClean.replace("Rs.", "").trim();

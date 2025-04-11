@@ -10,8 +10,8 @@ import utils.Base;
 
 public class NavigateAndFilterBikeBdd {
 
-    private NavigatingToBikes navigatingToBikes;
-    private VerifyingHomePage verifyingHomePage;
+    private final NavigatingToBikes navigatingToBikes;
+    private final VerifyingHomePage verifyingHomePage;
 
     // Initialise page objects in the constructor
     public NavigateAndFilterBikeBdd() {

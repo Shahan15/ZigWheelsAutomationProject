@@ -10,8 +10,8 @@ import utils.Base;
 
 public class LoginBdd {
 
-    private VerifyingHomePage verifyingHomePage;
-    private LoginPage loginPage;
+    private final VerifyingHomePage verifyingHomePage;
+    private final LoginPage loginPage;
 
     // Initialise page objects in the constructor
     public LoginBdd() {

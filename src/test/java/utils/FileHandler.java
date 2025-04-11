@@ -23,6 +23,11 @@ public class FileHandler {
     public static String reports = resourcesPath + "Reports" + Fs;
     public static String screenshotPath = resourcesPath + "ScreenshotsFolder" + Fs;
 
+    /**
+     *
+     * @param key Config property we want to get
+     * @return The results i.e. config property
+     */
     public static String getConfigProperty(String key) {
         String result = "";
         try {
@@ -42,6 +47,10 @@ public class FileHandler {
     }
 
 
+    /**
+     * @param fileName Excel Sheet we want to check for existence
+     * @return True or False if file exists
+     */
     public static boolean doesExcelSheetExist(String fileName) {
         File file = new File(fileName);
         return file.exists();

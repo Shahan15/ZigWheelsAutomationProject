@@ -27,7 +27,7 @@ public class LoginPage extends Base {
     VerifyingHomePage verifyingHomePage = new VerifyingHomePage();
 
     public LoginPage() {
-        // Initialize WebElements using PageFactory
+        // Initialise WebElements using PageFactory
         PageFactory.initElements(Base.getDriver(), this);
     }
 
@@ -166,7 +166,7 @@ public class LoginPage extends Base {
     public void attemptLogin() {
         navigateToHomePage();
         clickLoginButton();
-        performGoogleLogin(); // Modularized method replaces previous implementation
+        performGoogleLogin();
         setEmailInputField();
         clickNextBtn();
         waitForPageAndSS();

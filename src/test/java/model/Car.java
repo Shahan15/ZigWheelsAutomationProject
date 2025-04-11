@@ -1,8 +1,8 @@
 package model;
 
 public class Car {
-    private String price;
-    private String name;
+    private final String price;
+    private final String name;
 
     public Car(String price,String name) {
         this.price = price;

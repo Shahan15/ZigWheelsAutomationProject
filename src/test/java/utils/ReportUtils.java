@@ -16,11 +16,15 @@ public class ReportUtils {
     public static ExtentReports extent;
     private static ExtentTest test;
 
-
     public static String getTimeStamp() {
         return new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
     }
 
+    /**
+     * Sets up extentreports
+     * @param testName The name we want to call the report
+     * @return The extent report
+     */
     public static ExtentReports setUpExtentReport(String testName) {
         if (extent == null) {
             // Build a file name that includes the test method name
@@ -38,7 +42,11 @@ public class ReportUtils {
         return extent;
     }
 
-
+    /**
+     * Creates tests inside the report
+     * @param testName What we want to call the test
+     * @return the test
+     */
     public static ExtentTest createTest(String testName) {
         if (extent == null) {
             throw new IllegalStateException("ExtentReports is not initialised. Call setUpExtentReport() first.");
@@ -59,6 +67,11 @@ public class ReportUtils {
         }
     }
 
+    /**
+     * Screenshot method
+     * @param screenshotName What we want to call the screenshot
+     * @return The screenshot
+     */
     public static String takeScreenshot(String screenshotName) {
         File SS = ((TakesScreenshot) Base.getDriver()).getScreenshotAs(OutputType.FILE);
         String SFile = FileHandler.screenshotPath + screenshotName + "_" + "img"+ getTimeStamp() + ".png";

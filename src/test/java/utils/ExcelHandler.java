@@ -10,6 +10,14 @@ import java.util.function.Function;
 
 public class ExcelHandler {
 
+    /**
+     *
+     * @param data This is a list of data elements of any type T (generic type), This is the data written to excel
+     * @param headers A list of column headers for the Excel file
+     * @param rowMapper Functional interface that maps each element of type T to a list of objects
+     * @param filePath File path where the Excel file will be saved
+     * @param <T> Generic type data, can be any data type essentially
+     */
     public static <T> void writeDataToExcel(List<T> data, List<String> headers, Function<T,
             List<Object>> rowMapper, String filePath) {
 

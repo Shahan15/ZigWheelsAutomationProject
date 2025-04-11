@@ -17,6 +17,9 @@ public class CarPage extends Base {
         PageFactory.initElements(Base.getDriver(),this);
     }
 
+    /**
+     * Filters cars by max price of 4 lakh
+     */
     public void filterPrice() {
         maxPrice.click();
         maxPrice.sendKeys("4 Lakh");
@@ -24,6 +27,9 @@ public class CarPage extends Base {
         logger.info("Filtered by max price of 4 lakh");
     }
 
+    /**
+     * Searches for only Honda cars
+     */
     public void searchForOnlyHonda(){
         JavascriptExecutor js = (JavascriptExecutor) Base.getDriver();
         js.executeScript("window.scrollBy(0,600);");
@@ -36,6 +42,9 @@ public class CarPage extends Base {
 
     }
 
+    /**
+     * executes steps to filter cars
+     */
     public void filterCars() {
         filterPrice();
         waitPageLoad();

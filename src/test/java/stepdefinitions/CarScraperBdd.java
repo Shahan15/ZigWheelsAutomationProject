@@ -20,8 +20,8 @@ import static utils.NavigationUtils.waitPageLoad;
 
 public class CarScraperBdd {
 
-    private VerifyingHomePage verifyingHomePage;
-    private CarPage carPage;
+    private final VerifyingHomePage verifyingHomePage;
+    private final CarPage carPage;
 
     public CarScraperBdd() {
         verifyingHomePage = new VerifyingHomePage();

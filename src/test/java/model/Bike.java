@@ -1,9 +1,9 @@
 package model;
 
 public class Bike {
-    private String name;
-    private String price;
-    private String launchDate;
+    private final String name;
+    private final String price;
+    private final String launchDate;
 
     public Bike(String name, String price, String launchDate) {
         this.name = name;

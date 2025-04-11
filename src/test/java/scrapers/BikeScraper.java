@@ -10,7 +10,10 @@ import static utils.ConvertPrice.convertPrice;
 
 public class BikeScraper {
 
-
+    /**
+     *
+     * @return the scraped bike names + price + launch date
+     */
     public static List<Bike> webScrapeBikes() {
         List<WebElement> bikeNamesElement = Base.getDriver().findElements(By.cssSelector("a[data-track-label='model-name'] strong"));
         List<WebElement> bikePriceElement = Base.getDriver().findElements(By.cssSelector("div.b.fnt-15"));

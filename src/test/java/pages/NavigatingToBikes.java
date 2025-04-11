@@ -22,12 +22,18 @@ public class NavigatingToBikes extends Base {
         PageFactory.initElements(Base.getDriver(), this);
     }
 
+    /**
+     * Navigates to the Homepage
+     */
     public void navigateToHomePage() {
         logger.info("Pagefactory for Navigating to bikes page initialised");
         NavigationUtils.navigateToTestingSite("HomePage");
         verifyingHomePage.clickingCookieConsentBtn();
     }
 
+    /**
+     * Clicks New Bikes link in nav bar
+     */
     public void navigateToNewBikes() {
         ((JavascriptExecutor) Base.getDriver()).executeScript("window.focus();");
 
@@ -36,11 +42,17 @@ public class NavigatingToBikes extends Base {
 
     }
 
+    /**
+     * Clicks upcoming Bikes in slider
+     */
     public void navigateToUpcomingSliderTab() {
         upcomingSliderTab.click();
         logger.info("Navigated to Upcoming bikes tab");
     }
 
+    /**
+     * Navigates to all upcoming bikes link
+     */
     public void clickAllUpcomingBikesLink() {
         try{
             JavascriptExecutor js = (JavascriptExecutor) Base.getDriver();
@@ -57,6 +69,9 @@ public class NavigatingToBikes extends Base {
 
     }
 
+    /**
+     * Clicks only honda bikes
+     */
     public void filterBikes() {
         try {
             JavascriptExecutor js = (JavascriptExecutor) Base.getDriver();
@@ -80,6 +95,9 @@ public class NavigatingToBikes extends Base {
         }
     }
 
+    /**
+     * Validates if only honda bikes are showing
+     */
     public void validatingOnlyHondaBikes(){
         String expectedHondaUrl = NavigationUtils.getTestingSiteUrl("filteredBikes");
         String actualUrl = Base.getDriver().getCurrentUrl();

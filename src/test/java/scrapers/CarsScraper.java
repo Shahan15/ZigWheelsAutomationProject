@@ -11,8 +11,11 @@ import java.util.List;
 
 public class CarsScraper {
 
+    /**
+     *
+     * @return the scraped cars price and name
+     */
     public static List<Car> webScrapeCars () {
-
         List<WebElement> carNameList = Base.getDriver().findElements(By.cssSelector("[data-track-label=\"Car-name\"]"));
         List<WebElement> carPriceList = Base.getDriver().findElements(By.cssSelector(".zw-cmn-price.n.pull-left.mt-3"));
         Base.logger.info("Pulling Car Name and Car Price");

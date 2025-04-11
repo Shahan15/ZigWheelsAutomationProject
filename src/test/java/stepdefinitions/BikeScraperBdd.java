@@ -15,13 +15,12 @@ import java.util.List;
 
 public class BikeScraperBdd {
 
-    private NavigatingToBikes navigatingToBikes;
-    private VerifyingHomePage verifyingHomePage;
+    private final VerifyingHomePage verifyingHomePage;
 
     // Initialise page objects in the constructor
     public BikeScraperBdd() {
         verifyingHomePage = new VerifyingHomePage();
-        navigatingToBikes = new NavigatingToBikes();
+        NavigatingToBikes navigatingToBikes = new NavigatingToBikes();
         Base.logger.info("BikeScraperBdd initialized with VerifyingHomePage, NavigatingToBikes, and BikeScraper.");
     }
 
@@ -36,7 +35,6 @@ public class BikeScraperBdd {
     @When("the system scrapes bike data")
     public void theSystemScrapesBikeData() {
         Base.logger.info("Starting bike data scraping process...");
-        NavigatingToBikes navigatingToBikes = new NavigatingToBikes();
         Base.logger.info("Clicking 'View More Bikes' button...");
         Base.logger.info("'View More Bikes' button clicked successfully. Proceeding with data scraping...");
 

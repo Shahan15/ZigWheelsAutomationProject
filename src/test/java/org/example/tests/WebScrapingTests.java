@@ -47,6 +47,7 @@ public class WebScrapingTests extends BaseTest {
         ExcelHandler.writeDataToExcel(
                 bikes,
                 headers,
+                //This is the row mapper
                 bike -> Arrays.asList(
                         bike.getName(),
                         ConvertPrice.convertPrice(bike.getPrice()),

@@ -18,6 +18,9 @@ public class VerifyingHomePage extends Base {
         PageFactory.initElements(Base.getDriver(), this);
     }
 
+    /**
+     * Navigates to the Homepage
+     */
     public void navigateToHomePage() {
         logger.info("PageFactory initialised");
         NavigationUtils.navigateToTestingSite("HomePage");
@@ -25,6 +28,9 @@ public class VerifyingHomePage extends Base {
         ((JavascriptExecutor) Base.getDriver()).executeScript("window.focus();");
     }
 
+    /**
+     * Clicks either one of the two cookies iframe that appears
+     */
     public void clickingCookieConsentBtn() {
         WebDriver driver = Base.getDriver();
 
@@ -75,6 +81,11 @@ public class VerifyingHomePage extends Base {
         }
     }
 
+
+    /**
+     *
+     * @return returns true or false if bannerImg is present
+     */
     public boolean verifyOnHomePage() {
         try {
             NavigationUtils.webDriverWait(Base.getDriver(), 5, bannerImg);
